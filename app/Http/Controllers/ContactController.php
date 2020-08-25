@@ -55,7 +55,7 @@ class ContactController extends Controller
         ];
         //dd($details);
         foreach ($request->mailto as $recipient) {
-        Mail::to($recipient)->send(new \App\Mail\CertificateMail($details));
+        Mail::to($recipient)->send(new \App\Mail\SendEmail($details));
         }
         Session::flash('flash_message', 'Thank You! Our Team Will Reach Out Soon');
         Session::flash('flash_type', 'success');

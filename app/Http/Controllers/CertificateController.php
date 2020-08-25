@@ -132,7 +132,7 @@ class CertificateController extends Controller
             'title' => 'Mail from E-edport.com',
             'body' => 'You have successfully completed your Course. Please find the Link and Password for the Certificate'
         ];
-        Mail::to($request->teacheremail)->send(new \App\Mail\Sendemail($details));
+        Mail::to($request->teacheremail)->send(new \App\Mail\Certificatemail($details));
         Session::flash('flash_message', 'Well done! You successfully Added the Teacher Certificate');
         Session::flash('flash_type', 'success');
         return back();

@@ -28,7 +28,11 @@ class sendemail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Teacher Certificate')
-            ->view('email.emailsend');
+        return $this->subject($this->details['subject'])->view('email.certificatemail')->attach($this->details['attachment']->getRealPath(),
+        [
+            'as' => $this->details['attachment']->getClientOriginalName(),
+            'mime' => $this->details['attachment']->getClientMimeType(),
+        ]);
+        
     }
 }
