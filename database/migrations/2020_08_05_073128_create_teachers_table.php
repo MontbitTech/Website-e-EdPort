@@ -21,6 +21,8 @@ class CreateTeachersTable extends Migration
             $table->string('entity');
             $table->string('institutionname');
             $table->string('certificationlevel');
+            $table->string('city');
+            $table->string('state');
             $table->timestamps();
         });
     }

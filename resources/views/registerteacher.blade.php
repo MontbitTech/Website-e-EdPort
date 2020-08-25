@@ -86,16 +86,24 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="text" id="city" name="city" class="form-control" placeholder="City *" value="" />
+                                                <select class="form-control filter" name="state" id="state" style="text-transform: capitalize;">
+                                                    <option value="" selected>Select State</option>
+                                                    @foreach($state as $st)
+                                                    <option value="{{$st->id}}">{{$st->name}}</option>
+                                                    @endforeach
+                                                </select>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="text" id="state" name="state" class="form-control" placeholder="State *" value="" />
+                                                <select class="form-control" name="city" id="city" style="text-transform: capitalize;">
+                                                    <option value="" selected>Select City</option>
+                                                </select>
                                             </div>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btnRegister">Register</button>                               </form>
+                                    <button type="submit" class="btnRegister">Register</button>
+                                </form>
 
                             </div>
                         </div>
@@ -112,7 +120,31 @@
         </script>
         @endforeach
         @endif
+        <script>
+            $(document).ready(function() {
+                $('.filter').on('change', function() {
+                    var state_id = $('#state').val();
+                    $.ajax({
+                        url: "{{route('getcity')}}",
+                        type: 'POST',
+                        dataType: "json",
+                        data: {
+                            'state_id': state_id
+                        },
+                        success: function(data) {
+                            var listItems1;
+                            listItems1 += "<option value=''>Select City</option>";
+                            for (var i = 0; i < data.length; i++) {
+                                listItems1 += "<option value='" + data[i].id + "'>" + data[i].name + "</option>";
+                            }
 
+                            $("#city").html(listItems1);
+
+                        }
+                    });
+                });
+            });
+        </script>
         @if ( Session::has('flash_message') )
         <script type="text/javascript">
             const Toast = Swal.mixin({
@@ -168,7 +200,7 @@
                     state: {
                         required: true
                     }
-                    
+
                 },
                 messages: {
                     teachername: {

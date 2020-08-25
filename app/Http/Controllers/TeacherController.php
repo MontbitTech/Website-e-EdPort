@@ -1,9 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use App\Http\Requests\TeacherRequest;
 use App\Teacher;
 use Session;
+use App\State;
 use Illuminate\Http\Request;
 
 class TeacherController extends Controller
@@ -19,6 +21,8 @@ class TeacherController extends Controller
         $teacher->entity = $request->entityvalue;
         $teacher->institutionname = $request->institutionname;
         $teacher->certificationlevel = $request->selectlevel;
+        $teacher->state = $request->state;
+        $teacher->city = $request->city;
         $teacher->save();
         //dd($data['teacher'][0]->id);
         Session::flash('flash_message', 'Well done! You successfully Added the Teacher');
@@ -33,6 +37,7 @@ class TeacherController extends Controller
     }
     public function registerteacher()
     {
-        return view('registerteacher');
+        $data['state'] = State::where('country_id', 101)->get();
+        return view('registerteacher')->with($data);
     }
 }
