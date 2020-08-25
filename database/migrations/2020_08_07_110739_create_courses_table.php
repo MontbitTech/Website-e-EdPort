@@ -16,9 +16,7 @@ class CreateCoursesTable extends Migration
         Schema::create('courses', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('description')->default('<div style="font-size:22px;color:#777777;"><span>For actively participating in</span><br>
-            <span><b>Teacher Webinar</b> Conducted by</span>
-            <br><span>Mr. Sandip Mitra representing e-Edport</span></div>');
+            $table->string('description');
             $table->string('aname')->default('Mr. Sandip Mitra');
             $table->string('arole')->default('Business consultant and advisor');
             $table->string('asignature')->default('image/signature.png');
