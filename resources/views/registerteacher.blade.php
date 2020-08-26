@@ -89,7 +89,7 @@
                                                 <select class="form-control filter" name="state" id="state" style="text-transform: capitalize;">
                                                     <option value="" selected>Select State</option>
                                                     @foreach($state as $st)
-                                                    <option value="{{$st->id}}">{{$st->name}}</option>
+                                                    <option data-id="{{$st->id}}" value="{{$st->name}}">{{$st->name}}</option>
                                                     @endforeach
                                                 </select>
                                             </div>
@@ -123,7 +123,8 @@
         <script>
             $(document).ready(function() {
                 $('.filter').on('change', function() {
-                    var state_id = $('#state').val();
+                    var state_id = $('#state').find(':selected').attr('data-id');
+                    //alert(state_id);
                     $.ajax({
                         url: "{{route('getcity')}}",
                         type: 'POST',
@@ -135,7 +136,7 @@
                             var listItems1;
                             listItems1 += "<option value=''>Select City</option>";
                             for (var i = 0; i < data.length; i++) {
-                                listItems1 += "<option value='" + data[i].id + "'>" + data[i].name + "</option>";
+                                listItems1 += "<option value='" + data[i].name + "'>" + data[i].name + "</option>";
                             }
 
                             $("#city").html(listItems1);
