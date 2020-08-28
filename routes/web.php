@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 //Certificate Controller
 Route::get('/tcpdf/{id?}', 'CertificateController@index')->name('createPDF');
+Route::middleware('auth')->group(function(){ 
 Route::get('/certificates', 'CertificateController@certificates')->name('certificate');
 Route::post('/savecertificate', 'CertificateController@savecertificate')->name('savecertificate');
 Route::post('/savecourse', 'CertificateController@savecourse')->name('savecourse');
@@ -27,12 +28,12 @@ Route::get('/home', 'CertificateController@index')->name('home');
 //Teacher Controller
 Route::get('/teachers', 'TeacherController@teachers')->name('teachers');
 Route::post('/saveteacher', 'TeacherController@saveteacher')->name('saveteacher');
-Route::get('/registerteacher', 'TeacherController@registerteacher')->name('registerteacher');
 Route::get('/contacts', 'ContactController@contacts')->name('contacts');
 Route::post('/entitymail', 'ContactController@entitymail')->name('entitymail');
 Route::post('/sendmail', 'ContactController@sendmail')->name('sendmail');
-
-
+Route::post('/updatecontactstatus', 'ContactController@updatecontactstatus')->name('updatecontactstatus');
+});
+Route::get('/registerteacher', 'TeacherController@registerteacher')->name('registerteacher');
 
 Auth::routes();
 
@@ -44,4 +45,3 @@ Route::post('/getcity', 'HomeController@getcity')->name('getcity');
 Route::get('/termsandconditions', 'HomeController@termsandconditions')->name('termsandconditions');
 Route::get('/privacypolicies', 'HomeController@privacypolicies')->name('privacypolicies');
 Route::get('/faq', 'HomeController@faq')->name('faq');
-Route::post('/updatecontactstatus', 'ContactController@updatecontactstatus')->name('updatecontactstatus');

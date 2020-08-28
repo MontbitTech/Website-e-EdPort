@@ -12,25 +12,10 @@ use Session;
 use Illuminate\Support\Facades\Mail;
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    /*public function __construct()
-    {
-        $this->middleware('auth');
-    }*/
-
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
+   
     public function index()
     {
         $data['state'] = State::where('country_id',101)->get();
-        //dd($data);
         return view('welcome')->with($data);
     }
     public function faq()

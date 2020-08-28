@@ -373,51 +373,7 @@
                             </ol>
                         </ol>
                     </div>
-                    <div class="ml-auto order-lg-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0s">
-                        <h3 class="mb-4 section-heading"><strong>Introduction</strong></h3>
 
-                        <p>
-                            MontBit Technologies Ltd. having its registered office at 120-6075 Wilson Ave, Vancouver,
-                            Canada V5H 2R5 has a website named e-edport.com that provides an online e-learning platform
-                            with integration of LMS and CMS for educational institutions and teachers/educators. The
-                            study material such as chapters’ summary, videos and pdf for students seeking to enroll
-                            for (the "Services"), which Services are accessible at www.e-edport.com and any other websites
-                            through which e-EdPort makes the Services available (collectively, the "Site") and as
-                            applications for mobile, tablet and other smart devices and application program interfaces
-                            (collectively, the "Applications").</p>
-                        <p>
-                            The company reserves the right to change or revise the terms and conditions of this Agreement
-                            at any time by posting any changes or a revised Agreement on e-edport.com. The company will
-                            alert you that changes or revisions have been made by indicating on the top of this Agreement
-                            the date it was last revised. The changed or revised Agreement will be effective immediately
-                            after it is posted on the e-EdPort website. Your use of the Website following the posting of
-                            any such changes or a revised Agreement will constitute your acceptance of any such changes or
-                            revisions.</p>
-                        <p>
-                            By accessing or using the Site, Application or Services or by downloading or posting any content
-                            from or on the Site, via the Applications, you would be indicating that you have read and that
-                            you understand and agree to be bound by these terms and receive our Services (“Terms of Services”
-                            or “Terms”), whether or not you have registered with the Site and/or Application.
-                        </p>
-                        <p>
-                            Therefore, please read these Terms of service before accessing or using the Site, Application or
-                            Services or downloading or posting any content from or on the Site, via the Application or through
-                            the Services, carefully as they contain important information regarding your legal rights, remedies,
-                            and obligations.</p>
-                        <p>
-                            The company encourages you to review this Agreement whenever you visit the Website to make sure that
-                            you understand the terms and conditions governing the use of the Website. This Agreement does not
-                            alter in any way the terms or conditions of any other written agreement you may have with The company
-                            for other products or services. If you do not agree to this Agreement (including any referenced
-                            policies or guidelines), please immediately terminate your use of the Website. If you would like
-                            to print this Agreement, please click the print button on your browser toolbar.</p>
-                        <p>
-                            Please read the Terms and the privacy policy of the Company (“Privacy Policy”) concerning registration
-                            with us, the use of the Application, Website, Services, and products carefully before using the Application,
-                            Website, Services or products. In the event of any discrepancy between the Terms and any other policies for
-                            the Application or Website or Services or products, the provisions of the Terms shall prevail.
-                        </p>
-                    </div>
 
 
                     <div class="ml-auto order-lg-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0s">
@@ -1022,7 +978,7 @@
                     </div>
                     <div class="ml-auto order-lg-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0s">
                         <h3 class="mb-4 section-heading"><strong>Customer Care</strong></h3>
-                        <p>We make all the best endeavors to provide You with a pleasant experience. In the unlikely event that You face any issues, please contact us at support@montbit.tech.connect@montbit.tech.</p>
+                        <p>We make all the best endeavors to provide You with a pleasant experience. In the unlikely event that You face any issues, please contact us at support@montbit.tech</p>
                     </div>
                     <div class="ml-auto order-lg-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0s">
                         <h3 class="mb-4 section-heading"><strong>Agreement to be Bound</strong></h3>

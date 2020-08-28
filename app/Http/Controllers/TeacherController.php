@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 
 class TeacherController extends Controller
 {
-    //
+    
     public function saveteacher(TeacherRequest $request)
     {
 

@@ -541,6 +541,9 @@ p {
     padding: 0 20px;
     line-height: 40px;
   }
+  .about-img{
+    display: none;
+}
 }
 
 /*===== Rounded Buttons =====*/

@@ -19,22 +19,25 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
     <!--====== Bootstrap css ======-->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
-    <link href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet">
     <script type="text/javascript" src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('plugins/datatable/datatables.min.js')}}"></script>
+    
     <!-- Scripts -->
     <script type="text/javascript" src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('plugins/jquery-validation/jquery.validate.js') }}"></script>
+    <link rel="stylesheet" href="{{asset('plugins/datatables-bs4/css/dataTables.bootstrap4.min.css')}}">
     <link rel="stylesheet" href="{{asset('plugins/datatables-responsive/css/responsive.bootstrap4.min.css')}}">
-    <script type="text/javascript" src="{{ asset('plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
+
     <!-- SweetAlert2 -->
     <link rel="stylesheet" href="{{asset('plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css')}}">
     <script type="text/javascript" src="{{asset('plugins/sweetalert2/sweetalert2.min.js')}}"></script>
+    <!-- Datatables -->
+    <script type="text/javascript" src="{{ asset('plugins/datatables/jquery.dataTables.min.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
     <!-- Toastr -->
     <script type="text/javascript" src="{{asset('plugins/toastr/toastr.min.js')}}"></script>
     <link rel="stylesheet" href="{{asset('plugins/toastr/toastr.min.css')}}">
-    <!--====== Main js ======-->
-    <script src="assets/js/main.js"></script>
 </head>
 
 <body>

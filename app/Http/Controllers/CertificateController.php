@@ -13,10 +13,6 @@ use Illuminate\Support\Facades\Mail;
 
 class CertificateController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
     public function index($id = 0)
     {
         $sid = decrypt($id);
@@ -44,7 +40,7 @@ class CertificateController extends Controller
             $y = 123;
         }
 
-        $html0 = '<div style="font-size:' . $fs . ';font-family: EdwardianScriptITC;"><b>' . $data['certificate'][0]->name . '</b></div>';
+        $html0 = '<div style="font-size:' . $fs . ';font-family: edwardianscriptitc;"><b>' . $data['certificate'][0]->name . '</b></div>';
         $html1 =  $data['course'][0]->description;
         $html4 =   '<div style="font-size:5px;">Scan To Verify</div>';
         $html5 =   '<div style="font-size:18px;text-align:center;">' . $data['certificate'][0]->dateofcertification . '</div>';
@@ -132,7 +128,7 @@ class CertificateController extends Controller
             'title' => 'Mail from E-edport.com',
             'body' => 'You have successfully completed your Course. Please find the Link and Password for the Certificate'
         ];
-        Mail::to($request->teacheremail)->send(new \App\Mail\Certificatemail($details));
+        Mail::to($request->teacheremail)->send(new \App\Mail\CertificateMail($details));
         Session::flash('flash_message', 'Well done! You successfully Added the Teacher Certificate');
         Session::flash('flash_type', 'success');
         return back();

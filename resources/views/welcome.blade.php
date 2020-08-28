@@ -185,7 +185,7 @@
                     <li><a target="_blank" href="https://www.facebook.com/eEdPort/?ref=aymt_homepage_panel&eid=ARCBqzK2__TNHwk7BNW0sZ_oWFM0IvHmdY-FDdEfmU53ssgLiCXbgwFPlB9YkVl9yHDyQSyJrafLcVi-"><i class="lni-facebook-filled"></i></a></li>
                     <li><a target="_blank" href="https://www.instagram.com/e_edport/?hl=en"><i class="lni-instagram"></i></a></li>
                     <li><a target="_blank" href="https://www.youtube.com/channel/UCy76UlnIMTWXk_aN4ZnmDdA"><i class="lni-youtube"></i></a></li>
-
+                    <li><a target="_blank" href="https://www.linkedin.com/showcase/electroniceducationportal"><i class="fa fa-linkedin"></i></a></li>
 
                 </ul>
             </div> <!-- sidebar social -->
@@ -1048,7 +1048,7 @@
                     </div>
                 </div> <!-- row -->
                 <div class="row align-items-center">
-                    <div class="col-lg-7 text-center">
+                    <div class="col-lg-7 text-center about-img">
                         <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                             <img src="{{asset('assets/images/vision.png')}}" alt="Girl in a jacket" width="100%" height="100%">
                         </div>
@@ -1066,16 +1066,16 @@
 
                     <div class="col-lg-5 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
                         <h3 class="mb-4 section-heading"><strong>Our Mission</strong></h3>
-                        <p class="mb-5" style="line-height:1.7">e_Edport is founded with a Mission to digitalise education by collaborating technology and skills to promote all round development of institutions, educators, & students. We aimed towards the combined efforts of our dynamic team to support each other and work together towards our goal.</p>
+                        <p class="mb-1" style="line-height:1.7">e_Edport is founded with a Mission to digitalise education by collaborating technology and skills to promote all round development of institutions, educators, & students. We aimed towards the combined efforts of our dynamic team to support each other and work together towards our goal.</p>
                     </div>
-                    <div class="col-lg-7 text-center">
+                    <div class="col-lg-7 text-center about-img">
                         <div class="row mb-5 mb-lg-0 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.1s">
                             <img src="{{asset('assets/images/mission.png')}}" alt="Girl in a jacket" width="100%" height="100%">
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-lg-7 text-center">
+                    <div class="col-lg-7 text-center about-img">
                         <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.2s">
                             <img src="{{asset('assets/images/story.png')}}" alt="Girl in a jacket" width="100%" height="100%">
                         </div>
@@ -1115,7 +1115,7 @@
                 <a target="_blank" href="https://www.youtube.com/channel/UCy76UlnIMTWXk_aN4ZnmDdA"><i style="color:#bb0000;" class="fa mainpageicon fa-youtube"></i></a>
 
                 <a target="_blank" href="https://www.instagram.com/e_edport/?hl=en"><i style="color:#bf155c;" class="fa mainpageicon fa-instagram"></i></a>
-
+                <a target="_blank" href="https://www.linkedin.com/showcase/electroniceducationportal"><i style="color:#0077b7;" class="fa mainpageicon fa-linkedin"></i></a></li>
             </div>
 
         </div>
@@ -1350,6 +1350,7 @@
                             <li><a target="_blank" href="https://www.facebook.com/eEdPort/?ref=aymt_homepage_panel&eid=ARCBqzK2__TNHwk7BNW0sZ_oWFM0IvHmdY-FDdEfmU53ssgLiCXbgwFPlB9YkVl9yHDyQSyJrafLcVi-"><i class="lni-facebook-filled"></i></a></li>
                             <li><a target="_blank" href="https://www.youtube.com/channel/UCy76UlnIMTWXk_aN4ZnmDdA"><i class="lni-youtube"></i></a></li>
                             <li><a target="_blank" href="https://www.instagram.com/e_edport/?hl=en"><i class="lni-instagram-original"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/showcase/electroniceducationportal"><i class="fa fa-linkedin"></i></a></li>
                         </ul> <!-- social -->
                     </div>
                 </div> <!-- row -->

@@ -10,12 +10,11 @@ use Session;
 
 class ContactController extends Controller
 {
-    //
+
     public function contacts()
     {
 
         $data['contact'] = Contact::latest()->get();
-        //dd($data['contact']);
         return view('contact')->with($data);
     }
     public function updatecontactstatus(Request $request)
