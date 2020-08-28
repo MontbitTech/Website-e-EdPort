@@ -978,7 +978,7 @@
                     </div>
                     <div class="ml-auto order-lg-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0s">
                         <h3 class="mb-4 section-heading"><strong>Customer Care</strong></h3>
-                        <p>We make all the best endeavors to provide You with a pleasant experience. In the unlikely event that You face any issues, please contact us at support@montbit.tech</p>
+                        <p>We make all the best endeavors to provide You with a pleasant experience. In the unlikely event that You face any issues, please contact us at <a href="mailto:support@montbit.tech;">support@montbit.tech</a> .</p>
                     </div>
                     <div class="ml-auto order-lg-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0s">
                         <h3 class="mb-4 section-heading"><strong>Agreement to be Bound</strong></h3>
