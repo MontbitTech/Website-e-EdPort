@@ -39,7 +39,6 @@ class CertificateController extends Controller
             $fs = '48px';
             $y = 123;
         }
-
         $html0 = '<div style="font-size:' . $fs . ';font-family: edwardianscriptitc;"><b>' . $data['certificate'][0]->name . '</b></div>';
         $html1 =  $data['course'][0]->description;
         $html4 =   '<div style="font-size:5px;">Scan To Verify</div>';
@@ -52,7 +51,7 @@ class CertificateController extends Controller
         // set document signature
         PDF::setSignature($certificate, $certificate, 'tcpdfdemo', '', 2, $info);
 
-        PDF::SetFont('helvetica', '', 12);
+        //PDF::SetFont('helvetica', '', 12);
         PDF::SetTitle($data['certificate'][0]->name . ' Certificate');
         PDF::AddPage();
         // set style for barcode
