@@ -69,7 +69,7 @@ class CertificateController extends Controller
         PDF::setPageMark();
         // add view content
         PDF::writeHTMLCell(180, 0, 16, 155, $html1, 0, 0, 0, true, 'C', true);
-        PDF::SetFont('EdwardianScriptITC','',12);
+        PDF::SetFont('edwardianscriptitc','',12);
         PDF::writeHTMLCell(190, 0, 10, $y, $html0, 0, 0, 0, true, 'C', true);
         PDF::SetFont('helvetica', '', 12);
         PDF::writeHTMLCell(20, 0, 97, 228, $html4, 0, 0, 0, true, 'C', true);
