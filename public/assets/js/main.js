@@ -108,7 +108,7 @@ $(function() {
         type: 'iframe',
         // Changes iFrame to support Youtube state changes (so we can close the video when it ends)
     iframe: {
-      markup: '<iframe width="800" height="500" src="https://www.youtube.com/embed/GzBClfG5TWI?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', // HTML markup of popup, `mfp-close` will be replaced by the close button
+      markup: '<div class="container"><iframe width="100%" height="540" src="https://www.youtube.com/embed/GzBClfG5TWI?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
     },
 
 });  

@@ -363,7 +363,7 @@
 
                         <p>
                             IUnder the Information Technology Act 2000 and rules made thereunder, the name and contact details of the Grievance Officer are provided below:
-                            support@montbit.tech
+                            <a href="mailto:support@montbit.tech">support@montbit.tech</a>
 
                         </p>
                     </div>
@@ -372,7 +372,7 @@
 
 
                         <p>
-                            If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us to connect@montbit.tech or our address, MontBit Technologies Ltd., 120-6075 Wilson Ave, Vancouver, Canada V5H 2R5. </p>
+                            If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us to <a href="mailto:connect@montbit.tech">connect@montbit.tech</a> or our address, MontBit Technologies Ltd., 120-6075 Wilson Ave, Vancouver, Canada V5H 2R5. </p>
                     </div>
                 </div>
             </div>
