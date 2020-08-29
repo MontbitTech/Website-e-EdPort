@@ -52,15 +52,18 @@
             display: none;
         }
     </style>
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176741089-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-176741089-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-176741089-1');
     </script>
 
 </head>
@@ -96,7 +99,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="#">
+                            <a class="navbar-brand" href="{{route('index')}}">
                                 <img src="{{asset('assets/images/logo-1.png')}}" style="height:70px;" alt="Logo">
                             </a>
 
@@ -112,22 +115,23 @@
                                         <a class="page-scroll" href="#home">HOME</a>
                                     </li>
                                     <li class="nav-item">
+                                        <a class="page-scroll" href="#about">ABOUT</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#deliverables">OUR OFFERINGS</a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a class="page-scroll" href="#portfolio">FEATURES</a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#pricing">PLANS</a>
                                     </li>
-                                    <!--li class="nav-item">
-                                        <a class="page-scroll" href="#blog">BLOG</a>
-                                    </li-->
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#contact">CONTACT</a>
                                     </li>
 
-                                    <li class="nav-item">
-                                        <a class="page-scroll" href="#about">ABOUT</a>
-                                    </li>
+
                                 </ul>
                             </div>
 
@@ -140,19 +144,20 @@
             </div> <!-- container -->
         </div> <!-- navbar area -->
 
-        <div id="home" class="header-hero bg_cover" style="background-image: url(assets/images/bg.jpg)">
+        <div id="home" class="header-hero bg_cover" style="background-image: url(assets/images/bg3.jpg)">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-10 col-lg-10">
+                    <div class="col-xl-11 col-lg-11">
                         <div class="header-content text-center">
                             <h3 class="header-title wow fadeInUp" data-wow-duration=".7s" data-wow-delay="0.8s">
-                                EMPOWERING, ASSISTING & UPGRADING SCHOOLS</h3>
+                                EMPOWERING, ASSISTING & UPGRADING INSTITUTIONS</h3>
                             <p class="text wow fadeInUp" style="color:#1a1a1a" data-wow-duration=".7s" data-wow-delay="0.9s">EXPANDING THE
                                 EDUCATIONAL HORIZON</p>
                             <ul class="header-btn rounded-buttons mb-2">
-                                <li><button class="main-btn rounded-three wow fadeInUp " data-wow-duration=".7s" data-wow-delay="1s" data-toggle="modal" data-target="#modal-contact">GET IN TOUCH</button></li>
-                                <li><a style="background-color: #ffffffb3" class="main-btn btn-two video-popup wow fadeInUp" data-wow-duration=".7s" data-wow-delay="1s" href="https://drive.google.com/file/d/1WqmVvIGcL2of8cWb2nsdyeCJqfvBh2k6/preview">WATCH
+                                <li><a style="background-color: #ffffffb3" class="main-btn btn-two video-popup wow fadeInUp" data-wow-duration=".7s" data-wow-delay="1s" href="#">WATCH
                                         THE VIDEO <i class="lni-play"></i></a></li>
+                                <li><button class="main-btn rounded-three wow fadeInUp " data-wow-duration=".7s" data-wow-delay="1s" data-toggle="modal" data-target="#modal-contact">BOOK FREE DEMO</button></li>
+
 
                             </ul>
                             <!--iframe style="border-radius:7px;" src="https://drive.google.com/file/d/1aLc0rCbCVlwTV4Yc5j0k5b0FJ3nQ_jD5/preview" width="300" height="190" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
@@ -204,8 +209,69 @@
     <div class="overlay-right"></div>
 
     <!--====== SAIDEBAR PART ENDS ======-->
+
+    <!--====== About Us PART START ======-->
+    <section id="about" class="portfolio-area">
+        <div class="site-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
+                            <h3 class="title">About Us</h3>
+                        </div> <!-- row -->
+                    </div>
+                </div> <!-- row -->
+                <div class="row align-items-center">
+                    <div class="col-lg-7 text-center about-img">
+                        <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
+                            <img src="{{asset('assets/images/vision.png')}}" alt="Girl in a jacket" width="100%" height="100%">
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
+                        <h3 class="mb-4 section-heading"><strong>Our Vision</strong></h3>
+
+                        <p class="mb-1" style="line-height:1.7">
+                            Our Vision is to integrate information with innovation to emancipate the education sector. We aspire to play a significant role in strengthening the Indian education system.</p>
+
+                    </div>
+                </div>
+                <div class="row align-items-center">
+
+                    <div class="col-lg-5 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
+                        <h3 class="mb-4 section-heading"><strong>Our Mission</strong></h3>
+                        <p class="mb-1" style="line-height:1.7">e_Edport is founded with a Mission to digitalise education by collaborating technology and skills to promote all round development of institutions, educators, & students. We aimed towards the combined efforts of our dynamic team to support each other and work together towards our goal.</p>
+                    </div>
+                    <div class="col-lg-7 text-center about-img">
+                        <div class="row mb-5 mb-lg-0 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.1s">
+                            <img src="{{asset('assets/images/mission.png')}}" alt="Girl in a jacket" width="100%" height="100%">
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-7 text-center about-img">
+                        <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.2s">
+                            <img src="{{asset('assets/images/story.png')}}" alt="Girl in a jacket" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s">
+                        <h3 class="mb-4 section-heading"><strong>Our Story</strong></h3>
+
+                        <p class="mb-1" style="line-height:1.7">
+                            The Indian education system is changing. Fuelling the change, we at e-EdPort aspire to provide a reliable virtual system to our educational institutes so that the education never stops. Our primary focus is to connect educators with their students over a simplified platform. e-EdPort has made its aim to empower educators in technology and make them self-sufficient in their object of nurturing the future generation.</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <!--====== ABOUT PART ENDS ======-->
+
     <!--====== Deliverables PART START ======-->
-    <section id="deliverables" class="portfolio-area">
+    <section id="deliverables" class="contact-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -274,7 +340,7 @@
     <!--====== Deliverables PART START ======-->
 
     <!--====== Key Features PART START ======-->
-    <section id="portfolio" class="contact-area">
+    <section id="portfolio" class="portfolio-area">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -807,7 +873,7 @@
 
     <!--====== Educational Partner PART START ======-->
 
-    <section id="client" class="portfolio-area">
+    <section id="client" class="contact-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -830,7 +896,7 @@
 
     <!--====== Our Plan PART START ======-->
 
-    <section id="pricing" class="contact-area">
+    <section id="pricing" class="portfolio-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -861,7 +927,7 @@
                             </ul>
                         </div>
                         <div class="pricing-btn rounded-buttons text-center">
-                            <a class="main-btn rounded-three" href="#contact">GET STARTED</a>
+                            <a class="main-btn rounded-three" href="#" data-toggle="modal" data-target="#modal-contact">GET STARTED</a>
                         </div>
                     </div> <!-- pricing style one -->
                 </div>
@@ -882,7 +948,7 @@
                             </ul>
                         </div>
                         <div class="pricing-btn rounded-buttons text-center">
-                            <a class="main-btn rounded-three" href="#contact">GET STARTED</a>
+                            <a class="main-btn rounded-three" href="#" data-toggle="modal" data-target="#modal-contact">GET STARTED</a>
                         </div>
                     </div> <!-- pricing style one -->
                 </div>
@@ -907,7 +973,7 @@
                             </ul>
                         </div>
                         <div class="pricing-btn rounded-buttons text-center">
-                            <a class="main-btn rounded-three" href="#contact">GET STARTED</a>
+                            <a class="main-btn rounded-three" href="#" data-toggle="modal" data-target="#modal-contact">GET STARTED</a>
                         </div>
                     </div> <!-- pricing style one -->
                 </div>
@@ -918,7 +984,7 @@
 
     <!--====== CONTACT BOX PART START ======-->
 
-    <section id="contact" class="portfolio-area">
+    <section id="contact" class="contact-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -1046,65 +1112,7 @@
 
     <!--====== CONTACT BOX PART ENDS ======-->
 
-    <!--====== About Us PART START ======-->
-    <section id="about" class="contact-area">
-        <div class="site-section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
-                            <h3 class="title">About Us</h3>
-                        </div> <!-- row -->
-                    </div>
-                </div> <!-- row -->
-                <div class="row align-items-center">
-                    <div class="col-lg-7 text-center about-img">
-                        <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
-                            <img src="{{asset('assets/images/vision.png')}}" alt="Girl in a jacket" width="100%" height="100%">
-                        </div>
 
-                    </div>
-                    <div class="col-lg-5 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
-                        <h3 class="mb-4 section-heading"><strong>Our Vision</strong></h3>
-
-                        <p class="mb-1" style="line-height:1.7">
-                            Our Vision is to integrate information with innovation to emancipate the education sector. We aspire to play a significant role in strengthening the Indian education system.</p>
-
-                    </div>
-                </div>
-                <div class="row align-items-center">
-
-                    <div class="col-lg-5 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
-                        <h3 class="mb-4 section-heading"><strong>Our Mission</strong></h3>
-                        <p class="mb-1" style="line-height:1.7">e_Edport is founded with a Mission to digitalise education by collaborating technology and skills to promote all round development of institutions, educators, & students. We aimed towards the combined efforts of our dynamic team to support each other and work together towards our goal.</p>
-                    </div>
-                    <div class="col-lg-7 text-center about-img">
-                        <div class="row mb-5 mb-lg-0 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.1s">
-                            <img src="{{asset('assets/images/mission.png')}}" alt="Girl in a jacket" width="100%" height="100%">
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-lg-7 text-center about-img">
-                        <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.2s">
-                            <img src="{{asset('assets/images/story.png')}}" alt="Girl in a jacket" width="100%" height="100%">
-                        </div>
-                    </div>
-                    <div class="col-lg-5 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s">
-                        <h3 class="mb-4 section-heading"><strong>Our Story</strong></h3>
-
-                        <p class="mb-1" style="line-height:1.7">
-                            The Indian education system is changing. Fuelling the change, we at e-EdPort aspire to provide a reliable virtual system to our educational institutes so that the education never stops. Our primary focus is to connect educators with their students over a simplified platform. e-EdPort has made its aim to empower educators in technology and make them self-sufficient in their object of nurturing the future generation.</p>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-
-    </section>
-    <!--====== ABOUT PART ENDS ======-->
 
 
 
@@ -1292,7 +1300,7 @@
 
     <!--====== FOOTER FOUR PART START ======-->
 
-    <footer id="footer" class="contact-area footer-area">
+    <footer id="footer" class="footer-area">
         <div class="footer-widget">
             <div class="container">
                 <div class="row">
@@ -1422,7 +1430,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="state">State</label>
-                                        <select class="form-control filter" name="state" id="state" style="text-transform: capitalize;" >
+                                        <select class="form-control filter" name="state" id="state" style="text-transform: capitalize;">
                                             <option value="" selected>Select State</option>
                                             @foreach($state as $st)
                                             <option value="{{$st->id}}">{{$st->name}}</option>
@@ -1438,7 +1446,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class="modal-footer justify-content-center">
@@ -1533,7 +1541,7 @@
                     var listItems1;
                     listItems1 += "<option value=''>Select City</option>";
                     for (var i = 0; i < data.length; i++) {
-                        listItems1 += "<option value='" + data[i].id + "'>" + data[i].name+ "</option>";
+                        listItems1 += "<option value='" + data[i].id + "'>" + data[i].name + "</option>";
                     }
 
                     $("#city").html(listItems1);

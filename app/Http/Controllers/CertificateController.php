@@ -39,7 +39,7 @@ class CertificateController extends Controller
             $fs = '48px';
             $y = 123;
         }
-        $html0 = '<div style="font-size:' . $fs . ';font-family: edwardianscriptitc;"><b>' . $data['certificate'][0]->name . '</b></div>';
+        $html0 = '<div style="font-size:' . $fs . '"><b>' . $data['certificate'][0]->name . '</b></div>';
         $html1 =  $data['course'][0]->description;
         $html4 =   '<div style="font-size:5px;">Scan To Verify</div>';
         $html5 =   '<div style="font-size:18px;text-align:center;">' . $data['certificate'][0]->dateofcertification . '</div>';
@@ -69,7 +69,9 @@ class CertificateController extends Controller
         PDF::setPageMark();
         // add view content
         PDF::writeHTMLCell(180, 0, 16, 155, $html1, 0, 0, 0, true, 'C', true);
+        PDF::SetFont('edwardianscriptitc','',12);
         PDF::writeHTMLCell(190, 0, 10, $y, $html0, 0, 0, 0, true, 'C', true);
+        PDF::SetFont('helvetica', '', 12);
         PDF::writeHTMLCell(20, 0, 97, 228, $html4, 0, 0, 0, true, 'C', true);
         PDF::writeHTMLCell(50, 0, 35, 205, $html5, 0, 0, 0, true, 'C', true);
         PDF::writeHTMLCell(50, 0, 35, 213, $html6, 0, 0, 0, true, 'C', true);
