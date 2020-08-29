@@ -233,7 +233,8 @@
         $('#example').DataTable({
             "order": [
                 [6, "desc"]
-            ]
+            ],
+            responsive:true
         });
     });
     $('body').on('change', '.contact_status', function() {

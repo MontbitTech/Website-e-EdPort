@@ -156,7 +156,9 @@
 <script type="text/javascript" src="{{ asset('plugins/ckeditor/ckeditor.js') }}"></script>
 <script>
   $(document).ready(function() {
-    $('#example').DataTable();
+    $('#example').DataTable({
+      responsive:true
+    });
   });
 </script>
 <script type="text/javascript">
