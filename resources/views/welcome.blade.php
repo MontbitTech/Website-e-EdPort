@@ -1524,8 +1524,19 @@
     <!-- Toastr -->
     <script type="text/javascript" src="{{asset('plugins/toastr/toastr.min.js')}}"></script>
     <link rel="stylesheet" href="{{asset('plugins/toastr/toastr.min.css')}}">
-
+<audio id="myAudio">
+  <source src="{{asset('sound/voiceover.wav')}}" type="audio/wav">
+</audio>
 </body>
+<script>
+
+$(document).on('show.bs.modal', '#modal-contact', function () {
+    $("#myAudio")[0].play(); 
+});
+$(document).on('hide.bs.modal', '#modal-contact', function () {
+    $("#myAudio")[0].pause(); 
+});
+</script>
 <script>
     $(document).ready(function() {
         $('.filter').on('change', function() {
