@@ -1535,12 +1535,13 @@
 </body>
 <script>
 
-$(document).on('show.bs.modal', '#modal-contact', function () {
-    $("#myAudio")[0].play(); 
+$(document).ready(function() {
+  setTimeout(function() {
+    $('#modal-contact').modal('show');
+    $("#myAudio")[0].play();
+  }, 5000);
 });
-$(document).on('hide.bs.modal', '#modal-contact', function () {
-    $("#myAudio")[0].pause(); 
-});
+
 </script>
 <script>
     $(document).ready(function() {
