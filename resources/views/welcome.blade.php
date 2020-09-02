@@ -1530,7 +1530,7 @@
     <script type="text/javascript" src="{{asset('plugins/toastr/toastr.min.js')}}"></script>
     <link rel="stylesheet" href="{{asset('plugins/toastr/toastr.min.css')}}">
 <audio id="myAudio">
-  <source src="{{asset('sound/voiceover.wav')}}" type="audio/wav">
+  <source src="{{asset('sound/e-EdPort Audio John.mp3')}}" type="audio/mpeg">
 </audio>
 </body>
 <script>
