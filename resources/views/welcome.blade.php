@@ -1539,7 +1539,7 @@ $(document).ready(function() {
   setTimeout(function() {
     $('#modal-contact').modal('show');
     $("#myAudio")[0].play();
-  }, 5000);
+  }, 20000);
 });
 
 </script>
