@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 
 class TeacherController extends Controller
 {
-    
+
     public function saveteacher(TeacherRequest $request)
     {
 
@@ -27,11 +27,10 @@ class TeacherController extends Controller
         //dd($data['teacher'][0]->id);
         Session::flash('flash_message', 'Well done! You successfully Added the Teacher');
         Session::flash('flash_type', 'success');
-        return back();
+        return redirect()->view('teacher');
     }
     public function teachers()
     {
-
         $data['teacher'] = Teacher::all();
         return view('teacher')->with($data);
     }
