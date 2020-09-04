@@ -48,23 +48,24 @@
                                 </select>
                             </div>
                             <div class="form-group col-md-2">
-                                <label for="coursename">City</label>
-                                <select class="form-control filter" name="city" id="city">
-                                    <option value="">Select city</option>
-                                    @foreach($contact->unique('city') as $t)
-                                    <option value="{{$t->city}}">{{$t->city}}</option>
-                                    @endforeach
-                                </select>
-                            </div>
-                            <div class="form-group col-md-2">
                                 <label for="coursename">State</label>
                                 <select class="form-control filter" name="state" id="state">
                                     <option value="">Select state</option>
                                     @foreach($contact->unique('state') as $t)
-                                    <option value="{{$t->state}}">{{$t->state}}</option>
+                                    <option value="{{$t->state}}">{{$t->getstate->name}}</option>
                                     @endforeach
                                 </select>
                             </div>
+                            <div class="form-group col-md-2">
+                                <label for="coursename">City</label>
+                                <select class="form-control filter" name="city" id="city">
+                                    <option value="">Select city</option>
+                                    @foreach($contact->unique('city') as $t)
+                                    <option value="{{$t->city}}">{{$t->getcity->name}}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+
                         </div>
                         <div class="form-group">
                             <label for="mailto">To</label>
@@ -128,7 +129,7 @@
                                 <td><a href="tel:{{$t->mobileno}}">{{$t->mobileno}}</td>
                                 <td>{{$t->entity}}</td>
                                 <td>{{$t->institutionname}}</td>
-                                <td> {{ date("d M h:i a", strtotime($t->created_at))}}
+                                <td> {{ $t->created_at}}
                                 </td>
                                 <td>
                                     <select data-id="{{$t->id}}" class="form-control contact_status">

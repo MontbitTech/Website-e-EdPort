@@ -10,12 +10,12 @@ class Contact extends Model
     protected $fillable = [
         'name',  'email', 'mobileno', 'entity', 'institutionname', 'city', 'state', 'status'
     ];
-    public function city()
+    public function getcity()
     {
-        return $this->belongsToMany(City::class, 'city', 'id');
+        return $this->belongsTo(City::class, 'city', 'id');
     }
-    public function state()
+    public function getstate()
     {
-        return $this->belongsToMany(State::class, 'state', 'id');
+        return $this->belongsTo(State::class, 'state', 'id');
     }
 }
