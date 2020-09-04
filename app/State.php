@@ -9,7 +9,7 @@ class State extends Model
 {
     use SoftDeletes;
     protected $fillable = [
-        'id','country_id', 'name', 'status'
+        'id', 'country_id', 'name', 'status'
     ];
     public function cities()
     {
@@ -18,5 +18,9 @@ class State extends Model
     public function country()
     {
         return $this->belongsTo(Country::class);
+    }
+    public function contact()
+    {
+        return $this->belongsToMany(Contact::class);
     }
 }

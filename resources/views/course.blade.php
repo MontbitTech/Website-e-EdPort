@@ -54,8 +54,8 @@
         <div class="card-header">
           All Course
         </div>
-        <div class="card-body p-0">
-          <table id="example" class="table">
+        <div class="card-body pt-2 pl-0 pr-0">
+          <table id="example" class="table table-bordered">
             <thead>
               <tr>
                 <th>#</th>
@@ -157,137 +157,137 @@
 <script>
   $(document).ready(function() {
     $('#example').DataTable({
-      responsive:true
+      // responsive:true
     });
   });
 </script>
 <script type="text/javascript">
-$(document).ready(function () {
-  $.validator.setDefaults({
-    submitHandler: function (form) {
-      form.submit();
-    }
-  });
-  $('#editcourse').validate({
-    rules: {
-      ecoursename: {
-        required: true,
-        minlength: 5
-      },
-      ecoursedesc: {
-        required: true,
-      },
-      eaname: {
-        required: true,
-        minlength: 5
-      },
-      earole: {
-        required: true,
-        minlength: 5
-      },
-      easignature: {
-        required: true,
-        accept:"jpg,png,jpeg"
-      },
-    },
-    messages: {
-      ecoursename: {
-        required: "Enter Course Name",
-        minlength: "Please, at least {0} characters are necessary"
-      },
-      ecoursedesc: {
-        required: "Enter Course Desc"
-      },
-      eaname: {
-        required:"Enter Author Name",
-        minlength: "Please, at least {0} characters are necessary"
-      },
-      earole: {
-        required: "Enter Author Role",
-        minlength: "Please, at least {0} characters are necessary"
-      },
-      easignature: {
-        required:"Please Select Signature",
-        accept: "Only image type jpg/png/jpeg is allowed"
+  $(document).ready(function() {
+    $.validator.setDefaults({
+      submitHandler: function(form) {
+        form.submit();
       }
-    },
-    errorElement: 'span',
-    errorPlacement: function (error, element) {
-      error.addClass('invalid-feedback');
-      element.closest('.form-group').append(error);
-    },
-    highlight: function (element, errorClass, validClass) {
-      $(element).addClass('is-invalid');
-    },
-    unhighlight: function (element, errorClass, validClass) {
-      $(element).removeClass('is-invalid');
-    }
+    });
+    $('#editcourse').validate({
+      rules: {
+        ecoursename: {
+          required: true,
+          minlength: 5
+        },
+        ecoursedesc: {
+          required: true,
+        },
+        eaname: {
+          required: true,
+          minlength: 5
+        },
+        earole: {
+          required: true,
+          minlength: 5
+        },
+        easignature: {
+          required: true,
+          accept: "jpg,png,jpeg"
+        },
+      },
+      messages: {
+        ecoursename: {
+          required: "Enter Course Name",
+          minlength: "Please, at least {0} characters are necessary"
+        },
+        ecoursedesc: {
+          required: "Enter Course Desc"
+        },
+        eaname: {
+          required: "Enter Author Name",
+          minlength: "Please, at least {0} characters are necessary"
+        },
+        earole: {
+          required: "Enter Author Role",
+          minlength: "Please, at least {0} characters are necessary"
+        },
+        easignature: {
+          required: "Please Select Signature",
+          accept: "Only image type jpg/png/jpeg is allowed"
+        }
+      },
+      errorElement: 'span',
+      errorPlacement: function(error, element) {
+        error.addClass('invalid-feedback');
+        element.closest('.form-group').append(error);
+      },
+      highlight: function(element, errorClass, validClass) {
+        $(element).addClass('is-invalid');
+      },
+      unhighlight: function(element, errorClass, validClass) {
+        $(element).removeClass('is-invalid');
+      }
+    });
   });
-});
 </script>
 <script type="text/javascript">
-$(document).ready(function () {
-  $.validator.setDefaults({
-    submitHandler: function (form) {
-      form.submit();
-    }
-  });
-  $('#savecourse').validate({
-    rules: {
-      coursename: {
-        required: true,
-        minlength: 5
-      },
-      coursedesc: {
-        required: true
-      },
-      aname: {
-        required: true,
-        minlength: 5
-      },
-      arole: {
-        required: true,
-        minlength: 5
-      },
-      asignature: {
-        required: true,
-        accept:"jpg,png,jpeg"
-      },
-    },
-    messages: {
-      coursename: {
-        required: "Enter Course Name",
-        minlength: "Please, at least {0} characters are necessary"
-      },
-      coursedesc: {
-        required: "Enter Course Desc"
-      },
-      aname: {
-        required:"Enter Author Name",
-        minlength: "Please, at least {0} characters are necessary"
-      },
-      arole: {
-        required: "Enter Author Role",
-        minlength: "Please, at least {0} characters are necessary"
-      },
-      asignature: {
-        required:"Please Select Signature",
-        accept: "Only image type jpg/png/jpeg is allowed"
+  $(document).ready(function() {
+    $.validator.setDefaults({
+      submitHandler: function(form) {
+        form.submit();
       }
-    },
-    errorElement: 'span',
-    errorPlacement: function (error, element) {
-      error.addClass('invalid-feedback');
-      element.closest('.form-group').append(error);
-    },
-    highlight: function (element, errorClass, validClass) {
-      $(element).addClass('is-invalid');
-    },
-    unhighlight: function (element, errorClass, validClass) {
-      $(element).removeClass('is-invalid');
-    }
+    });
+    $('#savecourse').validate({
+      rules: {
+        coursename: {
+          required: true,
+          minlength: 5
+        },
+        coursedesc: {
+          required: true
+        },
+        aname: {
+          required: true,
+          minlength: 5
+        },
+        arole: {
+          required: true,
+          minlength: 5
+        },
+        asignature: {
+          required: true,
+          accept: "jpg,png,jpeg"
+        },
+      },
+      messages: {
+        coursename: {
+          required: "Enter Course Name",
+          minlength: "Please, at least {0} characters are necessary"
+        },
+        coursedesc: {
+          required: "Enter Course Desc"
+        },
+        aname: {
+          required: "Enter Author Name",
+          minlength: "Please, at least {0} characters are necessary"
+        },
+        arole: {
+          required: "Enter Author Role",
+          minlength: "Please, at least {0} characters are necessary"
+        },
+        asignature: {
+          required: "Please Select Signature",
+          accept: "Only image type jpg/png/jpeg is allowed"
+        }
+      },
+      errorElement: 'span',
+      errorPlacement: function(error, element) {
+        error.addClass('invalid-feedback');
+        element.closest('.form-group').append(error);
+      },
+      highlight: function(element, errorClass, validClass) {
+        $(element).addClass('is-invalid');
+      },
+      unhighlight: function(element, errorClass, validClass) {
+        $(element).removeClass('is-invalid');
+      }
+    });
   });
-});
 </script>
 <script>
   $('body').on('click', '.editcourse', function(event) {
@@ -313,7 +313,7 @@ $(document).ready(function () {
             CKEDITOR.instances['ecoursedesc'].setData(data['description']);
             $('#eaname').val(data['aname']);
             $('#earole').val(data['arole']);
-            $('#easignatureimg').html('<img width="80" src="{{URL::to('/')}}/' + data['asignature'] + '" />');
+            $('#easignatureimg').html('<img width="80" src="{{URL::to(' / ')}}/' + data['asignature'] + '" />');
 
           }
         }

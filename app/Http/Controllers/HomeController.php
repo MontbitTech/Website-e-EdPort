@@ -51,7 +51,7 @@ class HomeController extends Controller
         //  Mail::to($request->contactemail)->send(new \App\Mail\ContactEmail($details));
         Session::flash('flash_message', 'Thank You! Our Team Will Reach Out Soon');
         Session::flash('flash_type', 'success');
-        return redirect('call');
+        return redirect()->route('freecall');
     }
     public function getcity(Request $request)
     {
@@ -69,7 +69,6 @@ class HomeController extends Controller
     }
     public function call()
     {
-
-        return view('call');
+        return view('freecall');
     }
 }

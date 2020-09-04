@@ -6,9 +6,9 @@
         width: 100% !important;
     }
 </style>
-<div class="container mt-5">
+<div class="container-fluid mt-5 ">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-11 m-auto">
             <div class="card">
                 <div class="card-header">
                     Bulk Communication
@@ -19,15 +19,7 @@
                         <label for="coursename">Filter</label>
                         <div class="row">
 
-                            <div class="form-group col-md-4">
-                                <label for="coursename">Entity</label>
-                                <select class="form-control filter" name="entity" id="entity">
-                                    <option value="">Select Entity</option>
-                                    @foreach($contact->unique('entity') as $t)
-                                    <option value="{{$t->entity}}">{{$t->entity}}</option>
-                                    @endforeach
-                                </select>
-                            </div>
+
                             <div class="form-group col-md-4">
                                 <label for="coursename">Institution Name</label>
                                 <select class="form-control filter" name="institutionname" id="institutionname">
@@ -37,7 +29,16 @@
                                     @endforeach
                                 </select>
                             </div>
-                            <div class="form-group col-md-4">
+                            <div class="form-group col-md-2">
+                                <label for="coursename">Entity</label>
+                                <select class="form-control filter" name="entity" id="entity">
+                                    <option value="">Select Entity</option>
+                                    @foreach($contact->unique('entity') as $t)
+                                    <option value="{{$t->entity}}">{{$t->entity}}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
                                 <label for="coursename">Status</label>
                                 <select class="form-control filter" name="status" id="status">
                                     <option value="">Select Status</option>
@@ -46,10 +47,28 @@
                                     @endforeach
                                 </select>
                             </div>
+                            <div class="form-group col-md-2">
+                                <label for="coursename">City</label>
+                                <select class="form-control filter" name="city" id="city">
+                                    <option value="">Select city</option>
+                                    @foreach($contact->unique('city') as $t)
+                                    <option value="{{$t->city}}">{{$t->city}}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="coursename">State</label>
+                                <select class="form-control filter" name="state" id="state">
+                                    <option value="">Select state</option>
+                                    @foreach($contact->unique('state') as $t)
+                                    <option value="{{$t->state}}">{{$t->state}}</option>
+                                    @endforeach
+                                </select>
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="mailto">To</label>
-                            <select style="width:100% !important;" class="js-example-responsive js-states form-control"" id="mailto" name="mailto[]" multiple="multiple">
+                            <select style="width:100% !important;" class="js-example-responsive js-states form-control"" id=" mailto" name="mailto[]" multiple="multiple">
 
                                 @foreach($contact->unique('email') as $t)
                                 <option value="{{$t->email}}">{{$t->name}}[ {{$t->email}} ]</option>
@@ -76,13 +95,17 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-12 mt-5">
-            @if(count($contact) > 0 ) <div class="card">
+        <div class="col-md-11 m-auto">
+
+
+
+            @if(count($contact) > 0 )
+            <div class="card mt-5">
                 <div class="card-header">
                     All Contacts
                 </div>
-                <div class="card-body p-0">
-                    <table id="example" class="table">
+                <div class="card-body pt-2">
+                    <table id="example" class="table table-bordered display" data-page-length="100">
                         <thead>
                             <tr>
                                 <th>#</th>
@@ -105,7 +128,8 @@
                                 <td><a href="tel:{{$t->mobileno}}">{{$t->mobileno}}</td>
                                 <td>{{$t->entity}}</td>
                                 <td>{{$t->institutionname}}</td>
-                                <td>{{$t->created_at}}</td>
+                                <td> {{ date("d M h:i a", strtotime($t->created_at))}}
+                                </td>
                                 <td>
                                     <select data-id="{{$t->id}}" class="form-control contact_status">
                                         <option value="Contacted" {{ ( "Contacted" == $t->status) ? 'selected' : '' }}>Contacted</option>
@@ -197,14 +221,16 @@
 </script>
 <script type="text/javascript" src="{{ asset('plugins/ckeditor/ckeditor.js') }}"></script>
 <script>
-     CKEDITOR.placeholder( 'editor1' );
-    </script>
+    CKEDITOR.placeholder('editor1');
+</script>
 <script>
     $(document).ready(function() {
         $('.filter').on('change', function() {
             var entity = $('#entity').val();
             var institutionname = $('#institutionname').val();
             var status = $('#status').val();
+            var state = $('#state').val();
+            var city = $('#city').val();
             $.ajax({
                 url: "{{route('entitymail')}}",
                 type: 'POST',
@@ -212,7 +238,9 @@
                 data: {
                     'entity': entity,
                     'institutionname': institutionname,
-                    'status': status
+                    'status': status,
+                    'state': state,
+                    'city': city,
                 },
                 success: function(data) {
                     var listItems1;
@@ -234,7 +262,7 @@
             "order": [
                 [6, "desc"]
             ],
-            responsive:true
+
         });
     });
     $('body').on('change', '.contact_status', function() {

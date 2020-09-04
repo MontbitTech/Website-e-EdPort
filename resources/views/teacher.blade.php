@@ -4,12 +4,12 @@
 <div class="container mt-5">
   <div class="row">
     <div class="col-md-12 mt-5">
-      @if(count($teacher) > 0 ) <div class="card">
+      @if(count($data) > 0 ) <div class="card">
         <div class="card-header">
           All Teacher
         </div>
-        <div class="card-body p-0">
-          <table id="example" class="table">
+        <div class="card-body pt-2">
+          <table id="example" class="table table-bordered" data-page-length="100">
             <thead>
               <tr>
                 <th>#</th>
@@ -21,7 +21,7 @@
               </tr>
             </thead>
             <tbody>
-              @foreach($teacher as $t)
+              @foreach($data as $t)
               <tr>
                 <td>{{$t->id}}</td>
                 <td>{{$t->name}}</td>
@@ -56,7 +56,7 @@
 <script>
   $(document).ready(function() {
     $('#example').DataTable({
-      responsive: true,
+      responsive: false,
     });
   });
 </script>

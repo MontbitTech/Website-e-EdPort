@@ -65,8 +65,8 @@
         <div class="card-header">
           All Certificate
         </div>
-        <div class="card-body p-0">
-          <table id="example" class="table">
+        <div class="card-body pl-0 pr-0 pt-2">
+          <table id="example" class="table  table-bordered">
             <thead>
               <tr>
                 <th>#</th>
@@ -115,62 +115,62 @@
 <script>
   $(document).ready(function() {
     $('#example').DataTable({
-      responsive:true
+      // responsive: true
     });
   });
 </script>
 <script type="text/javascript">
-$(document).ready(function () {
-  $.validator.setDefaults({
-    submitHandler: function (form) {
-      form.submit();
-    }
-  });
-  $('#saveteacher').validate({
-    rules: {
-      teachername: {
-        required: true,
-        minlength: 5
-      },
-      teacheremail: {
-        required: true,
-        email: true
-      },
-      selectcourse: {
-        required: true
-      },
-      teacherdoc: {
-        required: true
+  $(document).ready(function() {
+    $.validator.setDefaults({
+      submitHandler: function(form) {
+        form.submit();
       }
-    },
-    messages: {
-      teachername: {
-        required: "Enter Teacher Name",
-        minlength: "Please, at least {0} characters are necessary"
+    });
+    $('#saveteacher').validate({
+      rules: {
+        teachername: {
+          required: true,
+          minlength: 5
+        },
+        teacheremail: {
+          required: true,
+          email: true
+        },
+        selectcourse: {
+          required: true
+        },
+        teacherdoc: {
+          required: true
+        }
       },
-      teacheremail: {
-        required: "Enter Teacher Email",
-        email: "Please, Enter Valid Email"
+      messages: {
+        teachername: {
+          required: "Enter Teacher Name",
+          minlength: "Please, at least {0} characters are necessary"
+        },
+        teacheremail: {
+          required: "Enter Teacher Email",
+          email: "Please, Enter Valid Email"
+        },
+        selectcourse: {
+          required: "Select Course"
+        },
+        teacherdoc: {
+          required: "Select Date Of Certification"
+        }
       },
-      selectcourse: {
-        required: "Select Course"
+      errorElement: 'span',
+      errorPlacement: function(error, element) {
+        error.addClass('invalid-feedback');
+        element.closest('.form-group').append(error);
       },
-      teacherdoc: {
-        required:"Select Date Of Certification"
+      highlight: function(element, errorClass, validClass) {
+        $(element).addClass('is-invalid');
+      },
+      unhighlight: function(element, errorClass, validClass) {
+        $(element).removeClass('is-invalid');
       }
-    },
-    errorElement: 'span',
-    errorPlacement: function (error, element) {
-      error.addClass('invalid-feedback');
-      element.closest('.form-group').append(error);
-    },
-    highlight: function (element, errorClass, validClass) {
-      $(element).addClass('is-invalid');
-    },
-    unhighlight: function (element, errorClass, validClass) {
-      $(element).removeClass('is-invalid');
-    }
+    });
   });
-});
 </script>
 @endsection

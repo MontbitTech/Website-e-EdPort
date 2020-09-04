@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Contact;
+use App\State;
+use App\City;
 use Illuminate\Http\Request;
 use App\Http\Requests\SendmailRequest;
 use Illuminate\Support\Facades\Mail;
@@ -13,7 +15,6 @@ class ContactController extends Controller
 
     public function contacts()
     {
-
         $data['contact'] = Contact::latest()->get();
         return view('contact')->with($data);
     }
@@ -38,7 +39,13 @@ class ContactController extends Controller
         if (!empty($request->status)) {
             $contact = $contact->where('status', trim($request->status));
         }
-
+        if (!empty($request->city)) {
+            $contact = $contact->where('city', trim($request->city));
+        }
+        if (!empty($request->state)) {
+            $contact = $contact->where('state', trim($request->state));
+        }
+        dd($request->state);
         //dd($contact);
         echo json_encode($contact->get());
         exit;
@@ -48,13 +55,13 @@ class ContactController extends Controller
         $image = $request->file('attachment');
 
         $details = [
-            'attachment'=>$image,
+            'attachment' => $image,
             'subject' => $request->subject,
             'message' => $request->message
         ];
         //dd($details);
         foreach ($request->mailto as $recipient) {
-        Mail::to($recipient)->send(new \App\Mail\SendEmail($details));
+            Mail::to($recipient)->send(new \App\Mail\SendEmail($details));
         }
         Session::flash('flash_message', 'Thank You! Our Team Will Reach Out Soon');
         Session::flash('flash_type', 'success');

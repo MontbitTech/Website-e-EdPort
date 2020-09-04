@@ -34,8 +34,8 @@ Route::middleware('auth')->group(function () {
     Route::post('/sendmail', 'ContactController@sendmail')->name('sendmail');
     Route::post('/updatecontactstatus', 'ContactController@updatecontactstatus')->name('updatecontactstatus');
 });
-Route::get('/content-form', 'HomeController@saveshow')->name('showteacher.show');
-Route::get('/call', 'HomeController@call')->name('call');
+Route::get('/get-in-touch', 'HomeController@saveshow')->name('showteacher.show');
+Route::get('/schedule-free-call', 'HomeController@call')->name('freecall');
 Route::get('/registerteacher', 'TeacherController@registerteacher')->name('registerteacher');
 
 Auth::routes();

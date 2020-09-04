@@ -27,12 +27,13 @@ class TeacherController extends Controller
         //dd($data['teacher'][0]->id);
         Session::flash('flash_message', 'Well done! You successfully Added the Teacher');
         Session::flash('flash_type', 'success');
-        return redirect()->view('teacher');
+        return back();
     }
     public function teachers()
     {
-        $data['teacher'] = Teacher::all();
-        return view('teacher')->with($data);
+        // $data = Teacher::all();
+        // dd($data);
+        return view('teacher')->with('data', Teacher::all());
     }
     public function registerteacher()
     {
