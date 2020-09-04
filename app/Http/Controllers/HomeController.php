@@ -10,12 +10,13 @@ use App\State;
 use App\City;
 use Session;
 use Illuminate\Support\Facades\Mail;
+
 class HomeController extends Controller
 {
-   
+
     public function index()
     {
-        $data['state'] = State::where('country_id',101)->get();
+        $data['state'] = State::where('country_id', 101)->get();
         return view('welcome')->with($data);
     }
     public function faq()
@@ -47,18 +48,28 @@ class HomeController extends Controller
             'title' => 'Mail from E-edport.com',
             'body' => 'Thank You For Contacting Us, Our Team Member will Contact You Shortly'
         ];
-        Mail::to($request->contactemail)->send(new \App\Mail\ContactEmail($details));
+        //  Mail::to($request->contactemail)->send(new \App\Mail\ContactEmail($details));
         Session::flash('flash_message', 'Thank You! Our Team Will Reach Out Soon');
         Session::flash('flash_type', 'success');
-        return back();
+        return redirect('call');
     }
     public function getcity(Request $request)
     {
 
         $city = City::where('state_id', trim($request->state_id))->get();
-       
+
         //dd($contact);
         echo json_encode($city);
         exit;
+    }
+    public function saveshow()
+    {
+        $data['state'] = State::where('country_id', 101)->get();
+        return view('contantform')->with($data);
+    }
+    public function call()
+    {
+
+        return view('call');
     }
 }

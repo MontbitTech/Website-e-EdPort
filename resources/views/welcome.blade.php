@@ -156,7 +156,7 @@
                             <ul class="header-btn rounded-buttons mb-2">
                                 <li><a style="background-color: #ffffffb3" class="main-btn btn-two video-popup wow fadeInUp" data-wow-duration=".7s" data-wow-delay="1s" href="#">WATCH
                                         THE VIDEO <i class="lni-play"></i></a></li>
-                                <li><button class="main-btn rounded-three wow fadeInUp " data-wow-duration=".7s" data-wow-delay="1s" data-toggle="modal" data-target="#modal-contact">BOOK FREE DEMO</button></li>
+                                <li><a href="{{route('showteacher.show')}}" class="main-btn rounded-three wow fadeInUp " data-wow-duration=".7s">BOOK FREE DEMO</a></li>
 
 
                             </ul>
@@ -1453,7 +1453,7 @@
                             <button type="submit" class="btn btn-primary w-100" style="background:#161f33;">Submit</button>
                         </div>
                     </form>
-                    
+
                     <!-- Calendly inline widget begin -->
                     <div class="calendly-inline-widget" data-url="https://calendly.com/e-edport/e-edport-product-demonstration" style="min-width:320px;height:630px;"></div>
                     <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
@@ -1529,19 +1529,17 @@
     <!-- Toastr -->
     <script type="text/javascript" src="{{asset('plugins/toastr/toastr.min.js')}}"></script>
     <link rel="stylesheet" href="{{asset('plugins/toastr/toastr.min.css')}}">
-<audio id="myAudio">
-  <source src="{{asset('sound/e-EdPort Audio John.mp3')}}" type="audio/mpeg">
-</audio>
+    <audio id="myAudio">
+        <source src="{{asset('sound/e-EdPort Audio John.mp3')}}" type="audio/mpeg">
+    </audio>
 </body>
 <script>
-
-$(document).ready(function() {
-  setTimeout(function() {
-    $('#modal-contact').modal('show');
-    $("#myAudio")[0].play();
-  }, 20000);
-});
-
+    // $(document).ready(function() {
+    //   setTimeout(function() {
+    //     $('#modal-contact').modal('show');
+    //     $("#myAudio")[0].play();
+    //   }, 20000);
+    // });
 </script>
 <script>
     $(document).ready(function() {
