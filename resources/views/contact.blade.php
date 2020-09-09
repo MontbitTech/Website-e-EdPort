@@ -5,6 +5,22 @@
     .selection {
         width: 100% !important;
     }
+
+    td,
+    th {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+
+    .dataTables_length {
+        padding-left: 1.25rem
+    }
+
+    .dataTables_filter {
+        padding-right: 1.25rem
+    }
 </style>
 <div class="container-fluid mt-5 ">
     <div class="row">
@@ -104,7 +120,7 @@
                 <div class="card-header">
                     All Contacts
                 </div>
-                <div class="card-body pt-2">
+                <div class="card-body pt-2 p-0">
                     <table id="example" class="table table-bordered display" data-page-length="100">
                         <thead>
                             <tr>

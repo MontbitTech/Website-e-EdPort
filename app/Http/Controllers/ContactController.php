@@ -93,14 +93,16 @@ class ContactController extends Controller
         $contact->mobileno = $request->mobileno;
         $contact->institutionname = $request->institutionname;
         $contact->save();
-
+        Session::flash('flash_message', '');
+        Session::flash('flash_type', 'successfully updated User Detail');
         return redirect()->route('contacts');
     }
     public function delete($id)
     {
         $contact = Contact::findorFail($id);
         $contact->delete();
-
+        Session::flash('flash_message', 'successfully delete User detail');
+        Session::flash('flash_type', 'success');
         return back()->with('message', "delete");
     }
 }

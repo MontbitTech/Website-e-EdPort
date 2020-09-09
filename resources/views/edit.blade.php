@@ -14,7 +14,7 @@
                 <div class="col-md-12 col-12 col-lg-12 ">
                     <div class="card w-100 mt-5">
                         <div class="card-header">
-                            <h4 class="modal-title">Get In Touch </h4>
+                            <h4 class="modal-title">Update User </h4>
 
                         </div>
                         <div class="card-body">
