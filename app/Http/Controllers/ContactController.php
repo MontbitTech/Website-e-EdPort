@@ -45,15 +45,14 @@ class ContactController extends Controller
         if (!empty($request->state)) {
             $contact = $contact->where('state', trim($request->state));
         }
-        dd($request->state);
-        //dd($contact);
+
+        //   dd($contact);
         echo json_encode($contact->get());
         exit;
     }
     public function sendmail(SendmailRequest $request)
     {
         $image = $request->file('attachment');
-
         $details = [
             'attachment' => $image,
             'subject' => $request->subject,
@@ -65,6 +64,43 @@ class ContactController extends Controller
         }
         Session::flash('flash_message', 'Thank You! Our Team Will Reach Out Soon');
         Session::flash('flash_type', 'success');
+
         return back();
+    }
+    public function showcity(Request $request)
+    {
+        $city1 = Contact::where('state', trim($request->state_id))->get();
+        // dd($city1[0]->city);
+        // $city = City::where('id', $city1);
+        // dd($city->id);
+        //  $city = City::where('state_id', trim($request->state_id))->get();
+        //  $city = Contact::where('city_id', $city1[0]->city);
+        // dd($city1);
+        echo json_encode($city1);
+        exit;
+    }
+    public function edit($id)
+    {
+        $contact = Contact::findorFail($id);
+
+        return view('edit', compact('contact'));
+    }
+    public function update(Request $request, $id)
+    {
+        $contact =  Contact::findorFail($id);
+        $contact->name = $request->contactname;
+        $contact->email = $request->contactemail;
+        $contact->mobileno = $request->mobileno;
+        $contact->institutionname = $request->institutionname;
+        $contact->save();
+
+        return redirect()->route('contacts');
+    }
+    public function delete($id)
+    {
+        $contact = Contact::findorFail($id);
+        $contact->delete();
+
+        return back()->with('message', "delete");
     }
 }

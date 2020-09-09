@@ -49,7 +49,7 @@
                             </div>
                             <div class="form-group col-md-2">
                                 <label for="coursename">State</label>
-                                <select class="form-control filter" name="state" id="state">
+                                <select class="form-control filter filter1" name="state" id="state">
                                     <option value="">Select state</option>
                                     @foreach($contact->unique('state') as $t)
                                     <option value="{{$t->state}}">{{$t->getstate->name}}</option>
@@ -59,9 +59,8 @@
                             <div class="form-group col-md-2">
                                 <label for="coursename">City</label>
                                 <select class="form-control filter" name="city" id="city">
-                                    <option value="">Select city</option>
                                     @foreach($contact->unique('city') as $t)
-                                    <option value="{{$t->city}}">{{$t->getcity->name}}</option>
+                                    <option value="{{$t->getcity->id}}">{{$t->getcity->name}}</option>
                                     @endforeach
                                 </select>
                             </div>
@@ -117,6 +116,7 @@
                                 <th>Institution Name</th>
                                 <th>Contact Time</th>
                                 <th>Status</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -129,7 +129,7 @@
                                 <td><a href="tel:{{$t->mobileno}}">{{$t->mobileno}}</td>
                                 <td>{{$t->entity}}</td>
                                 <td>{{$t->institutionname}}</td>
-                                <td> {{ $t->created_at}}
+                                <td> {{ date("d M h:i a", strtotime($t->created_at))}}
                                 </td>
                                 <td>
                                     <select data-id="{{$t->id}}" class="form-control contact_status">
@@ -137,6 +137,12 @@
                                         <option value="Pending" {{ ( "Pending" == $t->status) ? 'selected' : '' }}>Pending</option>
 
                                     </select>
+                                </td>
+                                <td class="ml-0 mr-0 pl-0 pr-0">
+                                    <a href="{{route('contacts.edit',$t->id)}}" class="ml-1  text-decoration-none ">Edit</a>
+                                    ||
+                                    <a href="{{route('contacts.delete',$t->id)}}" class="text-danger text-decoration-none">Delete</a>
+
                                 </td>
                             </tr>
                             @endforeach
@@ -251,6 +257,31 @@
                     }
 
                     $("#mailto").html(listItems1);
+
+                }
+            });
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $('.filter1').on('change', function() {
+            var state_id = $('#state').val();
+            $.ajax({
+                url: "{{route('showcity')}}",
+                type: 'POST',
+                dataType: "json",
+                data: {
+                    'state_id': state_id
+                },
+                success: function(data) {
+                    var listItems1;
+                    listItems1 += "<option value=''>Select City</option>";
+                    for (var i = 0; i < data.length; i++) {
+                        listItems1 += "<option value='" + data[i].id + "'>" + data[i].city + "</option>";
+                    }
+
+                    $("#city").html(listItems1);
 
                 }
             });

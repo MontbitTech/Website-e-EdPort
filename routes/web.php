@@ -30,7 +30,11 @@ Route::middleware('auth')->group(function () {
 
     Route::post('/saveteacher', 'TeacherController@saveteacher')->name('saveteacher');
     Route::get('/contacts', 'ContactController@contacts')->name('contacts');
+    Route::get('/contacts/edit/{id}', 'ContactController@edit')->name('contacts.edit');
+    Route::post('/contacts/update/{id}', 'ContactController@update')->name('contacts.update');
+    Route::get('/contacts/delete/{id}', 'ContactController@delete')->name('contacts.delete');
     Route::post('/entitymail', 'ContactController@entitymail')->name('entitymail');
+    Route::post('/showcity', 'ContactController@showcity')->name('showcity');
     Route::post('/sendmail', 'ContactController@sendmail')->name('sendmail');
     Route::post('/updatecontactstatus', 'ContactController@updatecontactstatus')->name('updatecontactstatus');
 });
