@@ -81,6 +81,7 @@
 
                                     </li>
                                     @endguest
+                                    @auth
                                     @if(Auth::user()->role=='admin')
                                     <li class="nav-item dropdown ml-5">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -105,7 +106,7 @@
 
                                     </li>
                                     @endif
-                                    @auth
+
                                     <li class="nav-item dropdown ml-5">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             {{ Auth::user()->name }} <span class="caret"></span>
@@ -120,7 +121,7 @@
                                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                                 @csrf
                                             </form>
-                                            @endauth
+
                                             @if(Auth::user()->role=='admin')
                                             @if (Route::has('register'))
                                             <a class="dropdown-item" href="{{ route('register') }}">
@@ -129,6 +130,7 @@
 
                                             @endif
                                             @endif
+                                            @endauth
                                         </div>
 
 
