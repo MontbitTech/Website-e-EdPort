@@ -23,6 +23,7 @@
     }
 </style>
 <div class="container-fluid mt-5 ">
+<iframe src="https://calendar.google.com/calendar/embed?src=c_8ld82fo8a0e6bj5nscs7iv36gk%40group.calendar.google.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     <div class="row">
         <div class="col-md-11 m-auto">
             <div class="card">
