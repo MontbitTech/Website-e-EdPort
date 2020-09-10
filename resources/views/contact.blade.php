@@ -156,9 +156,10 @@
                                 </td>
                                 <td class="ml-0 mr-0 pl-0 pr-0">
                                     <a href="{{route('contacts.edit',$t->id)}}" class="ml-1  text-decoration-none ">Edit</a>
+                                    @if(Auth::user()->role=='admin')
                                     ||
                                     <a href="{{route('contacts.delete',$t->id)}}" class="text-danger text-decoration-none">Delete</a>
-
+                                    @endif
                                 </td>
                             </tr>
                             @endforeach

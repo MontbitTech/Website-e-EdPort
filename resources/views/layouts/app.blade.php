@@ -20,7 +20,7 @@
     <!--====== Bootstrap css ======-->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
     <script type="text/javascript" src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
-    
+
     <!-- Scripts -->
     <script type="text/javascript" src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('plugins/jquery-validation/jquery.validate.js') }}"></script>
@@ -80,6 +80,8 @@
 
 
                                     </li>
+                                    @endguest
+                                    @if(Auth::user()->role=='admin')
                                     <li class="nav-item dropdown ml-5">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Certification <span class="caret"></span>
@@ -102,6 +104,8 @@
 
 
                                     </li>
+                                    @endif
+                                    @auth
                                     <li class="nav-item dropdown ml-5">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             {{ Auth::user()->name }} <span class="caret"></span>
@@ -116,17 +120,21 @@
                                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                                 @csrf
                                             </form>
+                                            @endauth
+                                            @if(Auth::user()->role=='admin')
                                             @if (Route::has('register'))
                                             <a class="dropdown-item" href="{{ route('register') }}">
                                                 {{ __('Register') }}
                                             </a>
+
+                                            @endif
                                             @endif
                                         </div>
 
 
 
                                     </li>
-                                    @endguest
+
                                 </ul>
                             </div>
 

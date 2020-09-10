@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 //Certificate Controller
 Route::get('/tcpdf/{id?}', 'CertificateController@index')->name('createPDF');
-Route::middleware('auth')->group(function () {
+Route::middleware('admin')->group(function () {
+
     Route::get('/certificates', 'CertificateController@certificates')->name('certificate');
     Route::post('/savecertificate', 'CertificateController@savecertificate')->name('savecertificate');
     Route::post('/savecourse', 'CertificateController@savecourse')->name('savecourse');
@@ -24,17 +25,19 @@ Route::middleware('auth')->group(function () {
     Route::get('/course', 'CertificateController@course')->name('course');
     Route::post('/getcourse', 'CertificateController@getcourse')->name('getcourse');
     Route::get('/home', 'CertificateController@index')->name('home');
-
     //Teacher Controller
     Route::get('/teachers', 'TeacherController@teachers')->name('teachers');
-
     Route::post('/saveteacher', 'TeacherController@saveteacher')->name('saveteacher');
+
+    Route::get('/contacts/delete/{id}', 'ContactController@delete')->name('contacts.delete');
+
+    Route::post('/showcity', 'ContactController@showcity')->name('showcity');
+});
+Route::middleware(['auth'])->group(function () {
+    Route::post('/entitymail', 'ContactController@entitymail')->name('entitymail');
     Route::get('/contacts', 'ContactController@contacts')->name('contacts');
     Route::get('/contacts/edit/{id}', 'ContactController@edit')->name('contacts.edit');
     Route::post('/contacts/update/{id}', 'ContactController@update')->name('contacts.update');
-    Route::get('/contacts/delete/{id}', 'ContactController@delete')->name('contacts.delete');
-    Route::post('/entitymail', 'ContactController@entitymail')->name('entitymail');
-    Route::post('/showcity', 'ContactController@showcity')->name('showcity');
     Route::post('/sendmail', 'ContactController@sendmail')->name('sendmail');
     Route::post('/updatecontactstatus', 'ContactController@updatecontactstatus')->name('updatecontactstatus');
 });
