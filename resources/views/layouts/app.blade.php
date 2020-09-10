@@ -124,7 +124,7 @@
 
                                             @if(Auth::user()->role=='admin')
                                             @if (Route::has('register'))
-                                            <a class="dropdown-item" href="{{ route('register') }}">
+                                            <a class="dropdown-item" href="{{ route('registershow') }}">
                                                 {{ __('Register') }}
                                             </a>
 
