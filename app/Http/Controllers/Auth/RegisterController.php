@@ -40,9 +40,10 @@ class RegisterController extends Controller
     {
         $register = new User();
         $register->name = $request->name;
-        $register->email = $register->email;
-        $register->role = $register->role;
+        $register->email = $request->email;
+        $register->role = $request->role;
         $register->password = Hash::make($request->name);
+        $register->save();
         Session::flash('flash_message', 'Successfully Created');
         Session::flash('flash_type', 'success ');
         return back();

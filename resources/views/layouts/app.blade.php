@@ -123,12 +123,12 @@
                                             </form>
 
                                             @if(Auth::user()->role=='admin')
-                                            @if (Route::has('register'))
+
                                             <a class="dropdown-item" href="{{ route('registershow') }}">
                                                 {{ __('Register') }}
                                             </a>
 
-                                            @endif
+
                                             @endif
                                             @endauth
                                         </div>
