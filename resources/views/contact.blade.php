@@ -23,7 +23,7 @@
     }
 </style>
 <div class="container-fluid mt-5 ">
-<iframe src="https://calendar.google.com/calendar/embed?src=c_8ld82fo8a0e6bj5nscs7iv36gk%40group.calendar.google.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <iframe src="https://calendar.google.com/calendar/embed?src=c_8ld82fo8a0e6bj5nscs7iv36gk%40group.calendar.google.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     <div class="row">
         <div class="col-md-11 m-auto">
             <div class="card">
@@ -67,7 +67,7 @@
                             <div class="form-group col-md-2">
                                 <label for="coursename">State</label>
                                 <select class="form-control filter filter1" name="state" id="state">
-                                    <option value="">Select state</option>
+                                    <option value="">Select State</option>
                                     @foreach($contact->unique('state') as $t)
                                     <option value="{{$t->state}}">{{$t->getstate->name}}</option>
                                     @endforeach
@@ -76,6 +76,7 @@
                             <div class="form-group col-md-2">
                                 <label for="coursename">City</label>
                                 <select class="form-control filter" name="city" id="city">
+                                    <option value="">Select City</option>
                                     @foreach($contact->unique('city') as $t)
                                     <option value="{{$t->getcity->id}}">{{$t->getcity->name}}</option>
                                     @endforeach
@@ -85,11 +86,7 @@
                         </div>
                         <div class="form-group">
                             <label for="mailto">To</label>
-                            <select style="width:100% !important;" class="js-example-responsive js-states form-control"" id=" mailto" name="mailto[]" multiple="multiple">
-
-                                @foreach($contact->unique('email') as $t)
-                                <option value="{{$t->email}}">{{$t->name}}[ {{$t->email}} ]</option>
-                                @endforeach
+                            <select style="width:100% !important;" class="js-example-responsive js-states form-control" id="mailto" name="mailto[]" multiple="multiple">
                             </select>
                         </div>
                         <div class="form-group">
@@ -152,7 +149,7 @@
                                     <select data-id="{{$t->id}}" class="form-control contact_status">
                                         <option value="Contacted" {{ ( "Contacted" == $t->status) ? 'selected' : '' }}>Contacted</option>
                                         <option value="Pending" {{ ( "Pending" == $t->status) ? 'selected' : '' }}>Pending</option>
-
+                                        <option value="Calender" {{ ( "Calender" == $t->status) ? 'selected' : '' }}>Calender</option>
                                     </select>
                                 </td>
                                 <td class="ml-0 mr-0 pl-0 pr-0">

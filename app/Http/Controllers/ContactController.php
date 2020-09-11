@@ -16,6 +16,7 @@ class ContactController extends Controller
     public function contacts()
     {
         $data['contact'] = Contact::latest()->get();
+
         return view('contact')->with($data);
     }
     public function updatecontactstatus(Request $request)
@@ -25,6 +26,7 @@ class ContactController extends Controller
         $contact->save();
         Session::flash('flash_message', 'Well done! You successfully Update the Contact Status');
         Session::flash('flash_type', 'success');
+
         return back();
     }
     public function entitymail(Request $request)
@@ -70,8 +72,10 @@ class ContactController extends Controller
     public function showcity(Request $request)
     {
         $city1 = Contact::where('state', trim($request->state_id))->get();
+
         // dd($city1[0]->city);
-        // $city = City::where('id', $city1);
+        $city = City::where('id', $city1);
+        dd($city1);
         // dd($city->id);
         //  $city = City::where('state_id', trim($request->state_id))->get();
         //  $city = Contact::where('city_id', $city1[0]->city);
