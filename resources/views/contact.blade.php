@@ -144,8 +144,8 @@
                                 </td>
                                 <td>
                                     <select data-id="{{$t->id}}" class="form-control contact_status">
-                                        <option value="Contacted" {{ ( "Contacted" == $t->status) ? 'selected' : '' }}>Contacted</option>
                                         <option value="Pending" {{ ( "Pending" == $t->status) ? 'selected' : '' }}>Pending</option>
+                                        <option value="Contacted" {{ ( "Contacted" == $t->status) ? 'selected' : '' }}>Contacted</option>
                                         <option value="Calender" {{ ( "Calender" == $t->status) ? 'selected' : '' }}>Calender</option>
                                     </select>
                                 </td>
@@ -153,7 +153,7 @@
                                     <a href="{{route('contacts.edit',$t->id)}}" class="ml-1  text-decoration-none ">Edit</a>
                                     @if(Auth::user()->role=='admin')
                                     ||
-                                    <a href="{{route('contacts.delete',$t->id)}}" class="text-danger text-decoration-none">Delete</a>
+                                    <a href="{{route('contacts.delete',$t->id)}}" id="delete{{$t->id}}" class="text-danger text-decoration-none">Delete</a>
                                     @endif
                                 </td>
                             </tr>

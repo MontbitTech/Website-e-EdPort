@@ -90,8 +90,8 @@ class ContactController extends Controller
         $contact->mobileno = $request->mobileno;
         $contact->institutionname = $request->institutionname;
         $contact->save();
-        Session::flash('flash_message', '');
-        Session::flash('flash_type', 'successfully updated User Detail');
+        Session::flash('flash_message', 'successfully updated User Detail');
+        Session::flash('flash_type', 'success');
         return redirect()->route('contacts');
     }
     public function delete($id)

@@ -41,11 +41,23 @@
     <style>
         .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
-
-
             font-family: arial;
+        }
 
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #page-region ._2LpwQ___Wrapper__cls1._1cMla___Wrapper__media-tablet-up {
+            margin-top: 6px !important;
+            margin-bottom: 0px !important;
+        }
+
+        #page-region,
+        ._3i0k6___Layout__cls1 {
+            margin-top: 0px !important;
+            padding-top: 0px !important;
         }
 
         .hidden {
@@ -99,24 +111,19 @@
     <div class="container">
         <div class="row ">
             <div class="col-md-12 col-12 col-lg-12 ">
-
-
-
                 <!-- Calendly inline widget begin -->
-                <div class="calendly-inline-widget" data-url="https://calendly.com/e-edport/e-edport-product-demonstration" style="min-width:320px;height:650px;"></div>
+                <div class="calendly-inline-widget  w-100" data-url="https://calendly.com/e-edport/e-edport-product-demonstration" style="height:730px;"></div>
                 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
                 <!-- Calendly inline widget end -->
-
-
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="offset-md-6 col-md-6 text-cenetr"> <a href="{{url('/')}}" class="btn btn-primary">Back </a></div>
-                    </div>
-                </div>
 
             </div>
 
         </div>
+
+        <div class="row">
+            <div class="offset-md-6 col-md-6 text-cenetr"> <a href="{{url('/')}}" class="btn btn-primary">Back </a></div>
+        </div>
+
     </div>
 
 
