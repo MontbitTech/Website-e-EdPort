@@ -72,15 +72,8 @@ class ContactController extends Controller
     public function showcity(Request $request)
     {
         $city1 = Contact::where('state', trim($request->state_id))->get();
-
-        // dd($city1[0]->city);
-        $city = City::where('id', $city1);
-        dd($city1);
-        // dd($city->id);
-        //  $city = City::where('state_id', trim($request->state_id))->get();
-        //  $city = Contact::where('city_id', $city1[0]->city);
-        // dd($city1);
-        echo json_encode($city1);
+        $city = City::findorFail($city1[0]->city);
+        echo json_encode($city);
         exit;
     }
     public function edit($id)

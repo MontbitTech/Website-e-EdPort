@@ -76,10 +76,7 @@
                             <div class="form-group col-md-2">
                                 <label for="coursename">City</label>
                                 <select class="form-control filter" name="city" id="city">
-                                    <option value="">Select City</option>
-                                    @foreach($contact->unique('city') as $t)
-                                    <option value="{{$t->getcity->id}}">{{$t->getcity->name}}</option>
-                                    @endforeach
+
                                 </select>
                             </div>
 
@@ -290,13 +287,17 @@
                     'state_id': state_id
                 },
                 success: function(data) {
-                    var listItems1;
-                    listItems1 += "<option value=''>Select City</option>";
+
+
+
+                    var citydata;
+                    citydata += "<option value=''>Select City</option>";
                     for (var i = 0; i < data.length; i++) {
-                        listItems1 += "<option value='" + data[i].id + "'>" + data[i].city + "</option>";
+                        citydata += "<option value='" + data + "'>" + data + "</option>";
                     }
 
-                    $("#city").html(listItems1);
+                    $("#city").html(citydata);
+
 
                 }
             });
