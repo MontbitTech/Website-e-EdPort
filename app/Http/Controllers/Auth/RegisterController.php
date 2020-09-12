@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\registercreate;
 use App\User;
 use Session;
 use Illuminate\Http\Request;
@@ -36,13 +37,13 @@ class RegisterController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(registercreate $request)
     {
         $register = new User();
         $register->name = $request->name;
         $register->email = $request->email;
         $register->role = $request->role;
-        $register->password = Hash::make($request->name);
+        $register->password = Hash::make($request->password);
         $register->save();
         Session::flash('flash_message', 'Successfully Created');
         Session::flash('flash_type', 'success ');
