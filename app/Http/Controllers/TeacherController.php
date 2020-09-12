@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\TeacherRequest;
-use App\Teacher;
+use App\teacher;
 use Session;
 use App\State;
 use Illuminate\Http\Request;
@@ -33,7 +33,7 @@ class TeacherController extends Controller
     {
         // $data = Teacher::all();
         // dd($data);
-        return view('teacher')->with('data', Teacher::all());
+        return view('teacher')->with('data', teacher::all());
     }
     public function registerteacher()
     {
