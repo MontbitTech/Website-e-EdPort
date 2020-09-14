@@ -76,7 +76,7 @@
                             <div class="form-group col-md-2">
                                 <label for="coursename">City</label>
                                 <select class="form-control filter" name="city" id="city">
-
+                                    <option value="" selected>Select City</option>
                                 </select>
                             </div>
 
@@ -92,7 +92,7 @@
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea class="form-control ckeditor" id="message" name="message" rows="4"></textarea>
+                            <textarea class="form-control ckeditor" id="message" name="message" rows="4" style="resize: none;"></textarea>
                         </div>
                         <div class="form-group">
                             <label for="attachment">Attachment</label>
@@ -287,17 +287,13 @@
                     'state_id': state_id
                 },
                 success: function(data) {
-
-
-
-                    var citydata;
-                    citydata += "<option value=''>Select City</option>";
+                    var listItems1;
+                    listItems1 += "<option value=''>Select City</option>";
                     for (var i = 0; i < data.length; i++) {
-                        citydata += "<option value='" + data + "'>" + data + "</option>";
+                        listItems1 += "<option value='" + data[i].id + "'>" + data[i].name + "</option>";
                     }
 
-                    $("#city").html(citydata);
-
+                    $("#city").html(listItems1);
 
                 }
             });
