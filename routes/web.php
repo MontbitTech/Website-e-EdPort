@@ -42,8 +42,9 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/sendmail', 'ContactController@sendmail')->name('sendmail');
     Route::post('/updatecontactstatus', 'ContactController@updatecontactstatus')->name('updatecontactstatus');
 });
-Route::get('/get-in-touch', 'HomeController@saveshow')->name('showteacher.show');
-Route::get('/schedule-free-call', 'HomeController@call')->name('freecall');
+// form register
+
+
 Route::get('/registerteacher', 'TeacherController@registerteacher')->name('registerteacher');
 
 Auth::routes();
@@ -51,8 +52,18 @@ Auth::routes();
 
 //Home Controller
 Route::get('/', 'HomeController@index')->name('index');
+Route::get('/get-in-touch', 'HomeController@saveshow')->name('showteacher.show');
 Route::post('/savecontact', 'HomeController@savecontact')->name('savecontact');
+Route::get('/schedule-free-call', function () {
+    return view('freecall');
+})->name('freecall');
 Route::post('/getcity', 'HomeController@getcity')->name('getcity');
-Route::get('/termsandconditions', 'HomeController@termsandconditions')->name('termsandconditions');
-Route::get('/privacypolicies', 'HomeController@privacypolicies')->name('privacypolicies');
-Route::get('/faq', 'HomeController@faq')->name('faq');
+Route::get('/termsandconditions', function () {
+    return view('website.termandcondition');
+})->name('termsandconditions');
+Route::get('/privacypolicies', function () {
+    return view('website.privacypolicy');
+})->name('privacypolicies');
+Route::get('/faq', function () {
+    return view('website.faq');
+})->name('faq');

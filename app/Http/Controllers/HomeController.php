@@ -19,18 +19,18 @@ class HomeController extends Controller
         $data['state'] = State::where('country_id', 101)->get();
         return view('welcome')->with($data);
     }
-    public function faq()
-    {
-        return view('website.faq');
-    }
-    public function termsandconditions()
-    {
-        return view('website.termandcondition');
-    }
-    public function privacypolicies()
-    {
-        return view('website.privacypolicy');
-    }
+    // public function faq()
+    // {
+    //     return view('website.faq');
+    // }
+    // public function termsandconditions()
+    // {
+    //     return view('website.termandcondition');
+    // }
+    // public function privacypolicies()
+    // {
+    //     return view('website.privacypolicy');
+    // }
     public function savecontact(ContactRequest $request)
     {
 
@@ -65,8 +65,8 @@ class HomeController extends Controller
 
         return view('contantform')->with($data);
     }
-    public function call()
-    {
-        return view('freecall');
-    }
+    // public function call()
+    // {
+    //     return view('freecall');
+    // }
 }
