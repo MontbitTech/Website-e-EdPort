@@ -73,11 +73,13 @@ class ContactController extends Controller
     {
 
         // dd($request->state_id);
-        $city1 = Contact::where('state', '=', $request->state_id)->get();
-       // dd($city1);
-        $city = City::where('id', $city1[0]->city)->get();
-        // dd($city->name);
-        echo json_encode($city);
+        $city1 = Contact::where('state', $request->state_id)->get();
+        // dd($city1[0]->city);
+        $city = City::where('id', '=', $city1[0]->city)
+            ->where('state_id', '=', $request->state_id)
+            ->get();
+        //  dd($city);        
+        echo json_encode(array('data' => $city));
         exit;
     }
     public function edit($id)
