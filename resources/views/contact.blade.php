@@ -66,7 +66,7 @@
                             </div>
                             <div class="form-group col-md-2">
                                 <label for="coursename">State</label>
-                                <select class="form-control filter filter1" name="state" id="state">
+                                <select class="form-control filter" name="state" id="state">
                                     <option value="">Select State</option>
                                     @foreach($contact->unique('state') as $t)
                                     <option value="{{$t->state}}">{{$t->getstate->name}}</option>
@@ -277,28 +277,28 @@
 </script>
 <script>
     $(document).ready(function() {
-        $('.filter1').on('change', function() {
-            var state_id = $('#state').val();
-            $.ajax({
-                url: "{{route('showcity')}}",
-                type: 'POST',
-                dataType: "json",
-                data: {
-                    'state_id': state_id
-                },
-                success: function(data) {
-                    var listItems1;
-                    listItems1 += "<option value=''>Select City</option>";
-                    for (var i = 0; i < data.length; i++) {
-                        listItems1 += "<option value='" + data[i].id + "'>" + data[i].name + "</option>";
+        $('#state').change(function() {
+            var menu = $(this).val();
+            if (menu) {
+                $.ajax({
+                    type: "POST",
+                    url: "{{route('showcity')}}?state=" + menu,
+                    success: function(res) {
+                        if (res) {
+                            $("#city").empty();
+                            $("#city").append('<option>Select City</option>');
+                            $.each(res, function(key, value) {
+                                $("#city").append('<option value="' + key + '">' + value.getcity.name + '</option>');
+                            });
+                        } else {
+                            $("#state").empty();
+                        }
                     }
-
-                    $("#city").html(listItems1);
-
-                }
-            });
+                });
+            }
         });
     });
+</script>
 </script>
 <script>
     $(document).ready(function() {

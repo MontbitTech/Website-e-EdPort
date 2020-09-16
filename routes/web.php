@@ -70,7 +70,7 @@ Route::get('/faq', function () {
 
 // Products 
 Route::get('/products/e-EdPort-Virtual-Classroom-Solution', function () {
-    return view('website.products.ParentalControl');
+    return view('website.products.virtualClassroom');
 })->name('products.classroomsolution');
 
 Route::get('/products/e-EdPort-Student-Self-Learning-Solution', function () {

@@ -134,7 +134,7 @@
                           <img src="{{asset('assets\images\Deliverables\solvedpracticeexercise.png')}}" alt="Icon">
                       </div>
                       <div class="about-content media-body">
-                          <h4 class="about-title">Solved Practice Exercises</h4>
+                          <h4 class="about-title">Parental Control App</h4>
                           <p class="text">Solved practice questions that help students master each chapter.</p>
                       </div>
                   </div> <!-- single about -->
@@ -145,7 +145,7 @@
                           <img src="{{asset('assets/images/Deliverables/Competitiveexamreparation.png')}}" alt="Icon">
                       </div>
                       <div class="about-content media-body">
-                          <h4 class="about-title">Competitive Exam Preparation</h4>
+                          <h4 class="about-title">Smart Teacher Certification</h4>
                           <p class="text">Beyond school services help students prepare for future.
                               (Helping students beyond school services by preparing them for the future)
                           </p>
