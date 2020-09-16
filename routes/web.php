@@ -67,3 +67,65 @@ Route::get('/privacypolicies', function () {
 Route::get('/faq', function () {
     return view('website.faq');
 })->name('faq');
+
+// Products 
+Route::get('/products/e-EdPort-Virtual-Classroom-Solution', function () {
+    return view('website.products.ParentalControl');
+})->name('products.classroomsolution');
+
+Route::get('/products/e-EdPort-Student-Self-Learning-Solution', function () {
+    return view('website.products.StudentSelf-Learning');
+})->name('products.StudentSelf-Learning');
+
+Route::get('/products/e-EdPort-Parental-Control-App', function () {
+    return view('website.products.ParentalControl');
+})->name('products.ParentalControl');
+
+// Services
+Route::get('/services/e-EdPort-Smart-Teacher-Training', function () {
+    return view('website.services.TeacherTraining');
+})->name('services.TeacherTraining');
+
+Route::get('/services/e-EdPort-Smart-Teacher-Certification', function () {
+    return view('website.services.TeacherCertification');
+})->name('services.TeacherCertification');
+
+Route::get('/services/e-EdPort-Student-Career-Counselling', function () {
+    return view('website.services.CareerCounselling');
+})->name('services.CareerCounselling');
+
+
+// Resources
+Route::get('/resources/Brochure', function () {
+    return view('website.resources.brochure');
+})->name('resources.brochure');
+
+Route::get('/resources/Events', function () {
+    return view('website.resources.events');
+})->name('resources.events');
+
+Route::get('/resources/FAQ’s', function () {
+    return view('website.resources.faqs');
+})->name('resources.faqs');
+
+
+// About 
+Route::get('/about/Company-Overview', function () {
+    return view('website.about.companyOverview');
+})->name('about.companyOverview');
+
+Route::get('/about/Leadership-Team', function () {
+    return view('website.about.leadershipTeam');
+})->name('about.leadershipTeam');
+
+Route::get('/about/Latest-News', function () {
+    return view('website.about.latestNews');
+})->name('about.latestNews');
+
+Route::get('/about/Careers', function () {
+    return view('website.about.careers');
+})->name('about.careers');
+
+Route::get('/about/ContactUs', function () {
+    return view('website.about.contactUs');
+})->name('about.contactUs');

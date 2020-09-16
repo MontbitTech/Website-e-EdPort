@@ -25,14 +25,8 @@
     <!--====== Magnific Popup css ======-->
     <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css')}}">
 
-    <!--====== Slick css ======-->
-    <link rel="stylesheet" href="{{ asset('assets/css/slick.css')}}">
 
-    <!--====== Animate css ======-->
-    <link rel="stylesheet" href="{{ asset('assets/css/animate.css')}}">
 
-    <!--====== Default css ======-->
-    <link rel="stylesheet" href="{{ asset('assets/css/default.css')}}">
 
     <!--====== Style css ======-->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
@@ -200,201 +194,17 @@
     </audio>
 </body>
 
-<script>
-    $(document).ready(function() {
-        $('.filter').on('change', function() {
-            var state_id = $('#state').val();
-            $.ajax({
-                url: "{{route('getcity')}}",
-                type: 'POST',
-                dataType: "json",
-                data: {
-                    'state_id': state_id
-                },
-                success: function(data) {
-                    var listItems1;
-                    listItems1 += "<option value=''>Select City</option>";
-                    for (var i = 0; i < data.length; i++) {
-                        listItems1 += "<option value='" + data[i].id + "'>" + data[i].name + "</option>";
-                    }
 
-                    $("#city").html(listItems1);
-
-                }
-            });
-        });
-    });
-</script>
-<script>
-    function showhide() {
-        $('.portfolio-card').addClass('hidden');
-        var a = document.getElementById("virtual");
-        a.classList.toggle('hidden');
-    }
-
-
-    function showinstitutional() {
-
-        $('.portfolio-card').addClass('hidden');
-        var b = document.getElementById("institutional");
-        b.classList.toggle('hidden');
-    }
-
-    function showsmart() {
-
-        $('.portfolio-card').addClass('hidden');
-        var c = document.getElementById("smart");
-        c.classList.toggle('hidden');
-    }
-
-    function showstudent() {
-
-        $('.portfolio-card').addClass('hidden');
-        var d = document.getElementById("student");
-        d.classList.toggle('hidden');
-    }
-
-    function showinternational() {
-
-        $('.portfolio-card').addClass('hidden');
-        var e = document.getElementById("International");
-        e.classList.toggle('hidden');
-    }
-</script>
 
 <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            xfbml: true,
-            version: 'v8.0'
-        });
-    };
 
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
 
 <!-- Your Chat Plugin code -->
 <div class="fb-customerchat" attribution=setup_tool page_id="111542750588557" logged_in_greeting="Hi! We can provide you a product demo. Interested?" logged_out_greeting="Hi! We can provide you a product demo. Interested?">
 </div>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $.validator.setDefaults({
-            submitHandler: function(form) {
-                form.submit();
-            }
-        });
-        $('#saveteacher').validate({
-            rules: {
-                contactname: {
-                    required: true,
-                    minlength: 5
-                },
-                contactemail: {
-                    required: true,
-                    email: true
-                },
-                mobileno: {
-                    required: true,
-                    number: true,
-                    minlength: 10,
-                    maxlength: 12
-                },
-                entityvalue: {
-                    required: true
-                },
-                institutionname: {
-                    required: true
-                },
-                city: {
-                    required: true
-                },
-                state: {
-                    required: true
-                }
-            },
-            messages: {
-                contactname: {
-                    required: "Enter The Name",
-                    minlength: "Please, at least {0} characters are necessary"
-                },
-                contactemail: {
-                    required: "Enter The Email",
-                    email: "Please, Enter Valid Email"
-                },
-                mobileno: {
-                    required: "Enter Phone No."
-                },
-                entityvalue: {
-                    required: "Select The Entity"
-                },
-                institutionname: {
-                    required: "Enter The Institution Name"
-                },
-                city: {
-                    required: "Enter The City"
-                },
-                state: {
-                    required: "Enter The State"
-                }
-            },
-            errorElement: 'span',
-            errorPlacement: function(error, element) {
-                error.addClass('invalid-feedback');
-                element.closest('.form-group').append(error);
-            },
-            highlight: function(element, errorClass, validClass) {
-                $(element).addClass('is-invalid');
-            },
-            unhighlight: function(element, errorClass, validClass) {
-                $(element).removeClass('is-invalid');
-            }
-        });
-    });
-</script>
-<script>
-    $('body').on('click', '.goto', function(event) {
-        var id = $(this).attr('data-id');
-        $("#" + id).trigger("click");
-    });
-</script>
-@if ($errors->any())
-@foreach ($errors->all() as $error)
-<script type="text/javascript">
-    toastr.error('{{$error}}');
-</script>
-@endforeach
-@endif
-
-@if ( Session::has('flash_message') )
-<script type="text/javascript">
-    const Toast = Swal.mixin({
-        toast: true,
-        position: 'top-end',
-        timer: 3000,
-        padding: '1em',
-        showConfirmButton: false,
-        timerProgressBar: true,
-        onOpen: (toast) => {
-            toast.addEventListener('mouseenter', Swal.stopTimer)
-            toast.addEventListener('mouseleave', Swal.resumeTimer)
-        }
-    });
 
 
-    Toast.fire({
-        icon: "{{ Session::get('flash_type') }}",
-        title: "<h6><b>{{ Session::get('flash_message') }}</b></h6>"
-    });
-</script>
-@endif
+
+
 
 </html>

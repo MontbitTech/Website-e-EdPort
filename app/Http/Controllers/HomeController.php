@@ -16,8 +16,9 @@ class HomeController extends Controller
 
     public function index()
     {
-        $data['state'] = State::where('country_id', 101)->get();
-        return view('welcome')->with($data);
+        // $data['state'] = State::where('country_id', 101)->get();
+        return view('welcome');
+        //->with($data);
     }
     // public function faq()
     // {
@@ -62,7 +63,7 @@ class HomeController extends Controller
     public function saveshow()
     {
         $data['state'] = State::where('country_id', 101)->get();
-
+        // dd($data);
         return view('contantform')->with($data);
     }
     // public function call()
