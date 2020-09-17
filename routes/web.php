@@ -77,8 +77,8 @@ Route::get('/products/e-edport-student-self-learning-solution', function () {
 })->name('products.studentselflLearning');
 
 Route::get('/products/e-edport-parental-control-app', function () {
-    return view('website.products.parentalControl');
-})->name('products.parentalControl');
+    return view('website.products.parentalcontrol');
+})->name('products.parentalcontrol');
 
 // Services
 Route::get('/services/e-edport-smart-teacher-training', function () {

@@ -126,7 +126,7 @@
                                             <a class="dropdown-item" href="{{route('products.studentselflLearning')}}">
                                                 e-EdPort Student Self-Learning Solution
                                             </a>
-                                            <a class="dropdown-item" href="{{route('products.ParentalControl')}}">
+                                            <a class="dropdown-item" href="{{route('products.parentalcontrol')}}">
                                                 e-EdPort Parental Control App
                                             </a>
 
@@ -142,13 +142,13 @@
                                         </a>
 
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="{{route('services.TeacherTraining')}}">
+                                            <a class="dropdown-item" href="{{route('services.teachertraining')}}">
                                                 e-EdPort Smart Teacher Training
                                             </a>
-                                            <a class="dropdown-item" href="{{route('services.TeacherCertification')}}">
+                                            <a class="dropdown-item" href="{{route('services.teachercertification')}}">
                                                 e-EdPort Smart Teacher Certification
                                             </a>
-                                            <a class="dropdown-item" href="{{route('services.CareerCounselling')}}">
+                                            <a class="dropdown-item" href="{{route('services.careercounselling')}}">
                                                 e-EdPort Student Career Counselling
                                             </a>
 
@@ -186,19 +186,19 @@
                                         </a>
 
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="{{route('about.companyOverview')}}">
+                                            <a class="dropdown-item" href="{{route('about.companyoverview')}}">
                                                 Company Overview
                                             </a>
-                                            <a class="dropdown-item" href="{{route('about.leadershipTeam')}}">
+                                            <a class="dropdown-item" href="{{route('about.leadershipteam')}}">
                                                 Leadership Team
                                             </a>
-                                            <a class="dropdown-item" href="{{route('about.latestNews')}}">
+                                            <a class="dropdown-item" href="{{route('about.latestnews')}}">
                                                 Latest News
                                             </a>
                                             <a class="dropdown-item" href="{{route('about.careers')}}">
                                                 Careers
                                             </a>
-                                            <a class="dropdown-item" href="{{route('about.contactUs')}}">
+                                            <a class="dropdown-item" href="{{route('about.contactus')}}">
                                                 Contact Us
                                             </a>
 
