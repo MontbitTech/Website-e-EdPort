@@ -1,7 +1,7 @@
  @extends('layouts.website.app')
 
  @section('content')
- <section id="contact" class="contact-area">
+ <section id="contact" class="contact-area bg-white">
      <div class="container">
          <div class="row justify-content-center">
              <div class="col-lg-6">
