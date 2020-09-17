@@ -4,12 +4,22 @@
  <style>
      .btn-hover:hover {
          transition: font-size .5s;
-         font-size: 18px;
+         font-size: 1.125rem;
+     }
+
+     .nav-pills .nav-link.active,
+     .nav-pills .show>.nav-link {
+         color: white !important;
+         background-color: #161f33 !important;
+     }
+
+     #generalonecoll .card {
+         max-width: 100% !important;
      }
 
      @media (max-width: 991.98px) {
          .btn-hover {
-             margin-bottom: 20px;
+             margin-bottom: 1.25rem;
          }
      }
  </style>
@@ -50,20 +60,7 @@
                      </div>
                  </div>
              </div>
-             <!-- <div class="row align-items-center">
-                 <div class="col-lg-7 text-center about-img">
-                     <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.2s">
-                         <img src="{{asset('assets/images/story.png')}}" alt="Girl in a jacket" width="100%" height="100%">
-                     </div>
-                 </div>
-                 <div class="col-lg-5 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s">
-                     <h3 class="mb-4 section-heading"><strong>Our Story</strong></h3>
 
-                     <p class="mb-1" style="line-height:1.7">
-                         The Indian education system is changing. Fuelling the change, we at e-EdPort aspire to provide a reliable virtual system to our educational institutes so that the education never stops. Our primary focus is to connect educators with their students over a simplified platform. e-EdPort has made its aim to empower educators in technology and make them self-sufficient in their object of nurturing the future generation.</p>
-
-                 </div>
-             </div> -->
 
          </div>
      </div>
@@ -422,6 +419,97 @@
                  </div>
 
              </div>
+         </div>
+     </div>
+
+
+ </section>
+ <section id="deliverables" class="contact-area">
+     <div class="container">
+         <div class="row justify-content-center">
+             <div class="col-lg-6">
+                 <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
+                     <h4 class="title">FAQS
+                         <hr class="justify-content-center" width="120" style=" border-top: 1px solid #161f33; margin-left: 208px;">
+                     </h4>
+                 </div>
+             </div>
+         </div>
+         <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+             <li class="nav-item ">
+                 <a class="nav-link active rounded-pill pl-5 pr-5 mr-5  text-white" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" style="background-color: #161f3373;">General</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link rounded-pill pl-5 pr-5 ml-5 text-white" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="background-color: #161f3373; ">Technical</a>
+             </li>
+
+         </ul>
+         <div class="tab-content " id="pills-tabContent">
+             <div class="tab-pane fade show active justify-content-center text-centerm " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                 <div id="accordion">
+                     <div class="row">
+                         <div class="col-lg-12">
+                             <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalone" style="cursor: pointer;" data-toggle="collapse" data-target="#generalonecoll" aria-expanded="true" aria-controls="generalonecoll">
+                                     Is your app secure?
+                                 </div>
+                                 <div id="generalonecoll" class="collapse pl-2 text-left" aria-labelledby="generalone" data-parent="#accordion">
+                                     Yes, our app is complete secured. There will be no issue of datasharing. All information submitted by you remain safe.
+                                 </div>
+                             </div>
+                             <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#generaltwocoll" aria-expanded="true" aria-controls="generaltwocoll">
+                                     How do you train to use your app?
+                                 </div>
+                                 <div id="generaltwocoll" class="collapse pl-2 text-left" aria-labelledby="generaltwo" data-parent="#accordion">
+                                     Our team will provide you prior training before selling you the app sontgat you can cell well acquainted.
+                                 </div>
+                             </div>
+                             <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#generalthreecoll" aria-expanded="true" aria-controls="generalthreecoll">
+                                     What educational function does you provide?
+                                 </div>
+                                 <div id="generalthreecoll" class="collapse pl-2 text-left" aria-labelledby="generalthree" data-parent="#accordion">
+                                     We have demo videos, online presentations, tutorials etc. that can be used for training.
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="tab-pane fade justify-content-center text-center" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                 <div id="accordion">
+                     <div class="row">
+                         <div class="col-lg-12">
+                             <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalone" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalonecoll" aria-expanded="true" aria-controls="technicalonecoll">
+                                     Can I use your app on my iOS mobile?
+                                 </div>
+                                 <div id="technicalonecoll" class="collapse pl-2 text-left" aria-labelledby="technicalone" data-parent="#accordion">
+                                     Yes, this app is accessible on both android and iOS mobiles with certain specifications and proper internet.
+                                 </div>
+                             </div>
+                             <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#technicaltwocoll" aria-expanded="true" aria-controls="technicaltwocoll">
+                                     Do I have to make monthly payments?
+                                 </div>
+                                 <div id="technicaltwocoll" class="collapse pl-2 text-left" aria-labelledby="technicaltwo" data-parent="#accordion">
+                                     No, it's a CMS software which you have to buy for a single time and then you can access it throughout the session.
+                                 </div>
+                             </div>
+                             <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalthreecoll" aria-expanded="true" aria-controls="technicalthreecoll">
+                                     How we can login?
+                                 </div>
+                                 <div id="technicalthreecoll" class="collapse pl-2 text-left" aria-labelledby="technicalthree" data-parent="#accordion">
+                                     You have to signup with an official email id and password, and then you can use the CMS any time.
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
          </div>
      </div>
  </section>
