@@ -21,6 +21,10 @@
          .btn-hover {
              margin-bottom: 1.25rem;
          }
+
+         .faqss {
+             margin-bottom: 1.25rem;
+         }
      }
  </style>
  <section id="about" class="portfolio-area">
@@ -430,17 +434,17 @@
              <div class="col-lg-6">
                  <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
                      <h4 class="title">FAQS
-                         <hr class="justify-content-center" width="120" style=" border-top: 1px solid #161f33; margin-left: 208px;">
+                         <hr style=" border-top: 1px solid #161f33; ">
                      </h4>
                  </div>
              </div>
          </div>
          <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-             <li class="nav-item ">
-                 <a class="nav-link active rounded-pill pl-5 pr-5 mr-5  text-white" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" style="background-color: #161f3373;">General</a>
+             <li class="nav-item justify-content-center">
+                 <a class="nav-link active rounded-pill pl-5 pr-5 faqss mr-5  text-white" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" style="background-color: #161f3373;">General</a>
              </li>
-             <li class="nav-item">
-                 <a class="nav-link rounded-pill pl-5 pr-5 ml-5 text-white" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="background-color: #161f3373; ">Technical</a>
+             <li class="nav-item justify-content-center">
+                 <a class="nav-link  rounded-pill pl-5 pr-5   mr-5   text-white" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="background-color: #161f3373; ">Technical</a>
              </li>
 
          </ul>
@@ -478,14 +482,14 @@
                  </div>
              </div>
              <div class="tab-pane fade justify-content-center text-center" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                 <div id="accordion">
+                 <div id="accordion1">
                      <div class="row">
                          <div class="col-lg-12">
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalone" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalonecoll" aria-expanded="true" aria-controls="technicalonecoll">
                                      Can I use your app on my iOS mobile?
                                  </div>
-                                 <div id="technicalonecoll" class="collapse pl-2 text-left" aria-labelledby="technicalone" data-parent="#accordion">
+                                 <div id="technicalonecoll" class="collapse pl-2 text-left" aria-labelledby="technicalone" data-parent="#accordion1">
                                      Yes, this app is accessible on both android and iOS mobiles with certain specifications and proper internet.
                                  </div>
                              </div>
@@ -493,7 +497,7 @@
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#technicaltwocoll" aria-expanded="true" aria-controls="technicaltwocoll">
                                      Do I have to make monthly payments?
                                  </div>
-                                 <div id="technicaltwocoll" class="collapse pl-2 text-left" aria-labelledby="technicaltwo" data-parent="#accordion">
+                                 <div id="technicaltwocoll" class="collapse pl-2 text-left" aria-labelledby="technicaltwo" data-parent="#accordion1">
                                      No, it's a CMS software which you have to buy for a single time and then you can access it throughout the session.
                                  </div>
                              </div>
@@ -501,7 +505,7 @@
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalthreecoll" aria-expanded="true" aria-controls="technicalthreecoll">
                                      How we can login?
                                  </div>
-                                 <div id="technicalthreecoll" class="collapse pl-2 text-left" aria-labelledby="technicalthree" data-parent="#accordion">
+                                 <div id="technicalthreecoll" class="collapse pl-2 text-left" aria-labelledby="technicalthree" data-parent="#accordion1">
                                      You have to signup with an official email id and password, and then you can use the CMS any time.
                                  </div>
                              </div>
