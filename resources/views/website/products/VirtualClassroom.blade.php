@@ -68,7 +68,7 @@
 
          </div>
      </div>
-     <section id="portfolio" class="portfolio-area">
+     <section id="portfolio" class="portfolio-area bg-light">
          <div class="container-fluid">
              <div class="row justify-content-center">
                  <div class="col-lg-6">
@@ -428,8 +428,8 @@
 
 
  </section>
- <section id="deliverables" class="contact-area">
-     <div class="container">
+ <section id="deliverables" class="contact-area bg-white">
+     <div class="container ">
          <div class="row justify-content-center">
              <div class="col-lg-6">
                  <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
