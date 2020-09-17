@@ -93,11 +93,6 @@
                                  </div>
                              </div> <!-- single about -->
                          </div>
-
-
-
-
-
                          <div class="col-lg-6 ">
                              <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
 
@@ -110,11 +105,6 @@
                                  </div>
                              </div> <!-- single about -->
                          </div>
-
-
-
-
-
                          <div class="col-lg-6 ">
                              <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
 
@@ -127,11 +117,6 @@
                                  </div>
                              </div> <!-- single about -->
                          </div>
-
-
-
-
-
                          <div class="col-lg-6 ">
                              <div class="single-about d-sm-flex mt-30  Features pb-3 pt-2 pl-2 media">
 
@@ -145,10 +130,6 @@
                                  </div>
                              </div> <!-- single about -->
                          </div>
-
-
-
-
                          <div class="col-lg-6 ">
                              <div class="single-about d-sm-flex mt-30 Features pb-3 pt-2 pl-2 media">
 
@@ -163,10 +144,6 @@
                                  </div>
                              </div> <!-- single about -->
                          </div>
-
-
-
-
                          <div class="col-lg-6 ">
                              <div class="single-about media d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
 
@@ -184,60 +161,6 @@
 
                  </div>
 
-
-
-                 <div id="institutional" class="hidden portfolio-card institutional-brand">
-                     <div class="row">
-                         <div class="col-lg-6">
-                             <div class="single-about d-sm-flex mt-30   pb-3 pt-2 pl-2 Features media ">
-
-                                 <img src="{{asset('assets\images\KeyFeatures\InstitutionalBranding\School Website_2.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                                 <div class="about-content media-body">
-                                     <h5 class="mt-0 mb-1">School Website</h5>
-                                     <p class="text pr-2">Create your digital identity with your School Website.
-                                     </p>
-                                 </div>
-                             </div> <!-- single about -->
-                         </div>
-
-
-
-
-
-                         <div class="col-lg-6">
-                             <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media ">
-
-                                 <img src="{{asset('assets\images\KeyFeatures\InstitutionalBranding\DigitalmarketingSetup.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                                 <div class="about-content media-body">
-                                     <h5 class="mt-0 mb-1">Digital Marketing Setup</h5>
-                                     <p class="text pr-2">Increasing your brand presence with your own
-                                         website along with social media pages.
-                                     </p>
-                                 </div>
-                             </div> <!-- single about -->
-                         </div>
-
-
-
-
-
-                         <div class="col-lg-6">
-                             <div class="single-about d-sm-flex  mt-30 pb-3 pt-2 pl-2 Features media">
-
-                                 <img src="{{asset('assets\images\KeyFeatures\InstitutionalBranding\PromotinalVideo.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                                 <div class="about-content media-body">
-                                     <h5 class="mt-0 mb-1">Promotional Videos</h5>
-                                     <p class="text pr-2"> Promotional video content for individual schools.
-                                     </p>
-                                 </div>
-                             </div> <!-- single about -->
-                         </div>
-                     </div>
-
-                 </div>
 
 
                  <div id="smart" class="hidden  portfolio-card smart-teacher">
@@ -294,108 +217,6 @@
 
 
 
-                 <div id="student" class="hidden portfolio-card student-groom">
-                     <div class="row">
-                         <div class="col-lg-6">
-                             <div class="single-about d-sm-flex  mt-30 pb-3 pt-2 pl-2 Features media">
-                                 <div class="about-icon">
-                                     <img src="{{asset('assets\images\KeyFeatures\Studentgrooming\Careerguidance.png')}}" alt="Icon" class="align-self-center mr-3">
-                                 </div>
-                                 <div class="about-content media-body">
-                                     <h5 class="mt-0 mb-1">Career Guidance</h5>
-                                     <p class="text pr-2">Counselling students to navigate their future.
-                                     </p>
-                                 </div>
-                             </div>
-                         </div>
-
-
-
-
-
-                         <div class="col-lg-6">
-                             <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
-                                 <img src="{{asset('assets\images\KeyFeatures\Studentgrooming\resumewriting.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                                 <div class="about-content media-body">
-                                     <h5 class="mt-0 mb-1">Resume Writing</h5>
-                                     <p class="text pr-2">Training students to put their best foot forward.
-                                     </p>
-                                 </div>
-                             </div> <!-- single about -->
-                         </div>
-
-
-
-
-
-                         <div class="col-lg-6">
-                             <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
-                                 <img src="{{asset('assets\images\KeyFeatures\Studentgrooming\Softskilltraining.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                                 <div class="about-content media-body">
-                                     <h5 class="mt-0 mb-1">Soft Skill Training</h5>
-                                     <p class="text pr-2">Assist students to interact in an effective and
-                                         harmonious way.</p>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-                 <div id="International" class="hidden portfolio-card International-Exchange">
-                     <div class="row">
-                         <div class="col-lg-6">
-                             <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
-                                 <img src="{{asset('assets\images\KeyFeatures\InternationalExchangeProgram\InternationalExposure.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                                 <div class="about-content media-body">
-                                     <h5 class="mt-0 mb-1">International Exposure</h5>
-                                     <p class="text pr-2">Helping students attain a global perspective.
-                                     </p>
-                                 </div>
-                             </div> <!-- single about -->
-                         </div>
-
-
-
-
-
-                         <div class="col-lg-6">
-                             <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
-                                 <img src="{{asset('assets\images\KeyFeatures\InternationalExchangeProgram\CulturalExposure.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                                 <div class="about-content media-body">
-                                     <h5 class="mt-0 mb-1">Cultural Exposure</h5>
-                                     <p class="text pr-2">Discovering and unveiling cultural diversities and
-                                         connecting with people from varying backgrounds.
-                                     </p>
-                                 </div>
-                             </div>
-                         </div>
-
-
-
-
-
-                         <div class="col-lg-6">
-                             <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
-                                 <img src="{{asset('assets\images\KeyFeatures\InternationalExchangeProgram\LanguageAcquisition.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                                 <div class="about-content media-body">
-                                     <h5 class="mt-0 mb-1">Language Acquisition </h5>
-                                     <p class="text pr-2">Acquainting students with global languages,
-                                         stimulating them to become multilingual.
-                                     </p>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
              </div>
          </div>
      </section>
