@@ -72,59 +72,59 @@ Route::get('/products/e-EdPort-Virtual-Classroom-Solution', function () {
     return view('website.products.virtualClassroom');
 })->name('products.classroomsolution');
 
-Route::get('/products/e-EdPort-Student-Self-Learning-Solution', function () {
-    return view('website.products.StudentSelf-Learning');
-})->name('products.StudentSelf-Learning');
+Route::get('/products/e-edport-student-self-learning-solution', function () {
+    return view('website.products.studentself-learning');
+})->name('products.studentselflLearning');
 
-Route::get('/products/e-EdPort-Parental-Control-App', function () {
-    return view('website.products.ParentalControl');
-})->name('products.ParentalControl');
+Route::get('/products/e-edport-parental-control-app', function () {
+    return view('website.products.parentalControl');
+})->name('products.parentalControl');
 
 // Services
-Route::get('/services/e-EdPort-Smart-Teacher-Training', function () {
-    return view('website.services.TeacherTraining');
-})->name('services.TeacherTraining');
+Route::get('/services/e-edport-smart-teacher-training', function () {
+    return view('website.services.teachertraining');
+})->name('services.teachertraining');
 
-Route::get('/services/e-EdPort-Smart-Teacher-Certification', function () {
-    return view('website.services.TeacherCertification');
-})->name('services.TeacherCertification');
+Route::get('/services/e-edport-smart-teacher-certification', function () {
+    return view('website.services.teachercertification');
+})->name('services.teachercertification');
 
-Route::get('/services/e-EdPort-Student-Career-Counselling', function () {
-    return view('website.services.CareerCounselling');
-})->name('services.CareerCounselling');
+Route::get('/services/e-edport-ctudent-career-counselling', function () {
+    return view('website.services.careercounselling');
+})->name('services.careercounselling');
 
 
 // Resources
-Route::get('/resources/Brochure', function () {
+Route::get('/resources/brochure', function () {
     return view('website.resources.brochure');
 })->name('resources.brochure');
 
-Route::get('/resources/Events', function () {
+Route::get('/resources/events', function () {
     return view('website.resources.events');
 })->name('resources.events');
 
-Route::get('/resources/FAQ’s', function () {
+Route::get('/resources/fAQ’s', function () {
     return view('website.resources.faqs');
 })->name('resources.faqs');
 
 
 // About 
-Route::get('/about/Company-Overview', function () {
+Route::get('/about/company-overview', function () {
     return view('website.about.companyOverview');
-})->name('about.companyOverview');
+})->name('about.companyoverview');
 
-Route::get('/about/Leadership-Team', function () {
-    return view('website.about.leadershipTeam');
-})->name('about.leadershipTeam');
+Route::get('/about/leadership-team', function () {
+    return view('website.about.leadershipteam');
+})->name('about.leadershipteam');
 
-Route::get('/about/Latest-News', function () {
-    return view('website.about.latestNews');
-})->name('about.latestNews');
+Route::get('/about/latest-news', function () {
+    return view('website.about.latestnews');
+})->name('about.latestnews');
 
-Route::get('/about/Careers', function () {
+Route::get('/about/careers', function () {
     return view('website.about.careers');
 })->name('about.careers');
 
-Route::get('/about/ContactUs', function () {
-    return view('website.about.contactUs');
-})->name('about.contactUs');
+Route::get('/about/contactus', function () {
+    return view('website.about.contactus');
+})->name('about.contactus');

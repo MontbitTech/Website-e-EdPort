@@ -1,32 +1,6 @@
  @extends('layouts.website.app')
 
  @section('content')
- <style>
-     .btn-hover:hover {
-         transition: font-size .5s;
-         font-size: 1.125rem;
-     }
-
-     .nav-pills .nav-link.active,
-     .nav-pills .show>.nav-link {
-         color: white !important;
-         background-color: #161f33 !important;
-     }
-
-     #generalonecoll .card {
-         max-width: 100% !important;
-     }
-
-     @media (max-width: 991.98px) {
-         .btn-hover {
-             margin-bottom: 1.25rem;
-         }
-
-         .faqss {
-             margin-bottom: 1.25rem;
-         }
-     }
- </style>
  <section id="about" class="portfolio-area">
      <div class="site-section">
          <div class="container">
@@ -34,9 +8,9 @@
                  <div class="col-lg-6">
                      <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
                          <h3 class="title">About Us</h3>
-                     </div> <!-- row -->
+                     </div>
                  </div>
-             </div> <!-- row -->
+             </div>
              <div class="row align-items-center">
                  <div class="col-lg-7 text-center about-img">
                      <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
@@ -75,7 +49,7 @@
                      <div class="section-title text-center pb-20">
                          <h3 class="title">Key Features</h3>
                          <p class="text">Facilitating the elements to empower the Indian School Education System.</p>
-                     </div> <!-- row -->
+                     </div>
                  </div>
              </div>
              <div class="container">

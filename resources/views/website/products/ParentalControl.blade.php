@@ -1,32 +1,6 @@
  @extends('layouts.website.app')
 
  @section('content')
- <style>
-     .btn-hover:hover {
-         transition: font-size .5s;
-         font-size: 1.125rem;
-     }
-
-     .nav-pills .nav-link.active,
-     .nav-pills .show>.nav-link {
-         color: white !important;
-         background-color: #161f33 !important;
-     }
-
-     #generalonecoll .card {
-         max-width: 100% !important;
-     }
-
-     @media (max-width: 991.98px) {
-         .btn-hover {
-             margin-bottom: 1.25rem;
-         }
-
-         .faqss {
-             margin-bottom: 1.25rem;
-         }
-     }
- </style>
  <section id="about" class="portfolio-area">
      <div class="site-section">
          <div class="container">

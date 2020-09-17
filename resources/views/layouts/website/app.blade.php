@@ -112,7 +112,7 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="page-scroll" href="/">HOME</a>
+                                        <a class="page-scroll" href="{{url('/')}}">HOME</a>
                                     </li>
                                     <li class="nav-item dropdown ml-5">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -123,7 +123,7 @@
                                             <a class="dropdown-item" href="{{route('products.classroomsolution')}}">
                                                 e-EdPort Virtual Classroom Solution
                                             </a>
-                                            <a class="dropdown-item" href="{{route('products.StudentSelf-Learning')}}">
+                                            <a class="dropdown-item" href="{{route('products.studentselflLearning')}}">
                                                 e-EdPort Student Self-Learning Solution
                                             </a>
                                             <a class="dropdown-item" href="{{route('products.ParentalControl')}}">
@@ -315,7 +315,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         <div class="copyright text-center text-lg-left mt-10">
-                            <p class="text">© Copyright 2020, All Rights Reserved |<a style="color: #253372" rel="nofollow" href="index.html"> Montbit Technologies.</a></p>
+                            <p class="text">© Copyright 2020, All Rights Reserved |<a style="color: #253372" rel="nofollow" href="{{url('/')}}"> Montbit Technologies.</a></p>
                         </div> <!--  copyright -->
                     </div>
                     <div class="col-lg-2">
