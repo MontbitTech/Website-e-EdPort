@@ -102,13 +102,11 @@
                             <a class="navbar-brand" href="{{route('index')}}">
                                 <img src="{{asset('assets/images/logo-1.png')}}" style="height:70px;" alt="Logo">
                             </a>
-
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarEight" aria-controls="navbarEight" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
                                 <span class="toggler-icon"></span>
                                 <span class="toggler-icon"></span>
                             </button>
-
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item active">
@@ -118,7 +116,6 @@
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Products <span class="caret"></span>
                                         </a>
-
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item" href="{{route('products.classroomsolution')}}">
                                                 e-EdPort Virtual Classroom Solution
@@ -129,18 +126,12 @@
                                             <a class="dropdown-item" href="{{route('products.parentalcontrol')}}">
                                                 e-EdPort Parental Control App
                                             </a>
-
-
                                         </div>
-
-
-
                                     </li>
                                     <li class="nav-item dropdown ml-5">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Services <span class="caret"></span>
                                         </a>
-
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item" href="{{route('services.teachertraining')}}">
                                                 e-EdPort Smart Teacher Training
@@ -151,18 +142,12 @@
                                             <a class="dropdown-item" href="{{route('services.careercounselling')}}">
                                                 e-EdPort Student Career Counselling
                                             </a>
-
-
                                         </div>
-
-
-
                                     </li>
                                     <li class="nav-item dropdown ml-5">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Resources <span class="caret"></span>
                                         </a>
-
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item" href="{{route('resources.brochure')}}">
                                                 Brochure
@@ -173,18 +158,12 @@
                                             <a class="dropdown-item" href="{{route('resources.faqs')}}">
                                                 FAQ’s
                                             </a>
-
-
                                         </div>
-
-
-
                                     </li>
                                     <li class="nav-item dropdown ml-5">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             About <span class="caret"></span>
                                         </a>
-
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item" href="{{route('about.companyoverview')}}">
                                                 Company Overview
@@ -201,27 +180,15 @@
                                             <a class="dropdown-item" href="{{route('about.contactus')}}">
                                                 Contact Us
                                             </a>
-
-
                                         </div>
-
-
-
                                     </li>
-
-
                                 </ul>
                             </div>
-
-                            <!--div class="navbar-btn d-none mt-15 d-lg-inline-block">
-                                <a class="menu-bar" href="#side-menu-right"><i class="lni-menu"></i></a>
-                            </!--div-->
                         </nav> <!-- navbar -->
                     </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </div> <!-- navbar area -->
-
+                </div>
+            </div>
+        </div>
         <div id="home" class="header-hero bg_cover" style="background-image: url({{asset('assets/images/bg3.jpg')}})">
             <div class="container">
                 <div class="row justify-content-center">
@@ -243,8 +210,8 @@
 
                         </div> <!-- header content -->
                     </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
+                </div>
+            </div>
             <div class="header-shape">
                 <img src="{{asset('assets/images/header-shape.svg')}}" alt="shape">
             </div>
@@ -272,7 +239,7 @@
                                 <li><a href="#contact">Contact</a></li>
                                 <li><a href="#pricing">Plans</a></li>
                             </ul>
-                        </div> <!-- footer link -->
+                        </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-link">
@@ -283,7 +250,7 @@
                                 <li><a href="#portfolio" class="goto" data-id="instbrand">Institutional Branding</a></li>
                                 <li><a href="#portfolio" class="goto" data-id="smartteacher">Smart Teacher Training</a></li>
                             </ul>
-                        </div> <!-- footer link -->
+                        </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-link">
@@ -293,7 +260,7 @@
                                 <li><a href="#standard">Standard</a></li>
                                 <li><a href="#premium">Premium</a></li>
                             </ul>
-                        </div> <!-- footer link -->
+                        </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-link">
@@ -304,10 +271,10 @@
                                 <li><a target="_blank" href="{{route('termsandconditions')}}">Terms & Conditions</a></li>
                                 <li><a target="_blank" href="{{route('privacypolicies')}}">Privacy Policy</a></li>
                             </ul>
-                        </div> <!-- footer link -->
+                        </div>
                     </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
+                </div>
+            </div>
         </div> <!-- footer widget -->
 
         <div class="footer-copyright">
@@ -331,34 +298,10 @@
                             <li><a target="_blank" href="https://www.linkedin.com/showcase/electroniceducationportal"><i class="fa fa-linkedin"></i></a></li>
                         </ul> <!-- social -->
                     </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
+                </div>
+            </div>
         </div> <!-- footer copyright -->
     </footer>
-    <!-- Contact Modal Start-->
-
-    <!-- ./Contact Modal Start-->
-    <!--====== FOOTER FOUR PART ENDS ======-->
-
-    <!--====== BACK TOP TOP PART START ======-->
-
-    <!--a href="#" class="back-to-top"><i class="lni-chevron-up" style="color:white"></i></!--a-->
-
-    <!--====== BACK TOP TOP PART ENDS ======-->
-
-    <!--====== PART START ======-->
-
-
-
-    <!--====== PART ENDS ======-->
-
-
-
-
-
-
-
-
 
 
     <!--====== jquery js ======-->

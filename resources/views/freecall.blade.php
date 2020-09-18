@@ -119,34 +119,6 @@
         </div>
 
     </div>
-
-
-
-
-    <!-- ./Contact Modal Start-->
-    <!--====== FOOTER FOUR PART ENDS ======-->
-
-    <!--====== BACK TOP TOP PART START ======-->
-
-    <!--a href="#" class="back-to-top"><i class="lni-chevron-up" style="color:white"></i></!--a-->
-
-    <!--====== BACK TOP TOP PART ENDS ======-->
-
-    <!--====== PART START ======-->
-
-
-
-    <!--====== PART ENDS ======-->
-
-
-
-
-
-
-
-
-
-
     <!--====== jquery js ======-->
     <script src="{{ asset('assets/js/vendor/modernizr-3.6.0.min.js')}}"></script>
     <script type="text/javascript" src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
