@@ -16,22 +16,21 @@ class HomeController extends Controller
 
     public function index()
     {
-        // $data['state'] = State::where('country_id', 101)->get();
-        return view('welcome');
-        //->with($data);
+        $data['state'] = State::where('country_id', 101)->get();
+        return view('welcome')->with($data);
     }
-    // public function faq()
-    // {
-    //     return view('website.faq');
-    // }
-    // public function termsandconditions()
-    // {
-    //     return view('website.termandcondition');
-    // }
-    // public function privacypolicies()
-    // {
-    //     return view('website.privacypolicy');
-    // }
+    public function faq()
+    {
+        return view('faq');
+    }
+    public function termsandconditions()
+    {
+        return view('termandcondition');
+    }
+    public function privacypolicies()
+    {
+        return view('privacypolicy');
+    }
     public function savecontact(ContactRequest $request)
     {
 
@@ -56,18 +55,20 @@ class HomeController extends Controller
     }
     public function getcity(Request $request)
     {
+
         $city = City::where('state_id', trim($request->state_id))->get();
+
+        //dd($contact);
         echo json_encode($city);
         exit;
     }
     public function saveshow()
     {
         $data['state'] = State::where('country_id', 101)->get();
-        // dd($data);
         return view('contantform')->with($data);
     }
-    // public function call()
-    // {
-    //     return view('freecall');
-    // }
+    public function call()
+    {
+        return view('freecall');
+    }
 }
