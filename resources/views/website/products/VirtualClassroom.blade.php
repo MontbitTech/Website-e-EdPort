@@ -1,5 +1,6 @@
  @extends('layouts.website.app')
-
+ @section('heading') Digital Replica of Traditional Classroom @endsection
+ @section('sub-heading')Bringing Your Classroom to Your Home @endsection
  @section('content')
  <section id="about" class="portfolio-area">
      <div class="site-section">

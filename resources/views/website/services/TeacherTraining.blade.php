@@ -1,5 +1,6 @@
  @extends('layouts.website.app')
-
+ @section('heading') Get trained to implement technology into education @endsection
+ @section('sub-heading')Time to get a grip over the key skills of online teaching @endsection
  @section('content')
  <section id="about" class="portfolio-area">
      <div class="site-section">

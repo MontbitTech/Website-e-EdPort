@@ -1,5 +1,6 @@
  @extends('layouts.website.app')
-
+ @section('heading') Be a Cautious Parent not a Controlling One @endsection
+ @section('sub-heading') Become a Smart Parent by downloading our Parental Control App. @endsection
  @section('content')
  <section id="about" class="portfolio-area">
      <div class="site-section">

@@ -192,12 +192,10 @@
         <div id="home" class="header-hero bg_cover" style="background-image: url({{asset('assets/images/bg3.jpg')}})">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-11 col-lg-11">
-                        <div class="header-content text-center">
-                            <h3 class="header-title wow fadeInUp" data-wow-duration=".7s" data-wow-delay="0.8s">
-                                EMPOWERING, ASSISTING & UPGRADING INSTITUTIONS</h3>
-                            <p class="text wow fadeInUp" style="color:#1a1a1a" data-wow-duration=".7s" data-wow-delay="0.9s">EXPANDING THE
-                                EDUCATIONAL HORIZON</p>
+                    <div class="col-xl-12 col-lg-12 mx-0">
+                        <div class="header-content text-center mx-0">
+                            <h3 class="header-title wow fadeInUp mx-0" data-wow-duration=".7s" data-wow-delay="0.8s">@yield('heading')</h3>
+                            <p class="text wow fadeInUp" style="color:#1a1a1a" data-wow-duration=".7s" data-wow-delay="0.9s">@yield('sub-heading')</p>
                             <ul class="header-btn rounded-buttons mb-2">
                                 <li><a style="background-color: #ffffffb3" class="main-btn btn-two video-popup wow fadeInUp" data-wow-duration=".7s" data-wow-delay="1s" href="#">WATCH
                                         THE VIDEO <i class="lni-play"></i></a></li>

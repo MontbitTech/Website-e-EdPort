@@ -1,5 +1,6 @@
  @extends('layouts.website.app')
-
+ @section('heading')Self- explanatory, Self-motivating & Self- evaluating @endsection
+ @section('sub-heading') The Best Opportunity for Kids to Learn on their Own. @endsection
  @section('content')
  <!-- About Us -->
  <section id="about" class="portfolio-area">

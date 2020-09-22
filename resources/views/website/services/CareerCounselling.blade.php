@@ -1,4 +1,6 @@
  @extends('layouts.website.app')
+ @section('heading') Plan Your Career with Our Experienced Mentors @endsection
+ @section('sub-heading') Know the Best for You @endsection
  @section('content')
  <section id="about" class="portfolio-area">
      <div class="site-section">

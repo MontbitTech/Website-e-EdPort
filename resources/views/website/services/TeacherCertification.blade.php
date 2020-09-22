@@ -1,5 +1,6 @@
  @extends('layouts.website.app')
-
+ @section('heading') Get recognition as a Smart Teacher with our official certification @endsection
+ @section('sub-heading') Strengthen Your Competence @endsection
  @section('content')
  <section id="about" class="portfolio-area">
      <div class="site-section">
