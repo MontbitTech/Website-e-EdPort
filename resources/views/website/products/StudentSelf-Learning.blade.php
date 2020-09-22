@@ -5,39 +5,21 @@
  <!-- About Us -->
  <section id="about" class="portfolio-area">
      <div class="site-section">
-         <div class="container">
-             <div class="row justify-content-center">
-                 <div class="col-lg-6">
+         <div class="container-fluid">
+             <div class="row justify-content-center mb-5">
+                 <div class="col-lg-12 py-0 my-0">
                      <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
-                         <h3 class="title">About Us</h3>
+                         <h3 class="title">Introducing the blended approach to self learning</h3>
                      </div>
                  </div>
-             </div>
-             <div class="row align-items-center">
-                 <div class="col-lg-7 text-center about-img">
-                     <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
-                         <img src="{{asset('assets/images/vision.png')}}" alt="Girl in a jacket" width="100%" height="100%">
-                     </div>
-                 </div>
-                 <div class="col-lg-5 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
-                     <h3 class="mb-4 section-heading"><strong>Our Vision</strong></h3>
-                     <p class="mb-1" style="line-height:1.7">
-                         Our Vision is to integrate information with innovation to emancipate the education sector. We aspire to play a significant role in strengthening the Indian education system.
+                 <div class="col-md-10 px-5   justify-content-center  text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
+                     <p>Our Self Learning App makes self-learning exciting and interactive to help students learn at their own pace, in their own space! 
                      </p>
                  </div>
-             </div>
-             <div class="row align-items-center">
-                 <div class="col-lg-5 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
-                     <h3 class="mb-4 section-heading"><strong>Our Mission</strong></h3>
-                     <p class="mb-1" style="line-height:1.7">e_Edport is founded with a Mission to digitalise education by collaborating technology and skills to promote all round development of institutions, educators, & students. We aimed towards the combined efforts of our dynamic team to support each other and work together towards our goal.</p>
-                 </div>
-                 <div class="col-lg-7 text-center about-img">
-                     <div class="row mb-5 mb-lg-0 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.1s">
-                         <img src="{{asset('assets/images/mission.png')}}" alt="Girl in a jacket" width="100%" height="100%">
-                     </div>
-                 </div>
+
              </div>
          </div>
+
      </div>
  </section>
 

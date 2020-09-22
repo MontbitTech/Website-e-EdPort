@@ -5,35 +5,51 @@
  <section id="about" class="portfolio-area">
      <div class="site-section">
          <div class="container">
-             <div class="row justify-content-center">
-                 <div class="col-lg-6">
-                     <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
-                         <h3 class="title">About Us</h3>
-                     </div>
-                 </div>
-             </div>
              <div class="row align-items-center">
-                 <div class="col-lg-7 text-center about-img">
+                 <div class="col-lg-4 col-md-4 col-12 text-center about-img">
                      <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                          <img src="{{asset('assets/images/vision.png')}}" alt="Girl in a jacket" width="100%" height="100%">
                      </div>
                  </div>
-                 <div class="col-lg-5 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
-                     <h3 class="mb-4 section-heading"><strong>Our Vision</strong></h3>
+                 <div class="col-lg-8 col-md-8 col-12 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
+                     <h3 class="mb-4 section-heading"><strong>Who is a Smart Teacher?</strong></h3>
                      <p class="mb-1" style="line-height:1.7">
-                         Our Vision is to integrate information with innovation to emancipate the education sector. We aspire to play a significant role in strengthening the Indian education system.
+                         A Smart Teacher is a powerful educator who works to innovate classrooms and provide high-quality learning experiences. A Smart Teacher must be well acquainted with all the online tools and softwares which will be in high demand in this digital world.
+                         A Smart Teacher must know the usage of tools like pentab, style and many other digital tools.
                      </p>
                  </div>
              </div>
              <div class="row align-items-center">
-                 <div class="col-lg-5 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
-                     <h3 class="mb-4 section-heading"><strong>Our Mission</strong></h3>
-                     <p class="mb-1" style="line-height:1.7">e_Edport is founded with a Mission to digitalise education by collaborating technology and skills to promote all round development of institutions, educators, & students. We aimed towards the combined efforts of our dynamic team to support each other and work together towards our goal.</p>
+                 <div class="col-lg-8 col-md-8 col-12 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
+                     <h3 class="mb-4 section-heading"><strong>Why it is important?</strong></h3>
+                     <p class="mb-1" style="line-height:1.7">
+                         Smart Teacher Training Programme is one of the biggest innovators in the
+                         Education Technology, we intent to simplify technical things for teachers.
+                         This a new concept of training teachers and making them equipped with some
+                         amazing online and offline tools working with media and information technology.
+                     </p>
                  </div>
-                 <div class="col-lg-7 text-center about-img">
+                 <div class="col-lg-4 col-md-4 col-12 text-center about-img">
                      <div class="row mb-5 mb-lg-0 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.1s">
                          <img src="{{asset('assets/images/mission.png')}}" alt="Girl in a jacket" width="100%" height="100%">
                      </div>
+                 </div>
+             </div>
+             <div class="row align-items-center">
+                 <div class="col-lg-4 col-md-4 col-12 text-center about-img">
+                     <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
+                         <img src="{{asset('assets/images/vision.png')}}" alt="Girl in a jacket" width="100%" height="100%">
+                     </div>
+                 </div>
+                 <div class="col-lg-8 col-md-8 col-12 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
+                     <h3 class="mb-4 section-heading"><strong>What will you get?</strong></h3>
+                     <p class="mb-1" style="line-height:1.7">
+                         The course offers theoretical and practical tools to help teachers/learners
+                         in embedding critical thinking from the teaching process to the assessment. The
+                         course is structured as a toolkit which learners use at their own pace, the course
+                         features three levels which sheds light on meaningful and multidisciplinary learning activities.
+
+                     </p>
                  </div>
              </div>
          </div>

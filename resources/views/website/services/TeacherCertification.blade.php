@@ -5,35 +5,47 @@
  <section id="about" class="portfolio-area">
      <div class="site-section">
          <div class="container">
-             <div class="row justify-content-center">
-                 <div class="col-lg-6">
-                     <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
-                         <h3 class="title">About Us</h3>
-                     </div>
-                 </div>
-             </div>
              <div class="row align-items-center">
-                 <div class="col-lg-7 text-center about-img">
+                 <div class="col-lg-4 col-md-4 col-12 text-center about-img">
                      <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                          <img src="{{asset('assets/images/vision.png')}}" alt="Girl in a jacket" width="100%" height="100%">
                      </div>
                  </div>
-                 <div class="col-lg-5 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
-                     <h3 class="mb-4 section-heading"><strong>Our Vision</strong></h3>
+                 <div class="col-lg-8 col-md-8 col-12 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
+                     <h3 class="mb-4 section-heading"><strong>What is a Smart Teacher Certificate?</strong></h3>
                      <p class="mb-1" style="line-height:1.7">
-                         Our Vision is to integrate information with innovation to emancipate the education sector. We aspire to play a significant role in strengthening the Indian education system.
+                         Smart Teacher Certification is the evaluation process that helps you
+                         analyse your growth after the Smart
+                         Teacher Training Program. This Certificatuon is also in three levels.
                      </p>
                  </div>
              </div>
              <div class="row align-items-center">
-                 <div class="col-lg-5 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
-                     <h3 class="mb-4 section-heading"><strong>Our Mission</strong></h3>
-                     <p class="mb-1" style="line-height:1.7">e_Edport is founded with a Mission to digitalise education by collaborating technology and skills to promote all round development of institutions, educators, & students. We aimed towards the combined efforts of our dynamic team to support each other and work together towards our goal.</p>
+                 <div class="col-lg-8 col-md-8 col-12 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
+                     <h3 class="mb-4 section-heading"><strong>Why it is important?</strong></h3>
+                     <p class="mb-1" style="line-height:1.7">
+                         This is important for your evaluation and assessment so that you can know if you
+                         have learnt the usage of all the tools as well as content management properly.
+                     </p>
                  </div>
-                 <div class="col-lg-7 text-center about-img">
+                 <div class="col-lg-4 col-md-4 col-12 text-center about-img">
                      <div class="row mb-5 mb-lg-0 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.1s">
                          <img src="{{asset('assets/images/mission.png')}}" alt="Girl in a jacket" width="100%" height="100%">
                      </div>
+                 </div>
+             </div>
+             <div class="row align-items-center">
+                 <div class="col-lg-4 col-md-4 col-12 text-center about-img">
+                     <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
+                         <img src="{{asset('assets/images/vision.png')}}" alt="Girl in a jacket" width="100%" height="100%">
+                     </div>
+                 </div>
+                 <div class="col-lg-8 col-md-8 col-12 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
+                     <h3 class="mb-4 section-heading"><strong>How it will help you?</strong></h3>
+                     <p class="mb-1" style="line-height:1.7">
+                         This Certificates will be an additional feature which will help you improve your CV to be impressive and
+                         signify some of your potential skills which are highly preferred now-a-days.
+                     </p>
                  </div>
              </div>
          </div>

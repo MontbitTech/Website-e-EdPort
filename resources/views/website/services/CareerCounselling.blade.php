@@ -5,40 +5,38 @@
  <section id="about" class="portfolio-area">
      <div class="site-section">
          <div class="container">
-             <div class="row justify-content-center">
-                 <div class="col-lg-6">
-                     <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
-                         <h3 class="title">About Us</h3>
-                     </div>
-                 </div>
-             </div>
              <div class="row align-items-center">
-                 <div class="col-lg-7 text-center about-img">
+                 <div class="col-lg-4 col-md-4 col-12 text-center about-img">
                      <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                          <img src="{{asset('assets/images/vision.png')}}" alt="Girl in a jacket" width="100%" height="100%">
                      </div>
                  </div>
-                 <div class="col-lg-5 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
-                     <h3 class="mb-4 section-heading"><strong>Our Vision</strong></h3>
+                 <div class="col-lg-8 col-md-8 col-12 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
+                     <h3 class="mb-4 section-heading"><strong>What is Career Counselling?</strong></h3>
                      <p class="mb-1" style="line-height:1.7">
-                         Our Vision is to integrate information with innovation to emancipate the education sector. We aspire to play a significant role in strengthening the Indian education system.
+                         Student Career Counselling is a process that focuses mainly on helping the students understand one’s own self, as well as career trends, so that they can take an informed decision about career and education. Career Counselling helps the students to manage a diverse
+                         range of problems such as low concentration levels to lack of time management.
                      </p>
                  </div>
              </div>
              <div class="row align-items-center">
-                 <div class="col-lg-5 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
-                     <h3 class="mb-4 section-heading"><strong>Our Mission</strong></h3>
-                     <p class="mb-1" style="line-height:1.7">e_Edport is founded with a Mission to digitalise education by collaborating technology and skills to promote all round development of institutions, educators, & students. We aimed towards the combined efforts of our dynamic team to support each other and work together towards our goal.</p>
+                 <div class="col-lg-8 col-md-8 col-12 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
+                     <h3 class="mb-4 section-heading"><strong>How it may help your child?</strong></h3>
+                     <p class="mb-1" style="line-height:1.7">
+                         This is a time of many changes taking place in a student's life, both
+                         physical and emotional. Career Counselling helps them understand the career options that they have, and how to pursue them. Career Counselling helps them understand their
+                         own strengths and weaknesses. It gives them a platform to voice their opinion.
+                     </p>
                  </div>
-                 <div class="col-lg-7 text-center about-img">
+                 <div class="col-lg-4 col-md-4 col-12 text-center about-img">
                      <div class="row mb-5 mb-lg-0 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.1s">
                          <img src="{{asset('assets/images/mission.png')}}" alt="Girl in a jacket" width="100%" height="100%">
                      </div>
                  </div>
              </div>
+
          </div>
      </div>
-
  </section>
  <section id="portfolio" class="portfolio-area bg-light">
      <div class="container-fluid">

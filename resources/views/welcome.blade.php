@@ -111,8 +111,19 @@
                           <img src="{{asset('assets\images\Deliverables\virtualclassroom_3.png')}}" alt="Icon">
                       </div>
                       <div class="about-content media-body">
-                          <h4 class="about-title">Virtual Classroom App</h4>
+                          <h4 class="about-title">Virtual Classroom Platform</h4>
                           <p class="text">New Age Learning platform connecting teachers to students.</p>
+                      </div>
+                  </div> <!-- single about -->
+              </div>
+              <div class="col-lg-6">
+                  <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                      <div class="about-icon">
+                          <img src="{{asset('assets\images\Deliverables\SelfLearning.png')}}" alt="Icon">
+                      </div>
+                      <div class="about-content media-body">
+                          <h4 class="about-title">Smart Teacher Training</h4>
+                          <p class="text">Learn the significance of online teaching aids and get a complete knowledge about using digital tools in a virtual classroom.</p>
                       </div>
                   </div> <!-- single about -->
               </div>
@@ -131,17 +142,6 @@
               <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
                       <div class="about-icon">
-                          <img src="{{asset('assets\images\Deliverables\solvedpracticeexercise.png')}}" alt="Icon">
-                      </div>
-                      <div class="about-content media-body">
-                          <h4 class="about-title">Parental Control App</h4>
-                          <p class="text">Solved practice questions that help students master each chapter.</p>
-                      </div>
-                  </div> <!-- single about -->
-              </div>
-              <div class="col-lg-6">
-                  <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
-                      <div class="about-icon">
                           <img src="{{asset('assets/images/Deliverables/Competitiveexamreparation.png')}}" alt="Icon">
                       </div>
                       <div class="about-content media-body">
@@ -152,6 +152,29 @@
                       </div>
                   </div> <!-- single about -->
               </div>
+              <div class="col-lg-6">
+                  <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
+                      <div class="about-icon">
+                          <img src="{{asset('assets\images\Deliverables\solvedpracticeexercise.png')}}" alt="Icon">
+                      </div>
+                      <div class="about-content media-body">
+                          <h4 class="about-title">Parental Control App</h4>
+                          <p class="text">Screen your child’s activities over the internet.</p>
+                      </div>
+                  </div> <!-- single about -->
+              </div>
+              <div class="col-lg-6">
+                  <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
+                      <div class="about-icon">
+                          <img src="{{asset('assets\images\Deliverables\solvedpracticeexercise.png')}}" alt="Icon">
+                      </div>
+                      <div class="about-content media-body">
+                          <h4 class="about-title">Student Career Guidance</h4>
+                          <p class="text">Counseling students to navigate their future endeavour</p>
+                      </div>
+                  </div> <!-- single about -->
+              </div>
+
           </div> <!-- row -->
       </div> <!-- container -->
       <!-- <div class="about-image d-lg-flex align-items-center">
