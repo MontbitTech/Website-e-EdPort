@@ -66,6 +66,18 @@ class HomeController extends Controller
         // dd($data);
         return view('contantform')->with($data);
     }
+
+    public function getProductsForm()
+    {
+        $states = State::where('country_id', 101)->get();
+        return view('website.products.products-form', compact('states'));
+    }
+
+    public function getServicesForm()
+    {
+        $states = State::where('country_id', 101)->get();
+        return view('website.services.service-form', compact('states'));
+    }
     // public function call()
     // {
     //     return view('freecall');

@@ -1,6 +1,6 @@
  @extends('layouts.website.app')
- @section('heading') Get trained to implement technology into education @endsection
- @section('sub-heading')Time to get a grip over the key skills of online teaching @endsection
+ @section('heading') Get recognition as a Smart Teacher with our official certification @endsection
+ @section('sub-heading') Strengthen Your Competence @endsection
  @section('content')
  <section id="about" class="portfolio-area">
      <div class="site-section">
@@ -12,10 +12,11 @@
                      </div>
                  </div>
                  <div class="col-lg-8 col-md-8 col-12 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
-                     <h3 class="mb-4 section-heading"><strong>Who is a Smart Teacher?</strong></h3>
+                     <h3 class="mb-4 section-heading"><strong>What is a Smart Teacher Certificate?</strong></h3>
                      <p class="mb-1" style="line-height:1.7">
-                         A Smart Teacher is a powerful educator who works to innovate classrooms and provide high-quality learning experiences. A Smart Teacher must be well acquainted with all the online tools and softwares which will be in high demand in this digital world.
-                         A Smart Teacher must know the usage of tools like pentab, style and many other digital tools.
+                         Smart Teacher Certification is the evaluation process that helps you
+                         analyse your growth after the Smart
+                         Teacher Training Program. This Certificatuon is also in three levels.
                      </p>
                  </div>
              </div>
@@ -23,10 +24,8 @@
                  <div class="col-lg-8 col-md-8 col-12 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
                      <h3 class="mb-4 section-heading"><strong>Why it is important?</strong></h3>
                      <p class="mb-1" style="line-height:1.7">
-                         Smart Teacher Training Programme is one of the biggest innovators in the
-                         Education Technology, we intent to simplify technical things for teachers.
-                         This a new concept of training teachers and making them equipped with some
-                         amazing online and offline tools working with media and information technology.
+                         This is important for your evaluation and assessment so that you can know if you
+                         have learnt the usage of all the tools as well as content management properly.
                      </p>
                  </div>
                  <div class="col-lg-4 col-md-4 col-12 text-center about-img">
@@ -42,13 +41,10 @@
                      </div>
                  </div>
                  <div class="col-lg-8 col-md-8 col-12 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
-                     <h3 class="mb-4 section-heading"><strong>What will you get?</strong></h3>
+                     <h3 class="mb-4 section-heading"><strong>How it will help you?</strong></h3>
                      <p class="mb-1" style="line-height:1.7">
-                         The course offers theoretical and practical tools to help teachers/learners
-                         in embedding critical thinking from the teaching process to the assessment. The
-                         course is structured as a toolkit which learners use at their own pace, the course
-                         features three levels which sheds light on meaningful and multidisciplinary learning activities.
-
+                         This Certificates will be an additional feature which will help you improve your CV to be impressive and
+                         signify some of your potential skills which are highly preferred now-a-days.
                      </p>
                  </div>
              </div>
@@ -141,7 +137,8 @@
              <div class="col-md-12 p-0  col-lg-6  mt-4 col-12 ">
                  <div class="row">
                      <div class="col-md-12 d-flex justify-content-center col-lg-6 col-12  ">
-                         <div class="btn bg-white rounded-pill btn-hover mr-3" style="color: #161f33;">Request A Demo &#x27A7;</div>
+                         <a href="{{route('services.form')}}" class="btn bg-white rounded-pill btn-hover mr-3" style="color: #161f33;">Request A Demo &#x27A7;
+                         </a>
                      </div>
                      <div class="col-md-12 d-flex justify-content-center  col-12    col-lg-4  ">
                          <div class="btn bg-white rounded-pill btn-hover " style="color: #161f33;">Contact Us &#x27A7;</div>

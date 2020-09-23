@@ -80,6 +80,8 @@ Route::get('/products/e-edport-parental-control-app', function () {
     return view('website.products.parentalcontrol');
 })->name('products.parentalcontrol');
 
+Route::get('/products/get-in-touch', 'HomeController@getProductsForm')->name('products.form');
+
 // Services
 Route::get('/services/e-edport-smart-teacher-training', function () {
     return view('website.services.teachertraining');
@@ -92,6 +94,8 @@ Route::get('/services/e-edport-smart-teacher-certification', function () {
 Route::get('/services/e-edport-ctudent-career-counselling', function () {
     return view('website.services.careercounselling');
 })->name('services.careercounselling');
+
+Route::get('/services/get-in-touch', 'HomeController@getServicesForm')->name('services.form');
 
 
 // Resources

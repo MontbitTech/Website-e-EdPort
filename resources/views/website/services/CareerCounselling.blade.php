@@ -124,8 +124,9 @@
              <div class="col-md-12 p-0  col-lg-6  mt-4 col-12 ">
                  <div class="row">
                      <div class="col-md-12 d-flex justify-content-center col-lg-6 col-12  ">
-                         <div class="btn bg-white rounded-pill btn-hover mr-3" style="color: #161f33;">Request A Demo &#x27A7;</div>
-                     </div>
+                         <a href="{{route('services.form')}}" class="btn bg-white rounded-pill btn-hover mr-3" style="color: #161f33;">Request A Demo &#x27A7;
+                     </a>
+                 </div>
                      <div class="col-md-12 d-flex justify-content-center  col-12    col-lg-4  ">
                          <div class="btn bg-white rounded-pill btn-hover " style="color: #161f33;">Contact Us &#x27A7;</div>
                      </div>
