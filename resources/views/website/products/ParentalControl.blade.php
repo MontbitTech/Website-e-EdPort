@@ -22,7 +22,7 @@
      </div>
 
  </section>
- <section id="portfolio" class="portfolio-area">
+ <section id="portfolio" class="portfolio-area bg-light">
      <div class="container-fluid">
          <div class="row justify-content-center">
              <div class="col-lg-6">
@@ -169,6 +169,7 @@
                          <div class="col-lg-12">
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalone" style="cursor: pointer;" data-toggle="collapse" data-target="#generalonecoll" aria-expanded="true" aria-controls="generalonecoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      Does the app run on all mobile phones?
                                  </div>
                                  <div id="generalonecoll" class="collapse pl-2 text-left" aria-labelledby="generalone" data-parent="#accordion">
@@ -177,6 +178,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#generaltwocoll" aria-expanded="true" aria-controls="generaltwocoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      Is the Parental App free?
                                  </div>
                                  <div id="generaltwocoll" class="collapse pl-2 text-left" aria-labelledby="generaltwo" data-parent="#accordion">
@@ -185,6 +187,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#generalthreecoll" aria-expanded="true" aria-controls="generalthreecoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      Can my child uninstall FamilyTime from his/her phone?
                                  </div>
                                  <div id="generalthreecoll" class="collapse pl-2 text-left" aria-labelledby="generalthree" data-parent="#accordion">
@@ -201,6 +204,7 @@
                          <div class="col-lg-12">
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalone" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalonecoll" aria-expanded="true" aria-controls="technicalonecoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      How to install FamilyTime on my child’s mobile device?
                                  </div>
                                  <div id="technicalonecoll" class="collapse pl-2 text-left" aria-labelledby="technicalone" data-parent="#accordion1">
@@ -209,6 +213,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#technicaltwocoll" aria-expanded="true" aria-controls="technicaltwocoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      Can I access this app from my Laptop?
                                  </div>
                                  <div id="technicaltwocoll" class="collapse pl-2 text-left" aria-labelledby="technicaltwo" data-parent="#accordion1">
@@ -217,6 +222,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalthreecoll" aria-expanded="true" aria-controls="technicalthreecoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      How we can login?
                                  </div>
                                  <div id="technicalthreecoll" class="collapse pl-2 text-left" aria-labelledby="technicalthree" data-parent="#accordion1">

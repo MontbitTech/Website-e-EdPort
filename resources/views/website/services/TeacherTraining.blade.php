@@ -1,6 +1,6 @@
  @extends('layouts.website.app')
- @section('heading') Get recognition as a Smart Teacher with our official certification @endsection
- @section('sub-heading') Strengthen Your Competence @endsection
+ @section('heading') Get trained to implement technology into education @endsection
+ @section('sub-heading') Time to get a grip over the key skills of online teaching @endsection
  @section('content')
  <section id="about" class="portfolio-area">
      <div class="site-section">
@@ -8,15 +8,13 @@
              <div class="row align-items-center">
                  <div class="col-lg-4 col-md-4 col-12 text-center about-img">
                      <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
-                         <img src="{{asset('assets/images/vision.png')}}" alt="Girl in a jacket" width="100%" height="100%">
+                         <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\OnlineTeacherTrainingCourse.png')}}" alt="Girl in a jacket" width="100%" height="100%">
                      </div>
                  </div>
                  <div class="col-lg-8 col-md-8 col-12 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
-                     <h3 class="mb-4 section-heading"><strong>What is a Smart Teacher Certificate?</strong></h3>
+                     <h3 class="mb-4 section-heading"><strong>Who is a Smart Teacher?</strong></h3>
                      <p class="mb-1" style="line-height:1.7">
-                         Smart Teacher Certification is the evaluation process that helps you
-                         analyse your growth after the Smart
-                         Teacher Training Program. This Certificatuon is also in three levels.
+                          A Smart Teacher is a powerful educator who works to innovate classrooms and provide high-quality learning experiences. A Smart Teacher must be well acquainted with all the online tools and softwares which will be in high demand in this digital world. A Smart Teacher must know the usage of tools like pentab, style and many other digital tools.
                      </p>
                  </div>
              </div>
@@ -24,8 +22,7 @@
                  <div class="col-lg-8 col-md-8 col-12 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
                      <h3 class="mb-4 section-heading"><strong>Why it is important?</strong></h3>
                      <p class="mb-1" style="line-height:1.7">
-                         This is important for your evaluation and assessment so that you can know if you
-                         have learnt the usage of all the tools as well as content management properly.
+                         Smart Teacher Training Programme is one of the biggest innovators in the Education Technology, we intent to simplify technical things for teachers. This a new concept of training teachers and making them equipped with some amazing online and offline tools working with media and information technology.
                      </p>
                  </div>
                  <div class="col-lg-4 col-md-4 col-12 text-center about-img">
@@ -41,10 +38,9 @@
                      </div>
                  </div>
                  <div class="col-lg-8 col-md-8 col-12 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
-                     <h3 class="mb-4 section-heading"><strong>How it will help you?</strong></h3>
+                     <h3 class="mb-4 section-heading"><strong>What will you get?</strong></h3>
                      <p class="mb-1" style="line-height:1.7">
-                         This Certificates will be an additional feature which will help you improve your CV to be impressive and
-                         signify some of your potential skills which are highly preferred now-a-days.
+                         The course offers theoretical and practical tools to help teachers/learners in embedding critical thinking from the teaching process to the assessment. The course is structured as a toolkit which learners use at their own pace, the course features three levels which sheds light on meaningful and multidisciplinary learning activities.
                      </p>
                  </div>
              </div>
@@ -174,6 +170,7 @@
                          <div class="col-lg-12">
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalone" style="cursor: pointer;" data-toggle="collapse" data-target="#generalonecoll" aria-expanded="true" aria-controls="generalonecoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      Will I get a certificate after the completion of this program?
                                  </div>
                                  <div id="generalonecoll" class="collapse pl-2 text-left" aria-labelledby="generalone" data-parent="#accordion">
@@ -182,6 +179,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#generaltwocoll" aria-expanded="true" aria-controls="generaltwocoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      What is the learning mode for this program?
                                  </div>
                                  <div id="generaltwocoll" class="collapse pl-2 text-left" aria-labelledby="generaltwo" data-parent="#accordion">
@@ -190,6 +188,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#generalthreecoll" aria-expanded="true" aria-controls="generalthreecoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      What is the advantage of this program to Government teachers?
                                  </div>
                                  <div id="generalthreecoll" class="collapse pl-2 text-left" aria-labelledby="generalthree" data-parent="#accordion">
@@ -206,6 +205,7 @@
                          <div class="col-lg-12">
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalone" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalonecoll" aria-expanded="true" aria-controls="technicalonecoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      Is this program recognized by government?
                                  </div>
                                  <div id="technicalonecoll" class="collapse pl-2 text-left" aria-labelledby="technicalone" data-parent="#accordion1">
@@ -214,6 +214,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#technicaltwocoll" aria-expanded="true" aria-controls="technicaltwocoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      Do you provide any kind of placement?
                                  </div>
                                  <div id="technicaltwocoll" class="collapse pl-2 text-left" aria-labelledby="technicaltwo" data-parent="#accordion1">
@@ -222,6 +223,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalthreecoll" aria-expanded="true" aria-controls="technicalthreecoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      What type of devices are needed?
                                  </div>
                                  <div id="technicalthreecoll" class="collapse pl-2 text-left" aria-labelledby="technicalthree" data-parent="#accordion1">

@@ -147,7 +147,6 @@
                       <div class="about-content media-body">
                           <h4 class="about-title">Smart Teacher Certification</h4>
                           <p class="text">Beyond school services help students prepare for future.
-                              (Helping students beyond school services by preparing them for the future)
                           </p>
                       </div>
                   </div> <!-- single about -->
@@ -155,7 +154,7 @@
               <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
                       <div class="about-icon">
-                          <img src="{{asset('assets\images\Deliverables\solvedpracticeexercise.png')}}" alt="Icon">
+                          <img src="{{asset('assets\images\Deliverables\parental_control.png')}}" alt="Icon">
                       </div>
                       <div class="about-content media-body">
                           <h4 class="about-title">Parental Control App</h4>

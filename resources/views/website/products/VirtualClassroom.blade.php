@@ -229,6 +229,7 @@
                          <div class="col-lg-12">
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalone" style="cursor: pointer;" data-toggle="collapse" data-target="#generalonecoll" aria-expanded="true" aria-controls="generalonecoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      Is your app secure?
                                  </div>
                                  <div id="generalonecoll" class="collapse pl-2 text-left" aria-labelledby="generalone" data-parent="#accordion">
@@ -237,6 +238,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#generaltwocoll" aria-expanded="true" aria-controls="generaltwocoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      How do you train to use your app?
                                  </div>
                                  <div id="generaltwocoll" class="collapse pl-2 text-left" aria-labelledby="generaltwo" data-parent="#accordion">
@@ -245,6 +247,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#generalthreecoll" aria-expanded="true" aria-controls="generalthreecoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      What educational function does you provide?
                                  </div>
                                  <div id="generalthreecoll" class="collapse pl-2 text-left" aria-labelledby="generalthree" data-parent="#accordion">
@@ -261,6 +264,7 @@
                          <div class="col-lg-12">
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalone" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalonecoll" aria-expanded="true" aria-controls="technicalonecoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      Can I use your app on my iOS mobile?
                                  </div>
                                  <div id="technicalonecoll" class="collapse pl-2 text-left" aria-labelledby="technicalone" data-parent="#accordion1">
@@ -269,6 +273,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#technicaltwocoll" aria-expanded="true" aria-controls="technicaltwocoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      Do I have to make monthly payments?
                                  </div>
                                  <div id="technicaltwocoll" class="collapse pl-2 text-left" aria-labelledby="technicaltwo" data-parent="#accordion1">
@@ -277,6 +282,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalthreecoll" aria-expanded="true" aria-controls="technicalthreecoll">
+                                     <i class="fa fa-plus"></i>&nbsp;
                                      How we can login?
                                  </div>
                                  <div id="technicalthreecoll" class="collapse pl-2 text-left" aria-labelledby="technicalthree" data-parent="#accordion1">

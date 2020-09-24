@@ -8,7 +8,7 @@
              <div class="row align-items-center">
                  <div class="col-lg-4 col-md-4 col-12 text-center about-img">
                      <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
-                         <img src="{{asset('assets/images/vision.png')}}" alt="Girl in a jacket" width="100%" height="100%">
+                         <img src="{{asset('assets\images\KeyFeatures\Studentgrooming\Careerguidance.png')}}" alt="Girl in a jacket" width="100%" height="100%">
                      </div>
                  </div>
                  <div class="col-lg-8 col-md-8 col-12 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
@@ -30,7 +30,7 @@
                  </div>
                  <div class="col-lg-4 col-md-4 col-12 text-center about-img">
                      <div class="row mb-5 mb-lg-0 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.1s">
-                         <img src="{{asset('assets/images/mission.png')}}" alt="Girl in a jacket" width="100%" height="100%">
+                         <img src="{{asset('assets\images\KeyFeatures\Studentgrooming\Softskilltraining.png')}}" alt="Girl in a jacket" width="100%" height="100%">
                      </div>
                  </div>
              </div>
@@ -161,6 +161,7 @@
                          <div class="col-lg-12">
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalone" style="cursor: pointer;" data-toggle="collapse" data-target="#generalonecoll" aria-expanded="true" aria-controls="generalonecoll">
+                                    <i class="fa fa-plus"></i>&nbsp;
                                      Will I get a certificate after the completion of this program?
                                  </div>
                                  <div id="generalonecoll" class="collapse pl-2 text-left" aria-labelledby="generalone" data-parent="#accordion">
@@ -169,6 +170,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#generaltwocoll" aria-expanded="true" aria-controls="generaltwocoll">
+                                    <i class="fa fa-plus"></i>&nbsp;
                                      What is the learning mode for this program?
                                  </div>
                                  <div id="generaltwocoll" class="collapse pl-2 text-left" aria-labelledby="generaltwo" data-parent="#accordion">
@@ -177,6 +179,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#generalthreecoll" aria-expanded="true" aria-controls="generalthreecoll">
+                                    <i class="fa fa-plus"></i>&nbsp;
                                      What is the advantage of this program to Government teachers?
                                  </div>
                                  <div id="generalthreecoll" class="collapse pl-2 text-left" aria-labelledby="generalthree" data-parent="#accordion">
@@ -193,6 +196,7 @@
                          <div class="col-lg-12">
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalone" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalonecoll" aria-expanded="true" aria-controls="technicalonecoll">
+                                    <i class="fa fa-plus"></i>&nbsp;
                                      Is this program recognized by government?
                                  </div>
                                  <div id="technicalonecoll" class="collapse pl-2 text-left" aria-labelledby="technicalone" data-parent="#accordion1">
@@ -201,6 +205,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#technicaltwocoll" aria-expanded="true" aria-controls="technicaltwocoll">
+                                    <i class="fa fa-plus"></i>&nbsp;
                                      Do you provide any kind of placement?
                                  </div>
                                  <div id="technicaltwocoll" class="collapse pl-2 text-left" aria-labelledby="technicaltwo" data-parent="#accordion1">
@@ -209,6 +214,7 @@
                              </div>
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalthreecoll" aria-expanded="true" aria-controls="technicalthreecoll">
+                                    <i class="fa fa-plus"></i>&nbsp;
                                      What type of devices are needed?
                                  </div>
                                  <div id="technicalthreecoll" class="collapse pl-2 text-left" aria-labelledby="technicalthree" data-parent="#accordion1">
