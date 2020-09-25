@@ -25,7 +25,7 @@
          <div class="container-fluid">
              <div class="row justify-content-center">
                  <div class="col-lg-6">
-                     <div class="section-title text-center pb-20">
+                     <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".4s" data-wow-delay="0.2s">
                          <h3 class="title">Key Features</h3>
                          <p class="text">Facilitating the elements to empower the Indian School Education System.</p>
                      </div>
@@ -34,7 +34,7 @@
              <div class="container">
                  <div id="virtual" class=" portfolio-card virtual-school">
                      <div class="row ">
-                         <div class="col-lg-6 ">
+                         <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                              <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
 
                                  <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
@@ -46,7 +46,7 @@
                                  </div>
                              </div> <!-- single about -->
                          </div>
-                         <div class="col-lg-6 ">
+                         <div class="col-lg-6 wow fadeInRight " data-wow-duration=".8s" data-wow-delay="0s">
                              <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
 
                                  <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
@@ -58,7 +58,7 @@
                                  </div>
                              </div> <!-- single about -->
                          </div>
-                         <div class="col-lg-6 ">
+                         <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
                              <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
 
                                  <img src="{{asset('assets\images\KeyFeatures\virtualschooling\selfexplanatoryvideos2.png')}}" alt="Icon" class="align-self-center mr-3">
@@ -70,7 +70,7 @@
                                  </div>
                              </div> <!-- single about -->
                          </div>
-                         <div class="col-lg-6 ">
+                         <div class="col-lg-6 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.1s">
                              <div class="single-about d-sm-flex mt-30  Features pb-3 pt-2 pl-2 media">
 
                                  <img src="{{asset('assets\images\KeyFeatures\virtualschooling\onlineassessment2.png')}}" alt="Icon" class="align-self-center mr-3">
@@ -83,7 +83,7 @@
                                  </div>
                              </div> <!-- single about -->
                          </div>
-                         <div class="col-lg-6 ">
+                         <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.2s">
                              <div class="single-about d-sm-flex mt-30 Features pb-3 pt-2 pl-2 media">
 
                                  <img src="{{asset('assets\images\KeyFeatures\virtualschooling\mocktest.png')}}" alt="Icon" class="align-self-center mr-3">
@@ -97,7 +97,7 @@
                                  </div>
                              </div> <!-- single about -->
                          </div>
-                         <div class="col-lg-6 ">
+                         <div class="col-lg-6 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s">
                              <div class="single-about media d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
 
                                  <img src="{{asset('assets\images\KeyFeatures\virtualschooling\Additionalresources.png')}}" alt="Icon" class="align-self-center mr-3">
@@ -115,83 +115,28 @@
                  </div>
 
 
-
-                 <div id="smart" class="hidden  portfolio-card smart-teacher">
-                     <div class="row">
-                         <div class="col-lg-6">
-                             <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
-                                 <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\OnlineTeacherAssessment_2.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                                 <div class="about-content media-body">
-                                     <h5 class="mt-0 mb-1">Online Teacher Assessment</h5>
-                                     <p class="text pr-2">Assessing the teacher’s ability to help
-                                         finesse their technical knowledge.
-                                     </p>
-                                 </div>
-                             </div> <!-- single about -->
-                         </div>
-
-
-
-
-
-                         <div class="col-lg-6">
-                             <div class="single-about d-sm-flex  mt-30 pb-3 pt-2 pl-2 Features media">
-
-                                 <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\OnlineTeacherTrainingCourse.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                                 <div class="about-content media-body">
-                                     <h5 class="mt-0 mb-1">Online Teacher Training Course</h5>
-                                     <p class="text pr-2">Familiarising teachers with the new
-                                         technological trends </p>
-                                 </div>
-                             </div>
-                         </div>
-
-
-
-
-
-                         <div class="col-lg-6">
-                             <div class="single-about d-sm-flex  mt-30 pb-3 pt-2 pl-2 Features media">
-
-                                 <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\SmartTeacherCertification.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                                 <div class="about-content media-body">
-                                     <h5 class="mt-0 mb-1">Smart Teacher Certification</h5>
-                                     <p class="text pr-2">Certifying teachers as technologically
-                                         advanced ‘Smart Teachers</p>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-
-
-
              </div>
          </div>
      </section>
  </section>
  <section>
-     <div class="container-fluid">
+     <div class="container-fluid ">
          <div class="row pt-5 pb-5" style="background-color: #161f33;">
-             <div class="col-md-12 col-lg-6    col-12">
-                 <h1 class="text-white text-center">
+             <div class="col-md-12 col-lg-6    col-12 wow bounceIn">
+                 <h1 class="text-white text-center ">
                      Ready to get started?
                  </h1>
                  <h5 class="text-white text-center">
                      Get in touch, or Request A Demo
                  </h5>
              </div>
-             <div class="col-md-12 p-0  col-lg-6  mt-4 col-12 ">
+             <div class="col-md-12 p-0  col-lg-6  mt-4 col-12  ">
                  <div class="row">
-                     <div class="col-md-12 d-flex justify-content-center col-lg-6 col-12">
+                     <div class="col-md-12 d-flex justify-content-center col-lg-6 col-12 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
                          <a href="{{route('products.form')}}" class="btn bg-white rounded-pill btn-hover mr-3" style="color: #161f33;">Request A Demo &#x27A7;</a>
 
                      </div>
-                     <div class="col-md-12 d-flex justify-content-center  col-12    col-lg-4  ">
+                     <div class="col-md-12 d-flex justify-content-center  col-12    col-lg-4  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.5s">
                          <div class="btn bg-white rounded-pill btn-hover " style="color: #161f33;">Contact Us &#x27A7;</div>
                      </div>
                  </div>
@@ -199,21 +144,19 @@
              </div>
          </div>
      </div>
-
-
  </section>
  <section id="deliverables" class="contact-area bg-white">
      <div class="container ">
          <div class="row justify-content-center">
              <div class="col-lg-6">
-                 <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
+                 <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0s">
                      <h4 class="title">FAQS
                          <hr style=" border-top: 1px solid #161f33; ">
                      </h4>
                  </div>
              </div>
          </div>
-         <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+         <ul class="nav nav-pills mb-3 justify-content-center wow fadeInUp" id="pills-tab" role="tablist" data-wow-duration=".5s" data-wow-delay="0.2s">
              <li class="nav-item justify-content-center">
                  <a class="nav-link active rounded-pill pl-5 pr-5 faqss mr-5  text-white" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" style="background-color: #161f3373;">General</a>
              </li>
@@ -225,7 +168,7 @@
          <div class="tab-content " id="pills-tabContent">
              <div class="tab-pane fade show active justify-content-center text-centerm " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                  <div id="accordion">
-                     <div class="row">
+                     <div class="row wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.5s">
                          <div class="col-lg-12">
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalone" style="cursor: pointer;" data-toggle="collapse" data-target="#generalonecoll" aria-expanded="true" aria-controls="generalonecoll">

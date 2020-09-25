@@ -39,6 +39,18 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+        .dropdown-item:hover {
+            color: white !important;
+            text-decoration: none !important;
+            background-color: #484f59 !important;
+        }
+
+        .dropdown-item.active {
+            color: #161f33 !important;
+            text-decoration: none !important;
+            background-color: white !important;
+        }
+
         .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             max-width: 300px;
@@ -109,21 +121,21 @@
                             </button>
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
                                 <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active">
+                                    <li class="nav-item   {{ (request()->is('/')) ? 'active' : '' }}">
                                         <a class="page-scroll" href="{{url('/')}}">HOME</a>
                                     </li>
-                                    <li class="nav-item dropdown ml-5">
-                                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    <li class="nav-item dropdown ml-5 ">
+                                        <a id="navbarDropdown" class="nav-link dropdown-toggle " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Products <span class="caret"></span>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="{{route('products.classroomsolution')}}">
+                                            <a class="dropdown-item {{ (request()->routeIs('products.classroomsolution')) ? 'active' : '' }}" href="{{route('products.classroomsolution')}}">
                                                 e-EdPort Virtual Classroom Solution
                                             </a>
-                                            <a class="dropdown-item" href="{{route('products.studentselflLearning')}}">
+                                            <a class="dropdown-item {{ (request()->routeIs('products.studentselflLearning')) ? 'active' : '' }}" href="{{route('products.studentselflLearning')}}">
                                                 e-EdPort Student Self-Learning Solution
                                             </a>
-                                            <a class="dropdown-item" href="{{route('products.parentalcontrol')}}">
+                                            <a class="dropdown-item {{ (request()->routeIs('products.parentalcontrol')) ? 'active' : '' }}" href="{{route('products.parentalcontrol')}}">
                                                 e-EdPort Parental Control App
                                             </a>
                                         </div>
@@ -133,13 +145,13 @@
                                             Services <span class="caret"></span>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="{{route('services.teachertraining')}}">
+                                            <a class="dropdown-item {{ (request()->routeIs('services.teachertraining')) ? 'active' : '' }}" href="{{route('services.teachertraining')}}">
                                                 e-EdPort Smart Teacher Training
                                             </a>
-                                            <a class="dropdown-item" href="{{route('services.teachercertification')}}">
+                                            <a class="dropdown-item {{ (request()->routeIs('services.teachercertification')) ? 'active' : '' }}" href="{{route('services.teachercertification')}}">
                                                 e-EdPort Smart Teacher Certification
                                             </a>
-                                            <a class="dropdown-item" href="{{route('services.careercounselling')}}">
+                                            <a class="dropdown-item {{ (request()->routeIs('services.careercounselling')) ? 'active' : '' }}" href="{{route('services.careercounselling')}}">
                                                 e-EdPort Student Career Counselling
                                             </a>
                                         </div>
@@ -149,13 +161,13 @@
                                             Resources <span class="caret"></span>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="{{route('resources.brochure')}}">
+                                            <a class="dropdown-item  {{ (request()->routeIs('resources.brochure')) ? 'active' : '' }}" href="{{route('resources.brochure')}}">
                                                 Brochure
                                             </a>
-                                            <a class="dropdown-item" href="{{route('resources.events')}}">
+                                            <a class="dropdown-item  {{ (request()->routeIs('resources.events')) ? 'active' : '' }}" href="{{route('resources.events')}}">
                                                 Events
                                             </a>
-                                            <a class="dropdown-item" href="{{route('resources.faqs')}}">
+                                            <a class="dropdown-item  {{ (request()->routeIs('resources.faqs')) ? 'active' : '' }}" href="{{route('resources.faqs')}}">
                                                 FAQ’s
                                             </a>
                                         </div>
@@ -165,19 +177,19 @@
                                             About <span class="caret"></span>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="{{route('about.companyoverview')}}">
+                                            <a class="dropdown-item {{ (request()->routeIs('about.companyoverview')) ? 'active' : '' }}" href="{{route('about.companyoverview')}}">
                                                 Company Overview
                                             </a>
-                                            <a class="dropdown-item" href="{{route('about.leadershipteam')}}">
+                                            <a class="dropdown-item {{ (request()->routeIs('about.leadershipteam')) ? 'active' : '' }}" href="{{route('about.leadershipteam')}}">
                                                 Leadership Team
                                             </a>
-                                            <a class="dropdown-item" href="{{route('about.latestnews')}}">
+                                            <a class="dropdown-item {{ (request()->routeIs('about.latestnews')) ? 'active' : '' }}" href="{{route('about.latestnews')}}">
                                                 Latest News
                                             </a>
-                                            <a class="dropdown-item" href="{{route('about.careers')}}">
+                                            <a class="dropdown-item {{ (request()->routeIs('about.careers')) ? 'active' : '' }}" href="{{route('about.careers')}}">
                                                 Careers
                                             </a>
-                                            <a class="dropdown-item" href="{{route('about.contactus')}}">
+                                            <a class="dropdown-item {{ (request()->routeIs('about.contactus')) ? 'active' : '' }}" href="{{route('about.contactus')}}">
                                                 Contact Us
                                             </a>
                                         </div>

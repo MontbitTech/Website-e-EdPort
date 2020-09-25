@@ -26,7 +26,7 @@
      <div class="container-fluid">
          <div class="row justify-content-center">
              <div class="col-lg-6">
-                 <div class="section-title text-center pb-20">
+                 <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
                      <h3 class="title">Key Features</h3>
                      <p class="text">Facilitating the elements to empower the Indian School Education System.</p>
                  </div>
