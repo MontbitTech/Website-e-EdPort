@@ -2,11 +2,11 @@
 @section('content')
 <div class="card w-100 mt-5">
     <div class="card-header">
-        <h4 class="modal-title">Get In Touch</h4>
+        <h4 class="modal-title">Student Career Counselling</h4>
 
     </div>
     <div class="card-body">
-        <div class="text-center" style="font-size:small;color:red;">We will provide one free consultation call and all relevant documents will be send via mail provided below</div>
+        <!-- <div class="text-center" style="font-size:small;color:red;">We will provide one free consultation call and all relevant documents will be send via mail provided below</div> -->
         <form role="form" id="saveteacher" enctype="multipart/form-data" method="post" action="{{route('savecontact')}}">
             <div class="card-body m-0 p-0">
                 <div class="row m-0 p-0 pb-3">
@@ -86,6 +86,5 @@
 
 
     </div>
-
 </div>
 @endsection

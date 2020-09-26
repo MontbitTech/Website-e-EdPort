@@ -122,7 +122,7 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item   {{ (request()->is('/')) ? 'active' : '' }}">
-                                        <a class="page-scroll" href="{{url('/')}}">HOME</a>
+                                        <a class="page-scroll" href="{{url('/')}}">Home</a>
                                     </li>
                                     <li class="nav-item dropdown ml-5 ">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
