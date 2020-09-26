@@ -68,7 +68,7 @@ Route::get('/faq', function () {
 })->name('faq');
 
 // Products 
-Route::get('/products/e-EdPort-Virtual-Classroom-Solution', function () {
+Route::get('/products/e-edport-virtual-classroom-solution', function () {
     return view('website.products.virtualClassroom');
 })->name('products.classroomsolution');
 
@@ -80,7 +80,10 @@ Route::get('/products/e-edport-parental-control-app', function () {
     return view('website.products.parentalcontrol');
 })->name('products.parentalcontrol');
 
-Route::get('/products/get-in-touch', 'HomeController@getProductsForm')->name('products.form');
+Route::get('get-in-touch/e-edport-virtual-classroom-Solution', 'HomeController@getProductsVirtualClassroomForm')->name('products.virtual-classroom-form');
+
+Route::get('get-in-touch/e-edport-student-self-learning-solution', 'HomeController@getProductsSelfLearningForm')->name('products.self-learning-form');
+
 
 // Services
 Route::get('/services/e-edport-smart-teacher-training', function () {
@@ -91,11 +94,13 @@ Route::get('/services/e-edport-smart-teacher-certification', function () {
     return view('website.services.teachercertification');
 })->name('services.teachercertification');
 
-Route::get('/services/e-edport-ctudent-career-counselling', function () {
+Route::get('/services/e-edport-student-career-counselling', function () {
     return view('website.services.careercounselling');
 })->name('services.careercounselling');
 
-Route::get('/services/get-in-touch', 'HomeController@getServicesForm')->name('services.form');
+Route::get('get-in-touch/e-edport-smart-teacher-training', 'HomeController@getTeacherTrainingForm')->name('services.teacher-training-form');
+
+Route::get('get-in-touch/e-edport-smart-teacher-certification', 'HomeController@getTeacherCertificationForm')->name('services.teacher-certification-form');
 
 
 // Resources

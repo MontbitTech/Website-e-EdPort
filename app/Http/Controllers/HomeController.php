@@ -67,16 +67,28 @@ class HomeController extends Controller
         return view('contantform')->with($data);
     }
 
-    public function getProductsForm()
+    public function getProductsVirtualClassroomForm()
     {
         $states = State::where('country_id', 101)->get();
-        return view('website.products.products-form', compact('states'));
+        return view('website.products.virtual-classroom-form', compact('states'));
     }
 
-    public function getServicesForm()
+    public function getProductsSelfLearningForm()
     {
         $states = State::where('country_id', 101)->get();
-        return view('website.services.service-form', compact('states'));
+        return view('website.products.self-learning-form', compact('states'));
+    }
+
+    public function getTeacherTrainingForm()
+    {
+        $states = State::where('country_id', 101)->get();
+        return view('website.services.teacher-training-form', compact('states'));
+    }
+
+    public function getTeacherCertificationForm()
+    {
+        $states = State::where('country_id', 101)->get();
+        return view('website.services.teacher-certification-form', compact('states'));
     }
     // public function call()
     // {
