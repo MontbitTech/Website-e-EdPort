@@ -40,7 +40,7 @@
  </section>
  <section id="portfolio" class="portfolio-area bg-light">
      <div class="container-fluid">
-         <div class="row justify-content-center">
+         <div class="row justify-content-center wow fadeInUp" data-wow-duration=".8s" data-wow-delay="0s">
              <div class="col-lg-6">
                  <div class="section-title text-center pb-20">
                      <h3 class="title">Services</h3>
@@ -53,7 +53,20 @@
          <div class="container">
              <div id="virtual" class=" portfolio-card virtual-school">
                  <div class="row justify-content-center">
-                     <div class="col-lg-4  col-12 col-md-4 justify-content-center" style="background-color: transparent;">
+                     <div class="col-lg-4  col-12 col-md-4 justify-content-center wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s" style="background-color: transparent;">
+                         <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
+                             <div class="card-header border-0 " style="background-color: transparent;">
+                                 <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
+                             </div>
+                             <div class="about-content card-body border-0 m-0 p-0 ">
+                                 <h4 class="mt-0 ">Live Classes</h4>
+                                 <p class="text m-0 p-0 ">Helps conduct uninterrupted classes online from the
+                                     comfort of your home.
+                                 </p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-4  col-12 col-md-4 offset-md-4 offset-lg-4 justify-content-center wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s" style="background-color: transparent;">
                          <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
                              <div class="card-header border-0 " style="background-color: transparent;">
                                  <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
@@ -66,7 +79,7 @@
                              </div>
                          </div>
                      </div>
-                     <div class="col-lg-4  col-12 col-md-4 offset-md-4 offset-lg-4 justify-content-center" style="background-color: transparent;">
+                     <div class="col-lg-4  col-12 col-md-4 justify-content-center mt-3 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.2s" style="background-color: transparent;">
                          <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
                              <div class="card-header border-0 " style="background-color: transparent;">
                                  <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
@@ -79,20 +92,7 @@
                              </div>
                          </div>
                      </div>
-                     <div class="col-lg-4  col-12 col-md-4 justify-content-center mt-3" style="background-color: transparent;">
-                         <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
-                             <div class="card-header border-0 " style="background-color: transparent;">
-                                 <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
-                             </div>
-                             <div class="about-content card-body border-0 m-0 p-0">
-                                 <h4 class="mt-0 ">Live Classes</h4>
-                                 <p class="text m-0 p-0 ">Helps conduct uninterrupted classes online from the
-                                     comfort of your home.
-                                 </p>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-lg-4  col-12 col-md-4 offset-md-4 offset-lg-4  mt-3 justify-content-center" style="background-color: transparent;">
+                     <div class="col-lg-4  col-12 col-md-4 offset-md-4 offset-lg-4  mt-3 justify-content-center wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s" style="background-color: transparent;">
                          <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
                              <div class="card-header border-0 " style="background-color: transparent;">
                                  <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
