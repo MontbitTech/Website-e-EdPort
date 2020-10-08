@@ -79,17 +79,22 @@ class HomeController extends Controller
         return view('website.products.self-learning-form', compact('states'));
     }
 
-    public function getTeacherTrainingForm()
-    {
-        $states = State::where('country_id', 101)->get();
-        return view('website.services.teacher-training-form', compact('states'));
-    }
+    // public function getTeacherTrainingForm()
+    // {
+    //     $states = State::where('country_id', 101)->get();
+    //     return view('website.services.teacher-training-form', compact('states'));
+    // }
+    // public function getCareeCounselling()
+    // {
+    //     $states = State::where('country_id', 101)->get();
+    //     return view('website.services.careerCounselling-form', compact('states'));
+    // }
 
-    public function getTeacherCertificationForm()
-    {
-        $states = State::where('country_id', 101)->get();
-        return view('website.services.teacher-certification-form', compact('states'));
-    }
+    // public function getTeacherCertificationForm()
+    // {
+    //     $states = State::where('country_id', 101)->get();
+    //     return view('website.services.teacher-certification-form', compact('states'));
+    // }
     // public function call()
     // {
     //     return view('freecall');
