@@ -15,8 +15,8 @@ class CounsellingController extends Controller
      */
     public function index()
     {
-        $states = State::where('country_id', 101)->get();
-        return view('website.services.careerCounselling-form', compact('states'));
+        $data['state'] = State::where('country_id', 101)->get();
+        return view('website.services.careerCounselling-form')->with($data);
     }
 
     /**

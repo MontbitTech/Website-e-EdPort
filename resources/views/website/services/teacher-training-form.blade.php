@@ -24,7 +24,7 @@
 
 
     <div class="register">
-        <div class="row" style="margin:18px;">
+        <div class="row">
             <div class="col-md-3 register-left">
                 <img style="width: 50%;" src="{{asset('image/teacher.png')}}" alt="" />
                 <h2>Welcome</h2>
@@ -43,7 +43,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="m-auto text-center">
+                <div class="m-auto text-center mr-bottom">
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                             <h3 class="register-heading"><b>Apply For <span id="ent">Individual</span> Training & Certification</b></h3>

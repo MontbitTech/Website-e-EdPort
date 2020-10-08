@@ -24,7 +24,7 @@
 
 
     <div class="register">
-        <div class="row" style="margin:18px;">
+        <div class="row">
             <div class="col-md-3 register-left">
                 <img style="width: 50%;" src="{{asset('image/teacher.png')}}" alt="" />
                 <h2>Welcome</h2>
