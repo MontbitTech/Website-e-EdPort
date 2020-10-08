@@ -9,12 +9,12 @@
              <div class="row justify-content-center mb-5">
                  <div class="col-lg-12 py-0 my-0">
                      <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
-                         <h3 class="title">Everything required to manage a school </h3>
+                         <h3 class="title">Everything required to manage a Education </h3>
                      </div>
                  </div>
                  <div class="col-md-10 px-5   justify-content-center text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
                      <p>e-EdPort Virtual Classroom Solution is the pioneer in innovative educational solutions providers.
-                         We endeavour to bring a new age Learning Management System, designed the most simplistic way, for schooling to go virtual. It is vital for turning a traditional classroom into a smart class where you can get all the resources combined on a single platform.
+                         We endeavour to bring a new age Learning Management System, designed the most simplistic way, for education to go virtual. It is vital for turning a traditional classroom into a smart class where you can get all the resources combined on a single platform.
                      </p>
                  </div>
 
@@ -29,7 +29,7 @@
              <div class="col-lg-6">
                  <div class="section-title text-center pb-20 ">
                      <h3 class="title wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0s">Key Features</h3>
-                     <p class="text wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">Facilitating the elements to empower the Indian School Education System.</p>
+                     <p class="text wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">Facilitating the elements to empower the Indian Education System.</p>
                  </div>
              </div>
          </div>

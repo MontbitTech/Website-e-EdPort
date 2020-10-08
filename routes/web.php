@@ -80,9 +80,11 @@ Route::get('/products/e-edport-parental-control-app', function () {
     return view('website.products.parentalcontrol');
 })->name('products.parentalcontrol');
 
-Route::get('get-in-touch/e-edport-virtual-classroom-Solution', 'HomeController@getProductsVirtualClassroomForm')->name('products.virtual-classroom-form');
+Route::get('get-in-touch/e-edport-virtual-classroom-Solution', 'products\VirtualClassroomController@index')->name('products.virtual-classroom-form');
 
-Route::get('get-in-touch/e-edport-student-self-learning-solution', 'HomeController@getProductsSelfLearningForm')->name('products.self-learning-form');
+Route::get('get-in-touch/e-edport-student-self-learning-solution', 'products\StudentSelfLearningController@index')->name('products.self-learning-form');
+
+Route::get('get-in-touch/e-edport-parental-control-app', 'products\ParentalControlController@index')->name('products.parental-control-form');
 
 
 // Services

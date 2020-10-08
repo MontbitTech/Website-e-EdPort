@@ -46,7 +46,7 @@
                 <div class="m-auto text-center mr-bottom">
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <h3 class="register-heading"><b>Apply For <span id="ent">Individual</span> Virtual Classroom Solution</b></h3>
+                            <h3 class="register-heading"><b>Apply For <span id="ent">Individual</span> Parental Control App</b></h3>
                             <div class="row register-form">
                                 <form role="form" id="saveteacher" method="get" action="{{route('freecall')}}">
                                     <div class="row">
@@ -55,34 +55,23 @@
                                                 <input type="text" id="teachername" name="teachername" class="form-control" placeholder="Full Name *" value="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-4">
                                             <div class="form-group">
                                                 <input type="email" id="teacheremail" name="teacheremail" class="form-control" placeholder="Email *" value="" />
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-4">
                                             <div class="form-group">
                                                 <input type="text" id="mobileno" name="mobileno" class="form-control" placeholder="Phone Number *" value="" />
                                             </div>
                                         </div>
-                                        <input type="hidden" id="entityvalue" name="entityvalue" value="Individual" />
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                             <select class="form-control" name="selectlevel" id="selectlevel">
-                                                <option value="" selected>Select Entity</option>
-                                                <option value="Teacher">Teacher</option>
-                                                <option value="School">School</option>
-                                                <option value="Coaching">Coaching</option>
-                                                <option value="College/University">College / University</option>
-                                            </select>
-                                            </div>
-                                        </div>
 
-                                        <div class="col-md-6">
+                                        <div class="col-md-4">
                                             <div class="form-group">
-                                                <input type="text" id="institutionname" name="institutionname" class="form-control" placeholder="Institution Name *" value="" />
+                                             <input type="tesxt" id="age" name="age" class="form-control" placeholder="Child's Age *" value=""/>
                                             </div>
                                         </div>
+                                        
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <select class="form-control filter" name="state" id="state" style="text-transform: capitalize;">
@@ -188,7 +177,7 @@
                     mobileno: {
                         required: true
                     },
-                    selectlevel: {
+                    age: {
                         required: true
                     },
                     institutionname: {
@@ -204,18 +193,18 @@
                 },
                 messages: {
                     teachername: {
-                        required: "Enter Teacher Name",
+                        required: "Enter Name",
                         minlength: "Please, at least {0} characters are necessary"
                     },
                     teacheremail: {
-                        required: "Enter Teacher Email",
+                        required: "Enter Email",
                         email: "Please, Enter Valid Email"
                     },
                     mobileno: {
                         required: "Enter Phone No."
                     },
-                    selectlevel: {
-                        required: "Select Entity"
+                    age: {
+                        required: "Enter Child's Age"
                     },
                     institutionname: {
                         required: "Enter Institution Name"

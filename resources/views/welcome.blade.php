@@ -63,7 +63,7 @@
 
                   <div class="col-lg-5 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
                       <h3 class="mb-4 section-heading"><strong>Our Mission</strong></h3>
-                      <p class="mb-1" style="line-height:1.7">e_Edport is founded with a Mission to digitalise education by collaborating technology and skills to promote all round development of institutions, educators, & students. We aimed towards the combined efforts of our dynamic team to support each other and work together towards our goal.</p>
+                      <p class="mb-1" style="line-height:1.7">e-EdPort is founded with a Mission to digitalise education by collaborating technology and skills to promote all round development of institutions, educators, & students. We aimed towards the combined efforts of our dynamic team to support each other and work together towards our goal.</p>
                   </div>
                   <div class="col-lg-7 text-center about-img">
                       <div class="row mb-5 mb-lg-0 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.1s">
@@ -100,7 +100,8 @@
               <div class="col-lg-6">
                   <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
                       <h4 class="title">Our Offerings</h4>
-                      <p class="text">Providing solutions for systematic functioning of schools.</p>
+                      <!-- <p class="text">Providing solutions for systematic functioning of schools.</p> -->
+                      <p class="text">Providing solutions for systematic functioning of education.</p>
                   </div> <!-- row -->
               </div>
           </div> <!-- row -->
@@ -108,68 +109,92 @@
               <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                       <div class="about-icon">
+                        <a href="{{route('products.classroomsolution')}}">
                           <img src="{{asset('assets\images\Deliverables\virtualclassroom_3.png')}}" alt="Icon">
+                        </a>
                       </div>
                       <div class="about-content media-body">
+                          <a href="{{route('products.classroomsolution')}}">
                           <h4 class="about-title">Virtual Classroom Platform</h4>
                           <p class="text">New Age Learning platform connecting teachers to students.</p>
+                        </a>
                       </div>
                   </div> <!-- single about -->
               </div>
               <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                       <div class="about-icon">
+                        <a href="{{route('services.teachertraining')}}">
                           <img src="{{asset('assets\images\Deliverables\SelfLearning.png')}}" alt="Icon">
+                        </a>
                       </div>
                       <div class="about-content media-body">
+                        <a href="{{route('services.teachertraining')}}">
                           <h4 class="about-title">Smart Teacher Training</h4>
                           <p class="text">Learn the significance of online teaching aids and get a complete knowledge about using digital tools in a virtual classroom.</p>
+                        </a>
                       </div>
                   </div> <!-- single about -->
               </div>
               <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                       <div class="about-icon">
+                        <a href="{{route('products.studentselflLearning')}}">
                           <img src="{{asset('assets\images\Deliverables\SelfLearning.png')}}" alt="Icon">
+                        </a>
                       </div>
                       <div class="about-content media-body">
+                        <a href="{{route('products.studentselflLearning')}}">
                           <h4 class="about-title">Self Learning App</h4>
                           <p class="text">e-EdPort self learning mobile app makes learning portable and accessible
                               24/7.</p>
+                        </a>
                       </div>
                   </div> <!-- single about -->
               </div>
               <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
                       <div class="about-icon">
+                        <a href="{{route('services.teachercertification')}}">
                           <img src="{{asset('assets/images/Deliverables/Competitiveexamreparation.png')}}" alt="Icon">
+                        </a>
                       </div>
                       <div class="about-content media-body">
+                        <a href="{{route('services.teachercertification')}}">
                           <h4 class="about-title">Smart Teacher Certification</h4>
-                          <p class="text">Beyond school services help students prepare for future.
+                          <p class="text">Beyond education services help students prepare for future.
                           </p>
+                        </a>
                       </div>
                   </div> <!-- single about -->
               </div>
               <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
                       <div class="about-icon">
+                        <a href="{{route('products.parentalcontrol')}}">
                           <img src="{{asset('/assets/images/parental_control.png')}}" alt="Icon" style="object-fit: scale-down; height:70px">
+                        </a>
                       </div>
                       <div class="about-content media-body">
+                        <a href="{{route('products.parentalcontrol')}}">
                           <h4 class="about-title">Parental Control App</h4>
                           <p class="text">Screen your child’s activities over the internet.</p>
+                        </a>
                       </div>
                   </div> <!-- single about -->
               </div>
               <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
                       <div class="about-icon">
+                        <a href="{{route('services.careercounselling')}}">
                           <img src="{{asset('assets\images\Deliverables\solvedpracticeexercise.png')}}" alt="Icon">
+                        </a>
                       </div>
                       <div class="about-content media-body">
+                        <a href="{{route('services.careercounselling')}}">
                           <h4 class="about-title">Student Career Guidance</h4>
                           <p class="text">Counseling students to navigate their future endeavour</p>
+                        </a>
                       </div>
                   </div> <!-- single about -->
               </div>
@@ -191,7 +216,7 @@
               <div class="col-lg-6">
                   <div class="section-title text-center pb-20">
                       <h3 class="title">Key Features</h3>
-                      <p class="text">Facilitating the elements to empower the Indian School Education System.</p>
+                      <p class="text">Facilitating the elements to empower the Indian Education System.</p>
                   </div> <!-- row -->
               </div>
           </div> <!-- row -->
@@ -200,7 +225,7 @@
                   <div class="portfolio-menu pt-30 text-center">
                       <ul>
                           <!-- <li data-filter="*" class="active">ALL WORK</li> -->
-                          <li onclick="showhide()" id="virtualclass" data-filter=".virtual-school" class="active">Virtual Schooling</li>
+                          <li onclick="showhide()" id="virtualclass" data-filter=".virtual-school" class="active">Virtual Education</li>
                           <li onclick="showinstitutional()" id="instbrand" data-filter=".institutional-brand">Institutional Branding
                           </li>
                           <li onclick="showsmart()" id="smartteacher" data-filter=".smart-teacher">Smart Teacher Training</li>
@@ -328,8 +353,8 @@
                               <img src="{{asset('assets\images\KeyFeatures\InstitutionalBranding\School Website_2.png')}}" alt="Icon" class="align-self-center mr-3">
 
                               <div class="about-content media-body">
-                                  <h5 class="mt-0 mb-1">School Website</h5>
-                                  <p class="text pr-2">Create your digital identity with your School Website.
+                                  <h5 class="mt-0 mb-1">Educational institution Website</h5>
+                                  <p class="text pr-2">Create your digital identity with your Educational institution Website.
                                   </p>
                               </div>
                           </div> <!-- single about -->
@@ -364,7 +389,7 @@
 
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Promotional Videos</h5>
-                                  <p class="text pr-2"> Promotional video content for individual schools.
+                                  <p class="text pr-2"> Promotional video content for individual educational institution.
                                   </p>
                               </div>
                           </div> <!-- single about -->
