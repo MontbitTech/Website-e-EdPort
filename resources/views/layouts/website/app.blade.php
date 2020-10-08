@@ -161,18 +161,18 @@
                                             Resources <span class="caret"></span>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item  {{ (request()->routeIs('resources.brochure')) ? 'active' : '' }}" href="{{route('resources.brochure')}}">
+                                            <!-- <a class="dropdown-item  {{ (request()->routeIs('resources.brochure')) ? 'active' : '' }}" href="{{route('resources.brochure')}}">
                                                 Brochure
-                                            </a>
-                                            <a class="dropdown-item  {{ (request()->routeIs('resources.events')) ? 'active' : '' }}" href="{{route('resources.events')}}">
+                                            </a> -->
+                                            <!-- <a class="dropdown-item  {{ (request()->routeIs('resources.events')) ? 'active' : '' }}" href="{{route('resources.events')}}">
                                                 Events
-                                            </a>
+                                            </a> -->
                                             <a class="dropdown-item  {{ (request()->routeIs('resources.faqs')) ? 'active' : '' }}" href="{{route('resources.faqs')}}">
                                                 FAQ’s
                                             </a>
                                         </div>
                                     </li>
-                                    <li class="nav-item dropdown ml-5">
+                                    <!-- <li class="nav-item dropdown ml-5">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             About <span class="caret"></span>
                                         </a>
@@ -193,6 +193,12 @@
                                                 Contact Us
                                             </a>
                                         </div>
+                                    </li> -->
+                                    <li class="nav-item   {{ (request()->routeIs('about')) ? 'active' : '' }}">
+                                        <a class="page-scroll" href="{{route('about')}}">About Us</a>
+                                    </li>
+                                    <li class="nav-item   {{ (request()->routeIs('about.contactus')) ? 'active' : '' }}">
+                                        <a class="page-scroll" href="{{route('about.contactus')}}">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -201,7 +207,7 @@
                 </div>
             </div>
         </div>
-        <div id="home" class="header-hero bg_cover" style="background-image: url({{asset('assets/images/bg3.jpg')}})">
+        <div id="home" class="header-hero bg_cover" @yield('image')>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-12 col-lg-12 mx-0">
@@ -211,13 +217,10 @@
                             <ul class="header-btn rounded-buttons mb-2">
                                 <li><a style="background-color: #ffffffb3" class="main-btn btn-two video-popup wow fadeInUp" data-wow-duration=".7s" data-wow-delay="1s" href="#">WATCH
                                         THE VIDEO <i class="lni-play"></i></a></li>
-                                <li><a href="{{route('showteacher.show')}}" class="main-btn rounded-three wow fadeInUp " data-wow-duration=".7s">BOOK FREE DEMO</a></li>
-
-
+                                <li><a href="{{route('showteacher.show')}}" class="main-btn rounded-three wow fadeInUp " data-wow-duration=".7s" data-wow-delay="1s">BOOK FREE DEMO</a></li>
                             </ul>
                             <!--iframe style="border-radius:7px;" src="https://drive.google.com/file/d/1aLc0rCbCVlwTV4Yc5j0k5b0FJ3nQ_jD5/preview" width="300" height="190" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
                                 picture-in-picture" allowfullscreen></iframe-->
-
                         </div> <!-- header content -->
                     </div>
                 </div>
@@ -226,7 +229,6 @@
                 <img src="{{asset('assets/images/header-shape.svg')}}" alt="shape">
             </div>
         </div> <!-- header content -->
-
     </section>
 
     <!--====== NAVBAR PART ENDS ======-->

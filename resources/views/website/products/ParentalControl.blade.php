@@ -1,4 +1,5 @@
  @extends('layouts.website.app')
+ @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
  @section('heading') Be a Cautious Parent not a Controlling One @endsection
  @section('sub-heading') Become a Smart Parent by downloading our Parental Control App. @endsection
  @section('content')

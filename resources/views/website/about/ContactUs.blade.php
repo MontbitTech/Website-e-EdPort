@@ -1,10 +1,13 @@
  @extends('layouts.website.app')
 
  @section('content')
+ <script>
+     document.getElementById('home').remove();
+ </script>
  <section id="contact" class="contact-area bg-white">
      <div class="container">
          <div class="row justify-content-center">
-             <div class="col-lg-6">
+             <div class="col-lg-6 mt-5">
                  <div class="section-title text-center pb-20">
                      <h3 class="title">Contact</h3>
                      <p class="text">For more information, contact us through the following mediums</p>

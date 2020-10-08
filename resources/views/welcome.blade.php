@@ -1,5 +1,5 @@
   @extends('layouts.website.app')
-
+  @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
   @section('content')
   <div class="sidebar-right">
       <div class="sidebar-close">

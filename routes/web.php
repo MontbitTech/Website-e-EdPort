@@ -133,7 +133,10 @@ Route::get('/about/latest-news', function () {
 Route::get('/about/careers', function () {
     return view('website.about.careers');
 })->name('about.careers');
+Route::get('/about-us', function () {
+    return view('website.about.about');
+})->name('about');
 
-Route::get('/about/contactus', function () {
+Route::get('/contactus', function () {
     return view('website.about.contactus');
 })->name('about.contactus');
