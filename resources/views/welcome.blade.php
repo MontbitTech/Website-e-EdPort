@@ -1,4 +1,5 @@
   @extends('layouts.website.app')
+  @section('demo') href="{{route('showteacher.show')}}" @endsection
   @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
   @section('content')
   <div class="sidebar-right">
@@ -109,92 +110,92 @@
               <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                       <div class="about-icon">
-                        <a href="{{route('products.classroomsolution')}}">
-                          <img src="{{asset('assets\images\Deliverables\virtualclassroom_3.png')}}" alt="Icon">
-                        </a>
+                          <a href="{{route('products.classroomsolution')}}">
+                              <img src="{{asset('assets\images\Deliverables\virtualclassroom_3.png')}}" alt="Icon">
+                          </a>
                       </div>
                       <div class="about-content media-body">
                           <a href="{{route('products.classroomsolution')}}">
-                          <h4 class="about-title">Virtual Classroom Platform</h4>
-                          <p class="text">New Age Learning platform connecting teachers to students.</p>
-                        </a>
+                              <h4 class="about-title">Virtual Classroom Platform</h4>
+                              <p class="text">New Age Learning platform connecting teachers to students.</p>
+                          </a>
                       </div>
                   </div> <!-- single about -->
               </div>
               <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                       <div class="about-icon">
-                        <a href="{{route('services.teachertraining')}}">
-                          <img src="{{asset('assets\images\Deliverables\SelfLearning.png')}}" alt="Icon">
-                        </a>
+                          <a href="{{route('services.teachertraining')}}">
+                              <img src="{{asset('assets\images\Deliverables\SelfLearning.png')}}" alt="Icon">
+                          </a>
                       </div>
                       <div class="about-content media-body">
-                        <a href="{{route('services.teachertraining')}}">
-                          <h4 class="about-title">Smart Teacher Training</h4>
-                          <p class="text">Learn the significance of online teaching aids and get a complete knowledge about using digital tools in a virtual classroom.</p>
-                        </a>
+                          <a href="{{route('services.teachertraining')}}">
+                              <h4 class="about-title">Smart Teacher Training</h4>
+                              <p class="text">Learn the significance of online teaching aids and get a complete knowledge about using digital tools in a virtual classroom.</p>
+                          </a>
                       </div>
                   </div> <!-- single about -->
               </div>
               <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                       <div class="about-icon">
-                        <a href="{{route('products.studentselflLearning')}}">
-                          <img src="{{asset('assets\images\Deliverables\SelfLearning.png')}}" alt="Icon">
-                        </a>
+                          <a href="{{route('products.studentselflLearning')}}">
+                              <img src="{{asset('assets\images\Deliverables\SelfLearning.png')}}" alt="Icon">
+                          </a>
                       </div>
                       <div class="about-content media-body">
-                        <a href="{{route('products.studentselflLearning')}}">
-                          <h4 class="about-title">Self Learning App</h4>
-                          <p class="text">e-EdPort self learning mobile app makes learning portable and accessible
-                              24/7.</p>
-                        </a>
+                          <a href="{{route('products.studentselflLearning')}}">
+                              <h4 class="about-title">Self Learning App</h4>
+                              <p class="text">e-EdPort self learning mobile app makes learning portable and accessible
+                                  24/7.</p>
+                          </a>
                       </div>
                   </div> <!-- single about -->
               </div>
               <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
                       <div class="about-icon">
-                        <a href="{{route('services.teachercertification')}}">
-                          <img src="{{asset('assets/images/Deliverables/Competitiveexamreparation.png')}}" alt="Icon">
-                        </a>
+                          <a href="{{route('services.teachercertification')}}">
+                              <img src="{{asset('assets/images/Deliverables/Competitiveexamreparation.png')}}" alt="Icon">
+                          </a>
                       </div>
                       <div class="about-content media-body">
-                        <a href="{{route('services.teachercertification')}}">
-                          <h4 class="about-title">Smart Teacher Certification</h4>
-                          <p class="text">Beyond education services help students prepare for future.
-                          </p>
-                        </a>
+                          <a href="{{route('services.teachercertification')}}">
+                              <h4 class="about-title">Smart Teacher Certification</h4>
+                              <p class="text">Beyond education services help students prepare for future.
+                              </p>
+                          </a>
                       </div>
                   </div> <!-- single about -->
               </div>
               <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
                       <div class="about-icon">
-                        <a href="{{route('products.parentalcontrol')}}">
-                          <img src="{{asset('/assets/images/parental_control.png')}}" alt="Icon" style="object-fit: scale-down; height:70px">
-                        </a>
+                          <a href="{{route('products.parentalcontrol')}}">
+                              <img src="{{asset('/assets/images/parental_control.png')}}" alt="Icon" style="object-fit: scale-down; height:70px">
+                          </a>
                       </div>
                       <div class="about-content media-body">
-                        <a href="{{route('products.parentalcontrol')}}">
-                          <h4 class="about-title">Parental Control App</h4>
-                          <p class="text">Screen your child’s activities over the internet.</p>
-                        </a>
+                          <a href="{{route('products.parentalcontrol')}}">
+                              <h4 class="about-title">Parental Control App</h4>
+                              <p class="text">Screen your child’s activities over the internet.</p>
+                          </a>
                       </div>
                   </div> <!-- single about -->
               </div>
               <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
                       <div class="about-icon">
-                        <a href="{{route('services.careercounselling')}}">
-                          <img src="{{asset('assets\images\Deliverables\solvedpracticeexercise.png')}}" alt="Icon">
-                        </a>
+                          <a href="{{route('services.careercounselling')}}">
+                              <img src="{{asset('assets\images\Deliverables\solvedpracticeexercise.png')}}" alt="Icon">
+                          </a>
                       </div>
                       <div class="about-content media-body">
-                        <a href="{{route('services.careercounselling')}}">
-                          <h4 class="about-title">Student Career Guidance</h4>
-                          <p class="text">Counseling students to navigate their future endeavour</p>
-                        </a>
+                          <a href="{{route('services.careercounselling')}}">
+                              <h4 class="about-title">Student Career Guidance</h4>
+                              <p class="text">Counseling students to navigate their future endeavour</p>
+                          </a>
                       </div>
                   </div> <!-- single about -->
               </div>

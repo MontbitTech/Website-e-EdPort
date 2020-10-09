@@ -1,4 +1,5 @@
  @extends('layouts.website.app')
+ @section('demo') href="{{route('products.self-learning-form')}}" @endsection
  @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
  @section('heading')Self- explanatory, Self-motivating & Self- evaluating @endsection
  @section('sub-heading') The Best Opportunity for Kids to Learn on their Own. @endsection

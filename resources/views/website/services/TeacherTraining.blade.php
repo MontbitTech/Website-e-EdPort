@@ -1,4 +1,6 @@
  @extends('layouts.website.app')
+ @section('demo') href="{{route('services.teacher-training-form')}}" @endsection
+ @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
  @section('heading') Get trained to implement technology into education @endsection
  @section('sub-heading') Time to get a grip over the key skills of online teaching @endsection
  @section('content')

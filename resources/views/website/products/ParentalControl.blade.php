@@ -1,4 +1,5 @@
  @extends('layouts.website.app')
+ @section('demo') href="{{route('products.self-learning-form')}}" @endsection
  @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
  @section('heading') Be a Cautious Parent not a Controlling One @endsection
  @section('sub-heading') Become a Smart Parent by downloading our Parental Control App. @endsection
