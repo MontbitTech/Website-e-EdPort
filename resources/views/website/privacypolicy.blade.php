@@ -2,6 +2,9 @@
   @section('footer') @include('layouts.website.footer-main') @endsection
 
   @section('content')
+  <script>
+      document.getElementById('home').remove();
+  </script>
   <!--====== About Us PART START ======-->
   <section id="about" class="mt-5 portfolio-area">
       <div class="site-section">
