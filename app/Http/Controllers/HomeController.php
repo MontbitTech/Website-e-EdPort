@@ -16,22 +16,9 @@ class HomeController extends Controller
 
     public function index()
     {
-        // $data['state'] = State::where('country_id', 101)->get();
         return view('welcome');
-        //->with($data);
     }
-    // public function faq()
-    // {
-    //     return view('website.faq');
-    // }
-    // public function termsandconditions()
-    // {
-    //     return view('website.termandcondition');
-    // }
-    // public function privacypolicies()
-    // {
-    //     return view('website.privacypolicy');
-    // }
+
     public function savecontact(ContactRequest $request)
     {
 
@@ -63,40 +50,6 @@ class HomeController extends Controller
     public function saveshow()
     {
         $data['state'] = State::where('country_id', 101)->get();
-        // dd($data);
         return view('contantform')->with($data);
     }
-
-    public function getProductsVirtualClassroomForm()
-    {
-        $states = State::where('country_id', 101)->get();
-        return view('website.products.virtual-classroom-form', compact('states'));
-    }
-
-    public function getProductsSelfLearningForm()
-    {
-        $states = State::where('country_id', 101)->get();
-        return view('website.products.self-learning-form', compact('states'));
-    }
-
-    // public function getTeacherTrainingForm()
-    // {
-    //     $states = State::where('country_id', 101)->get();
-    //     return view('website.services.teacher-training-form', compact('states'));
-    // }
-    // public function getCareeCounselling()
-    // {
-    //     $states = State::where('country_id', 101)->get();
-    //     return view('website.services.careerCounselling-form', compact('states'));
-    // }
-
-    // public function getTeacherCertificationForm()
-    // {
-    //     $states = State::where('country_id', 101)->get();
-    //     return view('website.services.teacher-certification-form', compact('states'));
-    // }
-    // public function call()
-    // {
-    //     return view('freecall');
-    // }
 }
