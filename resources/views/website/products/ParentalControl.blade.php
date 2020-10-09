@@ -144,6 +144,94 @@
      </div>
  </section>
 
+ <!--====== Our Plan PART START ======-->
+
+  <section id="pricing" class="portfolio-area">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-6">
+                  <div class="section-title text-center pb-20">
+                      <h3 class="title">Our Plan</h3>
+                      <p class="text">Plans of all sizes customised for your needs</p>
+                  </div> <!-- section title -->
+              </div>
+          </div> <!-- row -->
+          <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-7 col-sm-9">
+                  <div id="basic" class="pricing-style-one mt-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+                      <!--div class="pricing-icon d-sm-block text-center">
+                            <img src="assets/images/wman.svg" alt="">
+                        </div-->
+                      <div class="pricing-header text-center">
+                          <h5 class="sub-title">Basic</h5>
+                      </div>
+                      <div class="pricing-list">
+                          <ul>
+                              <li><i class="lni-check-mark-circle"></i> Online Platform</li>
+                              <li><i class="lni-check-mark-circle"></i> Admin Panel Training</li>
+                              <li><i class="lni-check-mark-circle"></i> Dedicated Support</li>
+                              <li><i class="lni-check-mark-circle"></i> Promotional Videos</li>
+                              <li><i class="lni-check-mark-circle"></i> Smart teacher hiring support</li>
+                              <li><i class="lni-check-mark-circle"></i> Assignment & Exams</li>
+                              <li><i class="lni-check-mark-circle"></i> Google Classroom</li>
+                          </ul>
+                      </div>
+                      <div class="pricing-btn rounded-buttons text-center">
+                          <a class="main-btn rounded-three" href="#" data-toggle="modal" data-target="#modal-contact">GET STARTED</a>
+                      </div>
+                  </div> <!-- pricing style one -->
+              </div>
+
+              <div class="col-lg-4 col-md-7 col-sm-9">
+                  <div id="standard" class="pricing-style-one mt-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                      <!--div class="pricing-icon text-center">
+                            <img src="assets/images/wman.svg" alt="">
+                        </div-->
+                      <div class="pricing-header text-center">
+                          <h5 class="sub-title">Standard</h5>
+                      </div>
+                      <div class="pricing-list">
+                          <ul>
+                              <li><i class="lni-check-mark-circle"></i> <b>All Features Of Basics</b></li>
+                              <li><i class="lni-check-mark-circle"></i> Institutional Branding</li>
+                              <li><i class="lni-check-mark-circle"></i> Online Presence</li>
+                          </ul>
+                      </div>
+                      <div class="pricing-btn rounded-buttons text-center">
+                          <a class="main-btn rounded-three" href="#" data-toggle="modal" data-target="#modal-contact">GET STARTED</a>
+                      </div>
+                  </div> <!-- pricing style one -->
+              </div>
+
+              <div class="col-lg-4 col-md-7 col-sm-9">
+                  <div id="premium" class="pricing-style-one mt-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.8s">
+                      <!--div class="pricing-icon text-center">
+                            <img src="assets/images/wman.svg" alt="">
+                        </div-->
+                      <div class="pricing-header text-center">
+                          <h5 class="sub-title">Premium</h5>
+                          <!--p class="month"><span class="price">$ 699</span>/month</p-->
+                      </div>
+                      <div class="pricing-list">
+                          <ul>
+                              <li><i class="lni-check-mark-circle"></i><b> All Features Of Standard</b></li>
+                              <li><i class="lni-check-mark-circle"></i>Account Manager</li>
+                              <li><i class="lni-check-mark-circle"></i>Digital Marketing setup</li>
+                              <li><i class="lni-check-mark-circle"></i>Unlimited Students</li>
+                              <li><i class="lni-check-mark-circle"></i>Parent-Teacher Meeting</li>
+                              <li><i class="lni-check-mark-circle"></i>Student Grooming</li>
+                          </ul>
+                      </div>
+                      <div class="pricing-btn rounded-buttons text-center">
+                          <a class="main-btn rounded-three" href="#" data-toggle="modal" data-target="#modal-contact">GET STARTED</a>
+                      </div>
+                  </div> <!-- pricing style one -->
+              </div>
+          </div> <!-- row -->
+      </div> <!-- container -->
+  </section>
+  <!--====== Our Plan PART END ======-->
+
  <section id="deliverables" class="contact-area bg-white">
      <div class="container ">
          <div class="row justify-content-center">
