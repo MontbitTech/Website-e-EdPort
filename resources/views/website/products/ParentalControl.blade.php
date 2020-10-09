@@ -1,6 +1,6 @@
  @extends('layouts.website.app')
  @section('footer') @include('layouts.website.footer-plan') @endsection
- @section('demo') href="{{route('products.self-learning-form')}}" @endsection
+ @section('demo') href="{{route('products.parental-control-form')}}" @endsection
  @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
  @section('heading') Be a Cautious Parent not a Controlling One @endsection
  @section('sub-heading') Become a Smart Parent by downloading our Parental Control App. @endsection
@@ -132,7 +132,7 @@
              <div class="col-md-12 p-0  col-lg-6  mt-4 col-12 ">
                  <div class="row">
                      <div class="col-md-12 d-flex justify-content-center col-lg-6 col-12  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
-                         <a href="{{route('products.self-learning-form')}}" class="btn bg-white rounded-pill btn-hover mr-3" style="color: #161f33;">Request A Demo &#x27A7;</a>
+                         <a href="{{route('products.parental-control-form')}}" class="btn bg-white rounded-pill btn-hover mr-3" style="color: #161f33;">Request A Demo &#x27A7;</a>
 
                      </div>
                      <div class="col-md-12 d-flex justify-content-center  col-12    col-lg-4  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.5s">
