@@ -107,10 +107,10 @@
 
     <section class="header-area">
         <div class="navbar-area">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <nav class="navbar navbar-expand-lg">
+                        <nav class="navbar navbar-expand-lg mx-5">
                             <a class="navbar-brand" href="{{route('index')}}">
                                 <img src="{{asset('assets/images/logo-1.png')}}" style="height:70px;" alt="Logo">
                             </a>
@@ -124,7 +124,7 @@
                                     <li class="nav-item   {{ (request()->is('/')) ? 'active' : '' }}">
                                         <a class="page-scroll" href="{{url('/')}}">Home</a>
                                     </li>
-                                    <li class="nav-item dropdown ml-5 ">
+                                    <li class="nav-item dropdown  {{ (request()->is('products/*')) ? 'active' : '' }}">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Products <span class="caret"></span>
                                         </a>
@@ -140,7 +140,7 @@
                                             </a>
                                         </div>
                                     </li>
-                                    <li class="nav-item dropdown ml-5">
+                                    <li class="nav-item dropdown {{ (request()->is('services/*')) ? 'active' : '' }}">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Services <span class="caret"></span>
                                         </a>
@@ -156,7 +156,7 @@
                                             </a>
                                         </div>
                                     </li>
-                                    <li class="nav-item dropdown ml-5">
+                                    <li class="nav-item dropdown {{ (request()->is('resources/*')) ? 'active' : '' }}">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Resources <span class="caret"></span>
                                         </a>
@@ -172,7 +172,7 @@
                                             </a>
                                         </div>
                                     </li>
-                                    <!-- <li class="nav-item dropdown ml-5">
+                                    <!-- <li class="nav-item dropdown ">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             About <span class="caret"></span>
                                         </a>
@@ -242,49 +242,9 @@
     <footer id="footer" class="footer-area">
         <div class="footer-widget">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Company</h6>
-                            <ul>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                                <li><a href="#pricing">Plans</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Solutions</h6>
-                            <ul>
-                                <li><a href="#portfolio" class="goto" data-id="virtualclass">Virtual Classroom App</a></li>
-                                <li><a href="#portfolio" class="goto" data-id="selflearning">Self Learning App</a></li>
-                                <li><a href="#portfolio" class="goto" data-id="instbrand">Institutional Branding</a></li>
-                                <li><a href="#portfolio" class="goto" data-id="smartteacher">Smart Teacher Training</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Plan</h6>
-                            <ul>
-                                <li><a href="#basic">Basic</a></li>
-                                <li><a href="#standard">Standard</a></li>
-                                <li><a href="#premium">Premium</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Help & Support</h6>
-                            <ul>
-                                <li><a href="#">Support Center</a></li>
-                                <li><a target="_blank" href="{{route('faq')}}">FAQ</a></li>
-                                <li><a target="_blank" href="{{route('termsandconditions')}}">Terms & Conditions</a></li>
-                                <li><a target="_blank" href="{{route('privacypolicies')}}">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="row justify-content-center">
+                    @yield('footer')
+
                 </div>
             </div>
         </div> <!-- footer widget -->

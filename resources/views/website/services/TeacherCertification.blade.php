@@ -1,4 +1,5 @@
  @extends('layouts.website.app')
+ @section('footer') @include('layouts.website.footer-main') @endsection
  @section('demo') href="{{route('services.teacher-certification-form')}}" @endsection
  @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
  @section('heading') Get recognition as a Smart Teacher with our official certification @endsection

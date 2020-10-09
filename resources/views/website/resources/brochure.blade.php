@@ -1,5 +1,5 @@
  @extends('layouts.website.app')
-
+ @section('footer') @include('layouts.website.footer-main') @endsection
  @section('content')
  <style>
      .top-margin {
