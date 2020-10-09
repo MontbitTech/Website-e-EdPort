@@ -1,10 +1,15 @@
  @extends('layouts.website.app')
  @section('footer') @include('layouts.website.footer-main') @endsection
  @section('demo') href="{{route('services.teacher-training-form')}}" @endsection
- @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
+ @section('image')style="background-image:url({{asset('assets/images/traning1.jpg')}})" @endsection
  @section('heading') Get trained to implement technology into education @endsection
  @section('sub-heading') Time to get a grip over the key skills of online teaching @endsection
  @section('content')
+ <style>
+     .header-area {
+         margin-top: 6.2rem;
+     }
+ </style>
  <section id="about" class="portfolio-area">
      <div class="site-section">
          <div class="container">

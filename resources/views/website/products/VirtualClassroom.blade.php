@@ -1,7 +1,7 @@
  @extends('layouts.website.app')
  @section('footer') @include('layouts.website.footer-plan') @endsection
  @section('demo') href="{{route('products.virtual-classroom-form')}}" @endsection
- @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
+ @section('image')style="background-image:url({{asset('assets/images/classroom.jpg')}})" @endsection
  @section('heading') Digital Replica of Traditional Classroom @endsection
  @section('sub-heading')Bringing Your Classroom to Your Home @endsection
  @section('content')
