@@ -63,12 +63,6 @@
         .hidden {
             display: none;
         }
-
-        .header-hero::before {
-            background: -webkit-linear-gradient(rgba(232, 237, 255, 0.9), rgba(239, 254, 255, 0.9) 100%, rgba(254, 255, 244, 0.3) 0%, rgba(255, 255, 255, 0.12)) !important;
-            background: -o-linear-gradient(rgba(232, 237, 255, 0.9), rgba(239, 254, 255, 0.9) 100%, rgba(254, 255, 244, 0.3) 0%, rgba(255, 255, 255, 0.12)) !important;
-            background: linear-gradient(rgba(232, 237, 255, 0.9), rgb(239 254 255 / 28%) 100%, rgb(254 255 244 / 0%) 0%, rgb(255 255 255 / 0%)) !important;
-        }
     </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -87,7 +81,16 @@
 </head>
 
 <body>
-
+    @if((request()->is('/'))|| (request()->routeIs('services.careercounselling')))
+    @else
+    <style>
+        .header-hero::before {
+            background: -webkit-linear-gradient(rgba(232, 237, 255, 0.9), rgba(239, 254, 255, 0.9) 100%, rgba(254, 255, 244, 0.3) 0%, rgba(255, 255, 255, 0.12)) !important;
+            background: -o-linear-gradient(rgba(232, 237, 255, 0.9), rgba(239, 254, 255, 0.9) 100%, rgba(254, 255, 244, 0.3) 0%, rgba(255, 255, 255, 0.12)) !important;
+            background: linear-gradient(rgba(232, 237, 255, 0.9), rgb(239 254 255 / 28%) 100%, rgb(254 255 244 / 0%) 0%, rgb(255 255 255 / 0%)) !important;
+        }
+    </style>
+    @endif
     <!--====== PRELOADER PART START ======-->
 
     <!-- <div class="preloader">

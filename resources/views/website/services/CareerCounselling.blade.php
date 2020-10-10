@@ -1,7 +1,7 @@
  @extends('layouts.website.app')
  @section('footer') @include('layouts.website.footer-main') @endsection
  @section('demo') href="{{route('services.careecounselling-form')}}" @endsection
- @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
+ @section('image')style="background-image:url({{asset('assets/images/success.jpg')}})" @endsection
  @section('heading') Plan Your Career with Our Experienced Mentors @endsection
  @section('sub-heading') Know the Best for You @endsection
  @section('content')

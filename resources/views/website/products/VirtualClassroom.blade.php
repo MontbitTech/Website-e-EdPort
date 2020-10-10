@@ -19,10 +19,8 @@
                          We endeavour to bring a new age Learning Management System, designed the most simplistic way, for education to go virtual. It is vital for turning a traditional classroom into a smart class where you can get all the resources combined on a single platform.
                      </p>
                  </div>
-
              </div>
          </div>
-
      </div>
  </section>
  <section id=" portfolio" class="portfolio-area bg-light">

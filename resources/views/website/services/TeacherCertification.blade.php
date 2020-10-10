@@ -1,10 +1,15 @@
  @extends('layouts.website.app')
  @section('footer') @include('layouts.website.footer-main') @endsection
  @section('demo') href="{{route('services.teacher-certification-form')}}" @endsection
- @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
+ @section('image')style="background-image:url({{asset('assets/images/degree.jpg')}})" @endsection
  @section('heading') Get recognition as a Smart Teacher with our official certification @endsection
  @section('sub-heading') Strengthen Your Competence @endsection
  @section('content')
+ <style>
+     .header-area {
+         margin-top: 6.2rem;
+     }
+ </style>
  <section id="about" class="portfolio-area">
      <div class="site-section">
          <div class="container">
