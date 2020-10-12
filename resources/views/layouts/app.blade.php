@@ -66,12 +66,40 @@
                                     @else
                                     <li class="nav-item dropdown ml-5">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                            Sales <span class="caret"></span>
+                                            Product <span class="caret"></span>
                                         </a>
 
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item" href="{{ route('contacts') }}">
-                                                Leads
+                                                e-EdPort Virtual Classroom Solution
+                                            </a>
+                                            <a class="dropdown-item" href="{{ route('contacts') }}">
+                                                e-EdPort Student Self-Learning Solution
+                                            </a>
+                                            <a class="dropdown-item" href="{{ route('contacts') }}">
+                                                e-EdPort Parental Control App
+                                            </a>
+
+
+                                        </div>
+
+
+
+                                    </li>
+                                    <li class="nav-item dropdown ml-5">
+                                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                            Service <span class="caret"></span>
+                                        </a>
+
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="{{ route('services.teacher-training-show') }}">
+                                                e-EdPort Smart Teacher Training
+                                            </a>
+                                            <a class="dropdown-item" href="{{ route('services.teacher-certification-show') }}">
+                                                e-EdPort Smart Teacher Certification
+                                            </a>
+                                            <a class="dropdown-item" href="{{ route('services.careecounselling-show') }}">
+                                                e-EdPort Student Career Counselling
                                             </a>
 
 

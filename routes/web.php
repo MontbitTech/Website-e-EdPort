@@ -103,6 +103,9 @@ Route::get('/services/e-edport-student-career-counselling', function () {
 Route::get('services/e-edport-smart-teacher-training-form', 'services\TrainaingController@index')->name('services.teacher-training-form');
 Route::get('services/e-edport-career-counselling-form', 'services\CounsellingController@index')->name('services.careecounselling-form');
 Route::get('services/e-edport-smart-teacher-certification-form', 'services\CertificateController@index')->name('services.teacher-certification-form');
+Route::get('services/e-edport-smart-teacher-training-show', 'services\TrainaingController@show')->name('services.teacher-training-show');
+Route::get('services/e-edport-career-counselling-show', 'services\CounsellingController@show')->name('services.careecounselling-show');
+Route::get('services/e-edport-smart-teacher-certification-show', 'services\CertificateController@show')->name('services.teacher-certification-show');
 Route::resource('teachertraining', "services\TrainaingController");
 
 

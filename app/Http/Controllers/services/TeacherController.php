@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\services;
 
+use App\Contact;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\State;
@@ -55,7 +56,9 @@ class TeacherController extends Controller
      */
     public function show($id)
     {
-        //
+        $data['contact'] = Contact::latest()->get();
+
+        return view('backend.servies.contact.careerCo')->with($data);
     }
 
     /**
