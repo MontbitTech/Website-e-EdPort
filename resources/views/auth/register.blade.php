@@ -71,18 +71,14 @@
                         </div> -->
 
                         <div class="form-group row">
-                            <label for="demo" class="col-md-4 col-form-label text-md-right">{{ __('Demo Request') }}</label>
+                            <label for="demo" class="col-md-4 col-form-label text-md-right">{{ __('Request Type') }}</label>
 
                             <div class="col-md-6">
 
                                 <select class="form-control" name="role" id="role" required>
                                 <option value="" selected>Select</option>
-                                <option value="e-EdPort Virtual classroom solution">e-EdPort Virtual classroom solution</option>
-                                <option value="e-EdPort Student Self Learning Solution">e-EdPort Student Self Learning Solution</option>
-                                <option value="e-EdPort Parental Control App">e-EdPort Parental Control App</option>
-                                <option value="e-EdPort Smart Teacher Training">e-EdPort Smart Teacher Training</option>
-                                <option value="e-EdPort Smart Teacher Certification">e-EdPort Smart Teacher Certification</option>
-                                <option value="e-EdPort Student Career Counseling">e-EdPort Student Career Counseling</option>
+                                <option value="product">Product</option>
+                                <option value="service">Service</option>
                                 </select>
 
                                 @error('demo')
