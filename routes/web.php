@@ -42,12 +42,18 @@ Route::middleware('auth')->group(function () {
     Route::post('/updatecontactstatus', 'ContactController@updatecontactstatus')->name('updatecontactstatus');
 
     //products
-
+    
     Route::get('product/request/e-edport-virtual-classroom-solution', 'products\VirtualClassroomController@show')->name('products.virtual-classroom-solution');
 
     Route::get('product/request/e-edport-student-self-learning-solution', 'products\StudentSelfLearningController@show')->name('products.student-selflearning-solution');
 
     Route::get('product/request/e-edport-parental-control-app', 'products\ParentalControlController@show')->name('products.parental-control-app');
+
+    //services
+    
+    Route::get('service/request/e-edport-smart-teacher-training', 'services\TrainaingController@show')->name('services.teacher-training-show');
+
+    Route::get('service/request/e-edport-smart-teacher-certification', 'services\CertificateController@show')->name('services.teacher-certificate-show');
 });
 // form register
 
@@ -111,10 +117,9 @@ Route::get('/services/e-edport-student-career-counselling', function () {
 Route::get('services/e-edport-smart-teacher-training-form', 'services\TrainaingController@index')->name('services.teacher-training-form');
 Route::get('services/e-edport-career-counselling-form', 'services\CounsellingController@index')->name('services.careecounselling-form');
 Route::get('services/e-edport-smart-teacher-certification-form', 'services\CertificateController@index')->name('services.teacher-certification-form');
-Route::get('services/e-edport-smart-teacher-training-show', 'services\TrainaingController@show')->name('services.teacher-training-show');
 Route::get('services/e-edport-career-counselling-show', 'services\CounsellingController@show')->name('services.careecounselling-show');
 Route::get('services/e-edport-smart-teacher-certification-show', 'services\CertificateController@show')->name('services.teacher-certification-show');
-Route::resource('teachertraining', "services\TrainaingController");
+//Route::resource('teachertraining', "services\TrainaingController");
 
 
 // Resources

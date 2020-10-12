@@ -50,7 +50,7 @@
                             <div class="row register-form">
 
                                 <form role="form" id="saveteacher" method="post" action="{{route('savecontact')}}">
-                                    <input type="hidden" name="requestType" value="ceacher certification service demo">
+                                    <input type="hidden" name="requestType" value="teacher certification service demo">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
@@ -72,7 +72,7 @@
                                                 <input type="text" id="institutionname" name="institutionname" class="form-control" placeholder="Institution Name *" value="" />
                                             </div>
                                         </div>
-                                        <input type="hidden" id="entityvalue" name="entityvalue" value="Individual" />
+
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <select class="form-control" name="selectlevel" id="selectlevel">
@@ -88,7 +88,7 @@
                                                 <select class="form-control filter" name="state" id="state" style="text-transform: capitalize;">
                                                     <option value="" selected>Select State</option>
                                                     @foreach($state as $st)
-                                                    <option data-id="{{$st->id}}" value="{{$st->name}}">{{$st->name}}</option>
+                                                    <option value="{{$st->id}}">{{$st->name}}</option>
                                                     @endforeach
                                                 </select>
                                             </div>
@@ -119,11 +119,10 @@
         </script>
         @endforeach
         @endif
-        <script>
+         <script>
             $(document).ready(function() {
                 $('.filter').on('change', function() {
-                    var state_id = $('#state').find(':selected').attr('data-id');
-                    //alert(state_id);
+                    var state_id = $('#state').val();
                     $.ajax({
                         url: "{{route('getcity')}}",
                         type: 'POST',
@@ -135,7 +134,7 @@
                             var listItems1;
                             listItems1 += "<option value=''>Select City</option>";
                             for (var i = 0; i < data.length; i++) {
-                                listItems1 += "<option value='" + data[i].name + "'>" + data[i].name + "</option>";
+                                listItems1 += "<option value='" + data[i].id + "'>" + data[i].name + "</option>";
                             }
 
                             $("#city").html(listItems1);

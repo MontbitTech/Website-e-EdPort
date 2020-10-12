@@ -29,6 +29,7 @@ class HomeController extends Controller
         $contact->entity          = $request->entityvalue;
         $contact->institutionname = $request->institutionname;
         $contact->requestType     = $request->requestType;
+        $contact->certificate     = $request->selectlevel;
         $contact->qualification   = $request->qualification;
         $contact->child_age       = $request->age;
         $contact->city            = $request->city;

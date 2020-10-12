@@ -103,12 +103,12 @@
                                             <a class="dropdown-item {{ (request()->routeIs('services.teacher-training-show')) ? 'active' : '' }}" href="{{ route('services.teacher-training-show') }}">
                                                 e-EdPort Smart Teacher Training
                                             </a>
-                                            <a class="dropdown-item {{ (request()->routeIs('services.teacher-certification-show')) ? 'active' : '' }}" href="{{ route('services.teacher-certification-show') }}">
+                                            <a class="dropdown-item {{ (request()->routeIs('services.teacher-certification-show')) ? 'active' : '' }}" href="{{ route('services.teacher-certificate-show') }}">
                                                 e-EdPort Smart Teacher Certification
                                             </a>
-                                            <a class="dropdown-item {{ (request()->routeIs('services.careecounselling-show')) ? 'active' : '' }}" href="{{ route('services.careecounselling-show') }}">
+                                            <!-- <a class="dropdown-item {{ (request()->routeIs('services.careecounselling-show')) ? 'active' : '' }}" href="{{ route('services.careecounselling-show') }}">
                                                 e-EdPort Student Career Counselling
-                                            </a>
+                                            </a> -->
 
 
                                         </div>

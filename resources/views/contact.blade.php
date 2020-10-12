@@ -123,8 +123,9 @@
                                 <th>Name</th>
                                 <th>Email</th>
                                 <th>Phone No.</th>
-                                <th>Entity</th>
-                                <th>Institution Name</th>
+                                <!-- <th>Entity</th>
+                                <th>Institution Name</th> -->
+                                <th>Request Type</th>
                                 <th>Contact Time</th>
                                 <th>Status</th>
                                 <th>Action</th>
@@ -138,8 +139,7 @@
                                 <td>{{$t->name}}</td>
                                 <td><a href="mailto:{{$t->email}}">{{$t->email}}</a></td>
                                 <td><a href="tel:{{$t->mobileno}}">{{$t->mobileno}}</td>
-                                <td>{{$t->entity}}</td>
-                                <td>{{$t->institutionname}}</td>
+                                <td> {{$t->requestType}}</td>
                                 <td> {{ date("d M h:i a", strtotime($t->created_at))}}
                                 </td>
                                 <td>
