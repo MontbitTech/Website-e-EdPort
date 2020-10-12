@@ -5,7 +5,12 @@
  @section('heading') Digital Replica of Traditional Classroom @endsection
  @section('sub-heading')Bringing Your Classroom to Your Home @endsection
  @section('content')
- <section id="about" class="portfolio-area">
+ <style>
+     li.remove {
+         display: none !important;
+     }
+ </style>
+ <section id="about" class="portfolio-area bg-light">
      <div class="site-section">
          <div class="container-fluid">
              <div class="row justify-content-center mb-5">
@@ -23,7 +28,7 @@
          </div>
      </div>
  </section>
- <section id=" portfolio" class="portfolio-area bg-light">
+ <section id=" portfolio" class="portfolio-area ">
      <div class="container-fluid">
          <div class="row justify-content-center">
              <div class="col-lg-6">
@@ -150,22 +155,20 @@
 
  <!--====== Our Plan PART START ======-->
 
- <section id="pricing" class="portfolio-area">
+ <!-- <section id="pricing" class="portfolio-area">
      <div class="container">
          <div class="row justify-content-center">
              <div class="col-lg-6">
                  <div class="section-title text-center pb-20">
                      <h3 class="title">Our Plan</h3>
                      <p class="text">Plans of all sizes customised for your needs</p>
-                 </div> <!-- section title -->
+                 </div> 
              </div>
-         </div> <!-- row -->
+         </div> 
          <div class="row justify-content-center">
              <div class="col-lg-4 col-md-7 col-sm-9">
                  <div id="basic" class="pricing-style-one mt-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-                     <!--div class="pricing-icon d-sm-block text-center">
-                            <img src="assets/images/wman.svg" alt="">
-                        </div-->
+                     
                      <div class="pricing-header text-center">
                          <h5 class="sub-title">Basic</h5>
                      </div>
@@ -183,14 +186,12 @@
                      <div class="pricing-btn rounded-buttons text-center">
                          <a class="main-btn rounded-three" href="#" data-toggle="modal" data-target="#modal-contact">GET STARTED</a>
                      </div>
-                 </div> <!-- pricing style one -->
+                 </div> 
              </div>
 
              <div class="col-lg-4 col-md-7 col-sm-9">
                  <div id="standard" class="pricing-style-one mt-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                     <!--div class="pricing-icon text-center">
-                            <img src="assets/images/wman.svg" alt="">
-                        </div-->
+                    
                      <div class="pricing-header text-center">
                          <h5 class="sub-title">Standard</h5>
                      </div>
@@ -204,17 +205,15 @@
                      <div class="pricing-btn rounded-buttons text-center">
                          <a class="main-btn rounded-three" href="#" data-toggle="modal" data-target="#modal-contact">GET STARTED</a>
                      </div>
-                 </div> <!-- pricing style one -->
+                 </div> 
              </div>
 
              <div class="col-lg-4 col-md-7 col-sm-9">
                  <div id="premium" class="pricing-style-one mt-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.8s">
-                     <!--div class="pricing-icon text-center">
-                            <img src="assets/images/wman.svg" alt="">
-                        </div-->
+                     
                      <div class="pricing-header text-center">
                          <h5 class="sub-title">Premium</h5>
-                         <!--p class="month"><span class="price">$ 699</span>/month</p-->
+                        
                      </div>
                      <div class="pricing-list">
                          <ul>
@@ -229,13 +228,13 @@
                      <div class="pricing-btn rounded-buttons text-center">
                          <a class="main-btn rounded-three" href="#" data-toggle="modal" data-target="#modal-contact">GET STARTED</a>
                      </div>
-                 </div> <!-- pricing style one -->
+                 </div> 
              </div>
-         </div> <!-- row -->
-     </div> <!-- container -->
- </section>
+         </div> 
+     </div> 
+ </section> -->
  <!--====== Our Plan PART END ======-->
- <section id="deliverables" class="contact-area bg-white">
+ <!-- <section id="deliverables" class="contact-area bg-white">
      <div class="container ">
          <div class="row justify-content-center">
              <div class="col-lg-6">
@@ -329,5 +328,5 @@
 
          </div>
      </div>
- </section>
+ </section> -->
  @endsection
