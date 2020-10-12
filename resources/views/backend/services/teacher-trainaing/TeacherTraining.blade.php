@@ -25,13 +25,13 @@
 <div class="container-fluid mt-5 ">
     <div class="row">
         <div class="col-md-11 mb-5 col-12 m-auto">
-            <div class="card  mb-5">
+            <div class="card collapsed-card mb-5">
                 <div class="card-header  text-white" style="background-color: #161f33;">General Consultation Calls
                     <button type="button" class="btn btn-tool text-white float-right " data-card-widget="collapse">
-                        <i class="fas fa-minus text-black"></i>
+                        <i class="fas text-black fa-plus" aria-hidden="true"></i>
                     </button>
                 </div>
-                <div class="card-body m-auto">
+                <div class="card-body m-auto" style="display: none;">
                     <iframe src="https://calendar.google.com/calendar/embed?src=c_8ld82fo8a0e6bj5nscs7iv36gk%40group.calendar.google.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
@@ -40,14 +40,14 @@
 
     <div class="row">
         <div class="col-md-11 m-auto">
-            <div class="card">
+            <div class="card collapsed-card">
                 <div class="card-header text-white" style="background-color: #161f33;">
                     Bulk Communication
                     <button type="button" class="btn btn-tool text-white float-right " data-card-widget="collapse">
-                        <i class="fas fa-minus text-black"></i>
+                        <i class="fas text-black fa-plus" aria-hidden="true"></i>
                     </button>
                 </div>
-                <div class="card-body">
+                <div class="card-body" style="display: none;">
                     <form role="form" id="sendmail" method="post" enctype="multipart/form-data" action="{{route('sendmail')}}">
                         @csrf
                         <label for="coursename">Filter</label>
