@@ -85,9 +85,11 @@
     @else
     <style>
         .header-hero::before {
-            background: -webkit-linear-gradient(rgba(232, 237, 255, 0.9), rgba(239, 254, 255, 0.9) 100%, rgba(254, 255, 244, 0.3) 0%, rgba(255, 255, 255, 0.12)) !important;
+            background: -webkit-linear-gradient(rgb(232 237 255 / 66%), rgb(239 254 255 / 28%) 100%, rgba(254, 255, 244, 0.3) 0%, rgba(255, 255, 255, 0.12)) !important;
+            /* background: -webkit-linear-gradient(rgba(232, 237, 255, 0.9), rgba(239, 254, 255, 0.9) 100%, rgba(254, 255, 244, 0.3) 0%, rgba(255, 255, 255, 0.12)) !important; */
             background: -o-linear-gradient(rgba(232, 237, 255, 0.9), rgba(239, 254, 255, 0.9) 100%, rgba(254, 255, 244, 0.3) 0%, rgba(255, 255, 255, 0.12)) !important;
-            background: linear-gradient(rgba(232, 237, 255, 0.9), rgb(239 254 255 / 28%) 100%, rgb(254 255 244 / 0%) 0%, rgb(255 255 255 / 0%)) !important;
+            /* background: linear-gradient(rgba(232, 237, 255, 0.9), rgb(239 254 255 / 28%) 100%, rgb(254 255 244 / 0%) 0%, rgb(255 255 255 / 0%)) !important; */
+            background: linear-gradient(rgb(241 239 241 / 65%), rgb(234 241 241), #f8f9fa5e 0%) !important;
         }
     </style>
     @endif
