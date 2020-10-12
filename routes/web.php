@@ -89,20 +89,21 @@ Route::get('get-in-touch/e-edport-parental-control-app', 'products\ParentalContr
 
 // Services
 Route::get('/services/e-edport-smart-teacher-training', function () {
-    return view('website.services.teachertraining');
+    return view('website.services.teacher-trainaing.teachertraining');
 })->name('services.teachertraining');
 
 Route::get('/services/e-edport-smart-teacher-certification', function () {
-    return view('website.services.teachercertification');
+    return view('website.services.teacher-certification.teachercertification');
 })->name('services.teachercertification');
 
 Route::get('/services/e-edport-student-career-counselling', function () {
-    return view('website.services.careercounselling');
+    return view('website.services.careerCounselling.careercounselling');
 })->name('services.careercounselling');
 
-Route::get('services/e-edport-smart-teacher-training-form', 'services\TeacherController@index')->name('services.teacher-training-form');
+Route::get('services/e-edport-smart-teacher-training-form', 'services\TrainaingController@index')->name('services.teacher-training-form');
 Route::get('services/e-edport-career-counselling-form', 'services\CounsellingController@index')->name('services.careecounselling-form');
-Route::get('services/e-edport-smart-teacher-certification-form', 'services\TeacherController@cerificte')->name('services.teacher-certification-form');
+Route::get('services/e-edport-smart-teacher-certification-form', 'services\CertificateController@index')->name('services.teacher-certification-form');
+Route::resource('teachertraining', "services\TrainaingController");
 
 
 // Resources

@@ -17,13 +17,13 @@ class TeacherController extends Controller
     {
         $data['state'] = State::where('country_id', 101)->get();
 
-        return view('website.services.teacher-certification-form')->with($data);
+        return view('website.services.teacher-certification.teacher-certification-form')->with($data);
     }
     public function index()
     {
         $data['state'] = State::where('country_id', 101)->get();
 
-        return view('website.services.teacher-training-form')->with($data);
+        return view('website.services.teacher-trainaing.teacher-training-form')->with($data);
     }
 
     /**
