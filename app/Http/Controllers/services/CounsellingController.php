@@ -49,7 +49,7 @@ class CounsellingController extends Controller
      */
     public function show()
     {
-        $data['contact'] = Contact::latest()->get();
+        $data['contact'] = Contact::where('requestType', 'Career Counselling Service demo')->get();
 
         return view('backend.services.careerCounselling.careerCounselling')->with($data);
     }

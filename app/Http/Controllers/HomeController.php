@@ -33,6 +33,7 @@ class HomeController extends Controller
         $contact->child_age       = $request->age;
         $contact->city            = $request->city;
         $contact->state           = $request->state;
+        $contact->stream          = $request->stream;
         $contact->save();
         $details = [
             'name' => $request->contactname,

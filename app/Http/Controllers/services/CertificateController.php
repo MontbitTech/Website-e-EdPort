@@ -50,7 +50,7 @@ class CertificateController extends Controller
      */
     public function show()
     {
-        $data['contact'] = Contact::latest()->get();
+        $data['contact'] = Contact::where('requestType', 'Teacher Certification service demo')->get();
 
         return view('backend.services.teacher-certification.teachercertification')->with($data);
     }
