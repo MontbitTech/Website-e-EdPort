@@ -39,6 +39,13 @@
     <!-- Toastr -->
     <script type="text/javascript" src="{{asset('plugins/toastr/toastr.min.js')}}"></script>
     <link rel="stylesheet" href="{{asset('plugins/toastr/toastr.min.css')}}">
+    <style>
+        .dropdown-item.active {
+            color: #161f33 !important;
+            text-decoration: none !important;
+            background-color: white !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -65,19 +72,19 @@
                                         <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                     </li>
                                     @else
-                                    <li class="nav-item dropdown ml-5">
-                                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    <li class="nav-item dropdown ml-5 {{ (request()->is('product/request/*')) ? 'active' : '' }}">
+                                        <a id=" navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Product <span class="caret"></span>
                                         </a>
 
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="{{ route('products.virtual-classroom-solution') }}">
+                                            <a class="dropdown-item {{ (request()->routeIs('products.virtual-classroom-solution')) ? 'active' : '' }}" href="{{ route('products.virtual-classroom-solution') }}">
                                                 e-EdPort Virtual Classroom Solution
                                             </a>
-                                            <a class="dropdown-item" href="{{ route('products.student-selflearning-solution') }}">
+                                            <a class="dropdown-item {{ (request()->routeIs('products.student-selflearning-solution')) ? 'active' : '' }}" href="{{ route('products.student-selflearning-solution') }}">
                                                 e-EdPort Student Self-Learning Solution
                                             </a>
-                                            <a class="dropdown-item" href="{{ route('products.parental-control-app') }}">
+                                            <a class="dropdown-item {{ (request()->routeIs('products.parental-control-app')) ? 'active' : '' }}" href="{{ route('products.parental-control-app') }}">
                                                 e-EdPort Parental Control App
                                             </a>
 
@@ -87,19 +94,19 @@
 
 
                                     </li>
-                                    <li class="nav-item dropdown ml-5">
+                                    <li class="nav-item dropdown ml-5 {{ (request()->is('services/*')) ? 'active' : '' }}">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Service <span class="caret"></span>
                                         </a>
 
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="{{ route('services.teacher-training-show') }}">
+                                            <a class="dropdown-item {{ (request()->routeIs('services.teacher-training-show')) ? 'active' : '' }}" href="{{ route('services.teacher-training-show') }}">
                                                 e-EdPort Smart Teacher Training
                                             </a>
-                                            <a class="dropdown-item" href="{{ route('services.teacher-certification-show') }}">
+                                            <a class="dropdown-item {{ (request()->routeIs('services.teacher-certification-show')) ? 'active' : '' }}" href="{{ route('services.teacher-certification-show') }}">
                                                 e-EdPort Smart Teacher Certification
                                             </a>
-                                            <a class="dropdown-item" href="{{ route('services.careecounselling-show') }}">
+                                            <a class="dropdown-item {{ (request()->routeIs('services.careecounselling-show')) ? 'active' : '' }}" href="{{ route('services.careecounselling-show') }}">
                                                 e-EdPort Student Career Counselling
                                             </a>
 
@@ -112,11 +119,10 @@
                                     @endguest
                                     @auth
                                     @if(Auth::user()->role=='admin')
-                                    <li class="nav-item dropdown ml-5">
+                                    <li class="nav-item dropdown ml-5 ">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                            Certification <span class="caret"></span>
+                                            Teacher <span class="caret"></span>
                                         </a>
-
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item" href="{{ route('teachers') }}">
                                                 Leads
@@ -127,15 +133,9 @@
                                             <a class="dropdown-item" href="{{ route('certificate') }}">
                                                 Generate Certificate
                                             </a>
-
-
                                         </div>
-
-
-
                                     </li>
                                     @endif
-
                                     <li class="nav-item dropdown ml-5">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             {{ Auth::user()->name }} <span class="caret"></span>
