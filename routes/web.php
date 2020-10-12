@@ -19,15 +19,15 @@ Route::get('/tcpdf/{id?}', 'CertificateController@index')->name('createPDF');
 Route::middleware('admin')->group(function () {
     Route::get('/registeruser', 'Auth\RegisterController@create')->name('registershow');
     Route::post('/registeruser', 'Auth\RegisterController@store')->name('registeruser');
-    Route::get('/certificates', 'CertificateController@certificates')->name('certificate');
+    Route::get('/teacher/certificates', 'CertificateController@certificates')->name('certificate');
     Route::post('/savecertificate', 'CertificateController@savecertificate')->name('savecertificate');
     Route::post('/savecourse', 'CertificateController@savecourse')->name('savecourse');
     Route::post('/updatecourse', 'CertificateController@updatecourse')->name('updatecourse');
-    Route::get('/course', 'CertificateController@course')->name('course');
+    Route::get('/teacher/course', 'CertificateController@course')->name('course');
     Route::post('/getcourse', 'CertificateController@getcourse')->name('getcourse');
     Route::get('/home', 'CertificateController@index')->name('home');
     //Teacher Controller
-    Route::get('/teachers', 'TeacherController@teachers')->name('teachers');
+    Route::get('/teacher/teachers', 'TeacherController@teachers')->name('teachers');
     Route::post('/saveteacher', 'TeacherController@saveteacher')->name('saveteacher');
 
     Route::get('/contacts/delete/{id}', 'ContactController@delete')->name('contacts.delete');
@@ -42,7 +42,7 @@ Route::middleware('auth')->group(function () {
     Route::post('/updatecontactstatus', 'ContactController@updatecontactstatus')->name('updatecontactstatus');
 
     //products
-    
+
     Route::get('product/request/e-edport-virtual-classroom-solution', 'products\VirtualClassroomController@show')->name('products.virtual-classroom-solution');
 
     Route::get('product/request/e-edport-student-self-learning-solution', 'products\StudentSelfLearningController@show')->name('products.student-selflearning-solution');
@@ -50,7 +50,7 @@ Route::middleware('auth')->group(function () {
     Route::get('product/request/e-edport-parental-control-app', 'products\ParentalControlController@show')->name('products.parental-control-app');
 
     //services
-    
+
     Route::get('service/request/e-edport-smart-teacher-training', 'services\TrainaingController@show')->name('services.teacher-training-show');
 
     Route::get('service/request/e-edport-smart-teacher-certification', 'services\CertificateController@show')->name('services.teacher-certificate-show');

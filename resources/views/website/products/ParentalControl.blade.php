@@ -59,7 +59,7 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
 
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Block Unwanted Ads</h5>
+                                 <h5 class="mt-0 mb-1">Block Unwanted Apps</h5>
                                  <p class="text pr-2"> Helps students master each chapter's concepts.
                                  </p>
                              </div>

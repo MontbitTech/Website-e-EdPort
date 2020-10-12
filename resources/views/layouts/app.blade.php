@@ -119,49 +119,42 @@
                                     @endguest
                                     @auth
                                     @if(Auth::user()->role=='admin')
-                                    <li class="nav-item dropdown ml-5 ">
+                                    <li class="nav-item dropdown ml-5 {{ (request()->is('teacher/*')) ? 'active' : '' }}">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Teacher <span class="caret"></span>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="{{ route('teachers') }}">
+                                            <a class="dropdown-item {{ (request()->routeIs('teachers')) ? 'active' : '' }}" href="{{ route('teachers') }}">
                                                 Leads
                                             </a>
-                                            <a class="dropdown-item" href="{{ route('course') }}">
+                                            <a class="dropdown-item {{ (request()->routeIs('course')) ? 'active' : '' }}" href="{{ route('course') }}">
                                                 Add Certificate
                                             </a>
-                                            <a class="dropdown-item" href="{{ route('certificate') }}">
+                                            <a class="dropdown-item {{ (request()->routeIs('certificates')) ? 'active' : '' }}" href="{{ route('certificate') }}">
                                                 Generate Certificate
                                             </a>
                                         </div>
                                     </li>
                                     @endif
-                                    <li class="nav-item dropdown ml-5">
+                                    <li class="nav-item dropdown ml-5 {{ (request()->is('registeruser')) ? 'active' : '' }}">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             {{ Auth::user()->name }} <span class="caret"></span>
                                         </a>
-
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                                 {{ __('Logout') }}
                                             </a>
-
                                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                                 @csrf
                                             </form>
-
                                             @if(Auth::user()->role=='admin')
-
-                                            <a class="dropdown-item" href="{{ route('registershow') }}">
+                                            <a class="dropdown-item {{ (request()->routeIs('registershow')) ? 'active' : '' }}" href="{{ route('registershow') }}">
                                                 {{ __('Register') }}
                                             </a>
-
-
                                             @endif
                                             @endauth
                                         </div>
-
 
 
                                     </li>
