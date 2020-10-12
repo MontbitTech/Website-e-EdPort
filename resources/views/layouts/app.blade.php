@@ -70,13 +70,13 @@
                                         </a>
 
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="{{ route('contacts') }}">
+                                            <a class="dropdown-item" href="{{ route('products.virtual-classroom-solution') }}">
                                                 e-EdPort Virtual Classroom Solution
                                             </a>
-                                            <a class="dropdown-item" href="{{ route('contacts') }}">
+                                            <a class="dropdown-item" href="{{ route('products.student-selflearning-solution') }}">
                                                 e-EdPort Student Self-Learning Solution
                                             </a>
-                                            <a class="dropdown-item" href="{{ route('contacts') }}">
+                                            <a class="dropdown-item" href="{{ route('products.parental-control-app') }}">
                                                 e-EdPort Parental Control App
                                             </a>
 

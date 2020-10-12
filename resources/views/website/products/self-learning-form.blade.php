@@ -51,16 +51,17 @@
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                             <h3 class="register-heading"><b>Apply For <!-- <span id="ent">Individual</span> --> Student Self Learning Solution</b></h3>
                             <div class="row register-form">
-                                <form role="form" id="saveteacher" method="get" action="{{route('freecall')}}">
+                                <form role="form" id="saveteacher" method="post" action="{{route('savecontact')}}">
+                                    <input type="hidden" name="requestType" value="student self learning product demo">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <input type="text" id="teachername" name="teachername" class="form-control" placeholder="Full Name *" value="" />
+                                                <input type="text" id="teachername" name="contactname" class="form-control" placeholder="Full Name *" value="" />
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <input type="email" id="teacheremail" name="teacheremail" class="form-control" placeholder="Email *" value="" />
+                                                <input type="email" id="teacheremail" name="contactemail" class="form-control" placeholder="Email *" value="" />
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -73,10 +74,10 @@
                                             <div class="form-group">
                                              <select class="form-control" name="qualification" id="qualification">
                                                 <option value="" selected>Qualification</option>
-                                                <option value="Teacher">High School(10th)</option>
-                                                <option value="School">Higher School(12th)</option>
-                                                <option value="Coaching">Graduation(Bachelors)</option>
-                                                <option value="College/University">Post Graduation(Masters)</option>
+                                                <option value="high school(10th)">High School(10th)</option>
+                                                <option value="higher school(12th)">Higher School(12th)</option>
+                                                <option value="graduation(bachelors)">Graduation(Bachelors)</option>
+                                                <option value="post praduation(masters)">Post Graduation(Masters)</option>
                                             </select>
                                             </div>
                                         </div>
@@ -84,11 +85,11 @@
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <select class="form-control filter" name="state" id="state" style="text-transform: capitalize;">
-                                                    <option value="" selected>Select State</option>
-                                                    @foreach($states as $st)
-                                                    <option data-id="{{$st->id}}" value="{{$st->name}}">{{$st->name}}</option>
-                                                    @endforeach
-                                                </select>
+                                                <option value="" selected>Select State</option>
+                                                @foreach($states as $st)
+                                                <option value="{{$st->id}}">{{$st->name}}</option>
+                                                @endforeach
+                                            </select>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -118,31 +119,30 @@
         @endforeach
         @endif
         <script>
-            $(document).ready(function() {
-                $('.filter').on('change', function() {
-                    var state_id = $('#state').find(':selected').attr('data-id');
-                    //alert(state_id);
-                    $.ajax({
-                        url: "{{route('getcity')}}",
-                        type: 'POST',
-                        dataType: "json",
-                        data: {
-                            'state_id': state_id
-                        },
-                        success: function(data) {
-                            var listItems1;
-                            listItems1 += "<option value=''>Select City</option>";
-                            for (var i = 0; i < data.length; i++) {
-                                listItems1 += "<option value='" + data[i].name + "'>" + data[i].name + "</option>";
-                            }
+    $(document).ready(function() {
+        $('.filter').on('change', function() {
+            var state_id = $('#state').val();
+            $.ajax({
+                url: "{{route('getcity')}}",
+                type: 'POST',
+                dataType: "json",
+                data: {
+                    'state_id': state_id
+                },
+                success: function(data) {
+                    var listItems1;
+                    listItems1 += "<option value=''>Select City</option>";
+                    for (var i = 0; i < data.length; i++) {
+                        listItems1 += "<option value='" + data[i].id + "'>" + data[i].name + "</option>";
+                    }
 
-                            $("#city").html(listItems1);
+                    $("#city").html(listItems1);
 
-                        }
-                    });
-                });
+                }
             });
-        </script>
+        });
+    });
+</script>
         @if ( Session::has('flash_message') )
         <script type="text/javascript">
             const Toast = Swal.mixin({
@@ -175,11 +175,11 @@
             });
             $('#saveteacher').validate({
                 rules: {
-                    teachername: {
+                    contactname: {
                         required: true,
                         minlength: 5
                     },
-                    teacheremail: {
+                    contactemail: {
                         required: true,
                         email: true
                     },
@@ -201,11 +201,11 @@
 
                 },
                 messages: {
-                    teachername: {
+                    contactname: {
                         required: "Enter Name",
                         minlength: "Please, at least {0} characters are necessary"
                     },
-                    teacheremail: {
+                    contactemail: {
                         required: "Enter Email",
                         email: "Please, Enter Valid Email"
                     },

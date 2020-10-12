@@ -15,10 +15,10 @@ class VirtualClassroomController extends Controller
         $states = State::where('country_id', 101)->get();
         return view('website.products.virtual-classroom-form', compact('states'));
     }
-    public function show($id)
+    public function show()
     {
-        $data['contact'] = Contact::latest()->get();
+        $data['contact'] = Contact::where('requestType','virtual classroom product demo')->get();
 
-        return view('backend.serive.contact')->with($data);
+        return view('backend.products.VirtualClassroom')->with($data);
     }
 }

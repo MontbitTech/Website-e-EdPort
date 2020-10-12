@@ -40,6 +40,14 @@ Route::middleware('auth')->group(function () {
     Route::post('/contacts/update/{id}', 'ContactController@update')->name('contacts.update');
     Route::post('/sendmail', 'ContactController@sendmail')->name('sendmail');
     Route::post('/updatecontactstatus', 'ContactController@updatecontactstatus')->name('updatecontactstatus');
+
+    //products
+
+    Route::get('product/request/e-edport-virtual-classroom-solution', 'products\VirtualClassroomController@show')->name('products.virtual-classroom-solution');
+
+    Route::get('product/request/e-edport-student-self-learning-solution', 'products\StudentSelfLearningController@show')->name('products.student-selflearning-solution');
+
+    Route::get('product/request/e-edport-parental-control-app', 'products\ParentalControlController@show')->name('products.parental-control-app');
 });
 // form register
 
