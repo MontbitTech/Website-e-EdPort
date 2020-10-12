@@ -43,7 +43,7 @@
                             <h3 class="register-heading"><b>Career Counselling </b></h3>
                             <div class="row register-form">
                                 <form role="form" id="saveteacher" method="post" action="{{route('savecontact')}}">
-                                    <input type="hidden" name="requestType" value="parental control app product demo">
+                                    <input type="hidden" name="requestType" value="career counselling service demo">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">

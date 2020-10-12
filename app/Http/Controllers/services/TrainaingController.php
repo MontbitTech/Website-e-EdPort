@@ -50,7 +50,7 @@ class TrainaingController extends Controller
      */
     public function show()
     {
-        $data['contact'] = Contact::where('requestType', 'Teacher Trainaing service demo')->get();
+        $data['contact'] = Contact::where('requestType', 'teacher trainaing service demo')->get();
 
         return view('backend.services.teacher-trainaing.TeacherTraining')->with($data);
     }

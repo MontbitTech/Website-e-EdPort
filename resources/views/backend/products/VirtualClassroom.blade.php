@@ -128,10 +128,13 @@
 
             @if(count($contact) > 0 )
             <div class="card mt-5">
-                <div class="card-header">
+                <div class="card-header text-white" style="background-color: #161f33;">
                     All Contacts
+                    <button type="button" class="btn btn-tool text-white float-right " data-card-widget="collapse">
+                        <i class="fas fa-minus text-black"></i>
+                    </button>
                 </div>
-                <div class="card-body pt-2 p-0">
+                <div class=" card-body pt-2 p-0">
                     <table id="example" class="table table-bordered display" data-page-length="100">
                         <thead>
                             <tr>

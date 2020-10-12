@@ -48,16 +48,18 @@
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                             <h3 class="register-heading"><b>Apply For <span id="ent">Individual</span> Training & Certification</b></h3>
                             <div class="row register-form">
-                                <form role="form" id="saveteacher" method="get" action="{{route('services.teachercertification')}}">
+
+                                <form role="form" id="saveteacher" method="post" action="{{route('savecontact')}}">
+                                    <input type="hidden" name="requestType" value="ceacher certification service demo">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <input type="text" id="teachername" name="teachername" class="form-control" placeholder="Full Name *" value="" />
+                                                <input type="text" id="contactname" name="contactname" class="form-control" placeholder="Full Name *" value="" />
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="email" id="teacheremail" name="teacheremail" class="form-control" placeholder="Email *" value="" />
+                                                <input type="email" id="contactemail" name="contactemail" class="form-control" placeholder="Email *" value="" />
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -175,11 +177,11 @@
             });
             $('#saveteacher').validate({
                 rules: {
-                    teachername: {
+                    contactname: {
                         required: true,
                         minlength: 5
                     },
-                    teacheremail: {
+                    contactemail: {
                         required: true,
                         email: true
                     },
@@ -201,11 +203,11 @@
 
                 },
                 messages: {
-                    teachername: {
+                    contactname: {
                         required: "Enter Teacher Name",
                         minlength: "Please, at least {0} characters are necessary"
                     },
-                    teacheremail: {
+                    contactemail: {
                         required: "Enter Teacher Email",
                         email: "Please, Enter Valid Email"
                     },

@@ -80,21 +80,8 @@
                                     @endforeach
                                 </select>
                             </div>
-                            <div class="form-group col-md-2">
-                                <label for="coursename">State</label>
-                                <select class="form-control filter" name="state" id="state">
-                                    <option value="">Select State</option>
-                                    @foreach($contact->unique('state') as $t)
-                                    <option value="{{$t->state}}">{{$t->getstate->name}}</option>
-                                    @endforeach
-                                </select>
-                            </div>
-                            <div class="form-group col-md-2">
-                                <label for="coursename">City</label>
-                                <select class="form-control filter" name="city" id="city">
-                                    <option value="" selected>Select City</option>
-                                </select>
-                            </div>
+
+
 
                         </div>
                         <div class="form-group">
@@ -134,7 +121,7 @@
                         <i class="fas fa-minus text-black"></i>
                     </button>
                 </div>
-                <div class="card-body pt-2 p-0" style="display: none;">
+                <div class="card-body pt-2 p-0">
                     <table id="example" class="table table-bordered display" data-page-length="100">
                         <thead>
                             <tr>
