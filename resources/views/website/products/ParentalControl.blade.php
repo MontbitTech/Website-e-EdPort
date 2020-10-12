@@ -5,6 +5,11 @@
  @section('heading') Be a Cautious Parent not a Controlling One @endsection
  @section('sub-heading') Become a Smart Parent by downloading our Parental Control App. @endsection
  @section('content')
+ <style>
+     li.remove {
+         display: none !important;
+     }
+ </style>
  <section id="about" class="portfolio-area">
      <div class="site-section">
          <div class="container-fluid">
@@ -42,7 +47,7 @@
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Live Classes</h5>
+                                 <h5 class="mt-0 mb-1">Location Tracking</h5>
                                  <p class="text ">Helps conduct uninterrupted classes online from the
                                      comfort of your home.</p>
                              </div>
@@ -54,7 +59,7 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
 
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Practice Exercises</h5>
+                                 <h5 class="mt-0 mb-1">Block Unwanted Ads</h5>
                                  <p class="text pr-2"> Helps students master each chapter's concepts.
                                  </p>
                              </div>
@@ -66,7 +71,7 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\selfexplanatoryvideos2.png')}}" alt="Icon" class="align-self-center mr-3">
 
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Self Explanatory Videos</h5>
+                                 <h5 class="mt-0 mb-1">Block Adult Content</h5>
                                  <p class="text pr-2">Videos that help you visualize various
                                      concepts, making it easier to understand.</p>
                              </div>
@@ -78,14 +83,14 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\onlineassessment2.png')}}" alt="Icon" class="align-self-center mr-3">
 
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Online Assessments</h5>
+                                 <h5 class="mt-0 mb-1">Check Child Screen Time</h5>
                                  <p class="text pr-2"> Easy to create, launch and manage online tests and
                                      assessments securely with Google Classroom.
                                  </p>
                              </div>
                          </div> <!-- single about -->
                      </div>
-                     <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.2s">
+                     <!-- <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.2s">
                          <div class="single-about d-sm-flex mt-30 Features pb-3 pt-2 pl-2 media">
 
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\mocktest.png')}}" alt="Icon" class="align-self-center mr-3">
@@ -97,7 +102,7 @@
                                      questions
                                  </p>
                              </div>
-                         </div> <!-- single about -->
+                         </div> 
                      </div>
                      <div class="col-lg-6 wow fadeInRight " data-wow-duration=".8s" data-wow-delay="0.2s">
                          <div class="single-about media d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
@@ -110,8 +115,8 @@
                                      Extra Resources like Drawing Board, WikiPedia and many more
                                  </p>
                              </div>
-                         </div> <!-- single about -->
-                     </div>
+                         </div> 
+                     </div> -->
                  </div>
 
              </div>

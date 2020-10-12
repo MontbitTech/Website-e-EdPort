@@ -2,15 +2,19 @@
  @section('footer') @include('layouts.website.footer-main') @endsection
  @section('demo') href="{{route('services.teacher-certification-form')}}" @endsection
  @section('image')style="background-image:url({{asset('assets/images/degree.jpg')}})" @endsection
- @section('heading') Get recognition as a Smart Teacher with our official certification @endsection
+ @section('heading') Get e-EdPort Smart Teacher certification @endsection
  @section('sub-heading') Strengthen Your Competence @endsection
  @section('content')
  <style>
      .header-area {
          margin-top: 6.2rem;
      }
+
+     li.remove {
+         display: none !important;
+     }
  </style>
- <section id="about" class="portfolio-area">
+ <section id="about" class="portfolio-area bg-light">
      <div class="site-section">
          <div class="container">
              <div class="row align-items-center">
@@ -59,7 +63,7 @@
          </div>
      </div>
  </section>
- <section id="portfolio" class="portfolio-area bg-light">
+ <section id="portfolio" class="portfolio-area ">
      <div class="container-fluid">
          <div class="row justify-content-center wow fadeInUp" data-wow-duration=".8s" data-wow-delay="0s">
              <div class="col-lg-6">
@@ -131,7 +135,7 @@
          </div>
      </div>
  </section>
- <section>
+ <section class=" bg-light">
      <div class="container-fluid">
          <div class="row pt-5 pb-5" style="background-color: #161f33;">
              <div class="col-md-12 col-lg-6    col-12 wow bounceIn" data-wow-duration=".8s" data-wow-delay="0.1s">
@@ -156,7 +160,7 @@
          </div>
      </div>
  </section>
- <section id="deliverables" class="contact-area bg-white">
+ <!-- <section id="deliverables" class="contact-area bg-white">
      <div class="container ">
          <div class="row justify-content-center">
              <div class="col-lg-6">
@@ -248,5 +252,5 @@
              </div>
          </div>
      </div>
- </section>
+ </section> -->
  @endsection
