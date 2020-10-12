@@ -3,6 +3,11 @@
   @section('demo') href="{{route('showteacher.show')}}" @endsection
   @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
   @section('content')
+  <style>
+      li.remove {
+          display: none !important;
+      }
+  </style>
   <div class="sidebar-right">
       <div class="sidebar-close">
           <a class="close" href="#close"><i style="font-weight:bolder;" class="lni-close"></i></a>
