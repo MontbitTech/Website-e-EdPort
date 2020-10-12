@@ -17,7 +17,8 @@
              <div class="row justify-content-center mb-5">
                  <div class="col-lg-12 py-0 my-0">
                      <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0s">
-                         <h3 class="title">Introducing the blended approach to self learning</h3>
+                        <h3 class="title">Introducing the blender learning</h3>
+                         <!-- <h3 class="title">Introducing the blender approach to self learning</h3> -->
                      </div>
                  </div>
                  <div class="col-md-10 px-5   justify-content-center  text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
