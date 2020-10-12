@@ -23,12 +23,29 @@
     }
 </style>
 <div class="container-fluid mt-5 ">
-    <iframe src="https://calendar.google.com/calendar/embed?src=c_8ld82fo8a0e6bj5nscs7iv36gk%40group.calendar.google.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <div class="row">
+        <div class="col-md-11 mb-5 col-12 m-auto">
+            <div class="card  mb-5">
+                <div class="card-header  text-white" style="background-color: #161f33;">General Consultation Calls
+                    <button type="button" class="btn btn-tool text-white float-right " data-card-widget="collapse">
+                        <i class="fas fa-minus text-black"></i>
+                    </button>
+                </div>
+                <div class="card-body m-auto">
+                    <iframe src="https://calendar.google.com/calendar/embed?src=c_8ld82fo8a0e6bj5nscs7iv36gk%40group.calendar.google.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="row">
         <div class="col-md-11 m-auto">
             <div class="card">
-                <div class="card-header">
+                <div class="card-header text-white" style="background-color: #161f33;">
                     Bulk Communication
+                    <button type="button" class="btn btn-tool text-white float-right " data-card-widget="collapse">
+                        <i class="fas fa-minus text-black"></i>
+                    </button>
                 </div>
                 <div class="card-body">
                     <form role="form" id="sendmail" method="post" enctype="multipart/form-data" action="{{route('sendmail')}}">
@@ -112,8 +129,11 @@
 
             @if(count($contact) > 0 )
             <div class="card mt-5">
-                <div class="card-header">
+                <div class="card-header text-white" style="background-color: #161f33;">
                     All Contacts
+                    <button type="button" class="btn btn-tool text-white float-right " data-card-widget="collapse">
+                        <i class="fas fa-minus "></i>
+                    </button>
                 </div>
                 <div class="card-body pt-2 p-0">
                     <table id="example" class="table table-bordered display" data-page-length="100">
@@ -323,5 +343,9 @@
         });
     });
 </script>
-
+<script>
+    $('.btn-collapse').click(function() {
+        $(this).find('i').toggleClass('fas fa-plus fas fa-minus');
+    });
+</script>
 @endsection

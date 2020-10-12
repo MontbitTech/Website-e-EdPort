@@ -47,11 +47,11 @@ class CounsellingController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
         $data['contact'] = Contact::latest()->get();
 
-        return view('backend.serive.careerCounselling.careerCounselling')->with($data);
+        return view('backend.services.careerCounselling.careerCounselling')->with($data);
     }
 
     /**

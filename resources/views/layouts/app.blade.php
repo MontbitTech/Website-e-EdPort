@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="{{asset('plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css')}}">
     <script type="text/javascript" src="{{asset('plugins/sweetalert2/sweetalert2.min.js')}}"></script>
     <!-- Datatables -->
+    <script src="https://kit.fontawesome.com/a3a1b3a803.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="{{ asset('plugins/datatables/jquery.dataTables.min.js')}}"></script>
     <script type="text/javascript" src="{{ asset('plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
@@ -211,6 +212,7 @@
         @yield('content')
 
     </section>
+    <script type="text/javascript" src="{{asset('js/adminlte.min.js')}}"></script>
 </body>
 
 </html>

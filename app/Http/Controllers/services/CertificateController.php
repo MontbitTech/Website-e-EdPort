@@ -48,11 +48,11 @@ class CertificateController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
         $data['contact'] = Contact::latest()->get();
 
-        return view('backend.serive.teacher-certification.teachercertification')->with($data);
+        return view('backend.services.teacher-certification.teachercertification')->with($data);
     }
 
     /**
