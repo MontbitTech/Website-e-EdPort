@@ -2,14 +2,21 @@
  @section('footer') @include('layouts.website.footer-main') @endsection
  @section('demo') href="{{route('services.teacher-training-form')}}" @endsection
  @section('image')style="background-image:url({{asset('assets/images/traning1.jpg')}})" @endsection
- @section('heading') Get trained to implement technology into education @endsection
+ @section('heading') Get Smart Teacher Technical Training @endsection
  @section('sub-heading') Time to get a grip over the key skills of online teaching @endsection
  @section('content')
  <style>
      .header-area {
          margin-top: 6.2rem;
      }
+
+     li.remove {
+         display: none !important;
+     }
  </style>
+ <script>
+     $('li.remove').remove();
+ </script>
  <section id="about" class="portfolio-area">
      <div class="site-section">
          <div class="container">

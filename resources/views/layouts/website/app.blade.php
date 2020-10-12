@@ -162,9 +162,9 @@
                                             <a class="dropdown-item {{ (request()->routeIs('services.teachercertification')) ? 'active' : '' }}" href="{{route('services.teachercertification')}}">
                                                 e-EdPort Smart Teacher Certification
                                             </a>
-                                            <a class="dropdown-item {{ (request()->routeIs('services.careercounselling')) ? 'active' : '' }}" href="{{route('services.careercounselling')}}">
-                                                e-EdPort Student Career Counselling
-                                            </a>
+                                            {{-- <a class="dropdown-item {{ (request()->routeIs('services.careercounselling')) ? 'active' : '' }}" href="{{route('services.careercounselling')}}">
+                                            e-EdPort Student Career Counselling
+                                            </a> --}}
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown {{ (request()->is('resources/*')) ? 'active' : '' }}">
@@ -226,7 +226,7 @@
                             <h3 class="header-title wow fadeInUp mx-0" data-wow-duration=".7s" data-wow-delay="0.8s">@yield('heading')</h3>
                             <p class="text wow fadeInUp" style="color:#1a1a1a" data-wow-duration=".7s" data-wow-delay="0.9s">@yield('sub-heading')</p>
                             <ul class="header-btn rounded-buttons mb-2">
-                                <li><a style="background-color: #ffffffb3" class="main-btn btn-two video-popup wow fadeInUp" data-wow-duration=".7s" data-wow-delay="1s" href="#">WATCH
+                                <li class="remove"><a style="background-color: #ffffffb3" class="main-btn btn-two video-popup wow fadeInUp" data-wow-duration=".7s" data-wow-delay="1s" href="#">WATCH
                                         THE VIDEO <i class="lni-play"></i></a></li>
                                 <li><a @yield('demo') class="main-btn rounded-three wow fadeInUp " data-wow-duration=".7s" data-wow-delay="1s">BOOK FREE DEMO</a></li>
                             </ul>
