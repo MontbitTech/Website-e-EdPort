@@ -4,7 +4,7 @@
   @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
   @section('content')
   <style>
-      li.remove {
+      .header-btn li:nth-child(2) {
           display: none !important;
       }
   </style>
