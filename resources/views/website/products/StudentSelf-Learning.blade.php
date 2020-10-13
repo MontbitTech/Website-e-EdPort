@@ -1,9 +1,9 @@
  @extends('layouts.website.app')
- @section('footer') @include('layouts.website.footer-plan') @endsection
+ @section('footer') @include('layouts.website.footer-main') @endsection
  @section('demo') href="{{route('products.self-learning-form')}}" @endsection
  @section('image')style="background-image:url({{asset('assets/images/selflearning.jpg')}})" @endsection
  @section('heading')Self- explanatory, Self-motivating & Self- evaluating @endsection
- @section('sub-heading') The Best Opportunity for Kids to Learn on their Own. @endsection
+ @section('sub-heading') It's best opportunity for students to learn on their own @endsection
  @section('content')
  <style>
      li.remove {
