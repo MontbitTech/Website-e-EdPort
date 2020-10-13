@@ -228,7 +228,7 @@
                             <ul class="header-btn rounded-buttons mb-2">
                                 <li class="remove"><a style="background-color: #ffffffb3" class="main-btn btn-two video-popup wow fadeInUp" data-wow-duration=".7s" data-wow-delay="1s" href="#">WATCH
                                         THE VIDEO <i class="lni-play"></i></a></li>
-                                <li><a @yield('demo') class="main-btn rounded-three wow fadeInUp " data-wow-duration=".7s" data-wow-delay="1s">Request Demo</a></li>
+                                <li><a @yield('demo') class="main-btn rounded-three wow fadeInUp " data-wow-duration=".7s" data-wow-delay="1s">Take Free Demo</a></li>
                             </ul>
                             <!--iframe style="border-radius:7px;" src="https://drive.google.com/file/d/1aLc0rCbCVlwTV4Yc5j0k5b0FJ3nQ_jD5/preview" width="300" height="190" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
                                 picture-in-picture" allowfullscreen></iframe-->

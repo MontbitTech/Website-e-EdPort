@@ -47,7 +47,7 @@
 
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Useful Content Resources</h5>
-                                 <p class="text ">You can get essential resources from authentic sources availableonline.</p>
+                                 <p class="text ">You can get essential resources from authentic sources available online.</p>
                              </div>
                          </div> <!-- single about -->
                      </div>

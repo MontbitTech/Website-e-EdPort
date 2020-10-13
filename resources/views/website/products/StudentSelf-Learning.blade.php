@@ -23,7 +23,7 @@
                  </div>
                  <div class="col-md-10 px-5   justify-content-center  text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
                      <p>
-                        e-EdPort Self Learning Solution helps students clarify doubts, revise concepts, develop theiranalytical skills and customise their learning needs at home, thus reinforcing classroomlearning. This Self-Learning App gives you the ability to identify problems and quickly look foreffective solutions on your own. 
+                        e-EdPort Self Learning Solution helps students clarify doubts, revise concepts, develop their analytical skills and customise their learning needs at home, thus reinforcing classroomlearning. This Self-Learning App gives you the ability to identify problems and quickly look for effective solutions on your own. 
                      </p>
                  </div>
 

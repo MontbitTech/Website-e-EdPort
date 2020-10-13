@@ -25,7 +25,7 @@
                  </div>
                  <div class="col-md-10 px-5   justify-content-center text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
                      <p> 
-                        e-EdPort Parental Control App for your smartphones can help you track your kids' physicallocations, see with whom they're communicating online, set limits on their amount of dailyscreen time and block them from viewing objectionable websites. This app is essential if youwant to keep track of what your kids are doing on the internet.
+                        e-EdPort Parental Control App for your smartphones can help you track your kids' physical locations, see with whom they're communicating online, set limits on their amount of daily screen time and block them from viewing objectionable websites. This app is essential if you want to keep track of what your kids are doing on the internet.
                      </p>
                  </div>
 
