@@ -85,7 +85,7 @@
                              </div>
                              <div class="about-content card-body border-0 m-0 p-0 ">
                                  <h4 class="mt-0 ">Level 1 Exam</h4>
-                                 <p class="text m-0 p-0 ">This is the basic level of examination program in which we will test the educators on the usageof basic electronic
+                                 <p class="text m-0 p-0 ">This is the basic level of examination program in which we will test the educators on the usage of basic electronic
                                      devices like Android mobiles or laptops or computers for online teaching
                                  </p>
                              </div>
@@ -98,7 +98,7 @@
                              </div>
                              <div class="about-content card-body border-0 m-0 p-0">
                                  <h4 class="mt-0 ">Level 2 Exam</h4>
-                                 <p class="text m-0 p-0 ">In this level of exam the educators for using different types of educational softwares like GoogleClassroom,
+                                 <p class="text m-0 p-0 ">In this level of exam the educators for using different types of educational softwares like Google Classroom,
                                      Microsoft Team, etc. Also we will help them to learn all the features of Ms-office
                                  </p>
                              </div>
@@ -112,7 +112,7 @@
                              <div class="about-content card-body border-0 m-0 p-0">
                                  <h4 class="mt-0 ">Level 3 Exam</h4>
                                  <p class="text m-0 p-0 ">This is the most advanced level of training program in which we will train them on
-                                     using severalteaching softwares and specially Content Creation & Management using CMS & LMS
+                                     using several teaching softwares and specially Content Creation & Management using CMS & LMS
                                  </p>
                              </div>
                          </div>

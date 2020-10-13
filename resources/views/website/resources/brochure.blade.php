@@ -13,6 +13,14 @@
              margin-top: 3.9375rem !important;
          }
      }
+
+     .border-color {
+         border: 5px solid #aca3a3 !important;
+     }
+
+     .body {
+         font-family: 'Work Sans', sans-serif;
+     }
  </style>
  <script>
      document.getElementById('home').remove();
@@ -21,7 +29,7 @@
      <div class="container ">
          <div class="row py-3  " style="margin-top: 6.4rem !important;">
              <div class="col-md-6 col-12 col-lg-6">
-                 <img src="{{asset('assets/images/Brochure/Sales-Funnel.jpg')}}" alt="" class="border shadow" style="width:28.125rem; height:37.5rem">
+                 <img src="{{asset('assets/images/Brochure/Sales-Funnel.jpg')}}" alt="" class="border border-color shadow" style="width:28.125rem; height:37.5rem">
              </div>
              <div class="col-md-6 col-12 col-lg-6 top-margin">
                  <h2 style="color: #161f33; " class="font-weight-normal "> Sales Funnel Brochure </h2>
@@ -56,9 +64,8 @@
                  <a href="{{asset('pdf/Selflearing.pdf')}}" target="_blank" class="btn btn-success rounded-pill mt-5 px-5 py-2 font-weight-bold "> Download <span class="mb-0 pb-0">&#x25BC;</span> </a>
              </div>
              <div class="col-md-6 col-12 col-lg-6">
-                 <img src="{{asset('assets/images/Brochure/Self-Learning.jpg')}}" alt="" class="border shadow" style="width:28.125rem; height:37.5rem">
+                 <img src="{{asset('assets/images/Brochure/Self-Learning.jpg')}}" alt="" class="border shadow border-color" style="width:28.125rem; height:37.5rem">
              </div>
-
          </div>
      </div>
  </section>
@@ -66,7 +73,7 @@
      <div class="container ">
          <div class="row py-3">
              <div class="col-md-6 col-12 col-lg-6">
-                 <img src="{{asset('assets/images/Brochure/Student-guide.jpg')}}" alt="" class="border shadow" style="width:28.125rem; height:37.5rem">
+                 <img src="{{asset('assets/images/Brochure/Student-guide.jpg')}}" alt="" class="border  border-color shadow" style="width:28.125rem; height:37.5rem">
              </div>
              <div class="col-md-6 col-12 col-lg-6 top-margin">
                  <h2 style="color: #161f33; " class="font-weight-normal "> Student's guide to Google Classroom </h2>

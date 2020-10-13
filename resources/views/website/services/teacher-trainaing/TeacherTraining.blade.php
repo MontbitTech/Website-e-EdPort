@@ -85,7 +85,7 @@
                              <div class="about-content card-body border-0 m-0 p-0 ">
                                  <h4 class="mt-0 ">Level 1 Training</h4>
                                  <p class="text m-0 p-0 ">This is the basic level of training program in which we will train the educators about how to
-                                     useAndroid mobiles or laptops or computers for teaching online in a more effective manner.
+                                     use Android mobiles or laptops or computers for teaching online in a more effective manner.
                                  </p>
                              </div>
                          </div>
@@ -97,8 +97,8 @@
                              </div>
                              <div class="about-content card-body border-0 m-0 p-0">
                                  <h4 class="mt-0 ">Level 2 Training</h4>
-                                 <p class="text m-0 p-0 ">In this level we will train the educators for using different types of educational softwares likeGoogle Classroom,
-                                     Microsoft Team, etc. Also we will help them to learn all the features ofMs-office
+                                 <p class="text m-0 p-0 ">In this level we will train the educators for using different types of educational softwares like Google Classroom,
+                                     Microsoft Team, etc. Also we will help them to learn all the features of Ms-office
                                  </p>
                              </div>
                          </div>
@@ -111,7 +111,7 @@
                              <div class="about-content card-body border-0 m-0 p-0">
                                  <h4 class="mt-0 ">Level 3 Training</h4>
                                  <p class="text  m-0 p-0 ">This is the most advanced level of training program in which we will train them on using
-                                     severalteaching softwares and specially Content Creation & Management using CMS & LMS
+                                     several teaching softwares and specially Content Creation & Management using CMS & LMS
                                  </p>
                              </div>
                          </div>
