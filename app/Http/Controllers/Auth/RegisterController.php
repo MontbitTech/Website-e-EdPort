@@ -39,10 +39,12 @@ class RegisterController extends Controller
      */
     public function store(registercreate $request)
     {
+        $getrole = implode(",", $request->get('role'));
+       
         $register = new User();
         $register->name = $request->name;
         $register->email = $request->email;
-        $register->role = $request->role;
+        $register->role = $getrole;
         $register->password = Hash::make($request->password);
         $register->save();
         Session::flash('flash_message', 'Successfully Created');

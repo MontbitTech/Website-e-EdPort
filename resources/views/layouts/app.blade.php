@@ -72,21 +72,35 @@
                                         <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                     </li>
                                     @else
+
+                                    <?php
+                                    $role = explode(',', Auth::user()->role);
+                                    ?>
                                     <li class="nav-item dropdown ml-5 {{ (request()->is('product/request/*')) ? 'active' : '' }}">
                                         <a id=" navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Product <span class="caret"></span>
                                         </a>
 
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+
+                                             @if(Auth::user()->role=='admin' || in_array('e-EdPort Virtual Classroom Solution',$role))
+
                                             <a class="dropdown-item {{ (request()->routeIs('products.virtual-classroom-solution')) ? 'active' : '' }}" href="{{ route('products.virtual-classroom-solution') }}">
                                                 e-EdPort Virtual Classroom Solution
                                             </a>
+                                            @endif
+
+                                            @if(Auth::user()->role=='admin' || in_array('e-EdPort Student Self Learning Solution',$role))
                                             <a class="dropdown-item {{ (request()->routeIs('products.student-selflearning-solution')) ? 'active' : '' }}" href="{{ route('products.student-selflearning-solution') }}">
                                                 e-EdPort Student Self-Learning Solution
                                             </a>
+                                            @endif
+
+                                            @if(Auth::user()->role=='admin' || in_array('e-EdPort Parental Control App',$role))
                                             <a class="dropdown-item {{ (request()->routeIs('products.parental-control-app')) ? 'active' : '' }}" href="{{ route('products.parental-control-app') }}">
                                                 e-EdPort Parental Control App
                                             </a>
+                                            @endif
 
 
                                         </div>
@@ -100,12 +114,18 @@
                                         </a>
 
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+
+                                            @if(Auth::user()->role=='admin' || in_array('e-EdPort Smart Teacher Training',$role))
                                             <a class="dropdown-item {{ (request()->routeIs('services.teacher-training-show')) ? 'active' : '' }}" href="{{ route('services.teacher-training-show') }}">
                                                 e-EdPort Smart Teacher Training
                                             </a>
+                                            @endif
+
+                                            @if(Auth::user()->role=='admin' || in_array('e-EdPort Smart Teacher Certification',$role))
                                             <a class="dropdown-item {{ (request()->routeIs('services.teacher-certification-show')) ? 'active' : '' }}" href="{{ route('services.teacher-certificate-show') }}">
                                                 e-EdPort Smart Teacher Certification
                                             </a>
+                                            @endif
                                             <!-- <a class="dropdown-item {{ (request()->routeIs('services.careecounselling-show')) ? 'active' : '' }}" href="{{ route('services.careecounselling-show') }}">
                                                 e-EdPort Student Career Counselling
                                             </a> -->
