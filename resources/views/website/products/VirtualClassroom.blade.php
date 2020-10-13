@@ -9,6 +9,10 @@
      li.remove {
          display: none !important;
      }
+
+     .header-area {
+         margin-top: 6.2rem;
+     }
  </style>
  <section id="about" class="portfolio-area bg-light">
      <div class="site-section">
@@ -21,7 +25,7 @@
                  </div>
                  <div class="col-md-10 px-5   justify-content-center text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
                      <p>e-EdPort Virtual Classroom Solution is the pioneer in innovative educational solutions providers.
-                     We endeavour to bring a new age Learning Management System, designed the most simplistic way, for education to go virtual. ​It is vital for turning a traditional classroom into a smart class where youcan get all the resources ​combined on a single platform.</p>
+                         We endeavour to bring a new age Learning Management System, designed the most simplistic way, for education to go virtual. ​It is vital for turning a traditional classroom into a smart class where youcan get all the resources ​combined on a single platform.</p>
                  </div>
              </div>
          </div>
@@ -107,7 +111,7 @@
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Live Doubt Solving</h5>
                                  <p class="text pr-2">
-                                    Students can get the solutions of their doubts in the mid of the class.
+                                     Students can get the solutions of their doubts in the mid of the class.
                                  </p>
                              </div>
                          </div> <!-- single about -->
@@ -275,7 +279,7 @@
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#generalthreecoll" aria-expanded="true" aria-controls="generalthreecoll">
                                      <i class="fa fa-plus"></i>&nbsp;
-                                    Is it possible to take exams with this software?
+                                     Is it possible to take exams with this software?
                                  </div>
                                  <div id="generalthreecoll" class="collapse pl-2 text-left" aria-labelledby="generalthree" data-parent="#accordion">
                                      Yes, you can conduct exams and assessments and also display results to the students.
