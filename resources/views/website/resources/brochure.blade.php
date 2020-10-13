@@ -64,7 +64,7 @@
                  <a href="{{asset('pdf/Selflearing.pdf')}}" target="_blank" class="btn btn-success rounded-pill mt-5 px-5 py-2 font-weight-bold "> Download <span class="mb-0 pb-0">&#x25BC;</span> </a>
              </div>
              <div class="col-md-6 col-12 col-lg-6">
-                 <img src="{{asset('assets/images/Brochure/Self-Learning.jpg')}}" alt="" class="border shadow border-color" style="width:28.125rem; height:37.5rem">
+                 <img src="{{asset('assets/images/Brochure/Self-Learning.jpg')}}" alt="" class="border float-right shadow border-color" style="width:28.125rem; height:37.5rem">
              </div>
          </div>
      </div>

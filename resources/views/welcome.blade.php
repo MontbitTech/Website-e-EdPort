@@ -1,6 +1,8 @@
   @extends('layouts.website.app')
   @section('footer') @include('layouts.website.footer-main') @endsection
   @section('demo') href="{{route('showteacher.show')}}" @endsection
+  @section('heading') Empowering, Assisting & Upgrading Institutions @endsection
+  @section('sub-heading') Expanding The Educational horizon @endsection
   @section('image')style="background-image:url({{asset('assets/images/bg3.jpg')}})" @endsection
   @section('content')
   <style>
