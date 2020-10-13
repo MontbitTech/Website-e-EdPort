@@ -2,8 +2,8 @@
  @section('footer') @include('layouts.website.footer-main') @endsection
  @section('demo') href="{{route('products.virtual-classroom-form')}}" @endsection
  @section('image')style="background-image:url({{asset('assets/images/classroom.jpg')}})" @endsection
- @section('heading') Digital Replica of Traditional Classroom @endsection
- @section('sub-heading')Bringing Your Classroom to Your Home @endsection
+ @section('heading') Integration of Technology into Curriculum @endsection
+ @section('sub-heading')The Best Technology Integrated Virtual Classroom Solutions for You. @endsection
  @section('content')
  <style>
      li.remove {
@@ -16,13 +16,12 @@
              <div class="row justify-content-center mb-5">
                  <div class="col-lg-12 py-0 my-0">
                      <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
-                         <h3 class="title">Everything required to manage a Education </h3>
+                         <h3 class="title">Why e-EdPort Virtual Classroom Solution?</h3>
                      </div>
                  </div>
                  <div class="col-md-10 px-5   justify-content-center text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
                      <p>e-EdPort Virtual Classroom Solution is the pioneer in innovative educational solutions providers.
-                         We endeavour to bring a new age Learning Management System, designed the most simplistic way, for education to go virtual. It is vital for turning a traditional classroom into a smart class where you can get all the resources combined on a single platform.
-                     </p>
+                     We endeavour to bring a new age Learning Management System, designed the most simplistic way, for education to go virtual. ​It is vital for turning a traditional classroom into a smart class where youcan get all the resources ​combined on a single platform.</p>
                  </div>
              </div>
          </div>
@@ -47,9 +46,8 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
 
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Live Classes</h5>
-                                 <p class="text ">Helps conduct uninterrupted classes online from the
-                                     comfort of your home.</p>
+                                 <h5 class="mt-0 mb-1">Useful Content Resources</h5>
+                                 <p class="text ">You can get essential resources from authentic sources availableonline.</p>
                              </div>
                          </div> <!-- single about -->
                      </div>
@@ -59,8 +57,8 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
 
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Practice Exercises</h5>
-                                 <p class="text pr-2"> Helps students master each chapter's concepts.
+                                 <h5 class="mt-0 mb-1">Advanced Interactive Whiteboard</h5>
+                                 <p class="text pr-2"> You can use whiteboard for illustrating the concept.
                                  </p>
                              </div>
                          </div> <!-- single about -->
@@ -71,9 +69,8 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\selfexplanatoryvideos2.png')}}" alt="Icon" class="align-self-center mr-3">
 
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Self Explanatory Videos</h5>
-                                 <p class="text pr-2">Videos that help you visualize various
-                                     concepts, making it easier to understand.</p>
+                                 <h5 class="mt-0 mb-1">Archived Live Sessions</h5>
+                                 <p class="text pr-2">Students can view the live lectures later on using this feature.</p>
                              </div>
                          </div> <!-- single about -->
                      </div>
@@ -83,9 +80,8 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\onlineassessment2.png')}}" alt="Icon" class="align-self-center mr-3">
 
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Online Assessments</h5>
-                                 <p class="text pr-2"> Easy to create, launch and manage online tests and
-                                     assessments securely with Google Classroom.
+                                 <h5 class="mt-0 mb-1">Extended Live Support</h5>
+                                 <p class="text pr-2"> You can take the live suppprt from the technical head.
                                  </p>
                              </div>
                          </div> <!-- single about -->
@@ -96,10 +92,9 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\mocktest.png')}}" alt="Icon" class="align-self-center mr-3">
 
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Mock Tests</h5>
+                                 <h5 class="mt-0 mb-1">Home Work Assignments</h5>
                                  <p class="text pr-2">
-                                     Be exam ready by solving test questions from a pool of
-                                     questions
+                                     You can provide assignments to the students for evaluation.
                                  </p>
                              </div>
                          </div> <!-- single about -->
@@ -110,9 +105,9 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\Additionalresources.png')}}" alt="Icon" class="align-self-center mr-3">
 
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Additional Resources</h5>
+                                 <h5 class="mt-0 mb-1">Live Doubt Solving</h5>
                                  <p class="text pr-2">
-                                     Extra Resources like Drawing Board, WikiPedia and many more
+                                    Students can get the solutions of their doubts in the mid of the class.
                                  </p>
                              </div>
                          </div> <!-- single about -->
@@ -234,7 +229,7 @@
      </div> 
  </section> -->
  <!--====== Our Plan PART END ======-->
- <!-- <section id="deliverables" class="contact-area bg-white">
+ <section id="deliverables" class="contact-area bg-white">
      <div class="container ">
          <div class="row justify-content-center">
              <div class="col-lg-6">
@@ -262,28 +257,28 @@
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalone" style="cursor: pointer;" data-toggle="collapse" data-target="#generalonecoll" aria-expanded="true" aria-controls="generalonecoll">
                                      <i class="fa fa-plus"></i>&nbsp;
-                                     Is your app secure?
+                                     Can students review their classes?
                                  </div>
                                  <div id="generalonecoll" class="collapse pl-2 text-left" aria-labelledby="generalone" data-parent="#accordion">
-                                     Yes, our app is complete secured. There will be no issue of datasharing. All information submitted by you remain safe.
+                                     Yes, students can access the previous classes through our archived classes feature.
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#generaltwocoll" aria-expanded="true" aria-controls="generaltwocoll">
                                      <i class="fa fa-plus"></i>&nbsp;
-                                     How do you train to use your app?
+                                     What if I have to give notes in the class?
                                  </div>
                                  <div id="generaltwocoll" class="collapse pl-2 text-left" aria-labelledby="generaltwo" data-parent="#accordion">
-                                     Our team will provide you prior training before selling you the app sontgat you can cell well acquainted.
+                                     You can provide notes using a separate whiteboard or notes section where you canwriting using auto tools.
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#generalthreecoll" aria-expanded="true" aria-controls="generalthreecoll">
                                      <i class="fa fa-plus"></i>&nbsp;
-                                     What educational function does you provide?
+                                    Is it possible to take exams with this software?
                                  </div>
                                  <div id="generalthreecoll" class="collapse pl-2 text-left" aria-labelledby="generalthree" data-parent="#accordion">
-                                     We have demo videos, online presentations, tutorials etc. that can be used for training.
+                                     Yes, you can conduct exams and assessments and also display results to the students.
                                  </div>
                              </div>
                          </div>
@@ -297,28 +292,28 @@
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalone" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalonecoll" aria-expanded="true" aria-controls="technicalonecoll">
                                      <i class="fa fa-plus"></i>&nbsp;
-                                     Can I use your app on my iOS mobile?
+                                     Which Web Browser is required to use this software?
                                  </div>
                                  <div id="technicalonecoll" class="collapse pl-2 text-left" aria-labelledby="technicalone" data-parent="#accordion1">
-                                     Yes, this app is accessible on both android and iOS mobiles with certain specifications and proper internet.
+                                     You can use Google Chrome, Mozilla Firefox, Internet Explorer or any other web browsers.
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#technicaltwocoll" aria-expanded="true" aria-controls="technicaltwocoll">
                                      <i class="fa fa-plus"></i>&nbsp;
-                                     Do I have to make monthly payments?
+                                     How much speed is required for the Internet connection?
                                  </div>
                                  <div id="technicaltwocoll" class="collapse pl-2 text-left" aria-labelledby="technicaltwo" data-parent="#accordion1">
-                                     No, it's a CMS software which you have to buy for a single time and then you can access it throughout the session.
+                                     1 Mbps or more than that (broadband connection is recommended over mobile data).
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalthreecoll" aria-expanded="true" aria-controls="technicalthreecoll">
                                      <i class="fa fa-plus"></i>&nbsp;
-                                     How we can login?
+                                     Which software are you using for class tests or assignments?
                                  </div>
                                  <div id="technicalthreecoll" class="collapse pl-2 text-left" aria-labelledby="technicalthree" data-parent="#accordion1">
-                                     You have to signup with an official email id and password, and then you can use the CMS any time.
+                                     Google Classroom will help you to fulfill your requirement related to assignments or tests.
                                  </div>
                              </div>
                          </div>
@@ -328,5 +323,5 @@
 
          </div>
      </div>
- </section> -->
+ </section>
  @endsection

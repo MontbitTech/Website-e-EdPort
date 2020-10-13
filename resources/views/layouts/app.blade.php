@@ -144,9 +144,9 @@
                                             Teacher <span class="caret"></span>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item {{ (request()->routeIs('teachers')) ? 'active' : '' }}" href="{{ route('teachers') }}">
+                                            <!-- <a class="dropdown-item {{ (request()->routeIs('teachers')) ? 'active' : '' }}" href="{{ route('teachers') }}">
                                                 Leads
-                                            </a>
+                                            </a> -->
                                             <a class="dropdown-item {{ (request()->routeIs('course')) ? 'active' : '' }}" href="{{ route('course') }}">
                                                 Add Certificate
                                             </a>

@@ -2,7 +2,7 @@
  @section('footer') @include('layouts.website.footer-main') @endsection
  @section('demo') href="{{route('products.self-learning-form')}}" @endsection
  @section('image')style="background-image:url({{asset('assets/images/selflearning.jpg')}})" @endsection
- @section('heading')Self- explanatory, Self-motivating & Self- evaluating @endsection
+ @section('heading')Self Learning is a Life long Curiosity @endsection
  @section('sub-heading') It's best opportunity for students to learn on their own @endsection
  @section('content')
  <style>
@@ -17,12 +17,13 @@
              <div class="row justify-content-center mb-5">
                  <div class="col-lg-12 py-0 my-0">
                      <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0s">
-                         <h3 class="title">Introducing the blender learning</h3>
+                         <h3 class="title">Why e-EdPort Self Learning Solution?</h3>
                          <!-- <h3 class="title">Introducing the blender approach to self learning</h3> -->
                      </div>
                  </div>
                  <div class="col-md-10 px-5   justify-content-center  text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
-                     <p>Our Self Learning App makes self-learning exciting and interactive to help students learn at their own pace, in their own space! 
+                     <p>
+                        e-EdPort Self Learning Solution helps students clarify doubts, revise concepts, develop theiranalytical skills and customise their learning needs at home, thus reinforcing classroomlearning. This Self-Learning App gives you the ability to identify problems and quickly look foreffective solutions on your own. 
                      </p>
                  </div>
 

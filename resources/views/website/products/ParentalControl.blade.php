@@ -3,7 +3,7 @@
  @section('demo') href="{{route('products.parental-control-form')}}" @endsection
  @section('image')style="background-image:url({{asset('assets/images/parent.jpg')}});background-position: center;" @endsection
  @section('heading') Be a Cautious Parent not a Controlling One @endsection
- @section('sub-heading') Become a Smart Parent by downloading our Parental Control App. @endsection
+ @section('sub-heading') Our Parental Control App helps you to be aware of your kids  activity. @endsection
  @section('content')
  <style>
      li.remove {
@@ -20,11 +20,12 @@
              <div class="row justify-content-center mb-5">
                  <div class="col-lg-12 py-0 my-0">
                      <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0s">
-                         <h3 class="title">Supervise your child’s online presence</h3>
+                         <h3 class="title">Why e-EdPort Parental Control App?</h3>
                      </div>
                  </div>
                  <div class="col-md-10 px-5   justify-content-center text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
-                     <p> e-EdPort Parental Control App helps you to keep track of your kids activities over the internet. This will let you set limits on their amount of daily screen time and block them from viewing objectionable websites.
+                     <p> 
+                        e-EdPort Parental Control App for your smartphones can help you track your kids' physicallocations, see with whom they're communicating online, set limits on their amount of dailyscreen time and block them from viewing objectionable websites. This app is essential if youwant to keep track of what your kids are doing on the internet.
                      </p>
                  </div>
 
@@ -52,7 +53,7 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Location Tracking</h5>
-                                 <p class="text ">Location tracking is used to track child's current location. Parents have permission to use location information captured by the smartphone.</p>
+                                 <p class="text ">For safety purpose, the app also let you track the location of your kid's mobile.</p>
                              </div>
                          </div>
                      </div>
@@ -63,7 +64,7 @@
 
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Block Unwanted Apps</h5>
-                                 <p class="text pr-2"> Parents have permission to block the unwanted mobile apps from their child's phone.
+                                 <p class="text pr-2"> You can also block any app on your kid's mobile for preventing overuse.
                                  </p>
                              </div>
                          </div> <!-- single about -->
@@ -75,7 +76,7 @@
 
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Block Adult Content</h5>
-                                 <p class="text pr-2">Parents have permission to block the adult contents from their child's phone.</p>
+                                 <p class="text pr-2">You can also block adult content on your kid's mobile for preventing it for use.</p>
                              </div>
                          </div> <!-- single about -->
                      </div>
@@ -86,7 +87,7 @@
 
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Check Child Screen Time</h5>
-                                 <p class="text pr-2"> Parents have permission to shows child's daily screen time and breaks it out by app. It also shows which apps are sending the most notifications.
+                                 <p class="text pr-2"> You can control the time your children invest on the mobile screen.
                                  </p>
                              </div>
                          </div> <!-- single about -->
@@ -269,7 +270,7 @@
                                      Does the app run on all mobile phones?
                                  </div>
                                  <div id="generalonecoll" class="collapse pl-2 text-left" aria-labelledby="generalone" data-parent="#accordion">
-                                     Yes, the mobile app runs on all type of android and iOS mobiles with general specifications.
+                                     Yes, the mobile app runs on all type of android mobiles with general specifications.
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
@@ -313,16 +314,16 @@
                                      Can I access this app from my Laptop?
                                  </div>
                                  <div id="technicaltwocoll" class="collapse pl-2 text-left" aria-labelledby="technicaltwo" data-parent="#accordion1">
-                                     No, as of now you are not able to access this from your laptop or PC. You can only access it from your mobile.
+                                     No, as of now you are not able to access this from your laptop or PC. You can only access it from your android mobiles.
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalthreecoll" aria-expanded="true" aria-controls="technicalthreecoll">
                                      <i class="fa fa-plus"></i>&nbsp;
-                                     How we can login?
+                                     Do I have to stay logged in all the time?
                                  </div>
                                  <div id="technicalthreecoll" class="collapse pl-2 text-left" aria-labelledby="technicalthree" data-parent="#accordion1">
-                                     You have to signup with an official email id and password, and then you can use the CMS any time.
+                                     Not always, you just have to remain logged in for the time you want to keep track of yourkid's activities.
                                  </div>
                              </div>
                          </div>
