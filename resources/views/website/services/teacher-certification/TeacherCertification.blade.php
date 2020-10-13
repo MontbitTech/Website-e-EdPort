@@ -68,7 +68,7 @@
          <div class="row justify-content-center wow fadeInUp" data-wow-duration=".8s" data-wow-delay="0s">
              <div class="col-lg-6">
                  <div class="section-title text-center pb-20">
-                     <h3 class="title">Services</h3>
+                     <h3 class="title">What will you get</h3>
                      <div class="w-50 m-auto text-center">
                          <hr style=" border-top: 1px solid #161f33;">
                      </div>

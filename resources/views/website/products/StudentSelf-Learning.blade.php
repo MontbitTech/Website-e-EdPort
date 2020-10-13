@@ -102,9 +102,9 @@
                  <div class="portfolio-menu pt-30 text-center">
                      <ul>
                          <!-- <li data-filter="*" class="active">ALL WORK</li> -->
-                         <li onclick="showhide()" id="virtualclass" data-filter=".virtual-school" class="active">K To 12th</li>
+                         <li onclick="showhide()" id="virtualclass" data-filter=".virtual-school" class="active">K To 12</li>
                          <li onclick="showinstitutional()" id="instbrand" data-filter=".institutional-brand">Nursing Competition Exams</li>
-                         <li onclick="showsmart()" id="smartteacher" data-filter=".smart-teacher">Add On Course</li>
+                         <li onclick="showsmart()" id="smartteacher" data-filter=".smart-teacher">Add On Courses</li>
 
                      </ul>
                  </div>
@@ -120,7 +120,7 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
 
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">CBSE Map Content</h5>
+                                 <h5 class="mt-0 mb-1">CBSE Map Contents</h5>
                                  <p class="text ">Helps conduct uninterrupted classes online from the
                                      comfort of your home.</p>
                              </div>
@@ -132,7 +132,7 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
 
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Examination View</h5>
+                                 <h5 class="mt-0 mb-1">Animation Videos</h5>
                                  <p class="text pr-2"> Helps students master each chapter's concepts.
                                  </p>
                              </div>
@@ -144,7 +144,7 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\selfexplanatoryvideos2.png')}}" alt="Icon" class="align-self-center mr-3">
 
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Solved Questions Paper</h5>
+                                 <h5 class="mt-0 mb-1">Solved Question Paper</h5>
                                  <p class="text pr-2">Videos that help you visualize various
                                      concepts, making it easier to understand.</p>
                              </div>
@@ -158,7 +158,7 @@
                          <div class="single-about d-sm-flex mt-30   pb-3 pt-2 pl-2 Features media ">
                              <img src="{{asset('assets\images\KeyFeatures\InstitutionalBranding\School Website_2.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Syllabus Map Content</h5>
+                                 <h5 class="mt-0 mb-1">Syllabus Map Contents</h5>
                                  <p class="text pr-2">Create your digital identity with your Educational institution Website.
                                  </p>
                              </div>
@@ -206,7 +206,7 @@
                          <div class="single-about d-sm-flex  mt-30 pb-3 pt-2 pl-2 Features media">
                              <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\SmartTeacherCertification.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Eyeiets Courses</h5>
+                                 <h5 class="mt-0 mb-1">Eyelits Courses</h5>
                                  <p class="text pr-2">Certifying teachers as technologically
                                      advanced ‘Smart Teachers</p>
                              </div>

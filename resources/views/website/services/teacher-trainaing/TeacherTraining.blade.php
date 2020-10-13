@@ -46,7 +46,7 @@
                      </div>
                  </div>
              </div>
-             <div class="row align-items-center">
+             <!-- <div class="row align-items-center">
                  <div class="col-lg-4 col-md-4 col-12 text-center about-img">
                      <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                          <img src="{{asset('assets/images/vision.png')}}" alt="Girl in a jacket" width="100%" height="100%">
@@ -58,7 +58,7 @@
                          The course offers theoretical and practical tools to help teachers/learners in embedding critical thinking from the teaching process to the assessment. The course is structured as a toolkit which learners use at their own pace, the course features three levels which sheds light on meaningful and multidisciplinary learning activities.
                      </p>
                  </div>
-             </div>
+             </div> -->
          </div>
      </div>
  </section>
@@ -67,7 +67,7 @@
          <div class="row justify-content-center wow fadeInUp" data-wow-duration=".8s" data-wow-delay="0s">
              <div class="col-lg-6">
                  <div class="section-title text-center pb-20">
-                     <h3 class="title">Services</h3>
+                     <h3 class="title">What will you get</h3>
                      <div class="w-50 m-auto text-center">
                          <hr style=" border-top: 1px solid #161f33;">
                      </div>

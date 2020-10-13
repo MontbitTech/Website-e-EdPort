@@ -190,7 +190,7 @@
                       </div>
                   </div> <!-- single about -->
               </div>
-              <div class="col-lg-6">
+              <!-- <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
                       <div class="about-icon">
                           <a href="{{route('services.careercounselling')}}">
@@ -203,8 +203,8 @@
                               <p class="text">Counseling students to navigate their future endeavour</p>
                           </a>
                       </div>
-                  </div> <!-- single about -->
-              </div>
+                  </div>
+              </div> -->
 
           </div> <!-- row -->
       </div> <!-- container -->

@@ -48,8 +48,7 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Location Tracking</h5>
-                                 <p class="text ">Helps conduct uninterrupted classes online from the
-                                     comfort of your home.</p>
+                                 <p class="text ">Location tracking is used to track child's current location. Parents have permission to use location information captured by the smartphone.</p>
                              </div>
                          </div>
                      </div>
@@ -60,7 +59,7 @@
 
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Block Unwanted Apps</h5>
-                                 <p class="text pr-2"> Helps students master each chapter's concepts.
+                                 <p class="text pr-2"> Parents have permission to block the unwanted mobile apps from their child's phone.
                                  </p>
                              </div>
                          </div> <!-- single about -->
@@ -72,8 +71,7 @@
 
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Block Adult Content</h5>
-                                 <p class="text pr-2">Videos that help you visualize various
-                                     concepts, making it easier to understand.</p>
+                                 <p class="text pr-2">Parents have permission to block the adult contents from their child's phone.</p>
                              </div>
                          </div> <!-- single about -->
                      </div>
@@ -84,8 +82,7 @@
 
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Check Child Screen Time</h5>
-                                 <p class="text pr-2"> Easy to create, launch and manage online tests and
-                                     assessments securely with Google Classroom.
+                                 <p class="text pr-2"> Parents have permission to shows child's daily screen time and breaks it out by app. It also shows which apps are sending the most notifications.
                                  </p>
                              </div>
                          </div> <!-- single about -->
