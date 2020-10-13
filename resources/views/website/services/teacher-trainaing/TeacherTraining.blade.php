@@ -80,17 +80,43 @@
                      <div class="col-lg-4  col-12 col-md-4 justify-content-center wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s" style="background-color: transparent;">
                          <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
                              <div class="card-header border-0 " style="background-color: transparent;">
-                                 <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
+                                 <img src="{{asset('assets/images/traning/stage_11.jpg')}}" alt="Icon" class="align-self-center mr-3">
                              </div>
                              <div class="about-content card-body border-0 m-0 p-0 ">
-                                 <h4 class="mt-0 ">Live Classes</h4>
-                                 <p class="text m-0 p-0 ">Helps conduct uninterrupted classes online from the
-                                     comfort of your home.
+                                 <h4 class="mt-0 ">Level 1 Training</h4>
+                                 <p class="text m-0 p-0 ">This is the basic level of training program in which we will train the educators about how to
+                                     useAndroid mobiles or laptops or computers for teaching online in a more effective manner.
                                  </p>
                              </div>
                          </div>
                      </div>
-                     <div class="col-lg-4  col-12 col-md-4 offset-md-4 offset-lg-4 justify-content-center wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s" style="background-color: transparent;">
+                     <div class="col-lg-4  col-12 col-md-4   justify-content-center wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s" style="background-color: transparent;">
+                         <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
+                             <div class="card-header border-0 " style="background-color: transparent;">
+                                 <img src="{{asset('assets/images/traning/stage_22.jpg')}}" alt="Icon" class="align-self-center mr-3">
+                             </div>
+                             <div class="about-content card-body border-0 m-0 p-0">
+                                 <h4 class="mt-0 ">Level 2 Training</h4>
+                                 <p class="text m-0 p-0 ">In this level we will train the educators for using different types of educational softwares likeGoogle Classroom,
+                                     Microsoft Team, etc. Also we will help them to learn all the features ofMs-office
+                                 </p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-4  col-12 col-md-4 justify-content-center  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s" style="background-color: transparent;">
+                         <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
+                             <div class="card-header border-0 " style="background-color: transparent;">
+                                 <img src="{{asset('assets/images/traning/stage_33.jpg')}}" alt="Icon" class="align-self-center mr-3">
+                             </div>
+                             <div class="about-content card-body border-0 m-0 p-0">
+                                 <h4 class="mt-0 ">Level 3 Training</h4>
+                                 <p class="text  m-0 p-0 ">This is the most advanced level of training program in which we will train them on using
+                                     severalteaching softwares and specially Content Creation & Management using CMS & LMS
+                                 </p>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- <div class="col-lg-4  col-12 col-md-4 offset-md-4 offset-lg-4  justify-content-center wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s" style="background-color: transparent;">
                          <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
                              <div class="card-header border-0 " style="background-color: transparent;">
                                  <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
@@ -102,33 +128,7 @@
                                  </p>
                              </div>
                          </div>
-                     </div>
-                     <div class="col-lg-4  col-12 col-md-4 justify-content-center mt-3 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.2s" style="background-color: transparent;">
-                         <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
-                             <div class="card-header border-0 " style="background-color: transparent;">
-                                 <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
-                             </div>
-                             <div class="about-content card-body border-0 m-0 p-0">
-                                 <h4 class="mt-0 ">Live Classes</h4>
-                                 <p class="text m-0 p-0 ">Helps conduct uninterrupted classes online from the
-                                     comfort of your home.
-                                 </p>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-lg-4  col-12 col-md-4 offset-md-4 offset-lg-4  mt-3 justify-content-center wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s" style="background-color: transparent;">
-                         <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
-                             <div class="card-header border-0 " style="background-color: transparent;">
-                                 <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
-                             </div>
-                             <div class="about-content card-body border-0 m-0 p-0">
-                                 <h4 class="mt-0 ">Live Classes</h4>
-                                 <p class="text m-0 p-0 ">Helps conduct uninterrupted classes online from the
-                                     comfort of your home.
-                                 </p>
-                             </div>
-                         </div>
-                     </div>
+                     </div> -->
                  </div>
              </div>
          </div>

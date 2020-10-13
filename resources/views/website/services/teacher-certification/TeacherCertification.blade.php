@@ -84,52 +84,51 @@
                                  <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
                              </div>
                              <div class="about-content card-body border-0 m-0 p-0 ">
-                                 <h4 class="mt-0 ">Live Classes</h4>
-                                 <p class="text m-0 p-0 ">Helps conduct uninterrupted classes online from the
-                                     comfort of your home.
+                                 <h4 class="mt-0 ">Level 1 Exam</h4>
+                                 <p class="text m-0 p-0 ">This is the basic level of examination program in which we will test the educators on the usageof basic electronic
+                                     devices like Android mobiles or laptops or computers for online teaching
                                  </p>
                              </div>
                          </div>
                      </div>
-                     <div class="col-lg-4  col-12 col-md-4 offset-md-4 offset-lg-4 justify-content-center wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s" style="background-color: transparent;">
+                     <div class="col-lg-4  col-12 col-md-4  justify-content-center wow fadeInDown" data-wow-duration=".8s" data-wow-delay="0s" style="background-color: transparent;">
                          <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
                              <div class="card-header border-0 " style="background-color: transparent;">
                                  <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
                              </div>
                              <div class="about-content card-body border-0 m-0 p-0">
-                                 <h4 class="mt-0 ">Live Classes</h4>
-                                 <p class="text m-0 p-0 ">Helps conduct uninterrupted classes online from the
-                                     comfort of your home.
+                                 <h4 class="mt-0 ">Level 2 Exam</h4>
+                                 <p class="text m-0 p-0 ">In this level of exam the educators for using different types of educational softwares like GoogleClassroom,
+                                     Microsoft Team, etc. Also we will help them to learn all the features of Ms-office
                                  </p>
                              </div>
                          </div>
                      </div>
-                     <div class="col-lg-4  col-12 col-md-4 justify-content-center mt-3 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.2s" style="background-color: transparent;">
+                     <div class="col-lg-4  col-12 col-md-4 justify-content-center  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s" style="background-color: transparent;">
                          <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
                              <div class="card-header border-0 " style="background-color: transparent;">
                                  <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
                              </div>
                              <div class="about-content card-body border-0 m-0 p-0">
-                                 <h4 class="mt-0 ">Live Classes</h4>
-                                 <p class="text m-0 p-0 ">Helps conduct uninterrupted classes online from the
-                                     comfort of your home.
+                                 <h4 class="mt-0 ">Level 3 Exam</h4>
+                                 <p class="text m-0 p-0 ">This is the most advanced level of training program in which we will train them on
+                                     using severalteaching softwares and specially Content Creation & Management using CMS & LMS
                                  </p>
                              </div>
                          </div>
                      </div>
-                     <div class="col-lg-4  col-12 col-md-4 offset-md-4 offset-lg-4  mt-3 justify-content-center wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s" style="background-color: transparent;">
+                     <!-- <div class="col-lg-4  col-12 col-md-4 offset-md-4 offset-lg-4  mt-3 justify-content-center wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s" style="background-color: transparent;">
                          <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
                              <div class="card-header border-0 " style="background-color: transparent;">
                                  <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
                              </div>
                              <div class="about-content card-body border-0 m-0 p-0">
-                                 <h4 class="mt-0 ">Live Classes</h4>
-                                 <p class="text m-0 p-0 ">Helps conduct uninterrupted classes online from the
-                                     comfort of your home.
+                                 <h4 class="mt-0 "></h4>
+                                 <p class="text m-0 p-0 ">
                                  </p>
                              </div>
                          </div>
-                     </div>
+                     </div> -->
                  </div>
              </div>
          </div>
