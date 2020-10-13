@@ -267,10 +267,10 @@
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalone" style="cursor: pointer;" data-toggle="collapse" data-target="#generalonecoll" aria-expanded="true" aria-controls="generalonecoll">
                                      <i class="fa fa-plus"></i>&nbsp;
-                                     Does the app run on all mobile phones?
+                                     Does the app support all mobile platforms?
                                  </div>
                                  <div id="generalonecoll" class="collapse pl-2 text-left" aria-labelledby="generalone" data-parent="#accordion">
-                                     Yes, the mobile app runs on all type of android mobiles with general specifications.
+                                     No, the app runs only on android mobiles with general specifications.
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
@@ -279,7 +279,7 @@
                                      Is the Parental App free?
                                  </div>
                                  <div id="generaltwocoll" class="collapse pl-2 text-left" aria-labelledby="generaltwo" data-parent="#accordion">
-                                     No, the app is not free. You have to pay a certain amount for accessing the parental control app.
+                                     <p>No, the app is not free.You have to simply manage your subscriptions.</p>
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
@@ -305,7 +305,10 @@
                                      How to install FamilyTime on my child’s mobile device?
                                  </div>
                                  <div id="technicalonecoll" class="collapse pl-2 text-left" aria-labelledby="technicalone" data-parent="#accordion1">
-                                     There are two different apps one for Parent another for Child. You can install the Child app with given instructions.
+                                     <p>Enter all the essential details to sign-up as a parent. You can now even sign up using Facebook. As easy as a single click. Using a number, OTP confirmation is needed.
+                                     Now Sign-in for the First time to select among many options for subscription and you will be able to choose using options that vary between Various Subscription plans, which include the number of children & subscription timeline.
+                                     Now Add the details for your child and register their number using an OTP. A simple way to ensure the parental plan for your child.
+                                     Install the child app in your child's device and continue with steps as easy as enter number - enter OTP - Setup Done</p>
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
@@ -323,7 +326,7 @@
                                      Do I have to stay logged in all the time?
                                  </div>
                                  <div id="technicalthreecoll" class="collapse pl-2 text-left" aria-labelledby="technicalthree" data-parent="#accordion1">
-                                     Not always, you just have to remain logged in for the time you want to keep track of yourkid's activities.
+                                     Not always, you just have to remain logged in for the time you want to keep track of your kid's activities.
                                  </div>
                              </div>
                          </div>

@@ -299,7 +299,7 @@
                                      Which Web Browser is required to use this software?
                                  </div>
                                  <div id="technicalonecoll" class="collapse pl-2 text-left" aria-labelledby="technicalone" data-parent="#accordion1">
-                                     You can use Google Chrome, Mozilla Firefox, Internet Explorer or any other web browsers.
+                                     You dont need any specific browser for this. It will run on all browsers like Google Chrome, Mozilla Firefox, Internet Explorer etc.
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
