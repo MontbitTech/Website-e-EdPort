@@ -207,7 +207,7 @@
                          <div class="single-about d-sm-flex  mt-30 pb-3 pt-2 pl-2 Features media">
                              <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\SmartTeacherCertification.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Eyelits Courses</h5>
+                                 <h5 class="mt-0 mb-1">Eyelets Courses</h5>
                                  <p class="text pr-2">Certifying teachers as technologically
                                      advanced ‘Smart Teachers</p>
                              </div>

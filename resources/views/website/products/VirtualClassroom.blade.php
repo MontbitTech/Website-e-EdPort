@@ -269,7 +269,7 @@
                                      What if I have to give notes in the class?
                                  </div>
                                  <div id="generaltwocoll" class="collapse pl-2 text-left" aria-labelledby="generaltwo" data-parent="#accordion">
-                                     You can provide notes using a separate whiteboard or notes section where you canwriting using auto tools.
+                                     You can provide notes using a separate whiteboard or notes section where you can writing using auto tools.
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
