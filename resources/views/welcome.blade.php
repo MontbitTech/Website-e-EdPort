@@ -25,7 +25,7 @@
                   <li><a href="#">RESOURCES</a></li>
                   <li><a href="#contact">CONTACT</a></li>
               </ul>
-          </div> <!-- menu -->
+          </div>
           <div class="sidebar-social d-flex align-items-center justify-content-center">
               <span>FOLLOW US ON</span>
               <ul>
@@ -33,10 +33,9 @@
                   <li><a target="_blank" href="https://www.instagram.com/e_edport/?hl=en"><i class="lni-instagram"></i></a></li>
                   <li><a target="_blank" href="https://www.youtube.com/channel/UCy76UlnIMTWXk_aN4ZnmDdA"><i class="lni-youtube"></i></a></li>
                   <li><a target="_blank" href="https://www.linkedin.com/showcase/electroniceducationportal"><i class="fa fa-linkedin"></i></a></li>
-
               </ul>
-          </div> <!-- sidebar social -->
-      </div> <!-- content -->
+          </div>
+      </div>
   </div>
   <div class="overlay-right"></div>
 
@@ -50,26 +49,22 @@
                   <div class="col-lg-6">
                       <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
                           <h3 class="title">About Us</h3>
-                      </div> <!-- row -->
+                      </div>
                   </div>
-              </div> <!-- row -->
+              </div>
               <div class="row align-items-center">
                   <div class="col-lg-7 text-center about-img">
                       <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                           <img src="{{asset('assets/images/vision.png')}}" alt="Girl in a jacket" width="100%" height="100%">
                       </div>
-
                   </div>
                   <div class="col-lg-5 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
                       <h3 class="mb-4 section-heading"><strong>Our Vision</strong></h3>
-
                       <p class="mb-1" style="line-height:1.7">
                           Our Vision is to integrate information with innovation to emancipate the education sector. We aspire to play a significant role in strengthening the Indian education system.</p>
-
                   </div>
               </div>
               <div class="row align-items-center">
-
                   <div class="col-lg-5 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
                       <h3 class="mb-4 section-heading"><strong>Our Mission</strong></h3>
                       <p class="mb-1" style="line-height:1.7">e-EdPort is founded with a Mission to digitalise education by collaborating technology and skills to promote all round development of institutions, educators, & students. We aimed towards the combined efforts of our dynamic team to support each other and work together towards our goal.</p>
@@ -88,17 +83,12 @@
                   </div>
                   <div class="col-lg-5 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s">
                       <h3 class="mb-4 section-heading"><strong>Our Story</strong></h3>
-
                       <p class="mb-1" style="line-height:1.7">
                           The Indian education system is changing. Fuelling the change, we at e-EdPort aspire to provide a reliable virtual system to our educational institutes so that the education never stops. Our primary focus is to connect educators with their students over a simplified platform. e-EdPort has made its aim to empower educators in technology and make them self-sufficient in their object of nurturing the future generation.</p>
-
                   </div>
               </div>
-
           </div>
       </div>
-
-
   </section>
   <!--====== ABOUT PART ENDS ======-->
 
@@ -111,86 +101,56 @@
                       <h4 class="title">Our Offerings</h4>
                       <!-- <p class="text">Providing solutions for systematic functioning of schools.</p> -->
                       <p class="text">Providing solutions for systematic functioning of education.</p>
-                  </div> <!-- row -->
+                  </div>
               </div>
-          </div> <!-- row -->
+          </div>
           <div class="row">
               <div class="col-lg-6">
-                  <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                      <div class="about-icon">
-                          <a href="{{route('products.classroomsolution')}}">
-                              <img src="{{asset('assets\images\Deliverables\virtualclassroom_3.png')}}" alt="Icon">
-                          </a>
-                      </div>
+                  <a href="{{route('products.classroomsolution')}}" class="single-about d-sm-flex mt-30 wow fadeInUp media" data-wow-duration="1s" data-wow-delay=".2s">
+                      <img src="{{asset('assets\images\Deliverables\virtualclassroom_3.png')}}" class="align-self-center mr-3" alt="Icon">
                       <div class="about-content media-body">
-                          <a href="{{route('products.classroomsolution')}}">
-                              <h4 class="about-title">Virtual Classroom Platform</h4>
-                              <p class="text">New Age Learning platform connecting teachers to students.</p>
-                          </a>
+                          <h4 class="about-title">Virtual Classroom Platform</h4>
+                          <p class="text">New Age Learning platform connecting teachers to students.</p>
                       </div>
-                  </div> <!-- single about -->
+                  </a>
               </div>
               <div class="col-lg-6">
-                  <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                      <div class="about-icon">
-                          <a href="{{route('services.teachertraining')}}">
-                              <img src="{{asset('assets\images\Deliverables\SelfLearning.png')}}" alt="Icon">
-                          </a>
-                      </div>
+                  <a href="{{route('services.teachertraining')}}" class="single-about d-sm-flex mt-30 wow fadeInUp media" data-wow-duration="1s" data-wow-delay=".2s">
+                      <img src="{{asset('assets\images\Deliverables\SelfLearning.png')}}" class="align-self-center mr-3" alt="Icon">
                       <div class="about-content media-body">
-                          <a href="{{route('services.teachertraining')}}">
-                              <h4 class="about-title">Smart Teacher Training</h4>
-                              <p class="text">Learn the significance of online teaching aids and get a complete knowledge about using digital tools in a virtual classroom.</p>
-                          </a>
+                          <h4 class="about-title">Smart Teacher Training</h4>
+                          <p class="text">Learn the significance of online teaching aids and get a complete knowledge about using digital tools in a virtual classroom.</p>
                       </div>
-                  </div> <!-- single about -->
+                  </a>
               </div>
               <div class="col-lg-6">
-                  <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                      <div class="about-icon">
-                          <a href="{{route('products.studentselflLearning')}}">
-                              <img src="{{asset('assets\images\Deliverables\SelfLearning.png')}}" alt="Icon">
-                          </a>
-                      </div>
+                  <a href="{{route('products.studentselflLearning')}}" class="single-about d-sm-flex mt-30 wow fadeInUp media" data-wow-duration="1s" data-wow-delay=".2s">
+                      <img src="{{asset('assets\images\Deliverables\SelfLearning.png')}}" class="align-self-center mr-3" alt="Icon">
                       <div class="about-content media-body">
-                          <a href="{{route('products.studentselflLearning')}}">
-                              <h4 class="about-title">Self Learning App</h4>
-                              <p class="text">e-EdPort self learning mobile app makes learning portable and accessible
-                                  24/7.</p>
-                          </a>
+                          <h4 class="about-title">Self Learning App</h4>
+                          <p class="text">e-EdPort self learning mobile app makes learning portable and accessible
+                              24/7.</p>
                       </div>
-                  </div> <!-- single about -->
+                  </a>
               </div>
               <div class="col-lg-6">
-                  <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
-                      <div class="about-icon">
-                          <a href="{{route('services.teachercertification')}}">
-                              <img src="{{asset('assets/images/Deliverables/Competitiveexamreparation.png')}}" alt="Icon">
-                          </a>
-                      </div>
+                  <a href="{{route('services.teachercertification')}}" class="single-about d-sm-flex mt-30 wow fadeInUp media" data-wow-duration="1.2s" data-wow-delay=".2s">
+                      <img src="{{asset('assets/images/Deliverables/Competitiveexamreparation.png')}}" class="align-self-center mr-3" alt="Icon">
                       <div class="about-content media-body">
-                          <a href="{{route('services.teachercertification')}}">
-                              <h4 class="about-title">Smart Teacher Certification</h4>
-                              <p class="text">Beyond education services help students prepare for future.
-                              </p>
-                          </a>
+                          <h4 class="about-title">Smart Teacher Certification</h4>
+                          <p class="text">Beyond education services help students prepare for future.
+                          </p>
                       </div>
-                  </div> <!-- single about -->
+                  </a>
               </div>
               <div class="col-lg-6">
-                  <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
-                      <div class="about-icon">
-                          <a href="{{route('products.parentalcontrol')}}">
-                              <img src="{{asset('/assets/images/parental_control.png')}}" alt="Icon" style="object-fit: scale-down; height:70px">
-                          </a>
-                      </div>
+                  <a href="{{route('products.parentalcontrol')}}" class="single-about d-sm-flex mt-30 wow fadeInUp media" data-wow-duration="1.2s" data-wow-delay=".2s">
+                      <img src="{{asset('/assets/images/parental_control.png')}}" class="align-self-center mr-3" alt="Icon" style="object-fit: scale-down; height:70px">
                       <div class="about-content media-body">
-                          <a href="{{route('products.parentalcontrol')}}">
-                              <h4 class="about-title">Parental Control App</h4>
-                              <p class="text">Screen your child’s activities over the internet.</p>
-                          </a>
+                          <h4 class="about-title">Parental Control App</h4>
+                          <p class="text">Screen your child’s activities over the internet.</p>
                       </div>
-                  </div> <!-- single about -->
+                  </a>
               </div>
               <!-- <div class="col-lg-6">
                   <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
@@ -207,9 +167,8 @@
                       </div>
                   </div>
               </div> -->
-
-          </div> <!-- row -->
-      </div> <!-- container -->
+          </div>
+      </div>
       <!-- <div class="about-image d-lg-flex align-items-center">
             <div class="image wow fadeInRight" data-wow-duration=".5s" data-wow-delay="0.6s" data-wow-offset="50">
                 <img src="assets/images/about-2.png" alt="about">
@@ -226,9 +185,9 @@
                   <div class="section-title text-center pb-20">
                       <h3 class="title">Key Features</h3>
                       <p class="text">Facilitating the elements to empower the Indian Education System.</p>
-                  </div> <!-- row -->
+                  </div>
               </div>
-          </div> <!-- row -->
+          </div>
           <div class="row">
               <div class="col-lg-12 col-sm-12">
                   <div class="portfolio-menu pt-30 text-center">
@@ -244,84 +203,54 @@
                       </ul>
                   </div> <!-- portfolio menu -->
               </div>
-          </div> <!-- row -->
-
+          </div>
           <div class="container">
               <div id="virtual" class=" portfolio-card virtual-school">
                   <div class="row ">
                       <div class="col-lg-6 ">
                           <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                               <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Live Classes</h5>
                                   <p class="text ">Helps conduct uninterrupted classes online from the
                                       comfort of your home.</p>
                               </div>
-                          </div> <!-- single about -->
+                          </div>
                       </div>
-
-
-
-
-
                       <div class="col-lg-6 ">
                           <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                               <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Practice Exercises</h5>
                                   <p class="text pr-2"> Helps students master each chapter's concepts.
                                   </p>
                               </div>
-                          </div> <!-- single about -->
+                          </div>
                       </div>
-
-
-
-
-
                       <div class="col-lg-6 ">
                           <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                               <img src="{{asset('assets\images\KeyFeatures\virtualschooling\selfexplanatoryvideos2.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Self Explanatory Videos</h5>
                                   <p class="text pr-2">Videos that help you visualize various
                                       concepts, making it easier to understand.</p>
                               </div>
-                          </div> <!-- single about -->
+                          </div>
                       </div>
-
-
-
-
-
                       <div class="col-lg-6 ">
                           <div class="single-about d-sm-flex mt-30  Features pb-3 pt-2 pl-2 media">
-
                               <img src="{{asset('assets\images\KeyFeatures\virtualschooling\onlineassessment2.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Online Assessments</h5>
                                   <p class="text pr-2"> Easy to create, launch and manage online tests and
                                       assessments securely with Google Classroom.
                                   </p>
                               </div>
-                          </div> <!-- single about -->
+                          </div>
                       </div>
-
-
-
-
                       <div class="col-lg-6 ">
                           <div class="single-about d-sm-flex mt-30 Features pb-3 pt-2 pl-2 media">
-
                               <img src="{{asset('assets\images\KeyFeatures\virtualschooling\mocktest.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Mock Tests</h5>
                                   <p class="text pr-2">
@@ -329,110 +258,72 @@
                                       questions
                                   </p>
                               </div>
-                          </div> <!-- single about -->
+                          </div>
                       </div>
-
-
-
-
                       <div class="col-lg-6 ">
                           <div class="single-about media d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                               <img src="{{asset('assets\images\KeyFeatures\virtualschooling\Additionalresources.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Additional Resources</h5>
                                   <p class="text pr-2">
                                       Extra Resources like Drawing Board, WikiPedia and many more
                                   </p>
                               </div>
-                          </div> <!-- single about -->
+                          </div>
                       </div>
                   </div>
-
               </div>
-
-
-
               <div id="institutional" class="hidden portfolio-card institutional-brand">
                   <div class="row">
                       <div class="col-lg-6">
                           <div class="single-about d-sm-flex mt-30   pb-3 pt-2 pl-2 Features media ">
-
                               <img src="{{asset('assets\images\KeyFeatures\InstitutionalBranding\School Website_2.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Educational institution Website</h5>
                                   <p class="text pr-2">Create your digital identity with your Educational institution Website.
                                   </p>
                               </div>
-                          </div> <!-- single about -->
+                          </div>
                       </div>
-
-
-
-
-
                       <div class="col-lg-6">
                           <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media ">
-
                               <img src="{{asset('assets\images\KeyFeatures\InstitutionalBranding\DigitalmarketingSetup.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Digital Marketing Setup</h5>
                                   <p class="text pr-2">Increasing your brand presence with your own
                                       website along with social media pages.
                                   </p>
                               </div>
-                          </div> <!-- single about -->
+                          </div>
                       </div>
-
-
-
-
-
                       <div class="col-lg-6">
                           <div class="single-about d-sm-flex  mt-30 pb-3 pt-2 pl-2 Features media">
-
                               <img src="{{asset('assets\images\KeyFeatures\InstitutionalBranding\PromotinalVideo.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Promotional Videos</h5>
                                   <p class="text pr-2"> Promotional video content for individual educational institution.
                                   </p>
                               </div>
-                          </div> <!-- single about -->
+                          </div>
                       </div>
                   </div>
-
               </div>
-
-
               <div id="smart" class="hidden  portfolio-card smart-teacher">
                   <div class="row">
                       <div class="col-lg-6">
                           <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                               <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\OnlineTeacherAssessment_2.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Online Teacher Assessment</h5>
                                   <p class="text pr-2">Assessing the teacher’s ability to help
                                       finesse their technical knowledge.
                                   </p>
                               </div>
-                          </div> <!-- single about -->
+                          </div>
                       </div>
-
-
-
-
-
                       <div class="col-lg-6">
                           <div class="single-about d-sm-flex  mt-30 pb-3 pt-2 pl-2 Features media">
-
                               <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\OnlineTeacherTrainingCourse.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Online Teacher Training Course</h5>
                                   <p class="text pr-2">Familiarising teachers with the new
@@ -440,16 +331,9 @@
                               </div>
                           </div>
                       </div>
-
-
-
-
-
                       <div class="col-lg-6">
                           <div class="single-about d-sm-flex  mt-30 pb-3 pt-2 pl-2 Features media">
-
                               <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\SmartTeacherCertification.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Smart Teacher Certification</h5>
                                   <p class="text pr-2">Certifying teachers as technologically
@@ -459,16 +343,11 @@
                       </div>
                   </div>
               </div>
-
-
-
               <div id="student" class="hidden portfolio-card student-groom">
                   <div class="row">
                       <div class="col-lg-6">
                           <div class="single-about d-sm-flex  mt-30 pb-3 pt-2 pl-2 Features media">
-                              <div class="about-icon">
-                                  <img src="{{asset('assets\images\KeyFeatures\Studentgrooming\Careerguidance.png')}}" alt="Icon" class="align-self-center mr-3">
-                              </div>
+                              <img src="{{asset('assets\images\KeyFeatures\Studentgrooming\Careerguidance.png')}}" alt="Icon" class="align-self-center mr-3">
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Career Guidance</h5>
                                   <p class="text pr-2">Counselling students to navigate their future.
@@ -476,33 +355,19 @@
                               </div>
                           </div>
                       </div>
-
-
-
-
-
                       <div class="col-lg-6">
                           <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                               <img src="{{asset('assets\images\KeyFeatures\Studentgrooming\resumewriting.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Resume Writing</h5>
                                   <p class="text pr-2">Training students to put their best foot forward.
                                   </p>
                               </div>
-                          </div> <!-- single about -->
+                          </div>
                       </div>
-
-
-
-
-
                       <div class="col-lg-6">
                           <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                               <img src="{{asset('assets\images\KeyFeatures\Studentgrooming\Softskilltraining.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Soft Skill Training</h5>
                                   <p class="text pr-2">Assist students to interact in an effective and
@@ -516,26 +381,17 @@
                   <div class="row">
                       <div class="col-lg-6">
                           <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                               <img src="{{asset('assets\images\KeyFeatures\InternationalExchangeProgram\InternationalExposure.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">International Exposure</h5>
                                   <p class="text pr-2">Helping students attain a global perspective.
                                   </p>
                               </div>
-                          </div> <!-- single about -->
+                          </div>
                       </div>
-
-
-
-
-
                       <div class="col-lg-6">
                           <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                               <img src="{{asset('assets\images\KeyFeatures\InternationalExchangeProgram\CulturalExposure.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Cultural Exposure</h5>
                                   <p class="text pr-2">Discovering and unveiling cultural diversities and
@@ -544,16 +400,9 @@
                               </div>
                           </div>
                       </div>
-
-
-
-
-
                       <div class="col-lg-6">
                           <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                               <img src="{{asset('assets\images\KeyFeatures\InternationalExchangeProgram\LanguageAcquisition.png')}}" alt="Icon" class="align-self-center mr-3">
-
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Language Acquisition </h5>
                                   <p class="text pr-2">Acquainting students with global languages,
@@ -565,187 +414,6 @@
                   </div>
               </div>
           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-          <!-- <div class="row grid">
-
-                <div class="col-md-4 col-sm-6 ">
-
-                    
-                    <div class="single-portfolio mt-30 wow fadeInUp media" data-wow-duration=".5s"
-                        data-wow-delay="0.2s">
-                        <img src="assets/images/elearning.png" alt="" class="align-self-center mr-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Virtual schooling</h5>
-
-                            <ul>
-                                <li>
-                                    Live Classes
-                                </li>
-                                <li>
-                                    Self Explanatory Videos
-                                </li>
-                                <li>
-                                    Practice Exercises
-                                </li>
-                                <li>
-                                    Online Assessments
-                                </li>
-                                <li>
-                                    Mock Tests
-                                </li>
-                            </ul>
-
-
-
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-portfolio mt-30 wow fadeInUp media" data-wow-duration=".5s"
-                        data-wow-delay="0.4s">
-
-
-                        <img src="assets/images/test.png" alt="" class="align-self-center mr-3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Institutional Branding</h5>
-                            <ul>
-                                <li>
-                                    Live Classes
-                                </li>
-                                <li>
-                                    Self Explanatory Videos
-                                </li>
-                                <li>
-                                    Practice Exercises
-                                </li>
-                                <li>
-                                    Online Assessments
-                                </li>
-                                <li>
-                                    Mock Tests
-                                </li>
-                            </ul>
-
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 ">
-                    <div class="single-portfolio mt-30 wow fadeInUp media" data-wow-duration=".5s"
-                        data-wow-delay="0.4s">
-
-                        <img src="assets/images/support.png" alt="" class="align-self-center mr-3">
-
-
-
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Smart teacher training</h5>
-                            <ul>
-                                <li>
-                                    Live Classes
-                                </li>
-                                <li>
-                                    Self Explanatory Videos
-                                </li>
-                                <li>
-                                    Practice Exercises
-                                </li>
-                                <li>
-                                    Online Assessments
-                                </li>
-                                <li>
-                                    Mock Tests
-                                </li>
-                            </ul>
-
-                        </div>
-
-                    </div> 
-                </div>
-
-
-
-
-                <div class="col-md-5 col-sm-6">
-                    <div class="single-portfolio mt-30 wow fadeInUp media" data-wow-duration=".5s"
-                        data-wow-delay="0.7s">
-
-                        <img src="assets/images/school.png" alt="" class="align-self-center mr-3">
-
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Student Grooming</h5>
-                            <ul>
-                                <li>
-                                    Live Classes
-                                </li>
-                                <li>
-                                    Self Explanatory Videos
-                                </li>
-                                <li>
-                                    Practice Exercises
-                                </li>
-                                <li>
-                                    Online Assessments
-                                </li>
-                                <li>
-                                    Mock Tests
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div> 
-                </div>
-                <div class="col-md-5 col-sm-6 ">
-                    <div class="single-portfolio mt-30 wow fadeInUp media" data-wow-duration=".5s"
-                        data-wow-delay="0.2s">
-
-                        <img src="assets/images/teacher.png" alt="" class="align-self-center mr-3">
-
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">International Exchange Programme</h5>
-
-
-                            <ul>
-                                <li>
-                                    Live Classes
-                                </li>
-                                <li>
-                                    Self Explanatory Videos
-                                </li>
-                                <li>
-                                    Practice Exercises
-                                </li>
-                                <li>
-                                    Online Assessments
-                                </li>
-                                <li>
-                                    Mock Tests
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div> 
-                </div>
-
-
-            </div>  -->
       </div>
   </section>
   <!--====== Key Features PART END ======-->
@@ -758,18 +426,17 @@
               <div class="col-lg-6">
                   <div class="section-title text-center pb-20">
                       <h3 class="title">Educational Partner</h3>
-                  </div> <!-- section title -->
+                  </div>
               </div>
-          </div> <!-- row -->
+          </div>
           <div class="row client-active">
-
               <div class="col-lg-12">
                   <div class="single-client text-center">
                       <img src="assets/images/google_partner.jpg" alt="Logo">
-                  </div> <!-- single client -->
+                  </div>
               </div>
-          </div> <!-- row -->
-      </div> <!-- container -->
+          </div>
+      </div>
   </section>
   <!--====== Educational Partner PART END ======-->
 
@@ -782,12 +449,11 @@
                   <div class="section-title text-center pb-20">
                       <h3 class="title">Contact</h3>
                       <p class="text">For more information, contact us through the following mediums</p>
-                  </div> <!-- section title -->
+                  </div>
               </div>
-          </div> <!-- row -->
+          </div>
           <div class="row justify-content-center">
               <div class="col-lg-4">
-
                   <div class="single-contact-box mt-50 text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
                       <a href="mailto:connect@montbit.tech">
                           <div class="row">
@@ -804,8 +470,7 @@
                               </div>
                           </div>
                       </a>
-                  </div> <!-- single contact box -->
-
+                  </div>
                   <div class="single-contact-box text-center mt-50 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.5s">
                       <a href="tel:+919646623185;">
                           <div class="row">
@@ -822,8 +487,7 @@
                               </div>
                           </div>
                       </a>
-                  </div> <!-- single contact box -->
-
+                  </div>
                   <div class="single-contact-box mt-50 text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.8s">
                       <div class="row">
                           <div class="col-md-4">
@@ -840,17 +504,16 @@
                               </div>
                           </div>
                       </div>
-                  </div> <!-- single contact box -->
-
+                  </div>
               </div>
               <div class="col-lg-8">
                   <div class="contact-map mt-50 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
                       <div class="gmap_canvas">
                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.4884161377277!2d-123.01257788462505!3d49.22922847932554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548676f5748b69f5%3A0x64f8b9c312f3f232!2s120-6075%20Wilson%20Ave%2C%20Burnaby%2C%20BC%20V5H%202R5%2C%20Canada!5e0!3m2!1sen!2sin!4v1595565073998!5m2!1sen!2sin" width="100%" height="528" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                       </div>
-                  </div> <!-- contact map -->
+                  </div>
               </div>
-          </div> <!-- row -->
+          </div>
           <!--div class="contact-form pt-50">
                 <div class="row justify-content-center">
                     <div-- class="col-lg-4">
@@ -863,7 +526,6 @@
                             </div>
                         </div> 
                     </div-->
-
           <!--div class="col-lg-6">
                         <div class="contact-form form-style-one mt-35 wow fadeIn" data-wow-duration="2s"
                             data-wow-delay="0.4s">
@@ -913,9 +575,9 @@
           <div class="col-lg-6">
               <div class="section-title text-center pb-20">
                   <h3 class="title">Our Social Presence</h3>
-              </div> <!-- row -->
+              </div>
           </div>
-      </div> <!-- row -->
+      </div>
       <div class="container text-center">
           <div class="row justify-content-center">
 

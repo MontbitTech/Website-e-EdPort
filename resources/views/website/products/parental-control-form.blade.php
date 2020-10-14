@@ -34,23 +34,13 @@
             </div>
             <div class="col-md-9 register-right">
                 <div class="float-right">
-
                     <a href="{{route('products.parentalcontrol')}}" class="btn text-white mt-2 rounded" style="border-radius: 31px !important;background-color: #0062cc;">
                         Back</a>
-                    <!-- <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active entity" data-value="Individual" data-toggle="tab" href="#">Individual</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link entity" data-value="Institutional" data-toggle="tab" href="#">Institutional</a>
-                        </li>
-                    </ul> -->
                 </div>
                 <div class="m-auto text-center mr-bottom">
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <h3 class="register-heading"><b>Apply For
-                                    <!-- <span id="ent">Individual</span> --> Parental Control App</b></h3>
+                            <h3 class="register-heading"><b>Apply For Parental Control App</b></h3>
                             <div class="row register-form">
                                 <form role="form" id="saveteacher" method="post" action="{{route('savecontact')}}">
                                     <input type="hidden" name="requestType" value="parental control app product demo">
@@ -96,12 +86,10 @@
                                     </div>
                                     <button type="submit" class="btnRegister">Register</button>
                                 </form>
-
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 

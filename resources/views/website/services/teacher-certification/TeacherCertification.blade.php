@@ -174,7 +174,7 @@
                  <div class="row ">
                      <div class="col-lg-6 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\services\certification\personal-empowerment.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Personal Empowerment</h5>
                                  <p class="text pr-2"> These skills help you to empower yourself as a Digital Educator</p>
@@ -183,7 +183,7 @@
                      </div>
                      <div class="col-lg-6 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\services\certification\communication-skills.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Communication Skills</h5>
                                  <p class="text pr-2"> Improve your communication skills with our certification</p>
@@ -192,7 +192,7 @@
                      </div>
                      <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\services\certification\greater-networking.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Greater Networking</h5>
                                  <p class="text ">Desire to innovate across discipline and empower students</p>
@@ -201,7 +201,7 @@
                      </div>
                      <div class="col-lg-6 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\services\certification\learn-and-lead.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Learn and Lead</h5>
                                  <p class="text pr-2"> Learn and help individuals to develop their own personal leadership style. </p>

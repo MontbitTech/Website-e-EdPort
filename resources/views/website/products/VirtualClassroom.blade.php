@@ -46,84 +46,67 @@
                  <div class="row ">
                      <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
-
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Useful Content Resources</h5>
                                  <p class="text ">You can get essential resources from authentic sources available online.</p>
                              </div>
-                         </div> <!-- single about -->
+                         </div>
                      </div>
                      <div class="col-lg-6 wow fadeInRight " data-wow-duration=".8s" data-wow-delay="0s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
-
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Advanced Interactive Whiteboard</h5>
                                  <p class="text pr-2"> You can use whiteboard for illustrating the concept.
                                  </p>
                              </div>
-                         </div> <!-- single about -->
+                         </div>
                      </div>
                      <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\selfexplanatoryvideos2.png')}}" alt="Icon" class="align-self-center mr-3">
-
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Archived Live Sessions</h5>
                                  <p class="text pr-2">Students can view the live lectures later on using this feature.</p>
                              </div>
-                         </div> <!-- single about -->
+                         </div>
                      </div>
                      <div class="col-lg-6 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.1s">
                          <div class="single-about d-sm-flex mt-30  Features pb-3 pt-2 pl-2 media">
-
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\onlineassessment2.png')}}" alt="Icon" class="align-self-center mr-3">
-
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Extended Live Support</h5>
                                  <p class="text pr-2"> You can take the live suppprt from the technical head.
                                  </p>
                              </div>
-                         </div> <!-- single about -->
+                         </div>
                      </div>
                      <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.2s">
                          <div class="single-about d-sm-flex mt-30 Features pb-3 pt-2 pl-2 media">
-
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\mocktest.png')}}" alt="Icon" class="align-self-center mr-3">
-
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Home Work Assignments</h5>
                                  <p class="text pr-2">
                                      You can provide assignments to the students for evaluation.
                                  </p>
                              </div>
-                         </div> <!-- single about -->
+                         </div>
                      </div>
                      <div class="col-lg-6 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s">
                          <div class="single-about media d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\Additionalresources.png')}}" alt="Icon" class="align-self-center mr-3">
-
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Live Doubt Solving</h5>
                                  <p class="text pr-2">
                                      Students can get the solutions of their doubts in the mid of the class.
                                  </p>
                              </div>
-                         </div> <!-- single about -->
+                         </div>
                      </div>
                  </div>
-
              </div>
-
-
          </div>
-     </div>
-
  </section>
  <section>
      <div class="container-fluid ">
@@ -140,13 +123,11 @@
                  <div class="row">
                      <div class="col-md-12 d-flex justify-content-center col-lg-6 col-12 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
                          <a href="{{route('products.virtual-classroom-form')}}" class="btn bg-white rounded-pill btn-hover mr-3" style="color: #161f33;">Request A Demo &#x27A7;</a>
-
                      </div>
                      <div class="col-md-12 d-flex justify-content-center  col-12    col-lg-4  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.5s">
                          <div class="btn bg-white rounded-pill btn-hover " style="color: #161f33;">Contact Us &#x27A7;</div>
                      </div>
                  </div>
-
              </div>
          </div>
      </div>
@@ -251,7 +232,6 @@
              <li class="nav-item justify-content-center">
                  <a class="nav-link  rounded-pill pl-5 pr-5   mr-5   text-white" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="background-color: #161f3373; ">Technical</a>
              </li>
-
          </ul>
          <div class="tab-content " id="pills-tabContent">
              <div class="tab-pane fade show active justify-content-center text-centerm " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
@@ -324,7 +304,6 @@
                      </div>
                  </div>
              </div>
-
          </div>
      </div>
  </section>

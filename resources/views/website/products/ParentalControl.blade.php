@@ -28,12 +28,9 @@
                          e-EdPort Parental Control App for your smartphones can help you track your kids' physical locations, see with whom they're communicating online, set limits on their amount of daily screen time and block them from viewing objectionable websites. This app is essential if you want to keep track of what your kids are doing on the internet.
                      </p>
                  </div>
-
              </div>
          </div>
-
      </div>
-
  </section>
  <section id="portfolio" class="portfolio-area bg-light">
      <div class="container-fluid">
@@ -134,13 +131,11 @@
                  <div class="row">
                      <div class="col-md-12 d-flex justify-content-center col-lg-6 col-12  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
                          <a href="{{route('products.parental-control-form')}}" class="btn bg-white rounded-pill btn-hover mr-3" style="color: #161f33;">Request A Demo &#x27A7;</a>
-
                      </div>
                      <div class="col-md-12 d-flex justify-content-center  col-12    col-lg-4  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.5s">
                          <div class="btn bg-white rounded-pill btn-hover " style="color: #161f33;">Contact Us &#x27A7;</div>
                      </div>
                  </div>
-
              </div>
          </div>
      </div>
@@ -251,7 +246,6 @@
              <li class="nav-item justify-content-center">
                  <a class="nav-link  rounded-pill pl-5 pr-5   mr-5   text-white" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="background-color: #161f3373; ">Technical</a>
              </li>
-
          </ul>
          <div class="tab-content wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.5s" id="pills-tabContent">
              <div class="tab-pane fade show active justify-content-center text-centerm " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">

@@ -30,26 +30,16 @@
                 <h2>Welcome</h2>
                 <h4>You are one step away from becoming a smart teacher!</h4>
                 <!-- <a href="{{ route('login') }}"><input type="button" class="btn btn-primary" name="" value="Login" /></a><br /> -->
-
             </div>
             <div class="col-md-9 register-right">
                 <div class="float-right">
-
                     <a href="{{route('products.classroomsolution')}}" class="btn text-white mt-2 rounded" style="border-radius: 31px !important;background-color: #0062cc;">
                         Back</a>
-                    <!-- <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active entity" data-value="Individual" data-toggle="tab" href="#">Individual</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link entity" data-value="Institutional" data-toggle="tab" href="#">Institutional</a>
-                        </li>
-                    </ul> -->
                 </div>
                 <div class="m-auto text-center mr-bottom">
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <h3 class="register-heading"><b>Apply For <!-- <span id="ent">Individual</span> --> Virtual Classroom Solution</b></h3>
+                            <h3 class="register-heading"><b>Apply For Virtual Classroom Solution</b></h3>
                             <div class="row register-form">
                                 <form role="form" id="saveteacher" method="post" action="{{route('savecontact')}}">
                                     <input type="hidden" name="requestType" value="virtual classroom product demo">
@@ -72,16 +62,15 @@
                                         <input type="hidden" id="entityvalue" name="entityvalue" value="Individual" />
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                             <select class="form-control" name="selectlevel" id="selectlevel">
-                                                <option value="" selected>Select Entity</option>
-                                                <option value="Teacher">Teacher</option>
-                                                <option value="School">School</option>
-                                                <option value="Coaching">Coaching</option>
-                                                <option value="College/University">College / University</option>
-                                            </select>
+                                                <select class="form-control" name="selectlevel" id="selectlevel">
+                                                    <option value="" selected>Select Entity</option>
+                                                    <option value="Teacher">Teacher</option>
+                                                    <option value="School">School</option>
+                                                    <option value="Coaching">Coaching</option>
+                                                    <option value="College/University">College / University</option>
+                                                </select>
                                             </div>
                                         </div>
-
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <input type="text" id="institutionname" name="institutionname" class="form-control" placeholder="Institution Name *" value="" />
@@ -90,29 +79,27 @@
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <select class="form-control filter" name="state" id="state" style="text-transform: capitalize;">
-                                                <option value="" selected>Select State</option>
-                                                @foreach($states as $st)
-                                                <option value="{{$st->id}}">{{$st->name}}</option>
-                                                @endforeach
-                                            </select>
+                                                    <option value="" selected>Select State</option>
+                                                    @foreach($states as $st)
+                                                    <option value="{{$st->id}}">{{$st->name}}</option>
+                                                    @endforeach
+                                                </select>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <select class="form-control" name="city" id="city" style="text-transform: capitalize;">
-                                                <option value="" selected>Select City</option>
-                                            </select>
+                                                    <option value="" selected>Select City</option>
+                                                </select>
                                             </div>
                                         </div>
                                     </div>
                                     <button type="submit" class="btnRegister">Register</button>
                                 </form>
-
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -124,30 +111,30 @@
         @endforeach
         @endif
         <script>
-    $(document).ready(function() {
-        $('.filter').on('change', function() {
-            var state_id = $('#state').val();
-            $.ajax({
-                url: "{{route('getcity')}}",
-                type: 'POST',
-                dataType: "json",
-                data: {
-                    'state_id': state_id
-                },
-                success: function(data) {
-                    var listItems1;
-                    listItems1 += "<option value=''>Select City</option>";
-                    for (var i = 0; i < data.length; i++) {
-                        listItems1 += "<option value='" + data[i].id + "'>" + data[i].name + "</option>";
-                    }
+            $(document).ready(function() {
+                $('.filter').on('change', function() {
+                    var state_id = $('#state').val();
+                    $.ajax({
+                        url: "{{route('getcity')}}",
+                        type: 'POST',
+                        dataType: "json",
+                        data: {
+                            'state_id': state_id
+                        },
+                        success: function(data) {
+                            var listItems1;
+                            listItems1 += "<option value=''>Select City</option>";
+                            for (var i = 0; i < data.length; i++) {
+                                listItems1 += "<option value='" + data[i].id + "'>" + data[i].name + "</option>";
+                            }
 
-                    $("#city").html(listItems1);
+                            $("#city").html(listItems1);
 
-                }
+                        }
+                    });
+                });
             });
-        });
-    });
-</script>
+        </script>
         @if ( Session::has('flash_message') )
         <script type="text/javascript">
             const Toast = Swal.mixin({

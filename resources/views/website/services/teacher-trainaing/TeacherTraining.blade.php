@@ -149,7 +149,7 @@
                  <div class="row ">
                      <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\services\traning\technical-expertise.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Technical Expertise</h5>
                                  <p class="text ">Get expertise in using all types of latest technical educational tools </p>
@@ -158,7 +158,7 @@
                      </div>
                      <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\selfexplanatoryvideos2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\services\traning\increase-productivity.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Increase Productivity</h5>
                                  <p class="text pr-2">This digital training program will help you to increase your productivity. </p>
@@ -167,7 +167,7 @@
                      </div>
                      <div class="col-lg-6 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\services\traning\content-creation.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Content Creation</h5>
                                  <p class="text pr-2"> Get trained to create your own online content</p>
@@ -176,7 +176,7 @@
                      </div>
                      <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\services\traning\classroom-management.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Classroom Management</h5>
                                  <p class="text pr-2"> Get trained for effective classroom management </p>

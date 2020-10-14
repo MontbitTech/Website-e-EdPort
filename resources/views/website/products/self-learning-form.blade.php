@@ -30,27 +30,16 @@
                 <h2>Welcome</h2>
                 <h4>You are one step away from becoming a self learner!</h4>
                 <!-- <a href="{{ route('login') }}"><input type="button" class="btn btn-primary" name="" value="Login" /></a><br /> -->
-
             </div>
             <div class="col-md-9 register-right">
                 <div class="float-right">
-
                     <a href="{{route('products.studentselflLearning')}}" class="btn text-white mt-2 rounded" style="border-radius: 31px !important;background-color: #0062cc;">
                         Back</a>
-                    <!-- <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active entity" data-value="Individual" data-toggle="tab" href="#">Individual</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link entity" data-value="Institutional" data-toggle="tab" href="#">Institutional</a>
-                        </li>
-                    </ul> -->
                 </div>
                 <div class="m-auto text-center mr-bottom">
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <h3 class="register-heading"><b>Apply For
-                                    <!-- <span id="ent">Individual</span> --> Student Self Learning Solution</b></h3>
+                            <h3 class="register-heading"><b>Apply For Student Self Learning Solution</b></h3>
                             <div class="row register-form">
                                 <form role="form" id="saveteacher" method="post" action="{{route('savecontact')}}">
                                     <input type="hidden" name="requestType" value="student self learning product demo">
@@ -70,7 +59,6 @@
                                                 <input type="text" id="mobileno" name="mobileno" class="form-control" placeholder="Phone Number *" value="" />
                                             </div>
                                         </div>
-
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <select class="form-control" name="qualification" id="qualification">
@@ -82,7 +70,6 @@
                                                 </select>
                                             </div>
                                         </div>
-
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <select class="form-control filter" name="state" id="state" style="text-transform: capitalize;">
@@ -103,7 +90,6 @@
                                     </div>
                                     <button type="submit" class="btnRegister">Register</button>
                                 </form>
-
                             </div>
                         </div>
                     </div>

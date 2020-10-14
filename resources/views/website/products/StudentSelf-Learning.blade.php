@@ -32,10 +32,6 @@
 
      </div>
  </section>
-
- <!-- About Us -->
- <!-- Key Features -->
-
  <!-- <section id="portfolio" class="portfolio-area ">
      <div class="container-fluid">
          <div class="row justify-content-center">
@@ -95,14 +91,13 @@
                  <div class="section-title text-center pb-20">
                      <h3 class="title">Key Features</h3>
                      <p class="text">Facilitating the elements to empower the Indian Education System.</p>
-                 </div> <!-- row -->
+                 </div>
              </div>
-         </div> <!-- row -->
+         </div>
          <div class="row">
              <div class="col-lg-12 col-sm-12">
                  <div class="portfolio-menu pt-30 text-center">
                      <ul>
-                         <!-- <li data-filter="*" class="active">ALL WORK</li> -->
                          <li onclick="showhide()" id="virtualclass" data-filter=".virtual-school" class="active">K To 12</li>
                          <li onclick="showinstitutional()" id="instbrand" data-filter=".institutional-brand">Nursing Competition Exams</li>
                          <li onclick="showsmart()" id="smartteacher" data-filter=".smart-teacher">Add On Courses</li>
@@ -111,7 +106,6 @@
                  </div>
              </div>
          </div>
-
          <div class="container">
              <div id="virtual" class=" portfolio-card virtual-school">
                  <div class="row ">
@@ -136,9 +130,7 @@
                      </div>
                      <div class="col-lg-6 ">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                              <img src="{{asset('assets\images\product\student-self-learning/solved-question -paper.png')}}" alt="Icon" class="align-self-center mr-3">
-
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Solved Question Paper</h5>
                                  <p class="text pr-2">We provide Solved Question Paper that help students master each chapter.</p>
@@ -168,9 +160,7 @@
                              </div>
                          </div>
                      </div>
-
                  </div>
-
              </div>
              <div id="smart" class="hidden  portfolio-card smart-teacher">
                  <div class="row">
@@ -197,9 +187,9 @@
                      </div>
                      <div class="col-lg-6">
                          <div class="single-about d-sm-flex  mt-30 pb-3 pt-2 pl-2 Features media">
-                             <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\SmartTeacherCertification.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\product\student-self-learning\ielts -courses.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Eyelets Courses</h5>
+                                 <h5 class="mt-0 mb-1">IELTS Courses</h5>
                                  <p class="text pr-2">Certifying teachers as technologically
                                      advanced ‘Smart Teachers</p>
                              </div>
@@ -250,7 +240,6 @@
                  <div class="row">
                      <div class="col-md-12 d-flex justify-content-center col-lg-6 col-12  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
                          <a href="{{route('products.self-learning-form')}}" class="btn bg-white rounded-pill btn-hover mr-3" style="color: #161f33;">Request A Demo &#x27A7;</a>
-
                      </div>
                      <div class="col-md-12 d-flex justify-content-center  col-12    col-lg-4  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.5s">
                          <div class="btn bg-white rounded-pill btn-hover " style="color: #161f33;">Contact Us &#x27A7;</div>
