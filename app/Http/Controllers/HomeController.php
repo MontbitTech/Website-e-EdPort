@@ -16,49 +16,39 @@ class HomeController extends Controller
 
     public function index()
     {
-        $data['state'] = State::where('country_id', 101)->get();
-        return view('welcome')->with($data);
+        return view('welcome');
     }
-    public function faq()
-    {
-        return view('faq');
-    }
-    public function termsandconditions()
-    {
-        return view('termandcondition');
-    }
-    public function privacypolicies()
-    {
-        return view('privacypolicy');
-    }
-    public function savecontact(ContactRequest $request)
+
+    public function savecontact(Request $request)
     {
 
-        $contact = new Contact();
-        $contact->name = $request->contactname;
-        $contact->email = $request->contactemail;
-        $contact->mobileno = $request->mobileno;
-        $contact->entity = $request->entityvalue;
+        $contact                  = new Contact();
+        $contact->name            = $request->contactname;
+        $contact->email           = $request->contactemail;
+        $contact->mobileno        = $request->mobileno;
+        $contact->entity          = $request->entityvalue;
         $contact->institutionname = $request->institutionname;
-        $contact->city = $request->city;
-        $contact->state = $request->state;
+        $contact->requestType     = $request->requestType;
+        $contact->certificate     = $request->selectlevel;
+        $contact->qualification   = $request->qualification;
+        $contact->child_age       = $request->age;
+        $contact->city            = $request->city;
+        $contact->state           = $request->state;
+        $contact->stream          = $request->stream;
         $contact->save();
         $details = [
             'name' => $request->contactname,
-            'title' => 'Mail from E-edport.com',
+            'title' => 'Mail from e-EdPort.com',
             'body' => 'Thank You For Contacting Us, Our Team Member will Contact You Shortly'
         ];
-        Mail::to($request->contactemail)->send(new \App\Mail\ContactEmail($details));
+        //Mail::to($request->contactemail)->send(new \App\Mail\ContactEmail($details));
         Session::flash('flash_message', 'Thank You! Our Team Will Reach Out Soon');
         Session::flash('flash_type', 'success');
         return redirect()->route('freecall');
     }
     public function getcity(Request $request)
     {
-
         $city = City::where('state_id', trim($request->state_id))->get();
-
-        //dd($contact);
         echo json_encode($city);
         exit;
     }
@@ -66,9 +56,5 @@ class HomeController extends Controller
     {
         $data['state'] = State::where('country_id', 101)->get();
         return view('contantform')->with($data);
-    }
-    public function call()
-    {
-        return view('freecall');
     }
 }

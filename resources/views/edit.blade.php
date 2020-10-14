@@ -41,6 +41,7 @@
                                             </div>
                                         </div>
 
+                                        @if($contact->requestType == 'virtual classroom product demo' || $contact->requestType == 'teacher trainaing service demo' || $contact->requestType == 'teacher certification service demo')
                                         <div class="col-md-6">
 
                                             <div class="form-group">
@@ -48,6 +49,47 @@
                                                 <input type="text" id="institutionname" name="institutionname" class="form-control" placeholder="Institution Name *" value="{{$contact->institutionname}}" />
                                             </div>
                                         </div>
+                                        @endif
+
+                                         @if($contact->requestType == 'student self learning product demo')
+                                        <div class="col-md-6">
+
+                                            <div class="form-group">
+                                                <label for="institutionname">Qualification</label>
+                                                <select class="form-control" name="qualification" id="qualification">
+                                                    <option value="" selected>Qualification</option>
+                                                    <option value="high school(10th)" @if($contact->qualification=="high school(10th)") selected @endif>High School(10th)</option>
+                                                    <option value="higher school(12th)" @if($contact->qualification=="higher school(12th)") selected @endif>Higher School(12th)</option>
+                                                    <option value="graduation(bachelors)" @if($contact->qualification=="graduation(bachelors)") selected @endif>Graduation(Bachelors)</option>
+                                                    <option value="post praduation(masters)" @if($contact->qualification=="post praduation(masters)") selected @endif>Post Graduation(Masters)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        @endif
+
+                                        @if($contact->requestType == 'teacher trainaing service demo' || $contact->requestType == 'teacher certification service demo')
+                                        <div class="col-md-6">
+
+                                            <div class="form-group">
+                                                <label for="institutionname">Certificate Level</label>
+                                               <select class="form-control" name="certificate" id="certificate">
+                                                    <option value="" selected>Select Certification Level</option>
+                                                    <option value="beginner" @if($contact->certificate=="beginner") selected @endif>Beginner</option>
+                                                    <option value="intermediate" @if($contact->certificate=="intermediate") selected @endif>Intermediate</option>
+                                                    <option value="advanced" @if($contact->certificate=="advanced") selected @endif>Advanced</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        @endif
+
+                                          @if($contact->requestType == 'parental control app product demo')
+                                         <div class="col-md-6">
+                                         <div class="form-group">
+                                                <label for="institutionname">Child's Age</label>
+                                                <input type="tesxt" id="agee" name="age" class="form-control" placeholder="Child's Age *" value="{{$contact->child_age}}" />
+                                            </div>
+                                        </div>
+                                        @endif
 
 
                                     </div>

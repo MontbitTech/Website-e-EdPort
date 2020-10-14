@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="{{asset('plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css')}}">
     <script type="text/javascript" src="{{asset('plugins/sweetalert2/sweetalert2.min.js')}}"></script>
     <!-- Datatables -->
+    <script src="https://kit.fontawesome.com/a3a1b3a803.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="{{ asset('plugins/datatables/jquery.dataTables.min.js')}}"></script>
     <script type="text/javascript" src="{{ asset('plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
@@ -38,6 +39,13 @@
     <!-- Toastr -->
     <script type="text/javascript" src="{{asset('plugins/toastr/toastr.min.js')}}"></script>
     <link rel="stylesheet" href="{{asset('plugins/toastr/toastr.min.css')}}">
+    <style>
+        .dropdown-item.active {
+            color: #161f33 !important;
+            text-decoration: none !important;
+            background-color: white !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -64,18 +72,70 @@
                                         <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                     </li>
                                     @else
-                                    <li class="nav-item dropdown ml-5">
-                                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                            Sales <span class="caret"></span>
+
+                                    <?php
+                                    $role = explode(',', Auth::user()->role);
+                                    ?>
+                                    <li class="nav-item dropdown ml-5 {{ (request()->is('product/request/*')) ? 'active' : '' }}">
+                                        <a id=" navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                            Products <span class="caret"></span>
                                         </a>
 
+                                        @if(Auth::user()->role=='admin' || in_array('e-EdPort Virtual Classroom Solution',$role) || in_array('e-EdPort Student Self Learning Solution',$role) || in_array('e-EdPort Parental Control App',$role))
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="{{ route('contacts') }}">
-                                                Leads
+
+                                             @if(Auth::user()->role=='admin' || in_array('e-EdPort Virtual Classroom Solution',$role))
+
+                                            <a class="dropdown-item {{ (request()->routeIs('products.virtual-classroom-solution')) ? 'active' : '' }}" href="{{ route('products.virtual-classroom-solution') }}">
+                                                e-EdPort Virtual Classroom Solution
                                             </a>
+                                            @endif
+
+                                            @if(Auth::user()->role=='admin' || in_array('e-EdPort Student Self Learning Solution',$role))
+                                            <a class="dropdown-item {{ (request()->routeIs('products.student-selflearning-solution')) ? 'active' : '' }}" href="{{ route('products.student-selflearning-solution') }}">
+                                                e-EdPort Student Self-Learning Solution
+                                            </a>
+                                            @endif
+
+                                            @if(Auth::user()->role=='admin' || in_array('e-EdPort Parental Control App',$role))
+                                            <a class="dropdown-item {{ (request()->routeIs('products.parental-control-app')) ? 'active' : '' }}" href="{{ route('products.parental-control-app') }}">
+                                                e-EdPort Parental Control App
+                                            </a>
+                                            @endif
 
 
                                         </div>
+                                        @endif
+
+
+
+                                    </li>
+                                    <li class="nav-item dropdown ml-5 {{ (request()->is('services/*')) ? 'active' : '' }}">
+                                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                            Services <span class="caret"></span>
+                                        </a>
+
+                                        @if(Auth::user()->role=='admin' || in_array('e-EdPort Smart Teacher Training',$role) || in_array('e-EdPort Smart Teacher Certification',$role))
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+
+                                            @if(Auth::user()->role=='admin' || in_array('e-EdPort Smart Teacher Training',$role))
+                                            <a class="dropdown-item {{ (request()->routeIs('services.teacher-training-show')) ? 'active' : '' }}" href="{{ route('services.teacher-training-show') }}">
+                                                e-EdPort Smart Teacher Training
+                                            </a>
+                                            @endif
+
+                                            @if(Auth::user()->role=='admin' || in_array('e-EdPort Smart Teacher Certification',$role))
+                                            <a class="dropdown-item {{ (request()->routeIs('services.teacher-certification-show')) ? 'active' : '' }}" href="{{ route('services.teacher-certificate-show') }}">
+                                                e-EdPort Smart Teacher Certification
+                                            </a>
+                                            @endif
+                                            <!-- <a class="dropdown-item {{ (request()->routeIs('services.careecounselling-show')) ? 'active' : '' }}" href="{{ route('services.careecounselling-show') }}">
+                                                e-EdPort Student Career Counselling
+                                            </a> -->
+
+
+                                        </div>
+                                        @endif
 
 
 
@@ -83,56 +143,42 @@
                                     @endguest
                                     @auth
                                     @if(Auth::user()->role=='admin')
-                                    <li class="nav-item dropdown ml-5">
+                                    <li class="nav-item dropdown ml-5 {{ (request()->is('teacher/*')) ? 'active' : '' }}">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                            Certification <span class="caret"></span>
+                                            Teacher Training <span class="caret"></span>
                                         </a>
-
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="{{ route('teachers') }}">
+                                            <!-- <a class="dropdown-item {{ (request()->routeIs('teachers')) ? 'active' : '' }}" href="{{ route('teachers') }}">
                                                 Leads
-                                            </a>
-                                            <a class="dropdown-item" href="{{ route('course') }}">
+                                            </a> -->
+                                            <a class="dropdown-item {{ (request()->routeIs('course')) ? 'active' : '' }}" href="{{ route('course') }}">
                                                 Add Certificate
                                             </a>
-                                            <a class="dropdown-item" href="{{ route('certificate') }}">
+                                            <a class="dropdown-item {{ (request()->routeIs('certificates')) ? 'active' : '' }}" href="{{ route('certificate') }}">
                                                 Generate Certificate
                                             </a>
-
-
                                         </div>
-
-
-
                                     </li>
                                     @endif
-
-                                    <li class="nav-item dropdown ml-5">
+                                    <li class="nav-item dropdown ml-5 {{ (request()->is('registeruser')) ? 'active' : '' }}">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             {{ Auth::user()->name }} <span class="caret"></span>
                                         </a>
-
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                                 {{ __('Logout') }}
                                             </a>
-
                                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                                 @csrf
                                             </form>
-
                                             @if(Auth::user()->role=='admin')
-
-                                            <a class="dropdown-item" href="{{ route('registershow') }}">
+                                            <a class="dropdown-item {{ (request()->routeIs('registershow')) ? 'active' : '' }}" href="{{ route('registershow') }}">
                                                 {{ __('Register') }}
                                             </a>
-
-
                                             @endif
                                             @endauth
                                         </div>
-
 
 
                                     </li>
@@ -183,6 +229,7 @@
         @yield('content')
 
     </section>
+    <script type="text/javascript" src="{{asset('js/adminlte.min.js')}}"></script>
 </body>
 
 </html>
