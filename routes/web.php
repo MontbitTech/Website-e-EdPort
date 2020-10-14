@@ -35,7 +35,7 @@ Route::middleware('admin')->group(function () {
 Route::middleware('auth')->group(function () {
     Route::post('/showcity', 'ContactController@showcity')->name('showcity');
     Route::post('/entitymail', 'ContactController@entitymail')->name('entitymail');
-    Route::get('/contacts', 'ContactController@contacts')->name('contacts');
+    Route::get('/home', 'ContactController@contacts')->name('contacts');
     Route::get('/contacts/edit/{id}', 'ContactController@edit')->name('contacts.edit');
     Route::post('/contacts/update/{id}', 'ContactController@update')->name('contacts.update');
     Route::post('/sendmail', 'ContactController@sendmail')->name('sendmail');
@@ -43,7 +43,9 @@ Route::middleware('auth')->group(function () {
 
     //products
 
-    Route::get('product/request/e-edport-virtual-classroom-solution', 'products\VirtualClassroomController@show')->name('products.virtual-classroom-solution');
+  // Route::group(['middleware' => 'user'],function(){
+    Route::get('/product/request/e-edport-virtual-classroom-solution', 'products\VirtualClassroomController@show')->name('products.virtual-classroom-solution');
+    
 
     Route::get('product/request/e-edport-student-self-learning-solution', 'products\StudentSelfLearningController@show')->name('products.student-selflearning-solution');
 
@@ -55,6 +57,8 @@ Route::middleware('auth')->group(function () {
 
     Route::get('service/request/e-edport-smart-teacher-certification', 'services\CertificateController@show')->name('services.teacher-certificate-show');
 });
+
+// });
 // form register
 
 
