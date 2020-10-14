@@ -78,9 +78,10 @@
                                     ?>
                                     <li class="nav-item dropdown ml-5 {{ (request()->is('product/request/*')) ? 'active' : '' }}">
                                         <a id=" navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                            Product <span class="caret"></span>
+                                            Products <span class="caret"></span>
                                         </a>
 
+                                        @if(Auth::user()->role=='admin' || in_array('e-EdPort Virtual Classroom Solution',$role) || in_array('e-EdPort Student Self Learning Solution',$role) || in_array('e-EdPort Parental Control App',$role))
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
 
                                              @if(Auth::user()->role=='admin' || in_array('e-EdPort Virtual Classroom Solution',$role))
@@ -104,15 +105,17 @@
 
 
                                         </div>
+                                        @endif
 
 
 
                                     </li>
                                     <li class="nav-item dropdown ml-5 {{ (request()->is('services/*')) ? 'active' : '' }}">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                            Service <span class="caret"></span>
+                                            Services <span class="caret"></span>
                                         </a>
 
+                                        @if(Auth::user()->role=='admin' || in_array('e-EdPort Smart Teacher Training',$role) || in_array('e-EdPort Smart Teacher Certification',$role))
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
 
                                             @if(Auth::user()->role=='admin' || in_array('e-EdPort Smart Teacher Training',$role))
@@ -132,6 +135,7 @@
 
 
                                         </div>
+                                        @endif
 
 
 
@@ -141,7 +145,7 @@
                                     @if(Auth::user()->role=='admin')
                                     <li class="nav-item dropdown ml-5 {{ (request()->is('teacher/*')) ? 'active' : '' }}">
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                            Teacher <span class="caret"></span>
+                                            Teacher Training <span class="caret"></span>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                             <!-- <a class="dropdown-item {{ (request()->routeIs('teachers')) ? 'active' : '' }}" href="{{ route('teachers') }}">
