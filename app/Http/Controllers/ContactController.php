@@ -87,6 +87,9 @@ class ContactController extends Controller
         $contact->email = $request->contactemail;
         $contact->mobileno = $request->mobileno;
         $contact->institutionname = $request->institutionname;
+        $contact->qualification = $request->qualification;
+        $contact->child_age  = $request->age;
+        $contact->certificate  = $request->certificate;
         $contact->save();
         Session::flash('flash_message', 'successfully updated User Detail');
         Session::flash('flash_type', 'success');

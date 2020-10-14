@@ -26,7 +26,8 @@
     <div class="row">
         <div class="col-md-11 mb-5 col-12 m-auto">
             <div class="card collapsed-card mb-5">
-                <div class="card-header  text-white" style="background-color: #161f33;">General Consultation Calls
+                <div class="card-header  text-white" style="background-color: #161f33;">
+                    My Scheduled Calls
                     <button type="button" class="btn btn-tool text-white float-right " data-card-widget="collapse">
                         <i class="fas text-black fa-plus" aria-hidden="true"></i>
                     </button>
@@ -42,6 +43,9 @@
             <div class="card collapsed-card">
                 <div class="card-header text-white" style="background-color: #161f33;">
                     Bulk Communication
+                    <button type="button" class="btn btn-tool text-white float-right " data-card-widget="collapse">
+                        <i class="fas text-black fa-plus" aria-hidden="true"></i>
+                    </button>
                 </div>
                 <div class="card-body" style="display: none;">
                     <form role="form" id="sendmail" method="post" enctype="multipart/form-data" action="{{route('sendmail')}}">
@@ -126,7 +130,7 @@
             @if(count($contact) > 0 )
             <div class="card mt-5">
                 <div class="card-header text-white" style="background-color: #161f33;">
-                    All Contacts
+                    All Lead Details
                     <button type="button" class="btn btn-tool text-white float-right " data-card-widget="collapse">
                         <i class="fas fa-minus text-black"></i>
                     </button>
