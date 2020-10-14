@@ -43,7 +43,7 @@ Route::middleware('auth')->group(function () {
 
     //products
 
-  // Route::group(['middleware' => 'user'],function(){
+  Route::group(['middleware' => 'user'],function(){
     Route::get('/product/request/e-edport-virtual-classroom-solution', 'products\VirtualClassroomController@show')->name('products.virtual-classroom-solution');
     
 
@@ -58,7 +58,7 @@ Route::middleware('auth')->group(function () {
     Route::get('service/request/e-edport-smart-teacher-certification', 'services\CertificateController@show')->name('services.teacher-certificate-show');
 });
 
-// });
+});
 // form register
 
 

@@ -25,7 +25,7 @@
 $role = explode(',', Auth::user()->role);
 ?>
 <div class="container mt-5">
-  <h2 class="mb-5 ">Welcome To {{Auth::user()->name}}</h2>
+  <h2 class="mb-5 ">Welcome {{Auth::user()->name}}</h2>
   <div class="container">
     <div class="row ">
       <div class="col-md-6 m-auto mt-5">
