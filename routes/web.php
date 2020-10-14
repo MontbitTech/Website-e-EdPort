@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/tcpdf/{id?}', 'CertificateController@index')->name('createPDF');
 Route::middleware('admin')->group(function () {
     Route::get('/registeruser', 'Auth\RegisterController@create')->name('registershow');
-    Route::post('/registeruser', 'Auth\RegisterController@store')->name('registeruser');
+    Route::post('registeruser', 'Auth\RegisterController@store')->name('registeruser');
     Route::get('/teacher/certificates', 'CertificateController@certificates')->name('certificate');
     Route::post('/savecertificate', 'CertificateController@savecertificate')->name('savecertificate');
     Route::post('/savecourse', 'CertificateController@savecourse')->name('savecourse');
@@ -83,15 +83,15 @@ Route::get('/faq', function () {
 
 // Products 
 Route::get('/products/e-edport-virtual-classroom-solution', function () {
-    return view('website.products.virtualClassroom');
+    return view('website.products.VirtualClassroom');
 })->name('products.classroomsolution');
 
 Route::get('/products/e-edport-student-self-learning-solution', function () {
-    return view('website.products.studentself-learning');
+    return view('website.products.StudentSelf-Learning');
 })->name('products.studentselflLearning');
 
 Route::get('/products/e-edport-parental-control-app', function () {
-    return view('website.products.parentalcontrol');
+    return view('website.products.ParentalControl');
 })->name('products.parentalcontrol');
 
 Route::get('get-in-touch/e-edport-virtual-classroom-Solution', 'products\VirtualClassroomController@index')->name('products.virtual-classroom-form');
@@ -103,15 +103,15 @@ Route::get('get-in-touch/e-edport-parental-control-app', 'products\ParentalContr
 
 // Services
 Route::get('/services/e-edport-smart-teacher-training', function () {
-    return view('website.services.teacher-trainaing.teachertraining');
+    return view('website.services.teacher-trainaing.TeacherTraining');
 })->name('services.teachertraining');
 
 Route::get('/services/e-edport-smart-teacher-certification', function () {
-    return view('website.services.teacher-certification.teachercertification');
+    return view('website.services.teacher-certification.TeacherCertification');
 })->name('services.teachercertification');
 
 Route::get('/services/e-edport-student-career-counselling', function () {
-    return view('website.services.careerCounselling.careercounselling');
+    return view('website.services.careerCounselling.CareerCounselling');
 })->name('services.careercounselling');
 
 Route::get('services/e-edport-smart-teacher-training-form', 'services\TrainaingController@index')->name('services.teacher-training-form');
@@ -157,5 +157,5 @@ Route::get('/about-us', function () {
 })->name('about');
 
 Route::get('/contactus', function () {
-    return view('website.about.contactus');
+    return view('website.about.ContactUs');
 })->name('about.contactus');
