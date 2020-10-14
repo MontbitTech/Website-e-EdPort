@@ -3,7 +3,7 @@
  @section('demo') href="{{route('products.parental-control-form')}}" @endsection
  @section('image')style="background-image:url({{asset('assets/images/parent.jpg')}});background-position: center;" @endsection
  @section('heading') Be a Cautious Parent not a Controlling One @endsection
- @section('sub-heading') Our Parental Control App helps you to be aware of your kids  activity. @endsection
+ @section('sub-heading') Our Parental Control App helps you to be aware of your kids activity. @endsection
  @section('content')
  <style>
      li.remove {
@@ -24,8 +24,8 @@
                      </div>
                  </div>
                  <div class="col-md-10 px-5   justify-content-center text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
-                     <p> 
-                        e-EdPort Parental Control App for your smartphones can help you track your kids' physical locations, see with whom they're communicating online, set limits on their amount of daily screen time and block them from viewing objectionable websites. This app is essential if you want to keep track of what your kids are doing on the internet.
+                     <p>
+                         e-EdPort Parental Control App for your smartphones can help you track your kids' physical locations, see with whom they're communicating online, set limits on their amount of daily screen time and block them from viewing objectionable websites. This app is essential if you want to keep track of what your kids are doing on the internet.
                      </p>
                  </div>
 
@@ -53,44 +53,38 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Location Tracking</h5>
-                                 <p class="text ">For safety purpose, the app also let you track the location of your kid's mobile.</p>
+                                 <p class="text ">Now track your child’s current location through your smart phone. </p>
                              </div>
                          </div>
                      </div>
                      <div class="col-lg-6 wow fadeInRight " data-wow-duration=".8s" data-wow-delay="0s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
-
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Block Unwanted Apps</h5>
-                                 <p class="text pr-2"> You can also block any app on your kid's mobile for preventing overuse.
+                                 <p class="text pr-2"> Get access to block unwanted app’s in your child’s screen.
                                  </p>
                              </div>
-                         </div> <!-- single about -->
+                         </div>
                      </div>
                      <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\selfexplanatoryvideos2.png')}}" alt="Icon" class="align-self-center mr-3">
-
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Block Adult Content</h5>
-                                 <p class="text pr-2">You can also block adult content on your kid's mobile for preventing it for use.</p>
+                                 <p class="text pr-2">Prevent your child from watching any objectionable content on web.</p>
                              </div>
                          </div> <!-- single about -->
                      </div>
                      <div class="col-lg-6 wow fadeInRight " data-wow-duration=".8s" data-wow-delay="0.1s">
                          <div class="single-about d-sm-flex mt-30  Features pb-3 pt-2 pl-2 media">
-
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\onlineassessment2.png')}}" alt="Icon" class="align-self-center mr-3">
-
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Check Child Screen Time</h5>
-                                 <p class="text pr-2"> You can control the time your children invest on the mobile screen.
+                                 <p class="text pr-2"> Now check and control the time duration of your child’s mobile screen
                                  </p>
                              </div>
-                         </div> <!-- single about -->
+                         </div>
                      </div>
                      <!-- <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.2s">
                          <div class="single-about d-sm-flex mt-30 Features pb-3 pt-2 pl-2 media">
@@ -306,9 +300,9 @@
                                  </div>
                                  <div id="technicalonecoll" class="collapse pl-2 text-left" aria-labelledby="technicalone" data-parent="#accordion1">
                                      <p>Enter all the essential details to sign-up as a parent. You can now even sign up using Facebook. As easy as a single click. Using a number, OTP confirmation is needed.
-                                     Now Sign-in for the First time to select among many options for subscription and you will be able to choose using options that vary between Various Subscription plans, which include the number of children & subscription timeline.
-                                     Now Add the details for your child and register their number using an OTP. A simple way to ensure the parental plan for your child.
-                                     Install the child app in your child's device and continue with steps as easy as enter number - enter OTP - Setup Done</p>
+                                         Now Sign-in for the First time to select among many options for subscription and you will be able to choose using options that vary between Various Subscription plans, which include the number of children & subscription timeline.
+                                         Now Add the details for your child and register their number using an OTP. A simple way to ensure the parental plan for your child.
+                                         Install the child app in your child's device and continue with steps as easy as enter number - enter OTP - Setup Done</p>
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">

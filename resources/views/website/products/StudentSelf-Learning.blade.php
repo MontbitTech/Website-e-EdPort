@@ -23,7 +23,7 @@
                  </div>
                  <div class="col-md-10 px-5   justify-content-center  text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
                      <p>
-                        e-EdPort Self Learning Solution helps students clarify doubts, revise concepts, develop their analytical skills and customise their learning needs at home, thus reinforcing classroomlearning. This Self-Learning App gives you the ability to identify problems and quickly look for effective solutions on your own. 
+                         e-EdPort Self Learning Solution helps students clarify doubts, revise concepts, develop their analytical skills and customise their learning needs at home, thus reinforcing classroomlearning. This Self-Learning App gives you the ability to identify problems and quickly look for effective solutions on your own. 
                      </p>
                  </div>
 
@@ -117,37 +117,31 @@
                  <div class="row ">
                      <div class="col-lg-6 ">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
-
+                             <img src="{{asset('assets\images\product\student-self-learning/cbse-map-contents.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">CBSE Map Contents</h5>
-                                 <p class="text ">Helps conduct uninterrupted classes online from the
-                                     comfort of your home.</p>
+                                 <p class="text ">Informative map and content, describing the CBSE syllabus</p>
                              </div>
-                         </div> <!-- single about -->
+                         </div>
                      </div>
                      <div class="col-lg-6 ">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
-
+                             <img src="{{asset('assets\images\product\student-self-learning/animation-video.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Animation Videos</h5>
-                                 <p class="text pr-2"> Helps students master each chapter's concepts.
+                                 <p class="text pr-2"> Videos that help you visualize various concepts, making it easier to understand.
                                  </p>
                              </div>
-                         </div> <!-- single about -->
+                         </div>
                      </div>
                      <div class="col-lg-6 ">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
 
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\selfexplanatoryvideos2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\product\student-self-learning/solved-question -paper.png')}}" alt="Icon" class="align-self-center mr-3">
 
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Solved Question Paper</h5>
-                                 <p class="text pr-2">Videos that help you visualize various
-                                     concepts, making it easier to understand.</p>
+                                 <p class="text pr-2">We provide Solved Question Paper that help students master each chapter.</p>
                              </div>
                          </div>
                      </div>
@@ -160,18 +154,16 @@
                              <img src="{{asset('assets\images\KeyFeatures\InstitutionalBranding\School Website_2.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Syllabus Map Contents</h5>
-                                 <p class="text pr-2">Create your digital identity with your Educational institution Website.
-                                 </p>
+                                 <p class="text pr-2">Correct combination of syllabus, fulfilling every student’s learning goals. </p>
                              </div>
                          </div>
                      </div>
                      <div class="col-lg-6">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media ">
-                             <img src="{{asset('assets\images\KeyFeatures\InstitutionalBranding\DigitalmarketingSetup.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\product\student-self-learning/competition -courses.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Competition Courses</h5>
-                                 <p class="text pr-2">Increasing your brand presence with your own
-                                     website along with social media pages.
+                                 <p class="text pr-2">Helping students beyond school services by preparing them for the future
                                  </p>
                              </div>
                          </div>
@@ -184,11 +176,12 @@
                  <div class="row">
                      <div class="col-lg-6">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-                             <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\OnlineTeacherAssessment_2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\product\student-self-learning\bank-po-courses.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Bank PO Courses</h5>
-                                 <p class="text pr-2">Assessing the teacher’s ability to help
-                                     finesse their technical knowledge.
+                                 <p class="text pr-2">The Course will prepare you for greater
+                                     accuracy and speed which will help you to crack the Bank PO exam.
+                                     Or This Course will help you to crack the Bank PO exam with increasing your accuracy and speed.
                                  </p>
                              </div>
                          </div>
@@ -198,8 +191,7 @@
                              <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\OnlineTeacherTrainingCourse.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">NEET JEE Courses</h5>
-                                 <p class="text pr-2">Familiarising teachers with the new
-                                     technological trends </p>
+                                 <p class="text pr-2">We offer courses which are designed to build the base of students who want to face competitive examination. </p>
                              </div>
                          </div>
                      </div>
@@ -220,7 +212,7 @@
                              </div>
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Career Guidance</h5>
-                                 <p class="text pr-2">Counselling students to navigate their future.
+                                 <p class="text pr-2">Counseling students to navigate their future
                                  </p>
                              </div>
                          </div>

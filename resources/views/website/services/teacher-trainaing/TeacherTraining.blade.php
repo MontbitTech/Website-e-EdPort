@@ -134,7 +134,7 @@
          </div>
      </div>
  </section>
- <!-- <section id="portfolio" class="portfolio-area bg-light">
+ <section id="portfolio" class="portfolio-area bg-light">
      <div class="container-fluid">
          <div class="row justify-content-center">
              <div class="col-lg-6">
@@ -152,43 +152,7 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Technical Expertise</h5>
-                                 <p class="text ">The teachers get expertise in using all types of technical educational tools.
-                                 </p>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-lg-6 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
-                         <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                             <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Content Creation</h5>
-                                 <p class="text pr-2"> The best feature of the program helps the teachers to learn online
-                                     contentcreation. </p>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
-                         <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                             <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Classroom Management</h5>
-                                 <p class="text pr-2"> We provide training to the teachers for effective classroommanagement.
-                                 </p>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-lg-6 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
-                         <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                             <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Communication Skills</h5>
-                                 <p class="text pr-2"> Our training module also helps the teachers to improve communicationskills.</p>
+                                 <p class="text ">Get expertise in using all types of latest technical educational tools </p>
                              </div>
                          </div>
                      </div>
@@ -197,27 +161,34 @@
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\selfexplanatoryvideos2.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Increase Productivity</h5>
-                                 <p class="text pr-2">
-                                     This digital training program will help the teachers to increaseproductivity.
-                                 </p>
+                                 <p class="text pr-2">This digital training program will help you to increase your productivity. </p>
                              </div>
-                         </div> 
+                         </div>
                      </div>
                      <div class="col-lg-6 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
                              <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Personal Empowerment</h5>
-                                 <p class="text pr-2"> These skills help you to empower yourself as a Digital Educator</p>
+                                 <h5 class="mt-0 mb-1">Content Creation</h5>
+                                 <p class="text pr-2"> Get trained to create your own online content</p>
                              </div>
                          </div>
                      </div>
-                 </div>
+                     <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
+                         <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
+                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <div class="about-content media-body">
+                                 <h5 class="mt-0 mb-1">Classroom Management</h5>
+                                 <p class="text pr-2"> Get trained for effective classroom management </p>
+                             </div>
+                         </div>
+                     </div>
 
+                 </div>
              </div>
          </div>
      </div>
- </section> -->
+ </section>
  <section>
      <div class="container-fluid">
          <div class="row pt-5 pb-5" style="background-color: #161f33;">

@@ -137,7 +137,7 @@
  <section class=" bg-light">
      <div class="container-fluid">
          <div class="row pt-5 pb-5" style="background-color: #161f33;">
-             <div class="col-md-12 col-lg-6    col-12 wow bounceIn" data-wow-duration=".8s" data-wow-delay="0.1s">
+             <div class="col-md-12 col-lg-6  col-12 wow bounceIn" data-wow-duration=".8s" data-wow-delay="0.1s">
                  <h1 class="text-white text-center">
                      Ready to get started?
                  </h1>
@@ -153,6 +153,60 @@
                      </div>
                      <div class="col-md-12 d-flex justify-content-center  col-12    col-lg-4  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.5s">
                          <div class="btn bg-white rounded-pill btn-hover " style="color: #161f33;">Contact Us &#x27A7;</div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ <section id="portfolio" class="portfolio-area bg-light">
+     <div class="container-fluid">
+         <div class="row justify-content-center">
+             <div class="col-lg-6">
+                 <div class="section-title text-center pb-20 ">
+                     <h3 class="title wow fadeInUp" data-wow-duration=".8s" data-wow-delay="0s">Key Features</h3>
+                     <p class="text wow fadeInUp" data-wow-duration=".8s" data-wow-delay="0.2s">Facilitating the elements to empower the Indian Education System.</p>
+                 </div>
+             </div>
+         </div>
+         <div class="container">
+             <div id="virtual" class=" portfolio-card virtual-school">
+                 <div class="row ">
+                     <div class="col-lg-6 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
+                         <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
+                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <div class="about-content media-body">
+                                 <h5 class="mt-0 mb-1">Personal Empowerment</h5>
+                                 <p class="text pr-2"> These skills help you to empower yourself as a Digital Educator</p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-6 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
+                         <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
+                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <div class="about-content media-body">
+                                 <h5 class="mt-0 mb-1">Communication Skills</h5>
+                                 <p class="text pr-2"> Improve your communication skills with our certification</p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
+                         <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
+                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <div class="about-content media-body">
+                                 <h5 class="mt-0 mb-1">Greater Networking</h5>
+                                 <p class="text ">Desire to innovate across discipline and empower students</p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-6 wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0s">
+                         <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
+                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <div class="about-content media-body">
+                                 <h5 class="mt-0 mb-1">Learn and Lead</h5>
+                                 <p class="text pr-2"> Learn and help individuals to develop their own personal leadership style. </p>
+                             </div>
+                         </div>
                      </div>
                  </div>
              </div>
