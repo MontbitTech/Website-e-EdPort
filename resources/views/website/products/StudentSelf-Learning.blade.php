@@ -90,7 +90,7 @@
              <div class="col-lg-6">
                  <div class="section-title text-center pb-20">
                      <h3 class="title">Key Features</h3>
-                     <p class="text">Facilitating the elements to empower the Indian Education System.</p>
+                     <p class="text">Review material the same day youlearnit.</p>
                  </div>
              </div>
          </div>
@@ -190,8 +190,7 @@
                              <img src="{{asset('assets\images\product\student-self-learning\ielts -courses.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">IELTS Courses</h5>
-                                 <p class="text pr-2">Certifying teachers as technologically
-                                     advanced ‘Smart Teachers</p>
+                                 <p class="text pr-2">Beneficial at every step of your caree</p>
                              </div>
                          </div>
                      </div>

@@ -81,7 +81,7 @@
                      <div class="col-lg-4  col-12 col-md-4 justify-content-center wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s" style="background-color: transparent;">
                          <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
                              <div class="card-header border-0 " style="background-color: transparent;">
-                                 <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
+                                 <img src="{{asset('assets/images/traning/stage_11.jpg')}}" alt="Icon" class="align-self-center mr-3">
                              </div>
                              <div class="about-content card-body border-0 m-0 p-0 ">
                                  <h4 class="mt-0 ">Level 1 Exam</h4>
@@ -94,7 +94,7 @@
                      <div class="col-lg-4  col-12 col-md-4  justify-content-center wow fadeInDown" data-wow-duration=".8s" data-wow-delay="0s" style="background-color: transparent;">
                          <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
                              <div class="card-header border-0 " style="background-color: transparent;">
-                                 <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
+                                 <img src="{{asset('assets/images/traning/stage_22.jpg')}}" alt="Icon" class="align-self-center mr-3">
                              </div>
                              <div class="about-content card-body border-0 m-0 p-0">
                                  <h4 class="mt-0 ">Level 2 Exam</h4>
@@ -107,7 +107,7 @@
                      <div class="col-lg-4  col-12 col-md-4 justify-content-center  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s" style="background-color: transparent;">
                          <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
                              <div class="card-header border-0 " style="background-color: transparent;">
-                                 <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
+                                 <img src="{{asset('assets/images/traning/stage_33.jpg')}}" alt="Icon" class="align-self-center mr-3">
                              </div>
                              <div class="about-content card-body border-0 m-0 p-0">
                                  <h4 class="mt-0 ">Level 3 Exam</h4>
@@ -165,7 +165,7 @@
              <div class="col-lg-6">
                  <div class="section-title text-center pb-20 ">
                      <h3 class="title wow fadeInUp" data-wow-duration=".8s" data-wow-delay="0s">Key Features</h3>
-                     <p class="text wow fadeInUp" data-wow-duration=".8s" data-wow-delay="0.2s">Facilitating the elements to empower the Indian Education System.</p>
+                     <p class="text wow fadeInUp" data-wow-duration=".8s" data-wow-delay="0.2s">Become a Certified Smart Teacher to lead the world</p>
                  </div>
              </div>
          </div>

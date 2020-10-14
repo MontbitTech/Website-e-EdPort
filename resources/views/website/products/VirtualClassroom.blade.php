@@ -37,7 +37,7 @@
              <div class="col-lg-6">
                  <div class="section-title text-center pb-20 ">
                      <h3 class="title wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0s">Key Features</h3>
-                     <p class="text wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">Facilitating the elements to empower the Indian Education System.</p>
+                     <p class="text wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">Online classes can attract superb lecturers from around the world</p>
                  </div>
              </div>
          </div>
