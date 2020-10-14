@@ -119,7 +119,7 @@
                       <img src="{{asset('assets\images\Deliverables\SelfLearning.png')}}" class="align-self-center mr-3" alt="Icon">
                       <div class="about-content media-body">
                           <h4 class="about-title">Smart Teacher Training</h4>
-                          <p class="text">Learn the significance of online teaching aids and get a complete knowledge about using digital tools in a virtual classroom.</p>
+                          <p class="text">Get Trained for using smart digital teaching tools and techniques.</p>
                       </div>
                   </a>
               </div>
