@@ -323,7 +323,7 @@
                       </div>
                       <div class="col-lg-6">
                           <div class="single-about d-sm-flex  mt-30 pb-3 pt-2 pl-2 Features media">
-                              <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\OnlineTeacherTrainingCourse.png')}}" alt="Icon" class="align-self-center mr-3">
+                              <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\Smart Teacher Training.png')}}" alt="Icon" class="align-self-center mr-3">
                               <div class="about-content media-body">
                                   <h5 class="mt-0 mb-1">Online Teacher Training Course</h5>
                                   <p class="text pr-2">Familiarising teachers with the new
