@@ -17,7 +17,7 @@
              <div class="tab-pane fade show active justify-content-center text-centerm " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                  <div id="accordion">
                      <div class="row">
-                         <div class="col-lg-12">
+                         <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.8" data-wow-delay="0.1s">
                              <div class="card bg-light border-top-0 shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 media" id="generalone" style="cursor: pointer;" data-toggle="collapse" data-target="#generalonecoll" aria-expanded="true" aria-controls="generalonecoll">
                                      <i class="fa fa-plus align-self-start mr-1 mt-1"></i>&nbsp;

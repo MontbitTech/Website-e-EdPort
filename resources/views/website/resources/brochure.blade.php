@@ -37,7 +37,7 @@
  </script>
  <section>
      <div class="container ">
-         <div class="row py-3  " style="margin-top: 6.4rem !important;">
+         <div class="row py-5" style="margin-top: 6.4rem !important;">
              <div class="col-md-6 col-12 col-lg-6">
                  <img src="{{asset('assets/images/Brochure/Sales-Funnel.jpg')}}" alt="" class="border border-color shadow" style="width:28.125rem; height:37.5rem">
              </div>
@@ -83,7 +83,7 @@
  <section>
      <div class="container ">
          <div class="row py-3">
-             <div class="col-md-6 col-12 col-lg-6 top-margin">
+             <div class="col-md-6 col-12 col-lg-6 top-margin ">
                  <img src="{{asset('assets/images/Brochure/Student-guide.jpg')}}" alt="" class="border  border-color shadow" style="width:28.125rem; height:37.5rem">
              </div>
              <div class="col-md-6 col-12 col-lg-6 top-margin">

@@ -112,7 +112,7 @@
      <div class="container-fluid ">
          <div class="row pt-5 pb-5" style="background-color: #161f33;">
              <div class="col-md-12 col-lg-6    col-12 wow bounceIn" data-wow-duration=".8s" data-wow-delay="0.1s">
-                 <h1 class="text-white text-center font-weight-light">
+                 <h1 class="text-white text-center font-weight-light mb-4">
                      Ready to get started?
                  </h1>
                  <h5 class="text-white text-center">
