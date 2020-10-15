@@ -84,22 +84,22 @@
                                         @if(Auth::user()->role=='admin' || in_array('e-EdPort Virtual Classroom Solution',$role) || in_array('e-EdPort Student Self Learning Solution',$role) || in_array('e-EdPort Parental Control App',$role))
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
 
-                                             @if(Auth::user()->role=='admin' || in_array('e-EdPort Virtual Classroom Solution',$role))
+                                            @if(Auth::user()->role=='admin' || in_array('e-EdPort Virtual Classroom Solution',$role))
 
                                             <a class="dropdown-item {{ (request()->routeIs('products.virtual-classroom-solution')) ? 'active' : '' }}" href="{{ route('products.virtual-classroom-solution') }}">
-                                                e-EdPort Virtual Classroom Solution
+                                                Virtual Classroom Solution
                                             </a>
                                             @endif
 
                                             @if(Auth::user()->role=='admin' || in_array('e-EdPort Student Self Learning Solution',$role))
                                             <a class="dropdown-item {{ (request()->routeIs('products.student-selflearning-solution')) ? 'active' : '' }}" href="{{ route('products.student-selflearning-solution') }}">
-                                                e-EdPort Student Self-Learning Solution
+                                                Student Self-Learning Solution
                                             </a>
                                             @endif
 
                                             @if(Auth::user()->role=='admin' || in_array('e-EdPort Parental Control App',$role))
                                             <a class="dropdown-item {{ (request()->routeIs('products.parental-control-app')) ? 'active' : '' }}" href="{{ route('products.parental-control-app') }}">
-                                                e-EdPort Parental Control App
+                                                Parental Control App
                                             </a>
                                             @endif
 
@@ -120,13 +120,13 @@
 
                                             @if(Auth::user()->role=='admin' || in_array('e-EdPort Smart Teacher Training',$role))
                                             <a class="dropdown-item {{ (request()->routeIs('services.teacher-training-show')) ? 'active' : '' }}" href="{{ route('services.teacher-training-show') }}">
-                                                e-EdPort Smart Teacher Training
+                                                Smart Teacher Training
                                             </a>
                                             @endif
 
                                             @if(Auth::user()->role=='admin' || in_array('e-EdPort Smart Teacher Certification',$role))
                                             <a class="dropdown-item {{ (request()->routeIs('services.teacher-certification-show')) ? 'active' : '' }}" href="{{ route('services.teacher-certificate-show') }}">
-                                                e-EdPort Smart Teacher Certification
+                                                Smart Teacher Certification
                                             </a>
                                             @endif
                                             <!-- <a class="dropdown-item {{ (request()->routeIs('services.careecounselling-show')) ? 'active' : '' }}" href="{{ route('services.careecounselling-show') }}">
