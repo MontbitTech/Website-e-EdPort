@@ -42,7 +42,7 @@
                  <img src="{{asset('assets/images/Brochure/Sales-Funnel.jpg')}}" alt="" class="border border-color shadow" style="width:28.125rem; height:37.5rem">
              </div>
              <div class="col-md-6 col-12 col-lg-6 top-margin">
-                 <h2 style="color: #161f33; " class="font-weight-normal "> Sales Funnel Brochure </h2>
+                 <h2 style="color: #161f33; " class="font-weight-normal font-size-h2"> Sales Funnel Brochure </h2>
                  <hr width="40" style=" border-top: 3px solid #161f33; ">
                  <p class="font-weight-normal">The Indian education system is
                      changing. Fuelling the change, we at e-EdPort aspire to
@@ -62,7 +62,7 @@
      <div class="container ">
          <div class="row py-3">
              <div class="col-md-6 col-12 col-lg-6 top-margin">
-                 <h2 style="color: #161f33; " class="font-weight-normal "> Self Learning Product </h2>
+                 <h2 style="color: #161f33; " class="font-weight-normal font-size-h2"> Self Learning Product </h2>
                  <hr width="40" style=" border-top: 3px solid #161f33; ">
                  <p class="font-weight-normal">Young students are facing trouble while
                      using our platform??
@@ -87,7 +87,7 @@
                  <img src="{{asset('assets/images/Brochure/Student-guide.jpg')}}" alt="" class="border  border-color shadow" style="width:28.125rem; height:37.5rem">
              </div>
              <div class="col-md-6 col-12 col-lg-6 top-margin">
-                 <h2 style="color: #161f33; " class="font-weight-normal "> Student's guide to Google Classroom </h2>
+                 <h2 style="color: #161f33; " class="font-weight-normal font-size-h2"> Student's guide to Google Classroom </h2>
                  <hr width="40" style=" border-top: 3px solid #161f33; ">
                  <p class="font-weight-normal">Google e-Edport Classroom is a
                      learning management system (LMS) that aims to simplify creating,

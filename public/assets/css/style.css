@@ -926,9 +926,21 @@ p {
     a.navbar-brand {
         margin-left: -42px;
     }
+    .mragin-bottom{
+        margin-bottom: 2rem;
+    }
+    .font-size-h2{
+            font-size: 2.02rem;
+    }
 }
 
 @media (max-width: 767px) {
+      .font-size-h2 {
+          font-size: 2.02rem;
+      }
+    .mragin-bottom {
+        margin-bottom: 2rem;
+    }
     .navbar-toggler {
         margin-right: -46px;
     }
