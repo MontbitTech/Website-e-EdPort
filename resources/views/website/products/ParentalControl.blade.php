@@ -253,27 +253,27 @@
                      <div class="row wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.5s">
                          <div class="col-lg-12">
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
-                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalone" style="cursor: pointer;" data-toggle="collapse" data-target="#generalonecoll" aria-expanded="true" aria-controls="generalonecoll">
-                                     <i class="fa fa-plus"></i>&nbsp;
-                                     Does the app support all mobile platforms?
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2  media" id="generalone" style="cursor: pointer;" data-toggle="collapse" data-target="#generalonecoll" aria-expanded="true" aria-controls="generalonecoll">
+                                     <i class="fa fa-plus align-self-center mr-1"></i>&nbsp;
+                                     <p class="media-body"> Does the app support all mobile platforms?</p>
                                  </div>
                                  <div id="generalonecoll" class="collapse pl-2 text-left" aria-labelledby="generalone" data-parent="#accordion">
                                      No, the app runs only on android mobiles with general specifications.
                                  </div>
                              </div>
-                             <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
-                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#generaltwocoll" aria-expanded="true" aria-controls="generaltwocoll">
-                                     <i class="fa fa-plus"></i>&nbsp;
-                                     Is the Parental App free?
+                             <div class="card bg-light  shadow-none mb-2 border " style="max-width: 100% !important; ">
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 media" id="generaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#generaltwocoll" aria-expanded="true" aria-controls="generaltwocoll">
+                                     <i class="fa fa-plus align-self-center mr-1"></i>&nbsp;
+                                     <p class="media-body"> Is the Parental App free?</p>
                                  </div>
                                  <div id="generaltwocoll" class="collapse pl-2 text-left" aria-labelledby="generaltwo" data-parent="#accordion">
                                      <p>No, the app is not free.You have to simply manage your subscriptions.</p>
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
-                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#generalthreecoll" aria-expanded="true" aria-controls="generalthreecoll">
-                                     <i class="fa fa-plus"></i>&nbsp;
-                                     Can my child uninstall FamilyTime from his/her phone?
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 media" id="generalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#generalthreecoll" aria-expanded="true" aria-controls="generalthreecoll">
+                                     <i class="fa fa-plus  align-self-center mr-1"></i>&nbsp;
+                                     <p class="media-body"> Can my child uninstall FamilyTime from his/her phone?</p>
                                  </div>
                                  <div id="generalthreecoll" class="collapse pl-2 text-left" aria-labelledby="generalthree" data-parent="#accordion">
                                      No, this is the best part of this parental control app that your child can not uninstall this app on his own.
