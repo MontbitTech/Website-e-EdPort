@@ -9,8 +9,8 @@
       </div>
   </div>
   <div class="col-lg-4 col-sm-6">
-      <div class="footer-link">
-          <h6 class="footer-title">Solutions</h6>
+      <div class="footer-link solutions-center">
+          <h6 class="footer-title ">Solutions</h6>
           <ul>
               <li><a href="#portfolio" class="goto" data-id="virtualclass">Virtual Classroom App</a></li>
               <li><a href="#portfolio" class="goto" data-id="selflearning">Self Learning App</a></li>

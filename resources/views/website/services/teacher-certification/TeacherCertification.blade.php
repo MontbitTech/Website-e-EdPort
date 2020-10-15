@@ -17,7 +17,7 @@
  <section id="about" class="portfolio-area bg-light">
      <div class="site-section">
          <div class="container">
-             <div class="row align-items-center">
+             <div class="row align-items-center mt-4">
                  <div class="col-lg-4 col-md-4 col-12 text-center about-img">
                      <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                          <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\SmartTeacherCertification.png')}}" alt="Girl in a jacket" width="100%" height="100%">
@@ -32,7 +32,7 @@
                      </p>
                  </div>
              </div>
-             <div class="row align-items-center">
+             <div class="row align-items-center mt-4">
                  <div class="col-lg-8 col-md-8 col-12 ml-auto wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
                      <h3 class="mb-4 section-heading"><strong>Why it is important?</strong></h3>
                      <p class="mb-1" style="line-height:1.7">
@@ -46,7 +46,7 @@
                      </div>
                  </div>
              </div>
-             <div class="row align-items-center">
+             <div class="row align-items-center mt-4">
                  <div class="col-lg-4 col-md-4 col-12 text-center about-img">
                      <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                          <img src="{{asset('assets/images/vision.png')}}" alt="Girl in a jacket" width="100%" height="100%">
@@ -78,8 +78,8 @@
          <div class="container">
              <div id="virtual" class=" portfolio-card virtual-school">
                  <div class="row justify-content-center">
-                     <div class="col-lg-4  col-12 col-md-4 justify-content-center wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s" style="background-color: transparent;">
-                         <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
+                     <div class="col-lg-4  col-12 col-md-4 justify-content-center wow fadeInLeft mragin-bottom" data-wow-duration=".8s" data-wow-delay="0s" style="background-color: transparent;">
+                         <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center m-auto" style="background-color: transparent;">
                              <div class="card-header border-0 " style="background-color: transparent;">
                                  <img src="{{asset('assets/images/traning/stage_11.jpg')}}" alt="Icon" class="align-self-center mr-3">
                              </div>
@@ -91,8 +91,8 @@
                              </div>
                          </div>
                      </div>
-                     <div class="col-lg-4  col-12 col-md-4  justify-content-center wow fadeInDown" data-wow-duration=".8s" data-wow-delay="0s" style="background-color: transparent;">
-                         <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
+                     <div class="col-lg-4  col-12 col-md-4  justify-content-center wow fadeInDown mragin-bottom" data-wow-duration=".8s" data-wow-delay="0s" style="background-color: transparent;">
+                         <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center m-auto" style="background-color: transparent;">
                              <div class="card-header border-0 " style="background-color: transparent;">
                                  <img src="{{asset('assets/images/traning/stage_22.jpg')}}" alt="Icon" class="align-self-center mr-3">
                              </div>
@@ -104,8 +104,8 @@
                              </div>
                          </div>
                      </div>
-                     <div class="col-lg-4  col-12 col-md-4 justify-content-center  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s" style="background-color: transparent;">
-                         <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
+                     <div class="col-lg-4  col-12 col-md-4 justify-content-center  wow fadeInRight mragin-bottom" data-wow-duration=".8s" data-wow-delay="0.2s" style="background-color: transparent;">
+                         <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center m-auto" style="background-color: transparent;">
                              <div class="card-header border-0 " style="background-color: transparent;">
                                  <img src="{{asset('assets/images/traning/stage_33.jpg')}}" alt="Icon" class="align-self-center mr-3">
                              </div>
@@ -117,18 +117,6 @@
                              </div>
                          </div>
                      </div>
-                     <!-- <div class="col-lg-4  col-12 col-md-4 offset-md-4 offset-lg-4  mt-3 justify-content-center wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.2s" style="background-color: transparent;">
-                         <div class="single-about   card shadow-none border-0 p-0 m-0  justify-content-center " style="background-color: transparent;">
-                             <div class="card-header border-0 " style="background-color: transparent;">
-                                 <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
-                             </div>
-                             <div class="about-content card-body border-0 m-0 p-0">
-                                 <h4 class="mt-0 "></h4>
-                                 <p class="text m-0 p-0 ">
-                                 </p>
-                             </div>
-                         </div>
-                     </div> -->
                  </div>
              </div>
          </div>
@@ -138,7 +126,7 @@
      <div class="container-fluid">
          <div class="row pt-5 pb-5" style="background-color: #161f33;">
              <div class="col-md-12 col-lg-6  col-12 wow bounceIn" data-wow-duration=".8s" data-wow-delay="0.1s">
-                 <h1 class="text-white text-center">
+                 <h1 class="text-white text-center font-weight-light">
                      Ready to get started?
                  </h1>
                  <h5 class="text-white text-center">

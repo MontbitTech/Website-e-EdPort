@@ -9,10 +9,6 @@
      li.remove {
          display: none !important;
      }
-
-     /* .header-area {
-         margin-top: 6.2rem;
-     } */
  </style>
  <section id="about" class="portfolio-area">
      <div class="site-section">
@@ -71,7 +67,7 @@
                                  <h5 class="mt-0 mb-1">Block Adult Content</h5>
                                  <p class="text pr-2">Prevent your child from watching any objectionable content on web.</p>
                              </div>
-                         </div> <!-- single about -->
+                         </div>
                      </div>
                      <div class="col-lg-6 wow fadeInRight " data-wow-duration=".8s" data-wow-delay="0.1s">
                          <div class="single-about d-sm-flex mt-30  Features pb-3 pt-2 pl-2 media">
@@ -83,35 +79,7 @@
                              </div>
                          </div>
                      </div>
-                     <!-- <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.2s">
-                         <div class="single-about d-sm-flex mt-30 Features pb-3 pt-2 pl-2 media">
-
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\mocktest.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                             <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Mock Tests</h5>
-                                 <p class="text pr-2">
-                                     Be exam ready by solving test questions from a pool of
-                                     questions
-                                 </p>
-                             </div>
-                         </div> 
-                     </div>
-                     <div class="col-lg-6 wow fadeInRight " data-wow-duration=".8s" data-wow-delay="0.2s">
-                         <div class="single-about media d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\Additionalresources.png')}}" alt="Icon" class="align-self-center mr-3">
-
-                             <div class="about-content media-body">
-                                 <h5 class="mt-0 mb-1">Additional Resources</h5>
-                                 <p class="text pr-2">
-                                     Extra Resources like Drawing Board, WikiPedia and many more
-                                 </p>
-                             </div>
-                         </div> 
-                     </div> -->
                  </div>
-
              </div>
          </div>
      </div>
@@ -120,7 +88,7 @@
      <div class="container-fluid">
          <div class="row pt-5 pb-5" style="background-color: #161f33;">
              <div class="col-md-12 col-lg-6    col-12 wow bounceIn" data-wow-duration=".8s" data-wow-delay="0.1s">
-                 <h1 class="text-white text-center">
+                 <h1 class="text-white text-center font-weight-light">
                      Ready to get started?
                  </h1>
                  <h5 class="text-white text-center">
@@ -254,7 +222,7 @@
                          <div class="col-lg-12">
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2  media" id="generalone" style="cursor: pointer;" data-toggle="collapse" data-target="#generalonecoll" aria-expanded="true" aria-controls="generalonecoll">
-                                     <i class="fa fa-plus align-self-center mr-1"></i>&nbsp;
+                                     <i class="fa fa-plus align-self-start mr-1 mt-1"></i>&nbsp;
                                      <p class="media-body"> Does the app support all mobile platforms?</p>
                                  </div>
                                  <div id="generalonecoll" class="collapse pl-2 text-left" aria-labelledby="generalone" data-parent="#accordion">
@@ -263,7 +231,7 @@
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border " style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 media" id="generaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#generaltwocoll" aria-expanded="true" aria-controls="generaltwocoll">
-                                     <i class="fa fa-plus align-self-center mr-1"></i>&nbsp;
+                                     <i class="fa fa-plus align-self-start mr-1 mt-1"></i>&nbsp;
                                      <p class="media-body"> Is the Parental App free?</p>
                                  </div>
                                  <div id="generaltwocoll" class="collapse pl-2 text-left" aria-labelledby="generaltwo" data-parent="#accordion">
@@ -272,7 +240,7 @@
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
                                  <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 media" id="generalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#generalthreecoll" aria-expanded="true" aria-controls="generalthreecoll">
-                                     <i class="fa fa-plus  align-self-center mr-1"></i>&nbsp;
+                                     <i class="fa fa-plus  align-self-start mr-1 mt-1"></i>&nbsp;
                                      <p class="media-body"> Can my child uninstall FamilyTime from his/her phone?</p>
                                  </div>
                                  <div id="generalthreecoll" class="collapse pl-2 text-left" aria-labelledby="generalthree" data-parent="#accordion">
@@ -288,9 +256,9 @@
                      <div class="row">
                          <div class="col-lg-12">
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
-                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalone" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalonecoll" aria-expanded="true" aria-controls="technicalonecoll">
-                                     <i class="fa fa-plus"></i>&nbsp;
-                                     How to install FamilyTime on my child’s mobile device?
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 media" id="technicalone" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalonecoll" aria-expanded="true" aria-controls="technicalonecoll">
+                                     <i class="fa fa-plus align-self-start mr-1 mt-1"></i>&nbsp;
+                                     <p class="media-body"> How to install FamilyTime on my child’s mobile device? </p>
                                  </div>
                                  <div id="technicalonecoll" class="collapse pl-2 text-left" aria-labelledby="technicalone" data-parent="#accordion1">
                                      <p>Enter all the essential details to sign-up as a parent. You can now even sign up using Facebook. As easy as a single click. Using a number, OTP confirmation is needed.
@@ -300,18 +268,18 @@
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
-                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#technicaltwocoll" aria-expanded="true" aria-controls="technicaltwocoll">
-                                     <i class="fa fa-plus"></i>&nbsp;
-                                     Can I access this app from my Laptop?
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 media" id="technicaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#technicaltwocoll" aria-expanded="true" aria-controls="technicaltwocoll">
+                                     <i class="fa fa-plus align-self-start mr-1 mt-1"></i>&nbsp;
+                                     <p class="media-body"> Can I access this app from my Laptop?</p>
                                  </div>
                                  <div id="technicaltwocoll" class="collapse pl-2 text-left" aria-labelledby="technicaltwo" data-parent="#accordion1">
                                      No, as of now you are not able to access this from your laptop or PC. You can only access it from your android mobiles.
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
-                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalthreecoll" aria-expanded="true" aria-controls="technicalthreecoll">
-                                     <i class="fa fa-plus"></i>&nbsp;
-                                     Do I have to stay logged in all the time?
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 media" id="technicalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalthreecoll" aria-expanded="true" aria-controls="technicalthreecoll">
+                                     <i class="fa fa-plus align-self-start mr-1 mt-1"></i>&nbsp;
+                                     <p class="media-body"> Do I have to stay logged in all the time?</p>
                                  </div>
                                  <div id="technicalthreecoll" class="collapse pl-2 text-left" aria-labelledby="technicalthree" data-parent="#accordion1">
                                      Not always, you just have to remain logged in for the time you want to keep track of your kid's activities.

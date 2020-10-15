@@ -99,7 +99,6 @@
               <div class="col-lg-6">
                   <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.2s">
                       <h4 class="title">Our Offerings</h4>
-                      <!-- <p class="text">Providing solutions for systematic functioning of schools.</p> -->
                       <p class="text">Providing solutions for systematic functioning of education.</p>
                   </div>
               </div>
@@ -116,7 +115,7 @@
               </div>
               <div class="col-lg-6">
                   <a href="{{route('services.teachertraining')}}" class="single-about d-sm-flex mt-30 wow fadeInUp media" data-wow-duration="1s" data-wow-delay=".2s">
-                      <img src="{{asset('assets\images\Deliverables\SelfLearning.png')}}" class="align-self-center mr-3" alt="Icon">
+                      <img src="{{asset('assets\images\KeyFeatures\SmartTeacherTraining\Smart Teacher Training.png')}}" class="align-self-center mr-3" alt="Icon">
                       <div class="about-content media-body">
                           <h4 class="about-title">Smart Teacher Training</h4>
                           <p class="text">Get Trained for using smart digital teaching tools and techniques.</p>

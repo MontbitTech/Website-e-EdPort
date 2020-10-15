@@ -196,9 +196,7 @@
                      </div>
                      <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                          <div class="single-about d-sm-flex  mt-30 pb-3 pt-2 pl-2 Features media">
-                             <div class="about-icon">
-                                 <img src="{{asset('assets\images\KeyFeatures\Studentgrooming\Careerguidance.png')}}" alt="Icon" class="align-self-center mr-3">
-                             </div>
+                             <img src="{{asset('assets\images\KeyFeatures\Studentgrooming\Careerguidance.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Career Guidance</h5>
                                  <p class="text pr-2">Counseling students to navigate their future
@@ -228,7 +226,7 @@
      <div class="container-fluid">
          <div class="row pt-5 pb-5" style="background-color: #161f33;">
              <div class="col-md-12 col-lg-6    col-12 wow bounceIn" data-wow-duration=".8s" data-wow-delay="0.1s">
-                 <h1 class="text-white text-center">
+                 <h1 class="text-white text-center font-weight-light">
                      Ready to get started?
                  </h1>
                  <h5 class="text-white text-center">

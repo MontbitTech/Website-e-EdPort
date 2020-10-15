@@ -112,7 +112,7 @@
      <div class="container-fluid ">
          <div class="row pt-5 pb-5" style="background-color: #161f33;">
              <div class="col-md-12 col-lg-6    col-12 wow bounceIn" data-wow-duration=".8s" data-wow-delay="0.1s">
-                 <h1 class="text-white text-center ">
+                 <h1 class="text-white text-center font-weight-light">
                      Ready to get started?
                  </h1>
                  <h5 class="text-white text-center">
@@ -239,27 +239,27 @@
                      <div class="row wow fadeInUp" data-wow-duration=".5s" data-wow-delay="0.5s">
                          <div class="col-lg-12">
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
-                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalone" style="cursor: pointer;" data-toggle="collapse" data-target="#generalonecoll" aria-expanded="true" aria-controls="generalonecoll">
-                                     <i class="fa fa-plus"></i>&nbsp;
-                                     Can students review their classes?
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 media" id="generalone" style="cursor: pointer;" data-toggle="collapse" data-target="#generalonecoll" aria-expanded="true" aria-controls="generalonecoll">
+                                     <i class="fa fa-plus align-self-start mr-1 mt-1"></i>&nbsp;
+                                     <p class="media-body"> Can students review their classes?</p>
                                  </div>
                                  <div id="generalonecoll" class="collapse pl-2 text-left" aria-labelledby="generalone" data-parent="#accordion">
                                      Yes, students can access the previous classes through our archived classes feature.
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
-                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#generaltwocoll" aria-expanded="true" aria-controls="generaltwocoll">
-                                     <i class="fa fa-plus"></i>&nbsp;
-                                     What if I have to give notes in the class?
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 media" id="generaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#generaltwocoll" aria-expanded="true" aria-controls="generaltwocoll">
+                                     <i class="fa fa-plus align-self-start mr-1 mt-1"></i>&nbsp;
+                                     <p class="media-body"> What if I have to give notes in the class?</p>
                                  </div>
                                  <div id="generaltwocoll" class="collapse pl-2 text-left" aria-labelledby="generaltwo" data-parent="#accordion">
                                      You can provide notes using a separate whiteboard or notes section where you can writing using auto tools.
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
-                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="generalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#generalthreecoll" aria-expanded="true" aria-controls="generalthreecoll">
-                                     <i class="fa fa-plus"></i>&nbsp;
-                                     Is it possible to take exams with this software?
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 media" id="generalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#generalthreecoll" aria-expanded="true" aria-controls="generalthreecoll">
+                                     <i class="fa fa-plus align-self-start mr-1 mt-1"></i>&nbsp;
+                                     <p class="media-body"> Is it possible to take exams with this software? </p>
                                  </div>
                                  <div id="generalthreecoll" class="collapse pl-2 text-left" aria-labelledby="generalthree" data-parent="#accordion">
                                      Yes, you can conduct exams and assessments and also display results to the students.
@@ -274,27 +274,27 @@
                      <div class="row">
                          <div class="col-lg-12">
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
-                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalone" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalonecoll" aria-expanded="true" aria-controls="technicalonecoll">
-                                     <i class="fa fa-plus"></i>&nbsp;
-                                     Which Web Browser is required to use this software?
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 media" id="technicalone" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalonecoll" aria-expanded="true" aria-controls="technicalonecoll">
+                                     <i class="fa fa-plus align-self-start mr-1 mt-1"></i>&nbsp;
+                                     <p class="media-body"> Which Web Browser is required to use this software? </p>
                                  </div>
                                  <div id="technicalonecoll" class="collapse pl-2 text-left" aria-labelledby="technicalone" data-parent="#accordion1">
                                      You dont need any specific browser for this. It will run on all browsers like Google Chrome, Mozilla Firefox, Internet Explorer etc.
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
-                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#technicaltwocoll" aria-expanded="true" aria-controls="technicaltwocoll">
-                                     <i class="fa fa-plus"></i>&nbsp;
-                                     How much speed is required for the Internet connection?
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 media" id="technicaltwo" style="cursor: pointer;" data-toggle="collapse" data-target="#technicaltwocoll" aria-expanded="true" aria-controls="technicaltwocoll">
+                                     <i class="fa fa-plus align-self-start mr-1 mt-1"></i>&nbsp;
+                                     <p class="media-body"> How much speed is required for the Internet connection? </p>
                                  </div>
                                  <div id="technicaltwocoll" class="collapse pl-2 text-left" aria-labelledby="technicaltwo" data-parent="#accordion1">
                                      1 Mbps or more than that (broadband connection is recommended over mobile data).
                                  </div>
                              </div>
                              <div class="card bg-light  shadow-none mb-2 border" style="max-width: 100% !important; ">
-                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 " id="technicalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalthreecoll" aria-expanded="true" aria-controls="technicalthreecoll">
-                                     <i class="fa fa-plus"></i>&nbsp;
-                                     Which software are you using for class tests or assignments?
+                                 <div class="border mb-0 text-left collapsed pt-2 pb-2 pl-2 media" id="technicalthree" style="cursor: pointer;" data-toggle="collapse" data-target="#technicalthreecoll" aria-expanded="true" aria-controls="technicalthreecoll">
+                                     <i class="fa fa-plus align-self-start mr-1 mt-1"></i>&nbsp;
+                                     <p class="media-body"> Which software are you using for class tests or assignments? </p>
                                  </div>
                                  <div id="technicalthreecoll" class="collapse pl-2 text-left" aria-labelledby="technicalthree" data-parent="#accordion1">
                                      Google Classroom will help you to fulfill your requirement related to assignments or tests.
