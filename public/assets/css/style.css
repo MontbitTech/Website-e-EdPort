@@ -903,26 +903,39 @@ p {
     .navbar-area .navbar .navbar-collapse {
         position: absolute;
         top: 108%;
-        left: 0;
-        width: 100%;
+        left: -3.3rem;
+        width: 133%;
         background-color: #161f33;
         z-index: 8;
-        padding: 10px 16px;
+        /* padding: 10px 16px; */
         -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
         -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     }
+    .navbar-toggler {
+        margin-right: -46px;
+        
+    }
+    a.navbar-brand {
+        margin-left: -42px;
+    }
 }
 
 @media (max-width: 767px) {
+    .navbar-toggler {
+        margin-right: -46px;
+    }
+    a.navbar-brand {
+        margin-left: -42px;
+    }
     .navbar-area .navbar .navbar-collapse {
         position: absolute;
         top: 108%;
-        left: 0;
-        width: 100%;
+        left: -3.3rem;
+        width: 133%;
         background-color: #161f33;
         z-index: 8;
-        padding: 10px 16px;
+        /* padding: 10px 16px; */
         -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
         -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);

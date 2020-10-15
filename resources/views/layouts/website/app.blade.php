@@ -84,6 +84,10 @@
     @if((request()->is('/'))|| (request()->routeIs('services.careercounselling')))
     @else
     <style>
+        .dropdown-item {
+            margin-right: 5px;
+        }
+
         .header-hero::before {
             background: -webkit-linear-gradient(rgb(232 237 255 / 66%), rgb(239 254 255 / 28%) 100%, rgba(254, 255, 244, 0.3) 0%, rgba(255, 255, 255, 0.12)) !important;
             /* background: -webkit-linear-gradient(rgba(232, 237, 255, 0.9), rgba(239, 254, 255, 0.9) 100%, rgba(254, 255, 244, 0.3) 0%, rgba(255, 255, 255, 0.12)) !important; */
@@ -130,7 +134,7 @@
                                 <span class="toggler-icon"></span>
                                 <span class="toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
+                            <div class="collapse navbar-collapse pt-3 sub-menu-bar" id="navbarEight">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item   {{ (request()->is('/')) ? 'active' : '' }}">
                                         <a class="page-scroll" href="{{url('/')}}">Home</a>
@@ -139,7 +143,7 @@
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Products <span class="caret"></span>
                                         </a>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu dropdown-menu-right mr-2" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item {{ (request()->routeIs('products.classroomsolution')) ? 'active' : '' }}" href="{{route('products.classroomsolution')}}">
                                                 e-EdPort Virtual Classroom Solution
                                             </a>
@@ -155,7 +159,7 @@
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Services <span class="caret"></span>
                                         </a>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu dropdown-menu-right mr-2" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item {{ (request()->routeIs('services.teachertraining')) ? 'active' : '' }}" href="{{route('services.teachertraining')}}">
                                                 e-EdPort Smart Teacher Training
                                             </a>
@@ -171,7 +175,7 @@
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             Resources <span class="caret"></span>
                                         </a>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu dropdown-menu-right mr-2" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item  {{ (request()->routeIs('resources.brochure')) ? 'active' : '' }}" href="{{route('resources.brochure')}}">
                                                 Brochure
                                             </a>
@@ -187,7 +191,7 @@
                                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                             About <span class="caret"></span>
                                         </a>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu dropdown-menu-right mr-2" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item {{ (request()->routeIs('about.companyoverview')) ? 'active' : '' }}" href="{{route('about.companyoverview')}}">
                                                 Company Overview
                                             </a>
