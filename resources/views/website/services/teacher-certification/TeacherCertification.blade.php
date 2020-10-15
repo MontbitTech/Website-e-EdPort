@@ -140,7 +140,7 @@
                          </a>
                      </div>
                      <div class="col-md-12 d-flex justify-content-center  col-12    col-lg-4  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.5s">
-                         <div class="btn bg-white rounded-pill btn-hover " style="color: #161f33;">Contact Us &#x27A7;</div>
+                         <a href="{{route('about.contactus')}}" class="btn bg-white rounded-pill btn-hover " style="color: #161f33;">Contact Us &#x27A7;</a>
                      </div>
                  </div>
              </div>

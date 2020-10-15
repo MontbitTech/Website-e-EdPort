@@ -145,13 +145,13 @@
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-right mr-2" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item {{ (request()->routeIs('products.classroomsolution')) ? 'active' : '' }}" href="{{route('products.classroomsolution')}}">
-                                                e-EdPort Virtual Classroom Solution
+                                                Virtual Classroom Solution
                                             </a>
                                             <a class="dropdown-item {{ (request()->routeIs('products.studentselflLearning')) ? 'active' : '' }}" href="{{route('products.studentselflLearning')}}">
-                                                e-EdPort Student Self-Learning Solution
+                                                Student Self-Learning Solution
                                             </a>
                                             <a class="dropdown-item {{ (request()->routeIs('products.parentalcontrol')) ? 'active' : '' }}" href="{{route('products.parentalcontrol')}}">
-                                                e-EdPort Parental Control App
+                                                Parental Control App
                                             </a>
                                         </div>
                                     </li>
@@ -161,13 +161,13 @@
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-right mr-2" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item {{ (request()->routeIs('services.teachertraining')) ? 'active' : '' }}" href="{{route('services.teachertraining')}}">
-                                                e-EdPort Smart Teacher Training
+                                                Smart Teacher Training
                                             </a>
                                             <a class="dropdown-item {{ (request()->routeIs('services.teachercertification')) ? 'active' : '' }}" href="{{route('services.teachercertification')}}">
-                                                e-EdPort Smart Teacher Certification
+                                                Smart Teacher Certification
                                             </a>
                                             {{-- <a class="dropdown-item {{ (request()->routeIs('services.careercounselling')) ? 'active' : '' }}" href="{{route('services.careercounselling')}}">
-                                            e-EdPort Student Career Counselling
+                                            Student Career Counselling
                                             </a> --}}
                                         </div>
                                     </li>

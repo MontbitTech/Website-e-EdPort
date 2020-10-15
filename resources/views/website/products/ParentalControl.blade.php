@@ -43,7 +43,7 @@
                  <div class="row ">
                      <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\liveclasses.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\product\parental-control-app\Location Tracking.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Location Tracking</h5>
                                  <p class="text ">Now track your child’s current location through your smart phone. </p>
@@ -52,7 +52,7 @@
                      </div>
                      <div class="col-lg-6 wow fadeInRight " data-wow-duration=".8s" data-wow-delay="0s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\practiceexercises2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\product\parental-control-app\Block Unwanted Apps.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Block Unwanted Apps</h5>
                                  <p class="text pr-2"> Get access to block unwanted app’s in your child’s screen.
@@ -62,7 +62,7 @@
                      </div>
                      <div class="col-lg-6 wow fadeInLeft" data-wow-duration=".8s" data-wow-delay="0.1s">
                          <div class="single-about d-sm-flex mt-30 pb-3 pt-2 pl-2 Features media">
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\selfexplanatoryvideos2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\product\parental-control-app\Block Adult Content.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Block Adult Content</h5>
                                  <p class="text pr-2">Prevent your child from watching any objectionable content on web.</p>
@@ -71,7 +71,7 @@
                      </div>
                      <div class="col-lg-6 wow fadeInRight " data-wow-duration=".8s" data-wow-delay="0.1s">
                          <div class="single-about d-sm-flex mt-30  Features pb-3 pt-2 pl-2 media">
-                             <img src="{{asset('assets\images\KeyFeatures\virtualschooling\onlineassessment2.png')}}" alt="Icon" class="align-self-center mr-3">
+                             <img src="{{asset('assets\images\product\parental-control-app\Check Child Screen Time.png')}}" alt="Icon" class="align-self-center mr-3">
                              <div class="about-content media-body">
                                  <h5 class="mt-0 mb-1">Check Child Screen Time</h5>
                                  <p class="text pr-2"> Now check and control the time duration of your child’s mobile screen
@@ -101,7 +101,7 @@
                          <a href="{{route('products.parental-control-form')}}" class="btn bg-white rounded-pill btn-hover mr-3" style="color: #161f33;">Request A Demo &#x27A7;</a>
                      </div>
                      <div class="col-md-12 d-flex justify-content-center  col-12    col-lg-4  wow fadeInRight" data-wow-duration=".8s" data-wow-delay="0.5s">
-                         <div class="btn bg-white rounded-pill btn-hover " style="color: #161f33;">Contact Us &#x27A7;</div>
+                         <a href="{{route('about.contactus')}}" class="btn bg-white rounded-pill btn-hover " style="color: #161f33;">Contact Us &#x27A7;</a>
                      </div>
                  </div>
              </div>
