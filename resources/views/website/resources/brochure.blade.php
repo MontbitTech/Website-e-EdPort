@@ -44,14 +44,14 @@
              <div class="col-md-6 col-12 col-lg-6 top-margin">
                  <h2 style="color: #161f33; " class="font-weight-normal font-size-h2"> Sales Funnel Brochure </h2>
                  <hr width="40" style=" border-top: 3px solid #161f33; ">
-                 <p class="font-weight-normal">The Indian education system is
-                     changing. Fuelling the change, we at e-EdPort aspire to
-                     provide reliable eco-system to our educational institutes
-                     sothat the education never stops. Our primary focus is to
-                     connect educators with theirstudents over a simplified platform.
-                     e-EdPort has made its aim to empower educators in technology & make
-                     them self-sufficient
-                     in their object of nurturing the future generation.
+                 <p class="font-weight-normal">
+                     The Indian education system is changing. Fuelling the change,</br>
+                     we at e-EdPort aspire to provide reliable eco-system to our </br>
+                     educational institutes sothat the education never stops. Our </br>
+                     primary focus is to connect educators with theirstudents over</br>
+                     a simplified platform. e-EdPort has made its aim to empower </br>
+                     educators in technology & make them self-sufficient in their </br>
+                     object of nurturing the future generation.
                  </p>
                  <a href="{{asset('pdf/Sales-Funnel-Brochure.pdf')}}" target="_blank" class="btn btn-center btn-success rounded-pill mt-5 px-5 py-2 font-weight-bold "> Download <span class="mb-0 pb-0">&#x25BC;</span> </a>
              </div>
