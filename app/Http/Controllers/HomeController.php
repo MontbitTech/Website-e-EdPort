@@ -41,7 +41,7 @@ class HomeController extends Controller
             'title' => 'Mail from e-EdPort.com',
             'body' => 'Thank You For Contacting Us, Our Team Member will Contact You Shortly'
         ];
-        //Mail::to($request->contactemail)->send(new \App\Mail\ContactEmail($details));
+        Mail::to($request->contactemail)->send(new \App\Mail\ContactEmail($details));
         Session::flash('flash_message', 'Thank You! Our Team Will Reach Out Soon');
         Session::flash('flash_type', 'success');
         return redirect()->route('freecall');
