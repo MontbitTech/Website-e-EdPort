@@ -179,9 +179,9 @@
                                             <a class="dropdown-item  {{ (request()->routeIs('resources.brochure')) ? 'active' : '' }}" href="{{route('resources.brochure')}}">
                                                 Brochure
                                             </a>
-                                            <!-- <a class="dropdown-item  {{ (request()->routeIs('resources.events')) ? 'active' : '' }}" href="{{route('resources.events')}}">
-                                                Events
-                                            </a> -->
+                                            <a class="dropdown-item  " target="_blank" href="https://blog.e-edport.com/">
+                                                Blog
+                                            </a>
                                             <a class="dropdown-item  {{ (request()->routeIs('resources.faqs')) ? 'active' : '' }}" href="{{route('resources.faqs')}}">
                                                 FAQ’s
                                             </a>
